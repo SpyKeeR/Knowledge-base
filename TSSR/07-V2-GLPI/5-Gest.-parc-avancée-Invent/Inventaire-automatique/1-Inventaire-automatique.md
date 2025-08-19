@@ -1,9 +1,3 @@
-Inventaire automatique
-
-samedi 24 mai 2025
-
-01:15
-
 🏁 **Où ça se passe ?** ↳ **Accueil \> Administration \> Inventaire**
 
 Ici, on entre dans le **cœur du suivi automatique des postes**. Une fois bien configuré, GLPI peut **remonter tout seul** les infos de tes machines via un agent, sans que tu aies à intervenir manuellement. Tu vas pouvoir voir les composants, les logiciels, les utilisateurs, etc.
@@ -63,3 +57,4 @@ Tu dois installer **l’agent GLPI** (appelé aujourd'hui "GLPI Agent") sur chaq
 4.  GLPI reçoit les données et les intègre dans la base
 
 5.  Tu peux consulter les postes, voir ce qui a changé, et générer des rapports
+
