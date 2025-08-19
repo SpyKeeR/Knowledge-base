@@ -1,9 +1,3 @@
-CustomSettings.ini
-
-jeudi 31 juillet 2025
-
-15:24
-
 - 🧩 Contient un **grand nombre de paramètres personnalisables**
 
 - 🤖 Permet d’**automatiser entièrement** les déploiements Windows avec MDT
@@ -68,3 +62,4 @@ JoinDomain=deploy.eni
 DomainAdmin=mdt  
 DomainAdminDomain=deploy.eni  
 DomainAdminPassword=Pa\$\$w0rd
+
