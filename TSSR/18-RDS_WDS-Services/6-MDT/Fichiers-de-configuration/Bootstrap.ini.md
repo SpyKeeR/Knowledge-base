@@ -1,9 +1,3 @@
-Bootstrap.ini
-
-jeudi 31 juillet 2025
-
-15:19
-
 🔧 **Rôle et importance du fichier bootstrap.ini**
 
 - 📥 Contient les **informations essentielles** pour le démarrage via **Windows PE**
@@ -52,3 +46,4 @@ jeudi 31 juillet 2025
 
 2.  🖥️ **Mise à jour dans WDS  **
     🔁 Remplacer l’**image de démarrage existante** par le nouveau boot.wim
+
