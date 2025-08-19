@@ -1,0 +1,12 @@
+# 6 - Service DHCP> **🎯 Objectif général**
+- 🧠 **Compréhension du fonctionnement DHCP** :
+  - Attribution automatique d'adresses IP
+  - Paramètres réseau (DNS, passerelle, etc.) aux clients via un bail temporaire (lease).
+- 🛠️ **Mise en place d’un service DHCP** :
+  - Installation du paquet serveur DHCP,
+  - Configuration du fichier principal (dhcpd.conf),
+  - Définition des plages d’adresses (scopes),
+  - Options réseau et réservations si besoin.
+- 🔁 **Mise en place d’un relais DHCP (DHCP Relay)** :
+  - Utilisé quand le serveur DHCP est **sur un autre réseau** que les clients
+  - Permet à un routeur ou une machine d'intercepter les requêtes DHCP et de les transmettre au serveur.
