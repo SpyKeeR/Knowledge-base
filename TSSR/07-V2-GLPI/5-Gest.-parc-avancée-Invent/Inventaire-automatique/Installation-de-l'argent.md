@@ -1,9 +1,3 @@
-Installation de l'argent
-
-samedi 24 mai 2025
-
-01:24
-
 L’**agent d’inventaire GLPI** est un petit logiciel qu’on installe sur les postes à inventorier. ➡️ Il scanne le matériel, les logiciels, les périphériques… puis il **envoie ces infos à GLPI**.
 
 📌 Il s’agit d’un **fork de FusionInventory**, donc basé sur la même logique, mais :
@@ -71,3 +65,4 @@ L’**agent d’inventaire GLPI** est un petit logiciel qu’on installe sur les
 📦 Le projet fournit des **packages MPKG** prêts à installer.
 
 Même logique que sous Linux : → tu télécharges, tu installes, tu paramètres (TAG, URL serveur, etc.)
+
