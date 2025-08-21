@@ -16,4 +16,5 @@ This repository serves as a **technical knowledge base**.
 It gathers my notes, references, and summaries on different areas: systems, networking, security, IT tools.  
 
 🔹 All content comes from my **self-learning** and **training paths**.
+
 🔹 It is an organized resource to quickly find key concepts. 
