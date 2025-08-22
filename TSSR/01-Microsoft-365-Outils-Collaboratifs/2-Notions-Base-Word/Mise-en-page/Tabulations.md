@@ -1,8 +1,8 @@
-# Tabulations> **📌 Qu'est-ce qu'une tabulation ?**
+# **📌 Qu'est-ce qu'une tabulation ?**
 
 🔹 Une tabulation (et ses taquets) permet de **positionner du texte** à des endroits précis sur la ligne au lieu d’utiliser des espaces multiples.
 
-**📌 Les différents types de taquets**
+## **📌 Les différents types de taquets**
 
 📏 **Word propose plusieurs types de taquets pour un alignement précis** :
 
@@ -16,7 +16,7 @@
 
 
 
-**📌 Comment utiliser les tabulations ?**
+## **📌 Comment utiliser les tabulations ?**
 
 ✅ **Ajout d’un taquet sur la règle** :
 
@@ -30,7 +30,7 @@
 
 
 
-**📌 Tabulations et styles**
+## **📌 Tabulations et styles**
 
 🔹 **Les tabulations peuvent être intégrées aux styles de paragraphe** pour s'appliquer automatiquement.
 
@@ -38,7 +38,7 @@
 
 
 
-**📌 Bonnes pratiques**
+## **📌 Bonnes pratiques**
 
 ✅ **Éviter d’utiliser des espaces pour aligner le texte**, toujours privilégier les taquets.
 
