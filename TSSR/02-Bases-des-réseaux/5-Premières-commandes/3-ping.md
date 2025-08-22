@@ -4,6 +4,7 @@
 
 
 
+
 ## **🎯 1. Rôle de la commande ping**
 
 ✅ **Vérifier** si une machine ou une adresse IP est accessible
@@ -16,6 +17,7 @@
 
 
 
+
 ## **⚙️ 2. Fonctionnement de ping**
 
 🔹 **Envoi d’un paquet ICMP Echo Request** 📨 👉 L’ordinateur envoie une requête à la machine cible
@@ -23,6 +25,7 @@
 🔹 **Réception d’une réponse ICMP Echo Reply** 📩 👉 Si la machine répond, elle envoie un paquet retour
 
 🔹 **Analyse des résultats** 📊 👉 Le terminal affiche **le délai (RTT) et le taux de perte de paquets**
+
 
 
 
@@ -46,6 +49,7 @@
 
 
 
+
 ## **🖥️ 4. Options courantes de ping**
 
 |     🔹 ping -s 1000 www.google.com    |     Définit la taille des paquets ICMP à 1000   octets         |
@@ -55,6 +59,7 @@
 ⏹️ **Pour stopper un ping en continu :**
 
 - **Linux/macOS** : Ctrl + C / **Windows** : ping -t et arrêter avec Ctrl + C
+
 
 
 
@@ -71,6 +76,7 @@ Lorsqu’un ping échoue, un message d’erreur s’affiche. Voici les plus cour
 
 
 
+
 ## **🔍 6. Cas pratiques avec ping**
 
 📍 **Tester la connexion à un routeur local :** ping 192.168.1.1
@@ -83,11 +89,13 @@ Lorsqu’un ping échoue, un message d’erreur s’affiche. Voici les plus cour
 
 
 
-**⚠️ 7. Limitations de ping**
+
+## **⚠️ 7. Limitations de ping**
 
 🚫 **ICMP bloqué** : Certains serveurs **désactivent les réponses ICMP** pour des raisons de sécurité.
 
 📊 **Pas de test de bande passante** : ping **ne mesure pas le débit**, seulement la latence.
 
 ⚠️ **Priorité ICMP basse** : Certains routeurs donnent **moins de priorité aux paquets ICMP**, faussant les mesures.
+
 
