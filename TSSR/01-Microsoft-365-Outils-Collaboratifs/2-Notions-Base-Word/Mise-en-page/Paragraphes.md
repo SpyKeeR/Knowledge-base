@@ -1,4 +1,4 @@
-# Paragraphes**📌 Alignement des paragraphes**
+## **📌 Alignement des paragraphes**
 
 🔹 **Aligner par rapport aux titres** : Ajuster les retraits avec la règle pour positionner les paragraphes par rapport aux titres.
 
@@ -6,7 +6,7 @@
 
 
 
-**📌 Choix de la police et mise en forme**
+## **📌 Choix de la police et mise en forme**
 
 🔹 **Police et taille** : Sélectionner la police et la taille appropriées pour les paragraphes.
 
@@ -14,7 +14,7 @@
 
 
 
-**📌 Création d’un nouveau style de paragraphe**
+## **📌 Création d’un nouveau style de paragraphe**
 
 🔹 **Créer et nommer un style** : Créer un style personnalisé via la barre de formatage, le nommer et le sauvegarder.
 
@@ -22,7 +22,7 @@
 
 
 
-**📌 Automatisation des styles**
+## **📌 Automatisation des styles**
 
 🔹 **Liaison des styles** : Les styles sont liés pour une automatisation de la mise en forme pendant la frappe. Par exemple, après un titre, le style de paragraphe suivant est appliqué automatiquement.
 
@@ -30,7 +30,7 @@
 
 
 
-**📌 Résumé**
+## **📌 Résumé**
 
 **Alignement** : Choisir entre gauche, droite, centré ou justifié.
 
