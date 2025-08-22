@@ -1,4 +1,4 @@
-# Communication inter-couches**📦 Encapsulation & Transmission**
+## **📦 Encapsulation & Transmission**
 
 ✔️ **Le PDU d'une couche devient le SDU de la couche suivante**
 
@@ -6,9 +6,7 @@
 
 ✔️ Transmission du **nouveau PDU** à la couche suivante
 
-
-
-**Exemple :**
+### **Exemple :**
 
 1️⃣ La couche transport crée un **segment TCP (PDU)**
 
@@ -22,7 +20,7 @@
 
 
 
-**🔁 Désencapsulation & Réception**
+## **🔁 Désencapsulation & Réception**
 
 ✔️ **Chaque couche interprète le PDU reçu**
 
@@ -30,9 +28,7 @@
 
 ✔️ Transmission du **SDU** à la couche supérieure
 
-
-
-**Exemple :**
+### **Exemple :**
 
 1️⃣ La couche réseau reçoit un **paquet IP (PDU)**
 
