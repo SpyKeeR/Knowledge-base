@@ -1,4 +1,4 @@
-# Présentation / Définitions**🏛 Modèle OSI**
+## **🏛 Modèle OSI**
 
 ✔️ **7 couches indépendantes & communicantes**
 
@@ -8,7 +8,7 @@
 
 
 
-**🔄 Protocole**
+## **🔄 Protocole**
 
 ✔️ **Définition** : Ensemble de règles permettant la communication
 
@@ -16,7 +16,7 @@
 
 
 
-**📦 PDU (Protocol Data Unit)**
+## **📦 PDU (Protocol Data Unit)**
 
 ✔️ **Unité de mesure des données** échangées entre couches
 
@@ -28,7 +28,7 @@
 
 
 
-**🔁 Encapsulation & Désencapsulation**
+## **🔁 Encapsulation & Désencapsulation**
 
 ✔️ **Encapsulation** : Chaque couche ajoute ses propres informations au PDU avant transmission.
 
