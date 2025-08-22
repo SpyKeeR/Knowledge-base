@@ -1,4 +1,4 @@
-# 1 - Modèle OSI**🎯 Objectifs du module**
+# **🎯 Objectifs du module**
 
 ✔️ **Connaître** les **7 couches** du modèle OSI
 
