@@ -1,6 +1,6 @@
-# Canaux / Réunions**🔹 Les Canaux**
+## **🔹 Les Canaux**
 
-📁 **Organisation des discussions, contenus et outils**
+### 📁 **Organisation des discussions, contenus et outils**
 
 📌 **Permet de compartimenter l’équipe par sujet**
 
@@ -17,8 +17,7 @@
 📂 **Les fichiers restent accessibles après suppression du canal**
 
 
-
-**📌 Structure des Canaux**
+### **📌 Structure des Canaux**
 
 📌 **Onglets par défaut :**
 
@@ -32,7 +31,7 @@
 
 
 
-📂 **Gestion des fichiers dans un canal :**
+## 📂 **Gestion des fichiers dans un canal :**
 
 🔹 **Accessible à tous les membres par défaut**
 
@@ -40,7 +39,9 @@
 
 🔹 **Versioning & Co-authoring disponibles (comme OneDrive)**
 
-**🔹 Messagerie & Réunions**
+
+
+## **🔹 Messagerie & Réunions**
 
 💬 **Messages privés (sélection de personnes) ou publics**
 
@@ -54,7 +55,7 @@
 
 
 
-**🔹 Planification et déroulement des réunions**
+### **🔹 Planification et déroulement des réunions**
 
 📅 **Réunion planifiée ou instantanée** (max 250 utilisateurs)
 
@@ -72,7 +73,7 @@
 
 
 
-**🎭 Rôles en réunion**
+### **🎭 Rôles en réunion**
 
 👑 **Organisateur** : à tous les droits
 
