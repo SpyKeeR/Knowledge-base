@@ -1,4 +1,5 @@
-# Présentation Packet Tracer**🔧 1. Principales Fonctions de Packet Tracer**
+##  **🔧 1. Principales Fonctions de Packet Tracer**
+
 
 📡 **Simulation de Réseau** → Permet d’ajouter des équipements (PC, routeurs, commutateurs, IoT).
 
@@ -18,7 +19,7 @@
 
 
 
-**🎛 2. Interface et Utilisation de Packet Tracer**
+## **🎛 2. Interface et Utilisation de Packet Tracer**
 
 🖱 **Ajout des Composants** → Boîte à outils en bas à gauche.
 
@@ -32,15 +33,15 @@
 
 
 
-**🔄 3. Modes de Fonctionnement : Temps Réel vs Simulation**
+## **🔄 3. Modes de Fonctionnement : Temps Réel vs Simulation**
 
-📡 **Mode Temps Réel**
+### 📡 **Mode Temps Réel**
 
 ✅ Permet d’observer un réseau **comme dans la réalité**.
 
 ✅ Les paquets circulent **sans interruption**, comme sur un vrai réseau.
 
-🛠 **Mode Simulation**
+### 🛠 **Mode Simulation**
 
 ✅ Permet de **ralentir l’exécution** pour voir chaque étape des transmissions.
 
@@ -48,7 +49,9 @@
 
 ✅ Visualisation des **en-têtes PDU** des paquets pour analyser leur contenu.
 
-**📜 4. Exemples de Cas d’Utilisation**
+
+
+## **📜 4. Exemples de Cas d’Utilisation**
 
 📍 **Étudier un réseau local (LAN)** → Test de VLAN, DHCP, DNS.
 
@@ -58,7 +61,9 @@
 
 📍 **Simuler un réseau IoT** → Ajout et configuration de capteurs connectés.
 
-**🎯 5. Utilisation Pédagogique de Packet Tracer**
+
+
+## **🎯 5. Utilisation Pédagogique de Packet Tracer**
 
 📊 **Visualisation des Concepts Réseau** → Apprendre le modèle OSI de façon interactive.
 
@@ -67,3 +72,4 @@
 🔍 **Résolution de Problèmes** → Identifier et corriger des erreurs réseau.
 
 📜 **Préparation aux Certifications Cisco** → Idéal pour s’entraîner au CCNA.
+
