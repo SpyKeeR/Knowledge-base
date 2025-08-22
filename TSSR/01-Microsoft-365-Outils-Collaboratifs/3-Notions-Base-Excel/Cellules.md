@@ -1,4 +1,4 @@
-# Cellules🔹 **Référencement :**
+## 🔹 **Référencement :**
 
 ✔ **Colonne (lettre) + Ligne (nombre)** → Ex : **A1, XFD10148576**
 
@@ -6,7 +6,7 @@
 
 
 
-🔹 **Sélection & Édition :**
+## 🔹 **Sélection & Édition :**
 
 ✔ **Croix blanche** → Sélectionner une ou plusieurs cellules
 
@@ -14,7 +14,7 @@
 
 
 
-🔹 **Les pointeurs :**
+## 🔹 **Les pointeurs :**
 
 ✔ **Flèche blanche (bord cellule)** → Déplacer / **Ctrl + glisser** → Copier
 
@@ -22,7 +22,7 @@
 
 
 
-🔹 **Incrémentation :**
+## 🔹 **Incrémentation :**
 
 ✔ **Listes personnalisées** (ex : dates)
 
