@@ -15,7 +15,7 @@
 ## 🔹 **Synchronisation OneDrive Enterprise**
 
 - Permet d’utiliser SharePoint **hors connexion**
-- ⚠️ **Risque de conflits** si plusieurs modifient un doc en mode hors ligne → **Désactivation recommandée**
+⚠️ **Risque de conflits** si plusieurs modifient un doc en mode hors ligne → **Désactivation recommandée**
 
 
 ## 🔹 **Objectifs**
@@ -29,3 +29,4 @@
 ✅ **Gestion des connaissances** → Wiki d’entreprise
 
 ✅ **Sécurité des données** → **Scan temps réel anti-malware**
+
