@@ -1,4 +1,4 @@
-# 3 - Notions Base Excel🔹 **Objectifs :**
+# **Objectifs :**
 
 ✔ Découvrir les fonctionnalités de base d’Excel.
 
@@ -8,7 +8,7 @@
 
 ✔ Comprendre l’intégration avec SharePoint.
 
-🔹 **Conclusion :**
+# 🔹 **Conclusion :**
 
 ✔ Utilisation efficace d’Excel pour tableaux, calculs et mise en forme.
 
