@@ -11,6 +11,7 @@ Une adresse IPv6 est constituée de **8 groupes de 4 chiffres hexadécimaux**, s
 Exemple : 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 
 Par convention, les 64 premiers bits sont destinés à définir la partie réseau.  
+
 Exemple : L'IANA fourni aux RIR (RIPE NCC) un réseau en **2a00::/*12***, qui fourni a Free SAS le **2a01:e00::/*26*** qui me fourni le **2a01:0e0a:bXX:XXa0::/*60*** que je peux découper en **2a01:0e0a:bXX:XXa*0*::/*64***, **2a01:0e0a:bXX:XXa*1*::/*64***, **2a01:0e0a:bXX:XXa*2*::/*64*** …
 
 ✅ **Chaque quartet représente 16 bits** (soit **2 octets**).
@@ -50,3 +51,4 @@ IPv6 et IPv4 **ne sont pas directement compatibles**, mais plusieurs solutions e
 - **Double Stack** → Utilisation simultanée des deux protocoles.
 - **Tunneling** → Encapsulation d’IPv6 dans IPv4.
 - **NAT64** → Traduction entre IPv6 et IPv4.
+
