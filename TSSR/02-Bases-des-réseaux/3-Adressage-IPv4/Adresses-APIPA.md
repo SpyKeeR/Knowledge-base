@@ -1,10 +1,11 @@
-# Adresses APIPA**🗂 Plage et Fonctionnement des Adresses APIPA**
+# **🗂 Plage et Fonctionnement des Adresses APIPA**
 
 | **Type** | **Plage d'adresses** | **Masque de sous-réseau** | **Routable sur Internet ?** |
 |----|----|----|----|
 | **APIPA** | 169.254.0.0 - 169.254.255.255 | 255.255.0.0 | ❌ Non |
 
-🔹 **Comment ça marche ?**
+
+## 🔹 **Comment ça marche ?**
 
 1️⃣ **L’appareil demande une adresse IP** au serveur DHCP.
 
@@ -18,7 +19,7 @@
 
 
 
-**🔍 Pourquoi APIPA est-il utile ?**
+## **🔍 Pourquoi APIPA est-il utile ?**
 
 ✔ **Communication locale maintenue** → Même sans DHCP, les appareils peuvent **échanger des fichiers et imprimer**.
 
@@ -26,7 +27,7 @@
 
 ✔ **Pratique pour les petits réseaux** → Surtout dans les bureaux ou maisons sans serveur DHCP permanent.
 
-⚠ **Limites d’APIPA** :
+### ⚠ **Limites d’APIPA** :
 
 ❌ **Pas d’Internet** → Les adresses **ne sont pas routables**.
 
@@ -34,15 +35,15 @@
 
 
 
-**🏠 Exemple Pratique : Panne DHCP dans un Bureau**
+## **🏠 Exemple Pratique : Panne DHCP dans un Bureau**
 
-📌 **Situation** :
+### 📌 **Situation** :
 
 - Les PC sont configurés en **DHCP**.
 - Le **serveur DHCP tombe en panne**.
 - Chaque PC obtient une **adresse APIPA (ex: 169.254.12.34)**.
 
-📌 **Conséquences** :
+### 📌 **Conséquences** :
 
 ✔ **Les PC du même réseau peuvent toujours communiquer.**
 
