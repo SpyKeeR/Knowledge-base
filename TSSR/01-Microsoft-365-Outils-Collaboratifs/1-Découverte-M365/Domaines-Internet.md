@@ -1,4 +1,4 @@
-# 📌 Qu’est-ce qu’un domaine Internet ?**
+# 📌 **Qu’est-ce qu’un domaine Internet ?**
 
 🔹 Une **adresse unique** qui identifie un site sur le web.
 
@@ -36,4 +36,5 @@
 💡 **L’achat passe par un registrar, qui propose souvent des services complémentaires.**
 
 💡 **L’administration du domaine permet de configurer ses emails, son hébergement, et ses redirections.**
+
 
