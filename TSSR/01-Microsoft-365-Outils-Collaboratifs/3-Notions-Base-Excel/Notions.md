@@ -1,4 +1,4 @@
-# Notions🔹 **Classeur Excel :**
+##  🔹 **Classeur Excel :**
 
 ✔ Un document Excel = **Classeur**
 
@@ -8,7 +8,7 @@
 
 
 
-🔹 **Limitations :**
+## 🔹 **Limitations :**
 
 ✔ **255 feuilles/classeur**
 
@@ -24,7 +24,7 @@
 
 
 
-🔹 **Calculs de base :**
+## 🔹 **Calculs de base :**
 
 ✔ Opérateurs : **+ - * /**
 
