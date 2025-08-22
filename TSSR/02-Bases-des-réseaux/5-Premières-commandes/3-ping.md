@@ -46,17 +46,19 @@
 
 
 
-| 🔹 ping -i 0.5 [www.google.com](http://www.google.com) | **Change l’intervalle** entre chaque ping (ici 0.5s) |
-| 🔹 ping -q [www.google.com](http://www.google.com) | **Affiche seulement les stats** finales (mode silencieux) |
-| 🔹 ping -t [www.google.com](http://www.google.com) | **Ping en continu** (Windows) |
+## **🖥️ 4. Options courantes de ping**
 
+|     🔹 ping -s 1000 www.google.com    |     Définit la taille des paquets ICMP à 1000   octets         |
+|     🔹 ping -i 0.5 www.google.com     |     Change l’intervalle entre chaque ping (ici   0.5s)         |
+|     🔹 ping -q www.google.com         |     Affiche seulement les stats finales (mode   silencieux)    |
+|     🔹 ping -t www.google.com         |     Ping en continu (Windows)                                  |
 ⏹️ **Pour stopper un ping en continu :**
 
 - **Linux/macOS** : Ctrl + C / **Windows** : ping -t et arrêter avec Ctrl + C
 
 
 
-## **🚨 4. Messages d’erreur de ping et leur signification**
+## **🚨 5. Messages d’erreur de ping et leur signification**
 
 Lorsqu’un ping échoue, un message d’erreur s’affiche. Voici les plus courants :
 
@@ -69,7 +71,7 @@ Lorsqu’un ping échoue, un message d’erreur s’affiche. Voici les plus cour
 
 
 
-## **🔍 5. Cas pratiques avec ping**
+## **🔍 6. Cas pratiques avec ping**
 
 📍 **Tester la connexion à un routeur local :** ping 192.168.1.1
 
@@ -81,10 +83,11 @@ Lorsqu’un ping échoue, un message d’erreur s’affiche. Voici les plus cour
 
 
 
-**⚠️ 6. Limitations de ping**
+**⚠️ 7. Limitations de ping**
 
 🚫 **ICMP bloqué** : Certains serveurs **désactivent les réponses ICMP** pour des raisons de sécurité.
 
 📊 **Pas de test de bande passante** : ping **ne mesure pas le débit**, seulement la latence.
 
 ⚠️ **Priorité ICMP basse** : Certains routeurs donnent **moins de priorité aux paquets ICMP**, faussant les mesures.
+
