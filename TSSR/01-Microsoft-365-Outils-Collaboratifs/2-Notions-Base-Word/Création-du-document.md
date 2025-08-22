@@ -1,4 +1,4 @@
-# Création du document**📌 Affichage des caractères non imprimables**
+## **📌 Affichage des caractères non imprimables**
 
 🔹 **Caractères invisibles** (espace, saut de ligne, fin de paragraphe, saut de page) visibles via l'icône dans le **menu Accueil**.
 
@@ -6,7 +6,7 @@
 
 
 
-**📌 Rédaction au kilomètre**
+## **📌 Rédaction au kilomètre**
 
 🔹 **Écrire sans mise en forme** : Se concentrer sur le texte brut, éviter les interruptions de mise en page.
 
@@ -14,7 +14,7 @@
 
 
 
-**📌 Mise en forme et identification**
+## **📌 Mise en forme et identification**
 
 🔹 **Taquets de tabulation** : Utilisation pour l'alignement précis du texte.
 
@@ -24,7 +24,7 @@
 
 
 
-**📌 Application des styles**
+## **📌 Application des styles**
 
 🔹 **Styles** : Appliquer des formats uniformes (police, taille, espacement) à plusieurs paragraphes.
 
@@ -34,7 +34,7 @@
 
 
 
-**📌 Sauts de page et Sommaire**
+## **📌 Sauts de page et Sommaire**
 
 🔹 **Sauts de page** : Structure le document sans devoir ajouter manuellement des retours à la ligne.
 
@@ -42,7 +42,7 @@
 
 
 
-**📌 Résumé**
+## **📌 Résumé**
 
 **Rédiger sans interruptions** : Texte brut d'abord, mise en forme ensuite.
 
