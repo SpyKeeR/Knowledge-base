@@ -30,6 +30,7 @@ Un supernet /18 couvre le scope d'adresse de **64 réseaux /24** donc on doit v�
 
 #### ✅ **On doit essayer un masque plus grand**.
 
+---
 
 ### **🔹 Test avec /17 (taille = 128 réseaux)**
 
@@ -45,6 +46,7 @@ Un supernet /17 couvre le scope d'adresse de **128 réseaux /24**. On doit véri
 
 #### ✅ **On doit essayer un masque plus grand**.
 
+---
 
 ### **🔹 Test avec /16 (taille = 256 réseaux)**
 
@@ -57,3 +59,4 @@ Un supernet /16 couvre le scope de **256 réseaux /24**. On doit vérifier si **
 - Le premier multiple de 256 inférieur à 96 est **0**.
 - **212.1.0.0/16 couvre de 212.1.0.0 à 212.1.255.255**.
 - ✅ **Cette fois, notre plage 212.1.96.0 à 212.1.159.0 est incluse !**
+
