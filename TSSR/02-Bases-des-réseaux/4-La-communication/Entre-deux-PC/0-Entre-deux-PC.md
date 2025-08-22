@@ -31,6 +31,7 @@
 - **MAC source :** MAC du poste / **MAC destination :** MAC de la passerelle / **IP destination :** IP du poste cible
 
 4️⃣ **La passerelle route le paquet vers le bon réseau** et effectue le même processus ARP du côté du destinataire.  
+
 5️⃣ **La réponse suit le chemin inverse**.
 
 
@@ -39,3 +40,4 @@
 📌 **Le cache ARP stocke temporairement** les adresses MAC obtenues pour éviter d’envoyer une requête ARP à chaque fois.
 
 📌 Cela permet d’**accélérer la communication** tant que l’entrée ARP est valide.
+
