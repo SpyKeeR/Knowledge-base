@@ -1,4 +1,4 @@
-# Prise en main**📌 Connexion à un compte M365**
+## **📌 Connexion à un compte M365**
 
 🔹 **Se connecter** à son compte Microsoft 365 avec ses identifiants pour utiliser Office 365.
 
@@ -6,7 +6,7 @@
 
 
 
-**📌 Activation de la licence**
+## **📌 Activation de la licence**
 
 🔹 **Activer la licence** au moment de la connexion pour éviter toute restriction.
 
@@ -14,7 +14,7 @@
 
 
 
-**📌 Caractères invisibles**
+## **📌 Caractères invisibles**
 
 🔹 **Afficher les caractères non imprimables** : Utiliser pour visualiser les espaces, sauts de paragraphe et autres éléments invisibles.
 
@@ -22,7 +22,7 @@
 
 
 
-**📌 Enregistrement automatique**
+## **📌 Enregistrement automatique**
 
 🔹 **Depuis OneDrive/SharePoint** : L’enregistrement automatique est activé uniquement lorsque le document est sauvegardé sur ces plateformes.
 
@@ -30,7 +30,7 @@
 
 
 
-**📌 Résumé**
+## **📌 Résumé**
 
 **Se connecter et activer la licence** : Démarrer avec son compte M365.
 
