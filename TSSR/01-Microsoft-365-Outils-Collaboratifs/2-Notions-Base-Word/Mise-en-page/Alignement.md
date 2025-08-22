@@ -1,4 +1,4 @@
-# Alignement**📌 Gestion des retraits** :
+## **📌 Gestion des retraits** :
 
 - **Retrait de la première ligne** : Indente uniquement la première ligne du paragraphe.
 - **Retrait négatif** : Décale toutes les lignes sauf la première (utile pour les listes et bibliographies).
@@ -6,7 +6,7 @@
 
 
 
-**📌 Les taquets sur la règle**
+## **📌 Les taquets sur la règle**
 
 📏 **La règle Word permet d’ajuster facilement l’alignement avec 3 types de taquets** :
 
@@ -26,7 +26,7 @@
 
 
 
-**📌 Options avancées de paragraphe**
+## **📌 Options avancées de paragraphe**
 
 🔹 **Paramétrage via le menu** : Accessible via **Accueil > Paragraphe**, ces options permettent de définir les retraits et alignements avec des valeurs précises.
 
@@ -34,7 +34,7 @@
 
 
 
-**📌 Résumé des bonnes pratiques**
+## **📌 Résumé des bonnes pratiques**
 
 ✅ **Utiliser la règle** pour gérer rapidement les retraits et alignements.
 
