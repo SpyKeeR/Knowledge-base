@@ -1,4 +1,4 @@
-# Couche Liaison données (L2)**📌 1. Rôle et Fonctionnement**
+##  **📌 1. Rôle et Fonctionnement**
 
 🔹 Deuxième couche du modèle OSI, elle assure le **transfert fiable** des données entre deux dispositifs d’un même réseau local.
 
@@ -10,21 +10,21 @@
 
 
 
-**🏗 2. Les 2 Sous-couches**
+## **🏗 2. Les 2 Sous-couches**
 
-🔹 **LLC (Logical Link Control) 🖧**
+###🔹 **LLC (Logical Link Control) 🖧**
 
 - Gère les **connexions logiques** entre appareils.
 - Permet d'utiliser plusieurs **protocoles réseau** sur un même support physique (ex: IP, IPX).
 
-🔹 **MAC (Media Access Control) 🎛**
+###🔹 **MAC (Media Access Control) 🎛**
 
 - Définit les **règles d’accès** au support réseau (ex: CSMA/CD pour Ethernet).
 - Assigne une **adresse MAC** unique à chaque périphérique.
 
 
 
-**🔍 3. Fonctions principales**
+## **🔍 3. Fonctions principales**
 
 📦 **Encapsulation en trames** → Ajout des adresses MAC (source/destination) et d’un contrôle d’erreur.
 
@@ -36,14 +36,14 @@
 
 
 
-**🔗 4. Adresses MAC & Protocole ARP**
+## **🔗 4. Adresses MAC & Protocole ARP**
 
-📌 **Adresse MAC** : 48 bits (6 octets)
+### 📌 **Adresse MAC** : 48 bits (6 octets)
 
 - **3 premiers octets** 🏭 → **OUI** (Organizationally Unique Identifier) = Identifiant constructeur.
 - **3 derniers octets** 📟 → **Identifiant unique** du périphérique.
 
-🔄 **ARP (Address Resolution Protocol)** : Résolution d’adresse MAC à partir d’une IP 📡
+### 🔄 **ARP (Address Resolution Protocol)** : Résolution d’adresse MAC à partir d’une IP 📡
 
 1️⃣ **PC A** envoie une requête **broadcast** 🔊 (FF:FF:FF:FF:FF:FF) pour trouver l’adresse MAC associée à une IP.
 
@@ -51,7 +51,9 @@
 
 3️⃣ **PC A** enregistre cette association dans sa **table ARP** 🗂.
 
-**🖧 5. Équipements utilisant la couche Liaison**
+
+
+## **🖧 5. Équipements utilisant la couche Liaison**
 
 🖥 **Switch (commutateur)** → Aiguillage des trames en fonction des adresses MAC
 
@@ -59,7 +61,7 @@
 
 
 
-**⚙️ 6. Exemple de communication locale**
+## **⚙️ 6. Exemple de communication locale**
 
 📤 **PC A** veut envoyer un fichier à **PC B** 📥
 
