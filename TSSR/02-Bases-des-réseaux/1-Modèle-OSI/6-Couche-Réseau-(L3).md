@@ -1,4 +1,4 @@
-# Couche Réseau (L3)**📌 1. Rôle et Fonctionnement**
+## **📌 1. Rôle et Fonctionnement**
 
 🔹 **Troisième couche** du modèle OSI, elle gère la **transmission des paquets** entre des réseaux différents.
 
@@ -10,7 +10,7 @@
 
 
 
-**🔗 2. Structure d’une Adresse IP**
+## **🔗 2. Structure d’une Adresse IP**
 
 🖥️ **ID Réseau + ID Hôte** → Identifie un appareil sur un réseau logique.
 
@@ -25,8 +25,7 @@
 🌍 **Adresse IP** → Identifie logiquement l’appareil (Couche 3).
 
 
-
-**🚦 3. Fonctions Principales de la Couche Réseau**
+## **🚦 3. Fonctions Principales de la Couche Réseau**
 
 🔄 **Routage** → Trouver le chemin optimal pour envoyer un paquet d’un réseau à un autre.
 
@@ -38,7 +37,8 @@
 
 🚨 **Gestion des erreurs** → Détecte et signale certaines erreurs lors du routage.
 
-**📡 4. Protocoles Associés à la Couche Réseau**
+
+## **📡 4. Protocoles Associés à la Couche Réseau**
 
 🌍 **Internet Protocol (IP)** → Gère l’adressage et le routage.
 
@@ -53,16 +53,14 @@
 - **OSPF (Open Shortest Path First)** → Choix du meilleur chemin en fonction de l’état du réseau.
 
 
-
-**🚛 5. Équipements Utilisant la Couche Réseau**
+## **🚛 5. Équipements Utilisant la Couche Réseau**
 
 🌐 **Routeur** → Achemine les paquets entre réseaux différents.
 
 🛜 **Passerelle (Gateway)** → Relie des réseaux avec des protocoles distincts.
 
 
-
-**📦 6. Exemple de Transmission d’un Paquet**
+## **📦 6. Exemple de Transmission d’un Paquet**
 
 🖥 **PC A (192.168.1.10) veut envoyer des données à PC B (192.168.2.20)**
 
