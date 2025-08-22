@@ -1,4 +1,4 @@
-# 2 - Notions Base Word**📌 Objectifs du module**
+# **📌 Objectifs du module**
 
 🔹 Ce module nous plonge dans l’univers de **Microsoft Word**, l’outil incontournable de traitement de texte.
 
@@ -6,9 +6,9 @@
 
 
 
-**🎯 Compétences clés à acquérir**
+## **🎯 Compétences clés à acquérir**
 
-✅ **Maîtriser les fonctionnalités essentielles de Word**
+### ✅ **Maîtriser les fonctionnalités essentielles de Word**
 
 ➜ Appliquer des **options de mise en forme** (polices, paragraphes, styles).
 
@@ -16,7 +16,7 @@
 
 
 
-✅ **Optimiser la mise en page et l'organisation d’un document**
+### ✅ **Optimiser la mise en page et l'organisation d’un document**
 
 ➜ Gérer les **marges, en-têtes/pieds de page et sauts de section**.
 
@@ -24,7 +24,7 @@
 
 
 
-✅ **Automatiser la mise en forme pour gagner en efficacité**
+### ✅ **Automatiser la mise en forme pour gagner en efficacité**
 
 ➜ Exploiter les **modèles, styles et thèmes** pour uniformiser les documents.
 
@@ -32,12 +32,8 @@
 
 
 
-**📌 Pourquoi ce module ?**
+## **📌 Pourquoi ce module ?**
 
 💡 **Un gain de temps et de productivité** en utilisant Word de manière avancée.
 
 💡 **Une mise en page professionnelle** pour des documents clairs et bien structurés.
-
-
-
-🚀 **Prêt à optimiser votre utilisation de Word ? C’est parti !** ✍️
