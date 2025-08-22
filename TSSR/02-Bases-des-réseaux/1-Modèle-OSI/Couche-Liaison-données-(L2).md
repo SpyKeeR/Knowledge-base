@@ -12,12 +12,12 @@
 
 ## **🏗 2. Les 2 Sous-couches**
 
-###🔹 **LLC (Logical Link Control) 🖧**
+### 🔹 **LLC (Logical Link Control) 🖧**
 
 - Gère les **connexions logiques** entre appareils.
 - Permet d'utiliser plusieurs **protocoles réseau** sur un même support physique (ex: IP, IPX).
 
-###🔹 **MAC (Media Access Control) 🎛**
+### 🔹 **MAC (Media Access Control) 🎛**
 
 - Définit les **règles d’accès** au support réseau (ex: CSMA/CD pour Ethernet).
 - Assigne une **adresse MAC** unique à chaque périphérique.
@@ -70,3 +70,4 @@
 ⏳ **Contrôle d’accès au support** : Vérifie que la transmission est possible.
 
 ✅ **Vérification** : **PC B** reçoit la trame, vérifie l’intégrité (CRC) et accepte les données.
+
