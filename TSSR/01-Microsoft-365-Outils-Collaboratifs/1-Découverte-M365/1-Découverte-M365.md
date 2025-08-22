@@ -1,4 +1,4 @@
-##📌 Bienvenue dans le cours Outils Collaboratifs**
+## 📌 **Bienvenue dans le cours Outils Collaboratifs**
 
 🔹 Ce premier module explore **Microsoft 365**, une plateforme cloud qui révolutionne la **collaboration et la communication** en entreprise.
 
@@ -45,4 +45,5 @@
 
 
 🚀 **Prêt à plonger dans l’univers Microsoft 365 ? C’est parti !** 🎯
+
 
