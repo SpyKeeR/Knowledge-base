@@ -38,3 +38,15 @@ Un site peut être atteint de plusieurs façons :
 
 ![](../../media/Cours-Web-Reseau-Sécurité-Fonctionnement-serveur-WEB-image1.png)
 
+
+## 🔹 3️⃣ **Codes HTTP des tests de connexion**
+
+✅ **1xx** → Information
+
+✅ **2xx** → Succès (200 = OK)
+
+✅ **3xx** → Redirection
+
+❌ **4xx** → Erreur client (ex : **404 Not Found**)
+
+❌ **5xx** → Erreur serveur
