@@ -1,4 +1,4 @@
-# Titres**📌 Gestion des titres**
+## **📌 Gestion des titres**
 
 🔹 **Numérotation des titres** : Choisir entre chiffres arabes, romains, ou lettres. Définir avant la mise en forme.
 
@@ -6,7 +6,7 @@
 
 
 
-**📌 Gestion des styles de titre**
+## **📌 Gestion des styles de titre**
 
 🔹 **Mettre à jour le style Titre** : Accéder au menu d'accueil de Word et actualiser le style Titre 1 pour correspondre à la mise en forme souhaitée.
 
@@ -14,7 +14,7 @@
 
 
 
-**📌 Hiérarchisation des titres**
+## **📌 Hiérarchisation des titres**
 
 🔹 **Hiérarchie des titres** : Utiliser plusieurs niveaux de numérotation pour structurer le document, facilitant la navigation.
 
@@ -22,7 +22,7 @@
 
 
 
-**📌 Etapes à suivre**
+## **📌 Etapes à suivre**
 
 1️⃣ **Créer les titres** : Démarrer par la création des titres principaux et secondaires.
 
@@ -32,7 +32,7 @@
 
 
 
-**📌 Résumé**
+## **📌 Résumé**
 
 **Numérotation des titres** : Choisir le format (chiffres, lettres) et définir avant toute mise en forme.
 
