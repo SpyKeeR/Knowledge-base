@@ -1,4 +1,4 @@
-# Interface visuelle📌 **Créer un nouveau doc**
+## 📌 **Créer un nouveau doc**
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-🎯 **Principales parties de l'interface**
+## 🎯 **Principales parties de l'interface**
 
 
 
