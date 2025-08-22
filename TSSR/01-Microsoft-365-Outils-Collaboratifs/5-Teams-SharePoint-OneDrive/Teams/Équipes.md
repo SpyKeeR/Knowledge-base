@@ -1,4 +1,4 @@
-# Équipes🔹 **Composition & gestion des équipes**
+## 🔹 **Composition & gestion des équipes**
 
 👤 **Propriétaires** (gestion des paramètres) & 👥 **Membres**
 
@@ -11,8 +11,7 @@
 🏢 **1 000 équipes max par utilisateur**
 
 
-
-🔹 **Création d’une équipe = Création automatique de :**
+## 🔹 **Création d’une équipe = Création automatique de :**
 
 - 🏢 **Un groupe M365**
 - 🌐 **Un site SharePoint Online**
@@ -20,8 +19,7 @@
 - 📝 **Un bloc-notes OneNote**
 
 
-
-🔹 **Personnalisation & administration**
+## 🔹 **Personnalisation & administration**
 
 🖼 **Image de profil de l’équipe**
 
