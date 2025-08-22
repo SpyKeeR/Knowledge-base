@@ -1,4 +1,4 @@
-# Teams🔹 **Espace de travail centralisé**
+## 🔹 **Espace de travail centralisé**
 
 ✅ Intégration avec **apps Microsoft** & **partenaires**
 
@@ -14,7 +14,7 @@
 
 
 
-🔹 **Accessibilité & navigation**
+## 🔹 **Accessibilité & navigation**
 
 📱 **Multiplateforme** (PC, Mac, tablette, mobile)
 
@@ -26,7 +26,7 @@
 
 
 
-🔹 **Collaboration & gestion d’équipe**
+## 🔹 **Collaboration & gestion d’équipe**
 
 👥 **Jusqu'à 250 équipes**
 
