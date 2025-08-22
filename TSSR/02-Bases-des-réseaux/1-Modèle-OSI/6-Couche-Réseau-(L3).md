@@ -12,17 +12,17 @@
 
 ## **🔗 2. Structure d’une Adresse IP**
 
-🖥️ **ID Réseau + ID Hôte** → Identifie un appareil sur un réseau logique.
-
-📌 **Masque de sous-réseau** → Détermine la partie réseau et la partie hôte.
+  🖥️ **ID Réseau + ID Hôte** → Identifie un appareil sur un réseau logique.
+  
+  📌 **Masque de sous-réseau** → Détermine la partie réseau et la partie hôte.
 
 📶 Tous les postes d’un même réseau peuvent **communiquer entre eux**.
 
 **🔍 Exemple : Ping d’un poste A vers un poste B**
 
-📍 **Adresse MAC** → Identifie physiquement l’appareil (Couche 2).
-
-🌍 **Adresse IP** → Identifie logiquement l’appareil (Couche 3).
+  📍 **Adresse MAC** → Identifie physiquement l’appareil (Couche 2).
+  
+  🌍 **Adresse IP** → Identifie logiquement l’appareil (Couche 3).
 
 
 ## **🚦 3. Fonctions Principales de la Couche Réseau**
@@ -42,15 +42,15 @@
 
 🌍 **Internet Protocol (IP)** → Gère l’adressage et le routage.
 
-- **IPv4 (32 bits)** → Format classique (ex: 192.168.1.1).
-- **IPv6 (128 bits)** → Nouveau format pour un plus grand nombre d’adresses.
+  - **IPv4 (32 bits)** → Format classique (ex: 192.168.1.1).
+  - **IPv6 (128 bits)** → Nouveau format pour un plus grand nombre d’adresses.
 
 🔍 **Internet Control Message Protocol (ICMP)** → Messages de diagnostic (ex: ping).
 
 📍 **Protocoles de Routage**
 
-- **RIP (Routing Information Protocol)** → Routage à distance basée sur le nombre de sauts.
-- **OSPF (Open Shortest Path First)** → Choix du meilleur chemin en fonction de l’état du réseau.
+  - **RIP (Routing Information Protocol)** → Routage à distance basée sur le nombre de sauts.
+  - **OSPF (Open Shortest Path First)** → Choix du meilleur chemin en fonction de l’état du réseau.
 
 
 ## **🚛 5. Équipements Utilisant la Couche Réseau**
@@ -69,3 +69,4 @@
 🔄 **Passage par un routeur** → Le paquet est routé vers la passerelle par défaut.
 
 🏁 **Paquet acheminé vers PC B** via la meilleure route trouvée.
+
