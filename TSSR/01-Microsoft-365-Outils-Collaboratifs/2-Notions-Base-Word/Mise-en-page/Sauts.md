@@ -1,10 +1,10 @@
-# Sauts**📌 3. Les sauts de section 🔄**
+# **📌 3. Les sauts de section 🔄**
 
 Les sauts de section permettent de **changer la mise en forme** d’une partie du doc. **sans affecter le reste**.
 
 
 
-➡️ **Saut de section – Page suivante** 📃
+### ➡️ **Saut de section – Page suivante** 📃
 
 🔹 Insère un saut et commence une **nouvelle section sur la page suivante**.
 
@@ -21,7 +21,7 @@ Les sauts de section permettent de **changer la mise en forme** d’une partie d
 
 
 
-➡️ **Saut de section – Continu** 🔄
+### ➡️ **Saut de section – Continu** 🔄
 
 🔹 Crée une **nouvelle section sans sauter de page**.
 
@@ -37,7 +37,7 @@ Les sauts de section permettent de **changer la mise en forme** d’une partie d
 
 
 
-**📌 Bonnes pratiques**
+## **📌 Bonnes pratiques**
 
 ✅ **Éviter les espaces et sauts de ligne inutiles**, privilégier les sauts de page et de section.
 
@@ -53,7 +53,7 @@ Il existe **plusieurs types de sauts**, chacun ayant une fonction bien précise.
 
 
 
-**📌 1. Le saut de page 📄**
+## **📌 1. Le saut de page 📄**
 
 🔹 Permet de **forcer** un passage à la page suivante.
 
@@ -71,7 +71,7 @@ Il existe **plusieurs types de sauts**, chacun ayant une fonction bien précise.
 
 
 
-**📌 2. Le saut de colonne 📑**
+## **📌 2. Le saut de colonne 📑**
 
 🔹 Utilisé lorsque le document est en **mode multicolonnes**.
 
