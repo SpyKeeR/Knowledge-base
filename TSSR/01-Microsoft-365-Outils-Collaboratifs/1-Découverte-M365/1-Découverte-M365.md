@@ -20,3 +20,4 @@
 
 ✅ **Connaître les prérequis pour créer un tenant Microsoft 365**
 ➜ Étapes essentielles pour **déployer et configurer** une plateforme Microsoft 365.
+
