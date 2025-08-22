@@ -1,11 +1,11 @@
-# OneDrive🔹 **Présentation**
+## 🔹 **Présentation**
 
 - **Stockage cloud Azure** (1 To par utilisateur)
 - **Espace personnel** mais interconnecté avec SharePoint
 - **Accès multiplateforme** (PC, tablette, mobile)
 - **Consultation / partage** depuis n’importe quel appareil connecté
 
-🔹 **Accès et synchronisation**
+## 🔹 **Accès et synchronisation**
 
 - **Depuis l’app OneDrive** ou **le portail M365**
 - **Partage via lien ou mail** → Expiration + contrôle des autorisations
@@ -13,7 +13,7 @@
 - **Coédition en temps réel** avec suivi des modifications (espace synchrone)
 - **Synchro des dossiers/fichiers locaux** via l’application OneDrive
 
-🔹 **Icônes OneDrive**
+## 🔹 **Icônes OneDrive**
 
 - 💦 → Nouveau fichier
 - ❌ → Erreur de synchronisation
@@ -26,7 +26,7 @@
 - ✅ → Fichier dispo localement
 - 🔒 → Restriction de sécurité empêchant la sync
 
-🔹 **Sécurité & bonnes pratiques**
+## 🔹 **Sécurité & bonnes pratiques**
 
 ✅ **Protection avancée** (Expiration/mot de passe pour les partages)
 
