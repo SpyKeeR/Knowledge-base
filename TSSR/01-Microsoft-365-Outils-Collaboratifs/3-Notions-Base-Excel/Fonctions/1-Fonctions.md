@@ -1,8 +1,7 @@
-# Fonctions🔹 **📌 Définition : Formule prédéfinie** qui effectue une tâche avec des arguments → Retourne un résultat
+# **📌 Définition : Formule prédéfinie** qui effectue une tâche avec des arguments → Retourne un résultat
 
 
-
-🔹 **📌 Fonctions de base :**
+## 🔹 **📌 Fonctions de base :**
 
 ✔ =SOMME(A1:A10) → Additionner une plage
 
@@ -10,7 +9,7 @@
 
 ✔ =MIN(A1:A10) / =MAX(A1:A10) → Valeur min/max
 
-🔹 **📌 Fonctions logiques :**
+## 🔹 **📌 Fonctions logiques :**
 
 ✔ =SI(A1>10, "OK", "Non") → Condition simple
 
@@ -18,7 +17,7 @@
 
 ✔ =OU(A1=10, B1=20) → Au moins une condition vraie
 
-🔹 **📌 Fonctions de texte :**
+## 🔹 **📌 Fonctions de texte :**
 
 ✔ =GAUCHE(A1, 5) → Premiers caractères
 
@@ -26,13 +25,13 @@
 
 ✔ =NBCAR(C1) → Nombre de caractères
 
-🔹 **📌 Fonctions de recherche :**
+## 🔹 **📌 Fonctions de recherche :**
 
 ✔ =RECHERCHEV(10, A1:B10, 2, FAUX) → Cherche une valeur verticalement
 
 ✔ =RECHERCHEH(5, A1:J1, 3, FAUX) → Cherche horizontalement
 
-🔹 **📌 Fonctions date & heure :**
+## 🔹 **📌 Fonctions date & heure :**
 
 ✔ =AUJOURDHUI() → Date actuelle
 
@@ -40,7 +39,7 @@
 
 ✔ =DATEDIF(A1, B1, "d") → Différence en jours
 
-🔹 **📌 Fonctions imbriquées :**
+## 🔹 **📌 Fonctions imbriquées :**
 
 ✔ =SI(A1>10, SOMME(A1:A10), "Trop bas")
 
