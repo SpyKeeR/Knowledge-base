@@ -1,4 +1,4 @@
-# Intégration Sharepoint🔹 **📌 Sauvegarde automatique**
+## 🔹 **📌 Sauvegarde automatique**
 
 ✔ **Enregistrement en temps réel** → Plus besoin de cliquer sur "Enregistrer"
 
@@ -6,7 +6,7 @@
 
 
 
-🔹 **📌 Gestion des versions**
+## 🔹 **📌 Gestion des versions**
 
 ✔ **Versionning automatique** → SharePoint enregistre chaque modification
 
@@ -16,7 +16,7 @@
 
 
 
-🔹 **📌 Historique des modifications**
+## 🔹 **📌 Historique des modifications**
 
 ✔ **Suivi des contributions** → Qui a modifié quoi et quand
 
@@ -24,7 +24,7 @@
 
 
 
-🔹 **📌 Enregistrement dans SharePoint**
+## 🔹 **📌 Enregistrement dans SharePoint**
 
 ✔ **Choix de la bibliothèque SharePoint** via Fichier > Enregistrer sous
 
@@ -32,7 +32,7 @@
 
 
 
-👉 **Avantages de l'intégration SharePoint :**
+## 👉 **Avantages de l'intégration SharePoint :**
 
 ✅ Sécurité des fichiers
 
