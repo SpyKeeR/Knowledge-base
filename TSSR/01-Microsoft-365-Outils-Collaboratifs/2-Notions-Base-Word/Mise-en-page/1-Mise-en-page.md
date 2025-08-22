@@ -1,4 +1,4 @@
-# Mise en page**📌 Prévoir des pages vides**
+## **📌 Prévoir des pages vides**
 
 🔹 **Pages vides** : Insérer des pages vierges si nécessaire (ex. page de garde, sommaire).
 
@@ -6,7 +6,7 @@
 
 
 
-**📌 Prévisualisation et planification**
+## **📌 Prévisualisation et planification**
 
 🔹 **Document réfléchi** : Planifier la structure avant de rédiger pour éviter des modifications répétées.
 
@@ -14,7 +14,7 @@
 
 
 
-**📌 Afficher les caractères non imprimables**
+## **📌 Afficher les caractères non imprimables**
 
 🔹 **Afficher les caractères invisibles** : Permet de mieux comprendre les positions des éléments dans le document.
 
@@ -22,10 +22,11 @@
 
 
 
-**📌 Résumé**
+## **📌 Résumé**
 
 **Prévoir des pages vides** : Insérer des sauts de page pour une structure claire (page de garde, sommaire…).
 
 **Planifier la mise en page** : Anticiper la structure du document pour éviter des changements en cours de rédaction.
 
 **Caractères non imprimables** : Utiliser cette fonctionnalité pour gérer les sauts de page et autres éléments invisibles.
+
