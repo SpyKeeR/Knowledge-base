@@ -1,4 +1,4 @@
-# Espacements**📌 Espacement des titres et paragraphes**
+## **📌 Espacement des titres et paragraphes**
 
 🔹 **Éviter les paragraphes vides** : Ne pas appuyer plusieurs fois sur la touche Entrée. Utiliser l’affichage des caractères non imprimables pour vérifier l’absence de paragraphes vides.
 
@@ -6,7 +6,7 @@
 
 
 
-**📌 Outil d'interlignage et d'espacement**
+## **📌 Outil d'interlignage et d'espacement**
 
 🔹 **Choisir un interligne précis** : En accédant aux paramètres de l'interligne, tu peux ajuster l’espacement avant et après chaque paragraphe, offrant ainsi un contrôle fin sur la mise en forme.
 
@@ -14,7 +14,7 @@
 
 
 
-**📌 Modification via les styles**
+## **📌 Modification via les styles**
 
 🔹 **Utiliser les styles pour l'espacement** : Une fois que tu as modifié les paramètres d'interlignage et d'espacement, tu peux l'appliquer à tous les paragraphes liés à un style spécifique, sans avoir à répéter la tâche pour chaque élément.
 
@@ -22,13 +22,13 @@
 
 
 
-**📌 Application automatique des modifications**
+## **📌 Application automatique des modifications**
 
 🔹 **Automatisation des changements** : Une fois les modifications appliquées à un style, toutes les instances de ce style dans le document seront automatiquement mises à jour, ce qui garantit une uniformité sans effort supplémentaire.
 
 
 
-**📌 Résumé**
+## **📌 Résumé**
 
 **Éviter les paragraphes vides** en désactivant l’utilisation répétée de la touche Entrée.
 
