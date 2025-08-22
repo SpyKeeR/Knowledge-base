@@ -1,4 +1,4 @@
-# Couche Transport (L4)**📌 1. Rôle et Fonctionnement**
+##  **📌 1. Rôle et Fonctionnement**
 
 🔹 **Quatrième couche** du modèle OSI, entre la couche Réseau et la couche Session.
 
@@ -9,8 +9,7 @@
 🔹 Gère la transmission des **segments** et leur réassemblage à l’arrivée.
 
 
-
-**🔗 2. Communication entre deux Postes**
+## **🔗 2. Communication entre deux Postes**
 
 🖥️ **Un client communique avec un serveur** via des sockets :
 
@@ -21,8 +20,7 @@
 🔄 Une connexion peut gérer **plusieurs communications simultanées**.
 
 
-
-**🛠 3. Fonctions Principales de la Couche Transport**
+## **🛠 3. Fonctions Principales de la Couche Transport**
 
 📦 **Segmentation & Réassemblage** → Découpe les données en segments et les numérote.
 
@@ -35,8 +33,7 @@
 🔄 **Multiplexage** → Permet à plusieurs applications d’utiliser le réseau en parallèle via les ports.
 
 
-
-**📡 4. Protocoles de la Couche Transport**
+## **📡 4. Protocoles de la Couche Transport**
 
 💾 **TCP (Transmission Control Protocol)**
 
@@ -56,7 +53,8 @@
 
 🎤 **Utilisation** → Streaming, VoIP, jeux en ligne.
 
-**📂 5. Exemple Pratique : Envoi d’un Fichier**
+
+## **📂 5. Exemple Pratique : Envoi d’un Fichier**
 
 📍 **Ordinateur A envoie un fichier à Ordinateur B**
 
