@@ -52,7 +52,8 @@
 
 🔍 **But :** Résolution d'adresses (NDP - Neighbor Discovery Protocol).
 
-**7. Multidiffusion des Groupes Abonnés**
+
+
+## **7. Multidiffusion des Groupes Abonnés**
 
 **But :** Envoi à un groupe spécifique d'appareils abonnés.
-
