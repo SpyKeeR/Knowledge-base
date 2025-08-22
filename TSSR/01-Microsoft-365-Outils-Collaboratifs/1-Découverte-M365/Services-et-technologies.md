@@ -1,6 +1,6 @@
-# Services et technologies**📌 Microsoft 365 : Services inclus**
+## **📌 Microsoft 365 : Services inclus**
 
-🔹 **Exchange Online**
+### 🔹 **Exchange Online**
 
 📧 **Gestion des mails, calendriers et contacts** via une interface web.
 
@@ -10,7 +10,7 @@
 
 
 
-🔹 **OneDrive**
+###🔹 **OneDrive**
 
 📂 **Stockage cloud personnel** (1 To / utilisateur).
 
@@ -20,7 +20,7 @@
 
 
 
-🔹 **Office 365**
+### 🔹 **Office 365**
 
 📊 **Suite bureautique complète** : Word, Excel, PowerPoint, Outlook.
 
@@ -30,7 +30,7 @@
 
 
 
-🔹 **Teams**
+### 🔹 **Teams**
 
 💬 **Messagerie instantanée** et appels vidéo.
 
@@ -40,7 +40,7 @@
 
 
 
-🔹 **SharePoint Online**
+### 🔹 **SharePoint Online**
 
 📌 **Plateforme collaborative** pour créer des espaces de travail.
 
@@ -48,9 +48,9 @@
 
 🔄 **Intégration avec OneDrive et Teams**.
 
-**📌 Résumé des 3 technologies clés**
 
 
+## **📌 Résumé des 3 technologies clés**
 
 ✅ **Exchange Online** → 📧 **Gestion des mails et calendriers** pour une communication fluide.
 
@@ -60,7 +60,7 @@
 
 
 
-📌 **Autres applications incluses** :
+## 📌 **Autres applications incluses** :
 
 - **Word, Excel, PowerPoint, Outlook** (bureautique).
 - **Microsoft Stream** (vidéos internes).
@@ -76,7 +76,7 @@
 
 
 
-📌 **Résumé express**
+## 📌 **Résumé express**
 
 💡 **Microsoft 365 = un ensemble d’outils collaboratifs** (mails, stockage, bureautique, messagerie).
 
