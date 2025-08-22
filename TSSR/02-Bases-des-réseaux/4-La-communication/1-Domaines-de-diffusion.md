@@ -4,7 +4,7 @@ Un **domaine de diffusion** est une zone du réseau où une trame de **broadcast
 
 
 
-## **📡 1️⃣️Qu'est-ce qu’une diffusion (broadcast) ?**
+## **📡 1️⃣️ Qu'est-ce qu’une diffusion (broadcast) ?**
 
 🔹 Une trame de **diffusion** est envoyée à **tous les appareils** d’un réseau.
 
@@ -25,9 +25,13 @@ Un **domaine de diffusion** est une zone du réseau où une trame de **broadcast
 | **Routeur** | **Bloque** la diffusion entre sous-réseaux.             |
 | **VLAN**    | **Crée un domaine de diffusion indépendant**.           |
 
+
+
 ## **🚀 3️⃣️ Pourquoi segmenter un domaine de diffusion ?**
 
-### 📌 **Problème :** Si un domaine de diffusion est **trop grand**, chaque appareil doit traiter **chaque trame de broadcast**, ce qui **ralentit** le réseau.
+### 📌 **Problème :**
+
+Si un domaine de diffusion est **trop grand**, chaque appareil doit traiter **chaque trame de broadcast**, ce qui **ralentit** le réseau.
 
 ### 📌 **Solutions :**
 
@@ -48,3 +52,4 @@ Un **domaine de diffusion** est une zone du réseau où une trame de **broadcast
 
 - Utilise des adresses IP comme **192.168.1.255**.
 - Bloquée par un **routeur** entre sous-réseaux.
+
