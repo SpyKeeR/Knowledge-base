@@ -1,4 +1,4 @@
-# 🌍 Structure d'une Adresse IPv6**
+# 🌍 **Structure d'une Adresse IPv6**
 
 L’**IPv6** (Internet Protocol version 6) est conçu pour remplacer **IPv4**, qui souffre d’un manque d’adresses. Avec **128 bits**, il offre **un espace d’adressage immense** et des **fonctionnalités avancées** pour l’Internet moderne.
 
@@ -51,4 +51,5 @@ IPv6 et IPv4 **ne sont pas directement compatibles**, mais plusieurs solutions e
 - **Double Stack** → Utilisation simultanée des deux protocoles.
 - **Tunneling** → Encapsulation d’IPv6 dans IPv4.
 - **NAT64** → Traduction entre IPv6 et IPv4.
+
 
