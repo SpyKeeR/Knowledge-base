@@ -55,9 +55,9 @@
 
 ## **🖧 5. Équipements utilisant la couche Liaison**
 
-🖥 **Switch (commutateur)** → Aiguillage des trames en fonction des adresses MAC
+**Switch (commutateur)** → Aiguillage des trames en fonction des adresses MAC
 
->< **Bridge (pont)** → Relie plusieurs segments de réseau et filtre les trames.
+**Bridge (pont)** → Relie plusieurs segments de réseau et filtre les trames.
 
 
 
@@ -70,4 +70,5 @@
 ⏳ **Contrôle d’accès au support** : Vérifie que la transmission est possible.
 
 ✅ **Vérification** : **PC B** reçoit la trame, vérifie l’intégrité (CRC) et accepte les données.
+
 
