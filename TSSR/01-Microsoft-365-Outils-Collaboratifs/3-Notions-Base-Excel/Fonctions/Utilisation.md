@@ -1,4 +1,4 @@
-# Utilisation🔹 **📌 Trouver et insérer une fonction :**
+## **📌 Trouver et insérer une fonction :**
 
 ✔ Sélectionner la cellule pour le résultat
 
@@ -10,7 +10,7 @@
 
 
 
-🔹 **📌 Recopier une formule :**
+## 🔹 **📌 Recopier une formule :**
 
 ✔ **Croix noire** → Recopie automatique
 
@@ -20,7 +20,7 @@
 
 
 
-🔹 **📌 Références de cellules :**
+## 🔹 **📌 Références de cellules :**
 
 ✔ **Référence relative (A1)** → Évolue lors de la copie
 
@@ -49,3 +49,4 @@
 | =$A$1+B1           | $A$1 reste fixe, B1 devient B2 puis B3...   |
 | =A$1+B1             | La ligne 1 reste fixe, mais A devient B, C... |
 | =$A1+B1             | La colonne A reste fixe, mais la ligne change |
+
