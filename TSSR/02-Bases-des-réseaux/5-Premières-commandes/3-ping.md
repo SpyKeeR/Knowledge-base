@@ -39,8 +39,7 @@
 
 🔹 **Tester une machine locale :** ping 192.168.1.1
 
-📜 **Exemple de sortie :**  
-64 bytes from 142.250.74.68: icmp_seq=0 ttl=115 time=18.3 ms  
+📜 **Exemple de sortie :**  64 bytes from 142.250.74.68: icmp_seq=0 ttl=115 time=18.3 ms  
 🔍 **Explication :**
 
 - icmp_seq= ➝ Numéro de la requête envoyée
@@ -100,6 +99,7 @@ Lorsqu’un ping échoue, un message d’erreur s’affiche. Voici les plus cour
 📊 **Pas de test de bande passante** : ping **ne mesure pas le débit**, seulement la latence.
 
 ⚠️ **Priorité ICMP basse** : Certains routeurs donnent **moins de priorité aux paquets ICMP**, faussant les mesures.
+
 
 
 
