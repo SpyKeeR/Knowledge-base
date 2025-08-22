@@ -10,7 +10,7 @@
 
 
 
-###🔹 **OneDrive**
+### 🔹 **OneDrive**
 
 📂 **Stockage cloud personnel** (1 To / utilisateur).
 
@@ -83,3 +83,4 @@
 💡 **Les services clés** → Exchange (mails), OneDrive (stockage), SharePoint (collab), Teams (communication).
 
 💡 **Tout est intégré** → Mails, documents et équipes connectés en un seul environnement.
+
