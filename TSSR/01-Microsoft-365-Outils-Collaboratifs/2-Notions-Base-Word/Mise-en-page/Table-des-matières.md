@@ -1,10 +1,10 @@
-# Table des matières**📌 Pourquoi une table des matières ?**
+# **📌 Pourquoi une table des matières ?**
 
 La **table des matières** permet de structurer un document long et complexe, facilitant la **navigation** et offrant une vue d'ensemble claire des titres et sections.
 
 
 
-**📌 1. Insertion de la table des matières 📑**
+## **📌 1. Insertion de la table des matières 📑**
 
 🔹 Depuis le menu **Références**
 
@@ -19,7 +19,7 @@ La **table des matières** permet de structurer un document long et complexe, fa
 
 
 
-**📌 2. Personnalisation de la table des matières 🛠**
+## **📌 2. Personnalisation de la table des matières 🛠**
 
 🔹 **Personnalisation du format** :
 
@@ -29,7 +29,7 @@ La **table des matières** permet de structurer un document long et complexe, fa
 
 
 
-**📌 3. Gestion des styles 🔧**
+## **📌 3. Gestion des styles 🔧**
 
 🔹 La **hiérarchie des titres** détermine l’ordre des éléments dans la table des matières.
 
@@ -40,21 +40,20 @@ La **table des matières** permet de structurer un document long et complexe, fa
 
 
 
-**📌 4. Personnalisation avancée 🔍**
+## **📌 4. Personnalisation avancée 🔍**
 
 🔹 Aller plus loin dans la **personnalisation** en modifiant les styles **TMX** (styles de la table des matières) pour mieux correspondre à la mise en forme du document.
 
 
 
-**📌 5. Mise à jour de la table des matières 🔄**
+## **📌 5. Mise à jour de la table des matières 🔄**
 
 🔹 Une fois la table insérée, **elle se met à jour automatiquement** à chaque ajout de titre ou modification.
 
 - **Astuce** : Clique sur la table des matières, puis sur **"Mettre à jour la table"**
 
 
-
-**📌 Conclusion :**
+## **📌 Conclusion :**
 
 Utiliser la **table des matières** permet de **gagner du temps** et de garantir une navigation fluide.
 
