@@ -53,6 +53,7 @@
 ## **🖥️ 4. Options courantes de ping**
 
 |     🔹 ping -s 1000 www.google.com    |     Définit la taille des paquets ICMP à 1000   octets         |
+|----|----|
 |     🔹 ping -i 0.5 www.google.com     |     Change l’intervalle entre chaque ping (ici   0.5s)         |
 |     🔹 ping -q www.google.com         |     Affiche seulement les stats finales (mode   silencieux)    |
 |     🔹 ping -t www.google.com         |     Ping en continu (Windows)                                  |
@@ -99,6 +100,7 @@ Lorsqu’un ping échoue, un message d’erreur s’affiche. Voici les plus cour
 📊 **Pas de test de bande passante** : ping **ne mesure pas le débit**, seulement la latence.
 
 ⚠️ **Priorité ICMP basse** : Certains routeurs donnent **moins de priorité aux paquets ICMP**, faussant les mesures.
+
 
 
 
