@@ -1,8 +1,8 @@
 # Définitions
 
-## 🔹 **Partager**, c’est permettre à un **client** d’accéder à une **ressource** hébergée sur un **serveur**, via le **réseau**.
+🔹 **Partager**, c’est permettre à un **client** d’accéder à une **ressource** hébergée sur un **serveur**, via le **réseau**.
 
-➡️ **4 éléments clés** dans un partage :
+## ➡️ **4 éléments clés** dans un partage :
 
 ✅ **Ressource** : Fichier, dossier, arborescence ou volume entier
 
@@ -27,3 +27,4 @@
 ## 🌍 **Qui peut accéder aux ressources partagées ?**
 
 Tout **système connecté** au réseau de l’entreprise, à condition d’avoir les **autorisations nécessaires** ! 🔐
+
