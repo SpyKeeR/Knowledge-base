@@ -33,7 +33,7 @@ Le pipeline transmet **tous les objets** générés par une commande. Pour **gar
 - Obligatoire quand on veut **combiner plusieurs conditions**.
 
 ### **📌 Version simplifiée : Where-Object Propriété -Opérateur Valeur**
-- `*Get-NetAdapter | Where-Object Status -like "Up"`
+- `Get-NetAdapter | Where-Object Status -like "Up"`
 
 ✅ **Pourquoi ?**
 
@@ -61,4 +61,5 @@ Le pipeline transmet **tous les objets** générés par une commande. Pour **gar
 | -in           | Est contenu dans...           |
 | -notin        | N'est pas contenu dans…       |
 | Prefixe -c    | -ceq/-clike > Sensible Casse |
+
 
