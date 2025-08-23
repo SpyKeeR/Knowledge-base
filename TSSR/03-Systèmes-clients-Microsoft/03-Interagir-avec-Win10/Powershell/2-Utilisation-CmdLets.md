@@ -11,10 +11,9 @@
 ## **📂 Comprendre la classification des commandes**
 
 - Lorsque vous exécutez *get-command*, vous verrez une colonne **"Commande Type"** qui classe les commandes en **trois grandes familles** :
-
-  1.  **Cmdlets** : Commandes intégrées à PowerShell.
-  2.  **Fonctions** : Scripts personnalisés ou intégrés.
-  3.  **Aliases** : Raccourcis pour des commandes plus longues (ex. ls est un alias de Get-ChildItem).
+  - **Cmdlets** : Commandes intégrées à PowerShell.
+  - **Fonctions** : Scripts personnalisés ou intégrés.
+  - **Aliases** : Raccourcis pour des commandes plus longues (ex. ls est un alias de Get-ChildItem).
 
 
 ## **🎯 Filtrer les commandes**
@@ -24,4 +23,5 @@
 
 
 - Autocomplétions via la tabulation
+
 
