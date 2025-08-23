@@ -35,13 +35,13 @@
 -🔹 Copier/coller le dossier contenant les fichiers **.vmx** et **.vmdk**.
 
 #### 2️⃣ **Export en OVA/OVF** (méthode recommandée) 
--🔹 Ouvrir Workstation et sélectionner la VM. 🔹 **File > Export to OVF**.
-
-🔹 Choisir le format **OVA** (un fichier) ou **OVF** (plusieurs fichiers).
-
+- 🔹 Ouvrir Workstation et sélectionner la VM.
+- 🔹 **File > Export to OVF**.
+- 🔹 Choisir le format **OVA** (un fichier) ou **OVF** (plusieurs fichiers).
 
 
 📌 **Commande pour exporter une VM en OVA** : 
 - `vmware-vdiskmanager -r <nom_VM>.vmdk -t 1 <nom_VM_export.ova>`
+
 
 
