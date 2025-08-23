@@ -21,10 +21,12 @@
 
 - **Gère la file d'attente** des impressions 📄
 - Envoie les travaux d’impression **un par un** à l’imprimante
-- 
+
+
 
 ## 📌 **⚡ Pool d’impression (Load Balancing)**
 
 - Permet de répartir **les travaux** entre plusieurs imprimantes 🖨️🖨️
 - 🚀 **Optimisation** → Réduit le temps d'attente en entreprise
+
 
