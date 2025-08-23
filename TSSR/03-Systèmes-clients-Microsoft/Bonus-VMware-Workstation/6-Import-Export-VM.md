@@ -32,7 +32,7 @@
 ### 📌 **Méthodes d’exportation** :
 
 #### 1️⃣ **Copie directe du dossier de la VM** (méthode simple) 
--🔹 Copier/coller le dossier contenant les fichiers **.vmx** et **.vmdk**.
+- 🔹 Copier/coller le dossier contenant les fichiers **.vmx** et **.vmdk**.
 
 #### 2️⃣ **Export en OVA/OVF** (méthode recommandée) 
 - 🔹 Ouvrir Workstation et sélectionner la VM.
@@ -42,6 +42,7 @@
 
 📌 **Commande pour exporter une VM en OVA** : 
 - `vmware-vdiskmanager -r <nom_VM>.vmdk -t 1 <nom_VM_export.ova>`
+
 
 
 
