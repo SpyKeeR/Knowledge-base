@@ -16,7 +16,7 @@
 
 ## **🔍 2️⃣️Afficher Toutes les Propriétés d’un Objet**
 
-***get-monballon | select ****  
+***get-monballon | select * ***  
 📌 * permet d'afficher **toutes les propriétés** de l’objet.
 
 ### **🔹 Sélectionner certaines propriétés spécifiques : *get-monballon | select diamètre, forme, couleur***
@@ -45,4 +45,5 @@
 ✅ **Créer un nouvel objet : *new-monballon -name "rugby" -forme "ovale" -couleur "blanc" -description "ballon de rugby"***
 
 ✅ **Supprimer un objet : *remove-monballon -name "football"***
+
 
