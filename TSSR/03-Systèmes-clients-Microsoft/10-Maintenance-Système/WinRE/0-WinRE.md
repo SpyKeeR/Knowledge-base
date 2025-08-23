@@ -20,7 +20,7 @@
 
 ### ✅ **Avec la ligne de commande**
 
-📜 shutdown /r /o /f /t 0
+📜 `shutdown /r /o /f /t 0`
 
 ### ✅ **Si Windows ne démarre plus**
 
@@ -43,3 +43,4 @@
 📍 **Réinitialisation de Windows**
 
 📍 **Options avancées** (Ligne de commande, récupération d’image système...)
+
