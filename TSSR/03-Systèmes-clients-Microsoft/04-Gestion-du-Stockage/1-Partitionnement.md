@@ -37,6 +37,7 @@ Pour que l’ordinateur puisse naviguer entre les partitions, il utilise une **t
 ➡️ **Créer une partition étendue** contenant plusieurs **lecteurs logiques**.
 
 
+
 ### **🟢 GPT (GUID Partition Table)**
 
 📌 Format **moderne**, remplaçant MBR.
@@ -50,6 +51,8 @@ Pour que l’ordinateur puisse naviguer entre les partitions, il utilise une **t
 ➡️ **Aucune limite de taille de disque** (gère des disques > 2,2 To).
 
 ➡️ Stocke la table de partitions sur **plusieurs secteurs** (sécurisation).
+
+
 
 #### 📌 **Compatibilité** :
 
@@ -70,13 +73,15 @@ Pour que l’ordinateur puisse naviguer entre les partitions, il utilise une **t
 ✅ Pas de fonctionnalités avancées comme l’extension sur plusieurs disques.
 
 
+
 ### **📌 Disque Dynamique**
 
 ✅ Introduit par **Windows** pour offrir plus de flexibilité.
 
 ✅ Utilise des **volumes dynamiques** au lieu de partitions.
 
-#### ✅ **Avantages** :
+
+#### 📌 **Avantages** :
 
 ➡️ Étendre un volume **même si l’espace libre n’est pas contigu**.
 
@@ -87,4 +92,5 @@ Pour que l’ordinateur puisse naviguer entre les partitions, il utilise une **t
 ✅ Possible de **convertir un disque de base en disque dynamique sans perte de données**.
 
 ⚠ **Attention** : Un disque dynamique n'est pas toujours compatible avec d'autres OS.
+
 
