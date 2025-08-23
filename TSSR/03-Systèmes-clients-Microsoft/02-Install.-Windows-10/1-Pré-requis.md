@@ -1,6 +1,6 @@
-# Pré-requis**
+# **Pré-requis**
 
-## 🧠 1. Processeur**
+## 🧠 **1. Processeur**
 
 ✔️ **1 GHz minimum**
 
@@ -53,4 +53,5 @@
 ✔️ Outil de déploiement sur **disque dur** : Mini système d’exploitation (WinPE)
 
 ✔️ **Boot.wim** = fichier de démarrage 💻
+
 
