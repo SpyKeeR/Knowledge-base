@@ -7,7 +7,6 @@
 | Format-List (fl) | 📜 **Liste verticale** | Pour voir **toutes** les propriétés d'un objet |
 | Format-Table (ft) | 📊 **Tableau structuré** | Organiser les données en colonnes |
 | Format-Wide (fw) | 📏 **Affichage large** | Afficher une seule propriété sur plusieurs colonnes |
-|  |  |  |
 
 ## **🛠️ Exemples d'utilisation**
 
@@ -60,3 +59,4 @@ Exemple à ne pas faire :
 ✅ **Correct** :
 
 - `Get-Service | Sort-Object Name | Format-Table Name, Status`
+
