@@ -32,9 +32,9 @@ Une **image de référence** (ou "master") est un système d'exploitation **prê
 ## **💡 Commandes et Options de Sysprep**
 
 - **Commandes principales** :
-  - /oobe (Out-of-Box Experience) : Initialisation après installation.
-  - /generalize : Prépare l’image pour la généralisation.
-  - /shutdown : Éteint le système après préparation.
+  - `/oobe` (Out-of-Box Experience) : Initialisation après installation.
+  - `/generalize` : Prépare l’image pour la généralisation.
+  - `/shutdown` : Éteint le système après préparation.
 - **Audit Mode** : Prépare le système avant la capture pour installer des logiciels supplémentaires. (CTRL+SHIFT+F3 > durant OOBE)
 
 
@@ -54,4 +54,5 @@ Pour conserver certains pilotes ou applications spécifiques :
 
 Pour consulter les journaux de Sysprep :
 - Dossier C:\Windows\System32\Sysprep\Panther pour les erreurs et détails.
+
 
