@@ -21,6 +21,7 @@
 
 👉 Exemple : 🔸 John a **Lecture** sur le partage, mais **Modification** en NTFS → Il n’aura que **Lecture**
 
+⚠️ **Bonne pratique** : **Toujours donner "Contrôle total" aux utilisateurs authentifiés** sur le partage et **affiner les droits avec NTFS** 🔐
 
 
 ## **📂 Accéder aux ressources partagées**
@@ -72,7 +73,3 @@
 ➡️ `net share MonPartage=C:\Dossier /GRANT:"Utilisateurs authentifiés",FULL`
 
 ➡️ `New-SmbShare -Name "MonPartage" -Path "C:\Dossier" -FullAccess "Utilisateurs authentifiés" (PowerShell)`
-
-⚠️ **Bonne pratique** : **Toujours donner "Contrôle total" aux utilisateurs authentifiés** sur le partage et **affiner les droits avec NTFS** 🔐
-
-
