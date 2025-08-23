@@ -12,7 +12,6 @@ PowerShell est un **langage d’administration orienté objet**. Cela signifie q
 
 - **Des propriétés** → ce sont ses caractéristiques (exemple : la taille d’un fichier, l’adresse IP d’une carte réseau).
 - **Des méthodes** → ce sont les actions qu’on peut lui appliquer (exemple : renommer un fichier, arrêter un processus).
-- 
 
 ### 🛑 **Exemple avec un ballon** :
 
@@ -30,4 +29,5 @@ PowerShell est un **langage d’administration orienté objet**. Cela signifie q
 
 
 ➡ **En résumé, PowerShell nous permet d’interagir avec les objets du système grâce aux cmdlets, en manipulant leurs propriétés et méthodes.** 🚀
+
 
