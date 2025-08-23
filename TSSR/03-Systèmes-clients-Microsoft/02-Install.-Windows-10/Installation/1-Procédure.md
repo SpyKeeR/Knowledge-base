@@ -67,5 +67,5 @@
 ## **🖥️ Finalisation**
 
 ✅ **Accès au bureau Windows 10** 
-✅ **Prêt à l’utilisation et personnalisation**
 
+✅ **Prêt à l’utilisation et personnalisation**
