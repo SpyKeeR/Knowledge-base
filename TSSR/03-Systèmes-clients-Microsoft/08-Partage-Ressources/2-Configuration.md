@@ -27,7 +27,7 @@
 
 ### 📌 **Depuis l’explorateur Windows** :
 
-➡️ 📁 [\NomServeur\NomPartage](file://NomServeur/NomPartage) ou [\Adresse_IP\NomPartage](file://Adresse_IP/NomPartage)
+➡️ 📁 \\NomServeur\NomPartage ou \\Adresse_IP\NomPartage
 
 ➡️ 📌 Pour un accès permanent : **Connecter un lecteur réseau**
 
@@ -35,11 +35,11 @@
 
 ### 📌 **Depuis la ligne de commande** :
 
-➡️ net use X: [\NomServeur\NomPartage](file://NomServeur/NomPartage) (X = lettre du lecteur)
+➡️ `net use X: \\NomServeur\NomPartage (X = lettre du lecteur)`
 
-➡️ net view [\NomServeur](file://NomServeur) → Liste les partages disponibles
+➡️ `net view \\NomServeur → Liste les partages disponibles`
 
-➡️ New-SmbMapping -LocalPath X: -RemotePath "[\NomServeur\NomPartage](file://NomServeur/NomPartage)" (PowerShell)
+➡️ `New-SmbMapping -LocalPath X: -RemotePath \\NomServeur\NomPartage (PowerShell)`
 
 
 
@@ -69,8 +69,9 @@
 
 ### 📌 **Depuis la ligne de commande** :
 
-➡️ net share MonPartage=C:\Dossier /GRANT:"Utilisateurs authentifiés",FULL
+➡️ `net share MonPartage=C:\Dossier /GRANT:"Utilisateurs authentifiés",FULL`
 
-➡️ New-SmbShare -Name "MonPartage" -Path "C:\Dossier" -FullAccess "Utilisateurs authentifiés" (PowerShell)
+➡️ `New-SmbShare -Name "MonPartage" -Path "C:\Dossier" -FullAccess "Utilisateurs authentifiés" (PowerShell)`
 
 ⚠️ **Bonne pratique** : **Toujours donner "Contrôle total" aux utilisateurs authentifiés** sur le partage et **affiner les droits avec NTFS** 🔐
+
