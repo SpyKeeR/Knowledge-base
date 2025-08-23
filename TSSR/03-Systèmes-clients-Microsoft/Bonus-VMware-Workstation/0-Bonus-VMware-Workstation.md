@@ -30,7 +30,7 @@
 
 ## **🌐 3️⃣️ Workstation et le Réseau**
 
-🔹 **Modes de connexion** : **Bridged**, **NAT**, **Host-Only  **
+🔹 **Modes de connexion** : **Bridged**, **NAT**, **Host-Only**
 
 
 
@@ -49,4 +49,5 @@
 ✅ **Formats supportés** : OVF/OVA, VMDK
 
 ✅ **Migration entre hôtes VMware ou autres hyperviseurs**
+
 
