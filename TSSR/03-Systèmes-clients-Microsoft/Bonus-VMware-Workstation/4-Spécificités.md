@@ -12,7 +12,8 @@
 
 - **Rollback facile** en cas de problème après une mise à jour ou un changement système.
 
-📌 **Exemple d’utilisation des snapshots** : ➡️ Mise à jour critique d’une VM ➝ Snap avant l’update ➝ Update échoue ? ➝ Retour au snapshot sans perte.
+📌 **Exemple d’utilisation des snapshots** : 
+- ➡️ Mise à jour critique d’une VM ➝ Snap avant l’update ➝ Update échoue ? ➝ Retour au snapshot sans perte.
 
 
 
@@ -22,7 +23,10 @@
 
 🔹 **Maquettes complètes** en dupliquant une VM modèle (ex: simulateur de réseau d’entreprise).
 
-📌 **Utilisation courante** : ✅ Tester des architectures réseau. ✅ Simuler un environnement client-serveur. ✅ Développer et tester des applications sur différents OS.
+📌 **Utilisation courante** : 
+- ✅ Tester des architectures réseau.
+- ✅ Simuler un environnement client-serveur.
+- ✅ Développer et tester des applications sur différents OS.
 
 
 
@@ -60,4 +64,5 @@
 ✅ Adaptation automatique de l’affichage.
 
 ✅ Gestion des snapshots en un clic.
+
 
