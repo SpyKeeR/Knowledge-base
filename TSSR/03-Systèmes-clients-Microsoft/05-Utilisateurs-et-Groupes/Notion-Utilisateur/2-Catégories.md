@@ -20,7 +20,9 @@
 
 ✅ Il appartient au **groupe "Administrateurs"**.
 
-✅ **Deux types d’administrateurs** existent : L'utilisateur **créé lors de l’installation** de Windows. Le **compte "Administrateur"** intégré au système (désactivé par défaut).
+✅ **Deux types d’administrateurs** existent :
+- L'utilisateur **créé lors de l’installation** de Windows.
+- Le **compte "Administrateur"** intégré au système (désactivé par défaut).
 
 
 
@@ -47,3 +49,4 @@ Windows possède un **compte "Administrateur" caché** :
 ✔ **Potentielle faille de sécurité** → **Désactivé par défaut**.
 
 ✔ Peut être **activé en cas de besoin** (ex. : récupération de session administrateur).
+
