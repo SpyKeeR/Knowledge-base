@@ -16,7 +16,7 @@ Exemple : Un utilisateur **"Max"** a son profil dans **C:\Users\Max**. Un autre 
 
 ## **📂 2️⃣️Contenu d’un Profil Utilisateur**
 
-Chaque dossier **C:\Users[NomUtilisateur]** contient :
+Chaque dossier **C:\Users\[NomUtilisateur]** contient :
 
 ✔ **Documents**, **Images**, **Musique**, **Vidéos**… ✔ **Bureau** (fichiers et raccourcis personnels).
 
@@ -60,3 +60,4 @@ Windows gère plusieurs types de profils :
 - Remove-WmiObject Win32_UserProfile -Filter "LocalPath='C:\Users\NomUtilisateur'"
 
 3️⃣ **GPO (Stratégies de groupe)** pour les profils itinérants en entreprise.
+
