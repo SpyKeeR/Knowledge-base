@@ -26,11 +26,12 @@
 
 - **Clic droit sur le menu démarré** : Accès aux consoles préconfigurées (ex. : gestion des disques, gestionnaire de périphériques)
 - **Console de gestion de l'ordinateur** : Observateur d'événements, utilisateurs et groupes locaux
-- 
+
 
 ## **🛠 Créer une Console Personnalisée**
 
 - **Taper 'MMC' dans la recherche**
 - **Ajouter des composants enfichables** : Gestion des disques, pare-feu local, utilisateurs et groupes
 - **Sauvegarder la console personnalisée** : Fichier > Enregistrer sous > Nommer (ex. : "ma console")
+
 
