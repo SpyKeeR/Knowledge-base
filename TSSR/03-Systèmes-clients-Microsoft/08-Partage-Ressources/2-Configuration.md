@@ -27,7 +27,7 @@
 
 ### 📌 **Depuis l’explorateur Windows** :
 
-➡️ 📁 \\NomServeur\NomPartage ou \\Adresse_IP\NomPartage
+➡️ 📁 \\\NomServeur\NomPartage ou \\\Adresse_IP\NomPartage
 
 ➡️ 📌 Pour un accès permanent : **Connecter un lecteur réseau**
 
@@ -74,4 +74,5 @@
 ➡️ `New-SmbShare -Name "MonPartage" -Path "C:\Dossier" -FullAccess "Utilisateurs authentifiés" (PowerShell)`
 
 ⚠️ **Bonne pratique** : **Toujours donner "Contrôle total" aux utilisateurs authentifiés** sur le partage et **affiner les droits avec NTFS** 🔐
+
 
