@@ -1,4 +1,6 @@
-# Gestion📌 **🔧 À quoi sert un pilote ?**
+# Gestion
+
+## 📌 **🔧 À quoi sert un pilote ?**
 
 🔹 Le pilote (driver) est un **manuel d’utilisation** pour que l’OS puisse exploiter un périphérique
 
@@ -6,7 +8,7 @@
 
 🔹 **Pilotes signés** ✅ → Fournis avec un certificat pour éviter les écrans bleus liés à des drivers instables
 
-📌 **📂 Structure d’un pilote**
+## 📌 **📂 Structure d’un pilote**
 
 🔹 .inf → Définition du pilote (texte)
 
@@ -16,7 +18,7 @@
 
 🔹 **Installation** via clic droit sur .inf ou via un **setup.exe** du fabricant
 
-📌 **📁 Où sont stockés les pilotes ?**
+## 📌 **📁 Où sont stockés les pilotes ?**
 
 🔹 **Pilotes installés** :
 
@@ -24,7 +26,7 @@
 - C:\Windows\System32\drivers → Fichiers .sys
 - C:\Windows\System32\DriverStore → Magasin de pilotes
 
-📌 **📦 Magasin de pilotes Windows**
+## 📌 **📦 Magasin de pilotes Windows**
 
 🔹 Contient des **pilotes génériques préinstallés**
 
@@ -32,10 +34,11 @@
 
 🔹 **Limite** : Fonctionnalités parfois réduites comparées aux pilotes constructeurs
 
-📌 **⚙️ Commandes utiles**
+## 📌 **⚙️ Commandes utiles**
 
 🔹 pnputil → Gérer les pilotes du magasin Windows (ajout, suppression)
 
 🔹 driverquery → Lister les pilotes installés
 
 🔹 msinfo32 → Voir les infos détaillées sur le système et les pilotes 🚀
+
