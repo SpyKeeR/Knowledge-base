@@ -6,7 +6,8 @@
 
 ## **🛠️ Utilisation du filtrage avancé**
 
-🔹 **Commande de base** : ***Get-NetAdapter | Select-Object Name, Status, LinkSpeed***
+🔹 **Commande de base** :
+- `Get-NetAdapter | Select-Object Name, Status, LinkSpeed`
 
 ➡️ Affiche **toutes** les interfaces réseau avec leurs propriétés **Name, Status, LinkSpeed**.
 
@@ -16,7 +17,7 @@
 
 💡 **On utilise Where-Object avec -Filterscript {} et la variable $_**
 
-***Get-NetAdapter | Where-Object -Filterscript { $_.Status -eq "Up" -and $_.LinkSpeed -gt 100Mbps }***
+- `Get-NetAdapter | Where-Object -Filterscript { $_.Status -eq "Up" -and $_.LinkSpeed -gt 100Mbps }`
 
 ➡️ **Affiche uniquement** les cartes réseau :
 
@@ -39,3 +40,4 @@
 |----|----|----|
 | -and | ET logique | $_Status -eq "Up" -and $_LinkSpeed -gt 100Mbps |
 | -or | OU logique | $_Status -eq "Up" -or $_Name -like "*Wi-Fi*" |
+
