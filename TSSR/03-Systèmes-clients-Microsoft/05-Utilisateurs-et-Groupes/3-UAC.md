@@ -20,7 +20,11 @@
 
 ✔ Un utilisateur **sans jeton d’accès administrateur** ne peut pas exécuter certaines actions sensibles.
 
-**Exemple :** 🔹 Modifier le registre Windows 🔹 Installer/désinstaller un programme 🔹 Modifier les fichiers système 🔹 Gérer les utilisateurs et les groupes
+**Exemple :** 
+- 🔹 Modifier le registre Windows 
+- 🔹 Installer/désinstaller un programme 
+- 🔹 Modifier les fichiers système 
+- 🔹 Gérer les utilisateurs et les groupes
 
 
 
@@ -48,4 +52,5 @@
 
 - **Clic droit → Exécuter en tant qu’administrateur**
 - **CMD / PowerShell → "Exécuter en tant qu’administrateur"**
+
 
