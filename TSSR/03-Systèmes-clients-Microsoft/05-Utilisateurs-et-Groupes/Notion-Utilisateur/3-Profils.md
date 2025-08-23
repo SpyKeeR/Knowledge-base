@@ -18,9 +18,10 @@ Exemple : Un utilisateur **"Max"** a son profil dans **C:\Users\Max**. Un autre 
 
 Chaque dossier **C:\Users\\[NomUtilisateur]** contient :
 
-✔ **Documents**, **Images**, **Musique**, **Vidéos**… ✔ **Bureau** (fichiers et raccourcis personnels).
-
-✔ **Données des navigateurs** (favoris, cookies...). ✔ **Paramètres des applications et préférences Windows**.
+- ✔ **Documents**, **Images**, **Musique**, **Vidéos**…
+- ✔ **Bureau** (fichiers et raccourcis personnels).
+- ✔ **Données des navigateurs** (favoris, cookies...). 
+- ✔ **Paramètres des applications et préférences Windows**.
 
 💡 **Attention** : Ces fichiers sont liés à l’utilisateur et ne doivent pas être modifiés directement !
 
@@ -57,8 +58,9 @@ Windows gère plusieurs types de profils :
 1️⃣ **Panneau de configuration** → **Système** → **Paramètres système avancés** → **Profils utilisateurs**.
 
 2️⃣ **Commande PowerShell** pour supprimer un profil proprement : 
-- Remove-WmiObject Win32_UserProfile -Filter "LocalPath='C:\Users\NomUtilisateur'"
+`Remove-WmiObject Win32_UserProfile -Filter "LocalPath='C:\Users\NomUtilisateur'"`
 
 3️⃣ **GPO (Stratégies de groupe)** pour les profils itinérants en entreprise.
+
 
 
