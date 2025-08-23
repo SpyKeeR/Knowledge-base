@@ -32,9 +32,9 @@
 
 ### 📌 **Depuis la ligne de commande**
 
-➡️ mstsc /v:NomDuPC (connexion rapide)
+➡️ `mstsc /v:NomDuPC (connexion rapide)`
 
-➡️ mstsc /admin (mode administrateur)
+➡️ `mstsc /admin (mode administrateur)`
 
 
 
@@ -63,3 +63,4 @@
 🔸 **Sécurité** : Active automatiquement les règles dans le **pare-feu Windows**
 
 ✅ **Bonne pratique** : Toujours **activer NLA** et **utiliser un VPN** pour sécuriser les connexions à distance 🌐🔒
+
