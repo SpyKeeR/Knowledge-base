@@ -41,5 +41,7 @@
 
 
 
-📌 **Commande pour exporter une VM en OVA** : vmware-vdiskmanager -r <nom_VM>.vmdk -t 1 <nom_VM_export.ova>
+📌 **Commande pour exporter une VM en OVA** : 
+- `vmware-vdiskmanager -r <nom_VM>.vmdk -t 1 <nom_VM_export.ova>`
+
 
