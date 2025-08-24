@@ -1,4 +1,4 @@
-# 📌 **Principe** : En informatique, la numération est le système utilisé pour **représenter les nombres**.
+📌 **Principe** : En informatique, la numération est le système utilisé pour **représenter les nombres**.
 
 
 ## **🖥 Les Bases Courantes**
@@ -16,3 +16,4 @@
 ✅ **Facilité de conversion et d’affichage**
 
 ✅ **Utilisation en programmation et en réseaux**
+
