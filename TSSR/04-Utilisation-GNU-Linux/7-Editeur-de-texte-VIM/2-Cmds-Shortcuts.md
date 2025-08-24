@@ -8,7 +8,7 @@ Options utiles à connaître :
 - **+n** : ouvre le fichier directement à la ligne n (ex : +42 va à la ligne 42).
 - **+/motif** : ouvre le fichier en positionnant le curseur sur la première occurrence du mot ou motif recherché.
 
-Tu peux aussi ouvrir **plusieurs fichiers** d’un coup (ex : vim fichier1.txt fichier2.txt) et naviguer entre eux avec :n (suivant) ou :prev (précédent).
+Tu peux aussi ouvrir **plusieurs fichiers** d’un coup (ex : `vim fichier1.txt fichier2.txt`) et naviguer entre eux avec :n (suivant) ou :prev (précédent).
 
 ## **🖥️ Interface de Vim**
 
@@ -58,5 +58,6 @@ Vim est composé de deux zones :
 - **O** : pour créer une nouvelle ligne au-dessus
 - **Échap** : pour revenir en mode normal
 - **u** : Action précédente
+
 
 
