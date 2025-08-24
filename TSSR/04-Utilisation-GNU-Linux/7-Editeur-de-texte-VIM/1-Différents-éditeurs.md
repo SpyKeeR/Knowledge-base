@@ -39,7 +39,7 @@ Limite : moins puissant que Vim pour les grandes manips
 1.  **Mode normal** : par défaut à l’ouverture → pour naviguer ou donner des commandes
 2.  **Mode insertion** : pour écrire/modifier du texte
 3.  **Mode visuel** : pour sélectionner du texte
-4.  Utiliser la commande **vimtutor** pour apprendre a l'utiliser!
+4.  Utiliser la commande `vimtutor` pour apprendre a l'utiliser!
 
 
 
@@ -56,5 +56,6 @@ Limite : moins puissant que Vim pour les grandes manips
 - :q → **Quitter**
 - :wq ou ZZ → **Enregistrer et quitter**
 - :q! → Quitter **sans enregistrer**
+
 
 
