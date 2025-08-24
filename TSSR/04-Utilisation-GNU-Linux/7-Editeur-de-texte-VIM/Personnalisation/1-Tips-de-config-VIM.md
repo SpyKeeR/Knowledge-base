@@ -4,8 +4,6 @@
 
 Depuis Debian 9, **Vim agit bizarrement** par défaut…
 
-Si t’as déjà pété un câble en copiant/collant des blocs de code, t’es pas fou 😅
-
 **🔧 Problèmes observés :**
 
 - 🖱️ **Sélection souris** ➜ active automatiquement le **mode Visuel** (Visual Mode)
@@ -45,4 +43,5 @@ Et mets-y les paramètres suivants :
 Le chemin /usr/share/vim/vim81/ dépend de ta version de Vim.
 
 🔍 Vérifie avec vim --version et **remplace vim81 par vimXX** si besoin.
+
 
