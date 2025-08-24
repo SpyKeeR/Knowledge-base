@@ -33,7 +33,7 @@ echo $heure
 ```
 
 - Exécute date et stocke le résultat dans la variable
-- ⚠️ Syntaxe : \$() (et pas juste \$)
+- ⚠️ Syntaxe : `$()` (et pas juste `$`)
 
 
 
@@ -61,6 +61,7 @@ echo $heure
 
 - Affiche le chemin complet de la commande (/usr/bin/ls)
 - Le shell va utiliser ce chemin réel pour exécuter la commande
+
 
 
 
