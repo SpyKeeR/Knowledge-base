@@ -22,7 +22,7 @@ echo $var`
 - `export var="Bonjour Monde"`
 
 ➡️ Devient une **variable d’environnement** : Disponible dans tous les **sous-shells** (Pas inscrit au redémarrage, ni aux sessions non-enfant du shell actuel)  
-Pour inscrire une variable > ~/.bashrc (~/.profile across all shells) (ouverture même session user) OU /etc/environment (Toute la machine)
+Pour inscrire une variable > \~/.bashrc (\~/.profile across all shells) (ouverture même session user) OU /etc/environment (Toute la machine)
 
 
 
@@ -61,4 +61,5 @@ echo $heure
 
 - Affiche le chemin complet de la commande (/usr/bin/ls)
 - Le shell va utiliser ce chemin réel pour exécuter la commande
+
 
