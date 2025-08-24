@@ -8,7 +8,7 @@ Ces symboles permettent de créer des motifs souples et précis :
 - ^ : Début de ligne
 - $ : Fin de ligne
 - \* : Zéro ou plusieurs fois le caractère précédent
-- + : Une ou plusieurs fois le caractère précédent
+- \+ : Une ou plusieurs fois le caractère précédent
 - \? : Zéro ou une fois le caractère précédent
 - \[] : Classe de caractères (ex : [abc] → a, b ou c)
 - | : OU logique (ex : a|b → a ou b)
@@ -75,6 +75,7 @@ Les parenthèses permettent de **grouper** une expression et de **réutiliser so
 - \\l : Met en **minuscule** la **lettre suivante**
 - \\L : Met en **minuscule** tout ce qui suit jusqu’à \E
 - \\E : Marque la fin d’un effet (\U, \L, etc.)
+
 
 
 
