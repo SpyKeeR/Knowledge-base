@@ -16,7 +16,8 @@ Affiche un fichier texte page par page.
 
 ➡️ Espace pour avancer, q pour quitter.
 
-🛠️ Option -d : message d’aide en bas. 🛠️ Option -s : supprime les lignes blanches en double.
+- 🛠️ Option -d : message d’aide en bas. 
+- 🛠️ Option -s : supprime les lignes blanches en double.
 
 ❗ Lecture uniquement vers le bas.
 
@@ -32,7 +33,9 @@ Une version améliorée de more avec navigation libre.
 
 ℹ️ h pour afficher l’aide intégrée.
 
-🛠️ Options utiles : -s (supprime doublons), -i (ignore la casse).
+🛠️ Options utiles : 
+- -s (supprime doublons)
+- -i (ignore la casse).
 
 ✅ Ne quitte pas à la fin du fichier : tu peux remonter, faire d'autres recherches, etc.
 
@@ -54,9 +57,8 @@ Montre les dernières lignes.
 
 📌 Par défaut : 10 lignes.
 
-🛠️ -n pour choisir combien de ligne. 
-
-🔥 -f pour suivre un fichier en temps réel (logs, etc.). CTRL+C pour sortir.
+- 🛠️ -n pour choisir combien de ligne. 
+- 🔥 -f pour suivre un fichier en temps réel (logs, etc.). CTRL+C pour sortir.
 
 
 
@@ -67,4 +69,5 @@ Compte ce que contient un fichier texte.
 🛠️ -l lignes, -w mots, -m caractères, -c octets.
 
 💡 Exemple : wc -l fichier.txt → te donne le nombre de lignes.
+
 
