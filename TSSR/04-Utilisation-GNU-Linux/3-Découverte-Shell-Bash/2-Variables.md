@@ -10,11 +10,14 @@ Une **variable** est une **zone mémoire nommée** → elle contient une donnée
 
 **👤 Exemple simple**
 
-prénom="Romain"  
+```bash
+prénom="Romain"
 echo $prénom # Affiche : Romain
-
+```
+```bash
 prénom="Sophia"  
 echo $prénom # Affiche : Sophia
+```
 
 🧠 *→ même contenant (prénom), mais contenu différent selon le contexte.*
 
@@ -22,7 +25,7 @@ echo $prénom # Affiche : Sophia
 
 ## **🧹 Supprimer une variable**
 
-unset prénom
+`unset prénom`
 
 
 
@@ -30,9 +33,9 @@ unset prénom
 
 ➡️ **Créées par le système** au démarrage, ou lors de la connexion.
 
-📢 Liste toutes les variables d’environnement : env
+📢 Liste toutes les variables d’environnement : `env`
 
-📢 Liste *tout* (env + fonctions) → très verbeux : set
+📢 Liste *tout* (env + fonctions) → très verbeux : `set`
 
 
 
@@ -50,4 +53,5 @@ unset prénom
 🔁 **Équivalent Windows** : %PATH%, %USERNAME%, etc.
 
 🌀 Raccourci ultime : ~ (ALT-G-R-2 sur clavier FR) = $HOME
+
 
