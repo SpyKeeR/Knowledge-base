@@ -6,7 +6,7 @@ Affiche tout le contenu d’un fichier en une seule fois.
 
 📌 Lecture simple, rapide, mais peu pratique pour les gros fichiers.
 
-📌 Permet de concaténer (cat fichier1 fichier2) ou de créer un fichier (cat > nouveau.txt + CTRL+D pour terminer).
+📌 Permet de concaténer `cat fichier1 fichier2` ou de créer un fichier (`cat > nouveau.txt` + CTRL+D pour terminer).
 
 
 
@@ -68,6 +68,7 @@ Compte ce que contient un fichier texte.
 
 🛠️ -l lignes, -w mots, -m caractères, -c octets.
 
-💡 Exemple : wc -l fichier.txt → te donne le nombre de lignes.
+💡 Exemple : `wc -l fichier.txt` → te donne le nombre de lignes.
+
 
 
