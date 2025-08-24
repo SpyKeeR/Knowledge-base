@@ -48,7 +48,7 @@ Linux fait la différence entre **majuscules et minuscules** :
 
 ## **💻 Le prompt**
 
-Le **prompt** est l’invite du Shell, il ressemble souvent à ça : user30@Host $
+Le **prompt** est l’invite du Shell, il ressemble souvent à ça : `user30@Host $`
 
 
 
@@ -64,3 +64,4 @@ Le **prompt** est l’invite du Shell, il ressemble souvent à ça : user30@Host
     - **`cp fichier.txt /home/user` → deux arguments (source + destination)**
 
 📌 Les options commencent souvent par - ou --, parfois +, et peuvent être groupées (ls -la)
+
