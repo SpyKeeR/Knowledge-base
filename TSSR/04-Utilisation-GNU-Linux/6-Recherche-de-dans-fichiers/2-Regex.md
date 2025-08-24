@@ -24,8 +24,8 @@ Ils permettent de définir **le nombre de répétitions** exactes ou approximati
 ### **✅ Exemples concrets :**
 
 - .* : Zero ou plusieurs caractères quelconques
-- \\ : Un ou plusieurs caractères (comme +, mais échappé en Bash)
-- \\ : Aucun ou un seul caractère
+- \\+ : Un ou plusieurs caractères (comme +, mais échappé en Bash)
+- \\? : Aucun ou un seul caractère
 - ab\3,\c : a, suivi de **au moins 3 fois b**, suivi de c
 - ab\5\c : a, **exactement 5 fois b**, puis c
 - ^\[15]\ : Début de ligne avec **0 ou plus de 1 ou 5**
@@ -75,6 +75,7 @@ Les parenthèses permettent de **grouper** une expression et de **réutiliser so
 - \\l : Met en **minuscule** la **lettre suivante**
 - \\L : Met en **minuscule** tout ce qui suit jusqu’à \E
 - \\E : Marque la fin d’un effet (\U, \L, etc.)
+
 
 
 
