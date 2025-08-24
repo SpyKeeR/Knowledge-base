@@ -42,6 +42,7 @@ Et mets-y les paramètres suivants :
 
 Le chemin /usr/share/vim/vim81/ dépend de ta version de Vim.
 
-🔍 Vérifie avec vim --version et **remplace vim81 par vimXX** si besoin.
+🔍 Vérifie avec `vim --version` et **remplace vim81 par vimXX** si besoin.
+
 
 
