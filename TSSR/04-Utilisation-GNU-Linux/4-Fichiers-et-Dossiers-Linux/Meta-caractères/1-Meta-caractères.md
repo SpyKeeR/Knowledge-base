@@ -21,7 +21,8 @@ Les **méta-caractères** permettent de faire des recherches ou manipulations de
 
 ## **🔢 [] — Liste ou plage de caractères**
 
-→ Correspond **à un seul caractère parmi une liste/plage >** ls tel20\[1-2]\[0-9] # tel2010 → tel2029
+→ Correspond **à un seul caractère parmi une liste/plage**
+- `ls tel20[1-2][0-9]` # tel2010 → tel2029
 
 
 
@@ -50,4 +51,5 @@ Les **méta-caractères** permettent de faire des recherches ou manipulations de
 ## 🎯 **$()** - **Appel du résultat d'une commande**
 
 `echo "Résultat : $(ls)"` # Exécute `ls` et affiche le résultat
+
 
