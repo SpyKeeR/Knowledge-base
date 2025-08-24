@@ -1,10 +1,13 @@
-# Liens physiquesContrairement aux liens symboliques, les **liens physiques** pointent directement vers l’**inode** du fichier, donc vers les **données elles-mêmes**. C’est une autre manière de "renommer" un fichier sans le dupliquer, en partageant le même identifiant système.
+# Liens physiques
+
+
+Contrairement aux liens symboliques, les **liens physiques** pointent directement vers l’**inode** du fichier, donc vers les **données elles-mêmes**. C’est une autre manière de "renommer" un fichier sans le dupliquer, en partageant le même identifiant système.
 
 
 
-**🛠️ Création d’un lien physique**
+## **🛠️ Création d’un lien physique**
 
-*ln source cible*
+`ln source cible`
 
 📌 Pas d’option -s ici.
 
@@ -14,7 +17,7 @@
 
 
 
-**⚙️ Fonctionnement interne**
+## **⚙️ Fonctionnement interne**
 
 🔁 Tous les liens physiques partagent le **même inode**.
 
@@ -24,7 +27,7 @@
 
 
 
-**🔎 Affichage et comportement**
+## **🔎 Affichage et comportement**
 
 📄 Les fichiers apparaissent comme des **fichiers normaux**, sans coloration spéciale.
 
@@ -36,7 +39,7 @@
 
 
 
-**🚚 Mobilité & robustesse**
+## **🚚 Mobilité & robustesse**
 
 🪄 Contrairement aux liens symboliques, les liens physiques **ne sont pas affectés** par le **déplacement** du fichier source.
 
@@ -46,7 +49,7 @@
 
 
 
-**🧹 Suppression**
+## **🧹 Suppression**
 
 🗑️ Supprimer un lien physique ne détruit **pas** les données tant qu’il reste d'autres liens.
 
@@ -54,7 +57,7 @@
 
 
 
-**✅ Avantages**
+## **✅ Avantages**
 
 ✔️ Pas sensible au **chemin** (contrairement aux liens symboliques)
 
@@ -62,10 +65,11 @@
 
 ✔️ Pas de liens cassés si on déplace les fichier
 
-**❌ Inconvénients**
+## **❌ Inconvénients**
 
 ❗ Ne fonctionne que sur le **même système de fichiers**
 
 ❗ Impossible de faire un lien vers un **répertoire**
 
 ❗ Pas de repérage visuel dans le terminal (pas de couleur spécifique)
+
