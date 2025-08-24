@@ -4,9 +4,9 @@
 
 Une **variable** est une **zone mémoire nommée** → elle contient une donnée que tu peux lire, modifier, ou supprimer.
 
-🟢 Création : var="contenu de la variable"
+🟢 Création : `var="contenu de la variable"`
 
-📢 Affichage (on lit le **contenu**, pas le nom) : echo $var
+📢 Affichage (on lit le **contenu**, pas le nom) : `echo $var`
 
 **👤 Exemple simple**
 
@@ -53,5 +53,6 @@ echo $prénom # Affiche : Sophia
 🔁 **Équivalent Windows** : %PATH%, %USERNAME%, etc.
 
 🌀 Raccourci ultime : ~ (ALT-G-R-2 sur clavier FR) = $HOME
+
 
 
