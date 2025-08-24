@@ -38,7 +38,7 @@ Les parenthèses permettent de **grouper** une expression et de **réutiliser so
 - \\( … \\) : Définit un **groupe** capturé
 - \\1, \\2, etc. : Réutilise les groupes précédents
 
-**Exemple** : a\\[bc]\\d\\1
+**Exemple** : a\\([bc]\\)d\\1
 
 → Matche : abdb ou acdc
 
@@ -75,6 +75,7 @@ Les parenthèses permettent de **grouper** une expression et de **réutiliser so
 - \\l : Met en **minuscule** la **lettre suivante**
 - \\L : Met en **minuscule** tout ce qui suit jusqu’à \E
 - \\E : Marque la fin d’un effet (\U, \L, etc.)
+
 
 
 
