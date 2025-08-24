@@ -20,14 +20,14 @@
 
 - Licence phare du libre 🌟
 - Utilisée par : Linux, GNU, et plein d’autres projets
-- Version actuelle : **GPLv3 **
+- Version actuelle : **GPLv3**
 - 4 libertés fondamentales :
   - Exécuter le logiciel pour **tout usage
   - ** Étudier / modifier le code source 👨‍💻
   - Redistribuer le logiciel ♻️
   - Partager les versions modifiées avec la communauté
 
-### ** Apache License 2.0**
+### **Apache License 2.0**
 
 - Gérée par la *Apache Software Foundation
 - Autorise la modification et redistribution✅
@@ -58,4 +58,5 @@
 - Une licence libre **protège les droits des utilisateurs** et **encourage le partage**
 - La **GPL** est la plus utilisée dans le monde Linux, mais d'autres licences existent pour répondre à des besoins différents
 - **Creative Commons** est centrée sur les œuvres artistiques, pas sur le code
+
 
