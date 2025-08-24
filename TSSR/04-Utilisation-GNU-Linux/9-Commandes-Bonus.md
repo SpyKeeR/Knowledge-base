@@ -1,106 +1,72 @@
-# 9 - Commandes Bonusncdu/ranger - explorateur de fichiers
+# Commandes Bonus
 
-duf - Drive usage plus joli
+- `ncdu/ranger` - explorateur de fichiers
 
-ripgrep - grep modern
+- `duf` - Drive usage plus joli
 
-mosh - roaming ssh
+- `ripgrep` - grep modern
 
-lshw - list hardware
+- `mosh` - roaming ssh
 
-mtr - traceroute dynamic
+- `lshw` - list hardware
 
-fd - find faster
+- `mtr` - traceroute dynamic
 
-fzf - filtering an output(?)
+- `fd` - find faster
 
-zoxide - cd but with a memory of frequently used folder (zi - interactive)
+- `fzf` - filtering an output(?)
 
-exa - ls with a tree.
+- `zoxide` - cd but with a memory of frequently used folder (zi - interactive)
 
-glances - htop like
+- `exa` - ls with a tree.
 
-iotop - input/output monitoring
+- `glances` - htop like
 
-stat - details about a file
+- `iotop` - input/output monitoring
 
-dstat - monitoring of all systems values in one line
+- `stat` - details about a file
 
-watch - make a command be live, cycling the cmd to refresh values/output of it
+- `dstat` - monitoring of all systems values in one line
 
-progress - view progress of copy/transfer files
+- `watch` - make a command be live, cycling the cmd to refresh values/output of it
 
-dig - modern version of dig
+- `progress` - view progress of copy/transfer files
 
-termshark - Wireshark CLI like
+- `dig` - modern version of dig
 
-lsof -i :22 - ss like filtering listeting specifiedport
+- `termshark` - Wireshark CLI like
 
-ipcalc - subnetting tool
+- `lsof -i :22` - ss like filtering listeting specifiedport
 
-wormhole - P2P transfer file tool
+- `ipcalc` - subnetting tool
 
-systemd-analyze blame - find which service/socket taking the most time at boot
+- `wormhole` - P2P transfer file tool
 
-systemd-analyze critical-chain - analyze the chain of launch by systemd
+- `systemd-analyze blame` - find which service/socket taking the most time at boot
 
-procs - ps aux more friendly
+- `systemd-analyze critical-chain` - analyze the chain of launch by systemd
 
-lazydocker - CLI friendly for docker
+- `procs` - ps aux more friendly
 
-shred - multipass delete file tool
+- `lazydocker` - CLI friendly for docker
 
-ts - Add timestaps to each line of an output (piping command)
+- `shred` - multipass delete file tool
 
-errno - asking what error is link to an error code
+- `ts` - Add timestaps to each line of an output (piping command)
 
-ifdata - to get interface config clearly
+- `errno` - asking what error is link to an error code
 
-vipe - Use vi as editor of what is piped in between 2 commands (piping command)
+- `ifdata` - to get interface config clearly
 
-unp - alias calling an archiver tool based on the type of archive pointed
+- `vipe` - Use vi as editor of what is piped in between 2 commands (piping command)
 
-jq - JSON parser
+- `unp` - alias calling an archiver tool based on the type of archive pointed
 
-taskwarrior - Todolist tool/tasks/reminder
+- `jq` - JSON parser
 
-asciinema rec/play/agg - Recording a terminal, replay it, export gif
+- `taskwarrior` - Todolist tool/tasks/reminder
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- `asciinema rec/play/agg` - Recording a terminal, replay it, export gif
 
 
 
