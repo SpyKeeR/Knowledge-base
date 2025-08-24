@@ -10,7 +10,7 @@
 
 ## **🟦 2. Nano – Simple et efficace**
 
-**▶️ Lancer Nano :** *nano fichier.txt*
+**▶️ Lancer Nano :** `nano fichier.txt`
 
 **🧰 Commandes de base :**
 
@@ -56,4 +56,5 @@ Limite : moins puissant que Vim pour les grandes manips
 - :q → **Quitter**
 - :wq ou ZZ → **Enregistrer et quitter**
 - :q! → Quitter **sans enregistrer**
+
 
