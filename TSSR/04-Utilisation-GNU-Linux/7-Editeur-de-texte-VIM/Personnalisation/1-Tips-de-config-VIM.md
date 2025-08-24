@@ -7,9 +7,8 @@ Depuis Debian 9, **Vim agit bizarrement** par défaut…
 **🔧 Problèmes observés :**
 
 - 🖱️ **Sélection souris** ➜ active automatiquement le **mode Visuel** (Visual Mode)
-- 🧷 **Copie d’un bloc** avec des commentaires ➜ **multicommente tout à partir de la 1re ligne commentée  **
-  ➜ Résultat foireux du style :  
-  #echo coucou devient #echo coucou #fi
+- 🧷 **Copie d’un bloc** avec des commentaires ➜ **multicommente tout à partir de la 1re ligne commentée**
+  ➜ Résultat foireux du style :  #echo coucou devient #echo coucou #fi
 
 
 
@@ -43,6 +42,7 @@ Et mets-y les paramètres suivants :
 Le chemin /usr/share/vim/vim81/ dépend de ta version de Vim.
 
 🔍 Vérifie avec `vim --version` et **remplace vim81 par vimXX** si besoin.
+
 
 
 
