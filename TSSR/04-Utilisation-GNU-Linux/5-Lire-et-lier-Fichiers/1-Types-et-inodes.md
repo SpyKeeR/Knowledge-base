@@ -10,7 +10,7 @@ Sous **Linux/Unix**, **TOUT** est considéré comme un fichier : 🖥️ clavier
 
 Linux se **fiche de l’extension** d’un fichier ! → .txt, .jpg ne sont **que des conventions humaines**.
 
-✅ Pour connaître le vrai type de fichier : *file monfichier*
+✅ Pour connaître le vrai type de fichier : `file monfichier`
 
 
 
@@ -29,4 +29,5 @@ Un **inode** contient **les métadonnées** du fichier :
 
 
 ⚠️ L’**inode ne contient PAS le nom du fichier** ! → Le système fait un lien entre le **nom** et l’**inode** associé 🧷
+
 
