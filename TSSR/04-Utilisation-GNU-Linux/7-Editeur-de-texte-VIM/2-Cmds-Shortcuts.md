@@ -1,6 +1,6 @@
 # Cmds / Shortcuts
 
-Pour ouvrir un fichier avec Vim, tu peux taper : ***vim nom_du_fichier***
+Pour ouvrir un fichier avec Vim, tu peux taper : `vim nom_du_fichier`
 
 Options utiles à connaître :
 
@@ -58,4 +58,5 @@ Vim est composé de deux zones :
 - **O** : pour créer une nouvelle ligne au-dessus
 - **Échap** : pour revenir en mode normal
 - **u** : Action précédente
+
 
