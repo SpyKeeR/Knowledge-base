@@ -4,7 +4,7 @@
 
 - **Prompt (invite de commande)** :
   - $ → utilisateur standard
-  - # → utilisateur root (⚠️ superadmin)
+  - \# → utilisateur root (⚠️ superadmin)
 - **Zone de saisie** : là où tu tapes ta commande.
 - **Résultat** : retour de la commande (infos, erreurs, rien si succès silencieux ✅).
 
@@ -37,14 +37,15 @@
 ## **🌍 Variables d’environnement :**
 
 - Ex : $HOME, $USER, $PATH
-- Pour voir toutes les variables : printenv ou env
-- Pour en définir une temporairement : export MA_VAR=truc
+- Pour voir toutes les variables : `printenv` ou `env`
+- Pour en définir une temporairement : `export MA_VAR=truc`
 
 
 
 ## **🆘 Aide intégrée (super utile quand on est bloqué) :**
 
-- man → manuel (ex : man ls)
+- `man` → manuel (ex : man ls)
 - --help → aide rapide (ex : ls --help)
-- apropos → recherche dans les manuels (ex : apropos password)
+- `apropos` → recherche dans les manuels (ex : apropos password)
+
 
