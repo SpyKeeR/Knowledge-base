@@ -23,7 +23,7 @@ Contrairement aux liens symboliques, les **liens physiques** pointent directemen
 
 🧠 Le système voit plusieurs noms qui **pointent vers la même structure de données**.
 
-📜 En listant avec ls -i, on voit le **même numéro d’inode** pour chaque lien.
+📜 En listant avec `ls -i`, on voit le **même numéro d’inode** pour chaque lien.
 
 
 
@@ -72,4 +72,5 @@ Contrairement aux liens symboliques, les **liens physiques** pointent directemen
 ❗ Impossible de faire un lien vers un **répertoire**
 
 ❗ Pas de repérage visuel dans le terminal (pas de couleur spécifique)
+
 
