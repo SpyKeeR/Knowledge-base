@@ -1,6 +1,6 @@
-# Install. Windows 10**
+# **Install. Windows 10**
 
-## 🔍 1. Prérequis**
+## **🔍 1. Prérequis**
 
 ✔️ **Matériel & logiciel** compatibles
 
@@ -23,4 +23,5 @@
 ✔️ Activation des fonctionnalités clés ⚡
 
 ✅ **Objectif** : Maîtriser l’installation & config de Windows 10 pour les métiers **Systèmes & Réseaux** 🛠️
+
 
