@@ -9,7 +9,7 @@ Quand t’as **pas d’interface graphique** sur ton Linux, c’est **/etc/netwo
 💡 **Attention** : ce fichier est sensible. Une erreur et tu perds la connexion !
 
 ### **📌 1. Configurer une carte réseau (ex: ens33)**
-Ne jamais toucher à la conf Loopback**
+**Ne jamais toucher à la conf Loopback**
 
 **Activation automatique** : auto ens33
 
@@ -48,6 +48,7 @@ sudo systemctl start networking
 ```
 
 ✅ **stop + start** est souvent mieux que **restart**, qui peut être brutal et mal recharger certaines interfaces.
+
 
 
 
