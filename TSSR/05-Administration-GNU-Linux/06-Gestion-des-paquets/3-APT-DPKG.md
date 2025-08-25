@@ -8,7 +8,6 @@ Ensuite, retiens que tu utiliseras principalement trois commandes : `apt`, `apt-
 
 - `apt` est plus moderne, il gère mieux les dépendances.
 - `apt-get` est plus ancien mais toujours utilisé.
-- `Conseil :` reste fidèle à l'un des deux pour éviter les conflits internes.
 
 ⚡ aptitude existe mais n’est plus installé par défaut depuis Debian 10.
 
@@ -37,4 +36,5 @@ Ensuite, retiens que tu utiliseras principalement trois commandes : `apt`, `apt-
 - Historique dpkg : /var/log/dpkg.log
 
 👉 Pratique pour comprendre ce qui a été installé, mis à jour ou supprimé.
+
 
