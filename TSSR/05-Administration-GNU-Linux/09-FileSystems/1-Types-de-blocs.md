@@ -14,7 +14,7 @@ Contient **les infos vitales** du FS.
 
 🔥 **Important** : le superbloc est **dupliqué** plusieurs fois pour pouvoir récupérer le FS en cas de pépin !
 
-## - 🧩 **Blocs d'inodes** 
+## 🧩 **Blocs d'inodes** 
 Blocs qui stockent **les inodes**.
   - Chaque **inode** fait **128 octets**
   - 📄 Type de fichier (fichier classique, répertoire, lien symbolique...)
@@ -39,4 +39,5 @@ Blocs qui stockent **les inodes**.
 → Liste de tous les **inodes disponibles** (libres) pour accueillir de nouveaux fichiers.
 ### 🧩 **Table des blocs libres** 
 → Liste de tous les **blocs de données disponibles**.
+
 
