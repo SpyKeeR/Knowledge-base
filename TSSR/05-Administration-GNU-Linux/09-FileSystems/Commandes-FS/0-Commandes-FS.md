@@ -38,7 +38,7 @@ Quand tu modifies **la taille** d'une partition ou d'un volume logique, pense à
 
 Si tu soupçonnes un problème sur un disque ➔ **Check et réparation** avec **fsck** :
 
-`fsck /dev/sdX1` ➔ Vérifie et tente de corriger le système de fichiers |
+`fsck /dev/sdX1` ➔ Vérifie et tente de corriger le système de fichiers
 
 **fsck** est super utile après : Une coupure de courant ⚡ Un arrêt brutal du serveur 💥 Des erreurs système suspectes 🧐
 
@@ -60,6 +60,7 @@ Affiche **l'arborescence** des disques et partitions.
 
 - `lsblk`    ➔ Vue graphique simple (pas de label/UUID)
 - `lsblk -f` ➔ Vue avec **labels et UUID** 
+
 
 
 
