@@ -4,6 +4,8 @@
 
 - `mkfs.ext4 /dev/sdc1` ➔ Formater en EXT4 (utilise mke2fs en interne)
 - `mkfs.ntfs /dev/sde1` ➔ Formater en NTFS (si paquets installés)
+
+
 **Petit +** : On peut ajouter directement un **label** (nom du volume) avec certaines options !
 
 
@@ -58,5 +60,6 @@ Affiche **l'arborescence** des disques et partitions.
 
 - `lsblk`    ➔ Vue graphique simple (pas de label/UUID)
 - `lsblk -f` ➔ Vue avec **labels et UUID** 
+
 
 
