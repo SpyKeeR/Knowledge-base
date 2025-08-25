@@ -46,7 +46,8 @@ Chaque ligne de /etc/fstab suit cette structure :
 ### **🛡️ Comment sécuriser avant de redémarrer ?**
 
 - **Ne JAMAIS redémarrer direct** après un changement fstab.
-- Toujours **tester** avec : mount -a (ou mount /dev/xxx pour cibler)  
+- Toujours **tester** avec : `mount -a` (ou mount /dev/xxx pour cibler)  
   ➔ Cela tente de monter **tout ce qui est déclaré** dans fstab, sans reboot.  
   ➔ Si erreur ➔ tu la vois tout de suite et tu peux corriger.
+
 
