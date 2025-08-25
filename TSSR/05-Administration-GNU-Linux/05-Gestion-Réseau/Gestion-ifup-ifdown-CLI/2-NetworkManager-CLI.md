@@ -11,8 +11,10 @@ C’est particulièrement utile pour configurer une **interface réseau filaire 
 
 ## ⚙️ Commande de création d’une connexion Ethernet avec configuration manuelle
 
+```bash
 nmcli con add con-name my-con-em1 ifname em1 type ethernet \
   ip4 192.168.100.100/24 gw4 192.168.100.1 ip4 1.2.3.4 ip6 abbe::cafe
+```
 
 📌 **Explications :**
 - `con-name my-con-em1` ➝ Nom de la connexion (arbitraire, utilisé pour la gestion avec `nmcli`)
