@@ -10,7 +10,7 @@ Au 1er lancement de crontab -e, Debian propose un éditeur (Nano, VimBasic…). 
 ## **📋 Structure d'une ligne crontab**
 
 Une ligne = 6 champs + commande à exécuter :
-
+```bash
 * * * * * commande
 
 - - - - -
@@ -26,6 +26,7 @@ Une ligne = 6 champs + commande à exécuter :
 | +---------- Heure (0 - 23)
 
 +------------ Minute (0 - 59)
+```
 
 | **Champ** | **Valeurs possibles** | **Signification** |
 |----|----|----|
@@ -39,8 +40,9 @@ Une ligne = 6 champs + commande à exécuter :
 
 ## **🧩 Caractères spéciaux dans cron**
 
-- * → tous les cas possibles (joker)
-- , → liste (ex : 1,15 pour le 1er et le 15 du mois)
-- - → intervalle (ex : 1-5 = lundi à vendredi)
+- \* → tous les cas possibles (joker)
+- \, → liste (ex : 1,15 pour le 1er et le 15 du mois)
+- \- → intervalle (ex : 1-5 = lundi à vendredi)
 - / → fréquence (ex : */10 = toutes les 10 minutes)
+
 
