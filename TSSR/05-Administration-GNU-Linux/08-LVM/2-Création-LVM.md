@@ -14,7 +14,7 @@
 
 On convertit nos partitions ou disques en volumes physiques avec **pvcreate**.
 
-| *pvcreate /dev/sdb1 /dev/sdb2 /dev/sdc1 /dev/sdd* | Transforme ces partitions/disques en volumes physiques |
+`pvcreate /dev/sdb1 /dev/sdb2 /dev/sdc1 /dev/sdd` → Transforme ces partitions/disques en volumes physiques
 
 💬 **Astuce** : Même si tu peux utiliser un disque entier, c’est plus propre de partitionner avant !
 
@@ -24,7 +24,7 @@ On convertit nos partitions ou disques en volumes physiques avec **pvcreate**.
 
 Ensuite, on crée un **Volume Group** avec **vgcreate**.
 
-| *vgcreate vggroup1 /dev/sdb1 /dev/sdb2 /dev/sdc1* | Crée un VG nommé **vggroup1** avec les 3 PV |
+`vgcreate vggroup1 /dev/sdb1 /dev/sdb2 /dev/sdc1` → Crée un VG nommé **vggroup1** avec les 3 PV
 
 💬 **Astuce** : Mets "vg" dans le nom de ton VG, genre **vgdata**, **vgsystem**… ça aide à s’y retrouver !
 
@@ -34,7 +34,7 @@ Ensuite, on crée un **Volume Group** avec **vgcreate**.
 
 Puis on découpe notre espace avec **lvcreate**.
 
-| *lvcreate -n LvHome -L 20G vggroup1* | Crée un LV nommé **LvHome** de 20 Go dans **vggroup1** |
+`lvcreate -n LvHome -L 20G vggroup1` → Crée un LV nommé **LvHome** de 20 Go dans **vggroup1**
 
 💬 **Astuce** : Utilise "Lv" dans tes noms de volumes logiques (**LvRoot**, **LvSwap**, etc).
 
@@ -42,9 +42,9 @@ Puis on découpe notre espace avec **lvcreate**.
 
 Deux chemins possibles pour utiliser nos volumes :
 
-| Classique | /dev/vgSystem/LvHome        |
-|-----------|-----------------------------|
-| Mapper    | /dev/mapper/vgSystem-LvHome |
+- Classique → /dev/vgSystem/LvHome
+- Mapper → /dev/mapper/vgSystem-LvHome
 
 On utilise surtout le premier car c’est **plus clair**, mais les deux existent selon les outils que tu utilises.
+
 
