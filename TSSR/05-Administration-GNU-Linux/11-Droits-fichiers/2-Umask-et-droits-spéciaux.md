@@ -32,7 +32,7 @@ Il soustrait des droits maximaux :
 | **Setgid** | 2 | Le fichier s’exécute avec les droits du **groupe** | **Fichiers et sous-dossiers(setGID aussi) créés** héritent du **groupe parent** |
 | **Sticky Bit** | 1 | Maintenait un binaire en swap pour accès rapide (obsolète) | Seul le **propriétaire du fichier ou root** peut supprimer ses fichiers |
 
-Appliquer ces droits spéciaux soit par la valeur octale : *4*644 ou symboliquement : u+s, g+s, o+t
+Appliquer ces droits spéciaux soit par la valeur octale : **4**644 ou symboliquement : u+s, g+s, o+t
 
 
 
@@ -48,5 +48,6 @@ Quand un droit spécial est activé, il est visible à la place du x dans les pe
 - -rwsr-xr-x → setuid actif
 - drwxrwsr-x → setgid sur dossier
 - drwxrwxrwt → sticky bit sur /tmp
+
 
 
