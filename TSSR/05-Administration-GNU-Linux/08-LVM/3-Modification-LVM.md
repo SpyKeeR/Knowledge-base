@@ -10,8 +10,8 @@
 
 ## **📈 Agrandir un Volume Logique (LV)**
 
-`lvextend -l +512M /dev/vg-group/lv1` Ajoute **512 Mo** à **lv1**
-`lvextend -L 1G /dev/vg-group/lv2` Fixe la taille de **lv2** à **1 Go**
+`lvextend -l +512M /dev/vg-group/lv1` → Ajoute **512 Mo** à **lv1**
+`lvextend -L 1G /dev/vg-group/lv2` → Fixe la taille de **lv2** à **1 Go**
 
 💬 **Astuce** :
 
@@ -22,7 +22,7 @@
 
 ## **⚠️ Réduire un Volume Logique (lvreduce)**
 
-`lvreduce -L 500M /dev/vg-group/lv1` | Réduit la taille de **lv1** à **500 Mo**
+`lvreduce -L 500M /dev/vg-group/lv1` → Réduit la taille de **lv1** à **500 Mo**
 
 **Attention** 🚨 :
 
@@ -39,4 +39,5 @@ Quand tu ajoutes un disque sans redémarrer, voici comment forcer le système à
 |----|----|----|
 | 1. Trouver la chaîne SCSI | `udevadm info --query=path --name=sda` | /devices/00/0000:00:10.0/host0/target0:0:0/0:0:0:0/block/sda |
 | 2. Scanner la chaîne SCSI | `echo "- - -" > /sys/class/scsi_host/host0/scan` | Ici, c'est host0, mais adapte selon ce que tu trouves |
+
 
