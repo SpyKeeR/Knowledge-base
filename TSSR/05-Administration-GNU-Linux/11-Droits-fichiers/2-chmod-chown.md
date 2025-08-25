@@ -11,8 +11,8 @@ Permet de modifier (*Utilisable par root et proprio fichier*) les droits pour :
 
 Symbole à utiliser :
 
-- + pour ajouter un droit
-- - pour retirer un droit
+- \+ pour ajouter un droit
+- \- pour retirer un droit
 - = pour définir uniquement ce droit (écrase les autres)
 
 **Exemple :** `chmod g+w,o-rx /data/commun` ➡️ Ajoute le droit d’écriture au groupe, retire lecture et exécution pour les autres.
@@ -48,4 +48,5 @@ Utilisable **que par root** en cas de **changement d'user propriétaire**, **roo
 Utilisable par **root et propriétaire du fichier**.
 
 **Exemple :** `chgrp reseau /data/commun` ➡️ Change seulement le groupe, sans toucher au propriétaire.
+
 
