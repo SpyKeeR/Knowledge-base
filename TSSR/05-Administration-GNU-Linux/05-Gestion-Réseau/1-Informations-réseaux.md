@@ -47,9 +47,10 @@ search exemple.domaine
 **À savoir** :
 
 - **search** pour domaines à utiliser pour compléter les hostname seuls
-- **domain** pour 1 domaine à utiliser pour compléter les hostnames
+- **domain** pour 1 domaine à utiliser pour compléter les hostnames (déprécié)
 - **nameserver** pour designer des Serveurs résolveurs DNS
 - **options** pour configurer des options supplémentaires
+
 
 
 
