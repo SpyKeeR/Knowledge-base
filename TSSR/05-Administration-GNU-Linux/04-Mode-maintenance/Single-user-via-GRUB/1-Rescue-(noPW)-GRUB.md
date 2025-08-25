@@ -50,5 +50,6 @@ Cela garantit que tous les fichiers sont correctement libérés et prêts à êt
 
 - Appuie quelques secondes sur **Power** 🔘 pour éteindre OU `echo 1 > /proc/sys/kernel/sysrq && echo b > /proc/sysrq-trigger`
 
-**⚠️ Prudence** : Éteindre brutalement peut être risqué ➔ **Toujours faire `sync` puis `umount` avant`** !
+**⚠️ Prudence** : Éteindre brutalement peut être risqué ➔ **Toujours faire `sync` puis `umount` avant** !
+
 
