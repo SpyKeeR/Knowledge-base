@@ -27,7 +27,7 @@
 
 ## **4️⃣ Programmer un arrêt**
 
-➡️ **Arrêt dans 10 minutes** : `shutdown -h +10` "Arrêt du système dans 10 minutes"*
+➡️ **Arrêt dans 10 minutes** : `shutdown -h +10` "Arrêt du système dans 10 minutes"
 
 - +10 ➔ dans 10 minutes / Le message sera affiché aux utilisateurs 📢.
 
@@ -48,5 +48,6 @@
 ## **6️⃣ Annuler un shutdown en attente**
 
 ➡️ **Annuler un arrêt ou redémarrage programmé** : `shutdown -c`
+
 
 
