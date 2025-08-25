@@ -3,7 +3,7 @@
 - **crontab -e** : ouvrir le planificateur de l'utilisateur en mode édition
 - **crontab -l** : lister les tâches planifiées de l'utilisateur
 
-Au 1er lancement de crontab -e, Debian propose un éditeur (Nano, VimBasic…). Tu peux changer avec select-editor.
+Au 1er lancement de crontab -e, Debian propose un éditeur (Nano, VimBasic…). Tu peux changer avec `select-editor`.
 
 
 
@@ -44,5 +44,6 @@ Une ligne = 6 champs + commande à exécuter :
 - \, → liste (ex : 1,15 pour le 1er et le 15 du mois)
 - \- → intervalle (ex : 1-5 = lundi à vendredi)
 - / → fréquence (ex : */10 = toutes les 10 minutes)
+
 
 
