@@ -1,4 +1,6 @@
-# Partitions et limites**📚 Comment Linux voit les disques**
+# Partitions et limites
+
+## **📚 Comment Linux voit les disques**
 
 - Un disque est vu comme un **périphérique de type bloc**.
 - Il est listé dans /dev :
@@ -7,7 +9,7 @@
 
 🔎 Exemple : /dev/sda ➔ premier disque détecté - /dev/sdb ➔ deuxième disque, et ainsi de suite.
 
-**🧱 Partitionnement — MBR**
+### **🧱 Partitionnement — MBR**
 
 - **MBR (Master Boot Record)** ➡️ utilisé historiquement par IBM en 1983, pour les PC **architecture x86 Intel**.
 - MBR = premiers **512 octets** du disque :
@@ -20,7 +22,7 @@
 
 
 
-**🚀 GPT — La solution moderne**
+### **🚀 GPT — La solution moderne**
 
 - **GPT (GUID Partition Table)** ➔ introduit en 1993 pour dépasser les limites de MBR.
 - GPT = architecture moderne :
@@ -31,10 +33,11 @@
 
 
 
-**🔢 Numérotation des partitions**
+## **🔢 Numérotation des partitions**
 
 - Partitions **primaires** et **étendues** ➔ numéros **1 à 4** (/dev/sda1, /dev/sda2, etc.)
 - **Partitions logiques** ➔ **toujours à partir de 5** (/dev/sda5, /dev/sda6, etc.).
 - Une partition **étendue** est juste **un conteneur** ➡️ elle n'est pas utilisée directement pour stocker des fichiers.
+
 
 
