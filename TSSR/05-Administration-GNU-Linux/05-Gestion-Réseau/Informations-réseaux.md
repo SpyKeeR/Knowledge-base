@@ -1,4 +1,6 @@
-# Informations réseaux🔍 **Pourquoi c’est important ?**
+# Informations réseaux
+
+## 🔍 **Pourquoi c’est important ?**
 
 Avant de configurer quoi que ce soit, **on doit absolument savoir** :
 
@@ -8,11 +10,11 @@ Sans ça, impossible d’assurer une bonne communication réseau entre les serve
 
 
 
-**🛠️ Commandes essentielles**
+## **🛠️ Commandes essentielles**
 
-**📌 1. Voir l'adresse IP et les interfaces**
+### **📌 1. Voir l'adresse IP et les interfaces**
 
-**Commande** : *ip a* ou *ip address*
+**Commande** : `ip a` ou `ip address`
 
 **À savoir** :
 
@@ -22,9 +24,9 @@ Sans ça, impossible d’assurer une bonne communication réseau entre les serve
 
 
 
-**📌 2. Voir la route par défaut (passerelle)**
+### **📌 2. Voir la route par défaut (passerelle)**
 
-**Commande** : *ip r*
+**Commande** : `ip r`
 
 **À savoir** :
 
@@ -33,12 +35,14 @@ Sans ça, impossible d’assurer une bonne communication réseau entre les serve
 
 
 
-**📌 3. Voir les serveurs DNS utilisés**
+### **📌 3. Voir les serveurs DNS utilisés**
 
-**Commande** : *cat /etc/resolv.conf  *
+**Commande** : `cat /etc/resolv.conf`
+```bash
 nameserver 10.1.2.20  
 nameserver 10.1.2.21  
 search exemple.domaine
+```
 
 **À savoir** :
 
@@ -46,5 +50,6 @@ search exemple.domaine
 - **domain** pour 1 domaine à utiliser pour compléter les hostnames
 - **nameserver** pour designer des Serveurs résolveurs DNS
 - **options** pour configurer des options supplémentaires
+
 
 
