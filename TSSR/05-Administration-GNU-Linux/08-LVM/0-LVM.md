@@ -1,4 +1,4 @@
-# 8 - LVM
+# LVM
 
 ## ✅ **Comprendre** comment fonctionne **LVM** :
 
@@ -19,4 +19,5 @@
 ➡️ Regrouper plusieurs disques en un seul espace de stockage
 
 ➡️ Découper cet espace en "volumes logiques" super flexibles
+
 
