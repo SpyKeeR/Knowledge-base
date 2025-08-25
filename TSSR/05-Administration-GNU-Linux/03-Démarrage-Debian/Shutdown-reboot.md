@@ -1,6 +1,6 @@
-# Shutdown / reboot**
+# Shutdown / reboot
 
-## 1️⃣ Pourquoi c’est important ?**
+## **1️⃣ Pourquoi c’est important ?**
 
 - Un système Linux, ça **se démarre proprement**, mais **ça s’arrête aussi proprement** !
 - Objectif : **éviter de casser** des fichiers ou corrompre le système 🚑.
@@ -48,4 +48,5 @@
 ## **6️⃣ Annuler un shutdown en attente**
 
 ➡️ **Annuler un arrêt ou redémarrage programmé** : `shutdown -c`
+
 
