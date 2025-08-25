@@ -42,8 +42,11 @@ gateway 10.1.1.1
 
 **Commandes** :
 
+```bash
 sudo systemctl stop networking  
 sudo systemctl start networking
+```
 
 ✅ **stop + start** est souvent mieux que **restart**, qui peut être brutal et mal recharger certaines interfaces.
+
 
