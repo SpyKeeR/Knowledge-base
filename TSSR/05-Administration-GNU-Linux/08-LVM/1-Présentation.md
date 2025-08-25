@@ -1,5 +1,3 @@
-# Présentation
-
 ## **📚 Contexte : Pourquoi LVM ?**
 
 Quand on utilise le **partitionnement classique** (legacy), agrandir une partition est super **galère** :
@@ -52,4 +50,5 @@ C'est un peu comme les **disques dynamiques** de Windows, mais **en mieux** sous
 |--------------------------------|---------------------------------|
 | Afficher l’état                | pvdisplay, vgdisplay, lvdisplay |
 | Étendre un volume ou un groupe | lvextend, vgextend              |
+
 
