@@ -25,7 +25,7 @@ Commande de base : `mount -t TYPE /dev/nom_périphérique /chemin/point_de_monta
 
 Exemple : `mount -t ext4 /dev/sdc1 /mnt`
 
-- Ici : -t ext4 ➔ Précise que le système de fichiers est **ext4**.
+- -t ext4 ➔ Précise que le système de fichiers est **ext4**.
 - /dev/sdc1 ➔ Partition que l’on veut monter.
 - /mnt ➔ Dossier qui servira de point d’accès.
 
@@ -63,3 +63,4 @@ Commandes possibles :
 - `umount /dev/sdc1` ➔ Démonte par le **nom du périphérique**.
 
 🛑 Attention : si un fichier du volume est encore utilisé, umount renverra une erreur.
+
