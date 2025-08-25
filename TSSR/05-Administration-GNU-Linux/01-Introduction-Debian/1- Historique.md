@@ -41,7 +41,8 @@
 
 
 
-**🔥 Aujourd'hui**
+**🔥 Aujourd'hui (2025)**
 
-- **Canal stable actuel** : Debian **12**.
+- **Canal stable actuel** : Debian **13**.
+
 
