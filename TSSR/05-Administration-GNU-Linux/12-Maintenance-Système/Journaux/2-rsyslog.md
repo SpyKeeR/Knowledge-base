@@ -47,5 +47,6 @@ Exemples :
 
 ## **🧪 Tester avec logger**
 
-Tu peux simuler un message avec : logger -p cron.info "message de test" > Ça va écrire un message avec la facility cron et le niveau info.
+Tu peux simuler un message avec : `logger -p cron.info "message de test"` > Ça va écrire un message avec la facility cron et le niveau info.
+
 
