@@ -8,7 +8,7 @@ Commande de base : `su [options] [utilisateur]`
 
 **Options importantes :**
 
-- - ou -l : Lance un shell de login complet → charge les variables d’environnement de l’utilisateur cible (ex : $PATH du root).
+- \- ou -l : Lance un shell de login complet → charge les variables d’environnement de l’utilisateur cible (ex : $PATH du root).
 - -s /bin/shell : Spécifie un shell différent (ex : /bin/bash, /bin/sh…).
 - -c "commande" : Exécute une commande directement sans lancer une session interactive.
 
@@ -58,6 +58,7 @@ Exemples :
 ```
 
 📁 *Directive* `#includedir /etc/sudoers.d` : inclut fichiers additionnels pour gestion plus modulaire
+
 
 
 
