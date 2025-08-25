@@ -19,7 +19,6 @@ Ces symboles permettent de répéter ou conditionner la présence de certains mo
 | +(...)      | 1 fois ou plus                          |
 | @(...)      | exactement 1 fois                       |
 | !(...)      | l'expression **ne doit pas** apparaître |
-|            |                                        |
 
 ### **🧪 Exemples concrets**
 
@@ -41,4 +40,5 @@ Les accolades permettent de faire plusieurs recherches ou opérations d’un cou
 
 `ls *.{jpg,gif,png}` # Fichiers en .jpg OU .gif OU .png  
 `mkdir {images,videos}` # Crée deux dossiers d’un coup
+
 
