@@ -44,7 +44,7 @@ Si tu soupçonnes un problème sur un disque ➔ **Check et réparation** avec *
 
 ## **🔍 Récupérer des infos sur les volumes**
 
-### **blkid** 
+### Commande **blkid** :
 Affiche **les infos détaillées** comme : 
 - **UUID** (identifiant unique)
 - **Label** (nom donné)
@@ -53,9 +53,10 @@ Affiche **les infos détaillées** comme :
 `blkid` ➔ Voir UUID, label, type, etc.
 
 
-### **lsblk** 
+### Commande **lsblk** :
 Affiche **l'arborescence** des disques et partitions.
 
 - `lsblk`    ➔ Vue graphique simple (pas de label/UUID)
 - `lsblk -f` ➔ Vue avec **labels et UUID** 
+
 
