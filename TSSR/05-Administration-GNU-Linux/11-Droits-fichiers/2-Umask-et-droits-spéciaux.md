@@ -23,7 +23,6 @@ Il soustrait des droits maximaux :
 | **/etc/login.defs** | Valeur par défaut pour les nouveaux utilisateurs |
 | **/etc/default/useradd** | Affecte les nouveaux comptes créés |
 | **Fichiers ou scripts de services** | Umask spécifique à un service ou une application |
-|  |  |
 
 ## **🧨 Les droits spéciaux**
 
@@ -49,4 +48,5 @@ Quand un droit spécial est activé, il est visible à la place du x dans les pe
 - -rwsr-xr-x → setuid actif
 - drwxrwsr-x → setgid sur dossier
 - drwxrwxrwt → sticky bit sur /tmp
+
 
