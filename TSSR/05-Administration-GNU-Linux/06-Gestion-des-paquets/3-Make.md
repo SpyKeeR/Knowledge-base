@@ -1,4 +1,6 @@
-# Make**🏗️ Préparer l’environnement**
+# Make
+
+## **🏗️ Préparer l’environnement**
 
 Avant de commencer :
 
@@ -10,7 +12,7 @@ Avant de commencer :
 
 
 
-**🚀 Cheminement classique d'une installation depuis les sources**
+## **🚀 Cheminement classique d'une installation depuis les sources**
 
 
 
@@ -20,8 +22,9 @@ Avant de commencer :
 | Compilation | make | Compile le code source en binaire. |
 | Installation | make install | Installe les fichiers compilés dans le système (avec sudo). |
 
-**Remarques :**
+## **Remarques :**
 
 - Chaque erreur sur ./configure = dépendance manquante ➔ il faut l'installer et recommencer.
 - Jusqu’à make, on peut tout faire avec un **utilisateur standard**.
 - Pour make install, il faut passer **root** (sudo) car on modifie le système.
+
