@@ -2,9 +2,11 @@
 
 ## **🔐 Notions clés : UID & GID**
 
-🔹 **UID (User ID) >** Chaque utilisateur Linux possède un **identifiant unique**, appelé UID. Ce n’est pas le *login* qui fait foi, mais bien ce nombre 🔢. C’est lui que le système utilise pour identifier les utilisateurs en interne.
+### 🔹 **UID (User ID)** 
+Chaque utilisateur Linux possède un **identifiant unique**, appelé UID. Ce n’est pas le *login* qui fait foi, mais bien ce nombre 🔢. C’est lui que le système utilise pour identifier les utilisateurs en interne.
 
-🔹 **GID (Group ID) >** De la même manière, chaque **groupe** possède un identifiant unique, le **GID**. L'utilisateur appartient à un **groupe principal** (via son GID) et peut aussi faire partie de **groupes secondaires**.
+### 🔹 **GID (Group ID)**
+De la même manière, chaque **groupe** possède un identifiant unique, le **GID**. L'utilisateur appartient à un **groupe principal** (via son GID) et peut aussi faire partie de **groupes secondaires**.
 
 
 
@@ -60,4 +62,5 @@ Sur beaucoup de systèmes Linux, quand tu crées un utilisateur, un **groupe du 
 
 - `sudo` (commande ponctuelle)
 - `su` (pour basculer dans un shell root)
+
 
