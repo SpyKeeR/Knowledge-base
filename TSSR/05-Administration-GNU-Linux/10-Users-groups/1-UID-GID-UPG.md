@@ -31,11 +31,6 @@ Des comptes techniques pour les services et démons (comme mysql, sshd). Tu ne l
 - **System Account** : comptes système internes sans shell (UID < 100 ou 500 ou 1000 selon distro)
 - **Service Account** : créés pour des services (ex : www-data, mysql) → souvent sans login ni mot de passe
 
-### 🎯 **Différence service/system**
-- *System* = structure OS (daemon, mail, syslog)
-- *Service* = liés à des applications (Apache, DB…)
-
-
 
 ### 👨‍💻 **Utilisateurs classiques (UID ≥ 1000 / GID ≥ 1000)**
 C’est toi, moi, et tous les autres humains. Sur les distributions modernes, c’est souvent à partir de **UID 1000** qu'on commence à créer les comptes utilisateurs.
@@ -62,5 +57,6 @@ Sur beaucoup de systèmes Linux, quand tu crées un utilisateur, un **groupe du 
 
 - `sudo` (commande ponctuelle)
 - `su` (pour basculer dans un shell root)
+
 
 
