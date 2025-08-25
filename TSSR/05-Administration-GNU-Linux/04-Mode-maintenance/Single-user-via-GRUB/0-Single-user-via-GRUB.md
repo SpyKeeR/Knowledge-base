@@ -1,6 +1,6 @@
-# Single-user via GRUB**
+# Single-user via GRUB
 
-## 1️⃣ Pourquoi utiliser le mode Single ?**
+## **1️⃣ Pourquoi utiliser le mode Single ?**
 
 - **Dépanner un système** après :
   - Une install ratée / Une mise à jour qui casse tout / Un mot de passe root oublié 🔒
@@ -42,4 +42,5 @@
 - En mode Single, le clavier est en **QWERTY (US)**.
 - Donc, certaines touches ne sont pas à leur place habituelle !
 - **Prépare une petite feuille** avec la correspondance AZERTY ➔ QWERTY pour éviter de galérer 📝.
+
 
