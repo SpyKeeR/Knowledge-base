@@ -39,12 +39,13 @@ Bénéfices :
 
 ## Exemple deb822 (/etc/apt/sources.list.d/debian.sources)
 #### Dépôt principal
+```bash
 Types: deb deb-src
 URIs: http://deb.debian.org/debian/
 Suites: trixie
 Components: main contrib non-free non-free-firmware
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
-
+```
 
 #### Ancien format (sources.list) — rappel
 ```bash
