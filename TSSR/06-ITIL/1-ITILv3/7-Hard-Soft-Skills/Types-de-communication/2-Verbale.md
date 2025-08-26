@@ -41,7 +41,9 @@ Il ne suffit pas **d’entendre**, il faut **écouter vraiment**, même ce qui n
 
 C’est une **clé de la communication efficace** :
 
-✅ Tu montres à l’utilisateur que tu l’as écouté ✅ Tu vérifies que tu as bien saisi le problème ✅ Tu lui permets de **corriger** ou **compléter** ses propos
+- ✅ Tu montres à l’utilisateur que tu l’as écouté
+- ✅ Tu vérifies que tu as bien saisi le problème 
+- ✅ Tu lui permets de **corriger** ou **compléter** ses propos
 
 - « Si j’ai bien compris… »
 - « En somme, vous voulez dire que… »
@@ -56,4 +58,5 @@ C’est une **clé de la communication efficace** :
 | **Clarification** | Poser une nouvelle question pour préciser | « Quand vous dites que ça bloque, c’est à quel moment ? » |
 
 👍 La reformulation met la personne en **confiance**, **clarifie** la conversation et **relance** si besoin.
+
 
