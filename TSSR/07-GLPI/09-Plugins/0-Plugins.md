@@ -1,33 +1,34 @@
-# 6 - Plugins**🎯 Objectifs du module : Plugins & FusionInventory dans GLPI**
+# **🎯 Objectifs du module : Plugins & FusionInventory dans GLPI**
 
-🔌 **Ajout & gestion des plugins dans GLPI**
-
-
-
-🌐 **Exploration du site officiel des plugins GLPI**
+### 🔌 **Ajout & gestion des plugins dans GLPI**
 
 
 
-🧩 **Installation du plugin FusionInventory**
+### 🌐 **Exploration du site officiel des plugins GLPI**
 
 
 
-🖥️ **Installation de l’agent FusionInventory sur Windows**
+### 🧩 **Installation du plugin FusionInventory**
 
 
 
-⚙️ **Modifier la configuration de l’agent FusionInventory**
+### 🖥️ **Installation de l’agent FusionInventory sur Windows**
 
 
 
-🔁 **Forcer un inventaire depuis un agent**
+### ⚙️ **Modifier la configuration de l’agent FusionInventory**
 
 
 
-📦 **Installer le plugin Data-Injection**
+### 🔁 **Forcer un inventaire depuis un agent**
 
 
 
-📝 **Paramétrer un modèle d’importation avec Data-Injection**
+### 📦 **Installer le plugin Data-Injection**
+
+
+
+### 📝 **Paramétrer un modèle d’importation avec Data-Injection**
+
 
 
