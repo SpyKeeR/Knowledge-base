@@ -29,7 +29,7 @@ Il faut que cette ligne soit présente, ou bien tu peux l’ajouter si elle n’
 - Le * * * * * signifie que la tâche s’exécute **toutes les minutes** (c’est important pour que les escalades se déclenchent rapidement).
 - /usr/bin/php8.8 est le chemin vers PHP (ajuste selon ta version de PHP installée).
 - /var/www/glpi/front/cron.php est le script de GLPI qui réalise toutes les actions planifiées.
-- >/dev/null 2>&1 signifie que tu ne veux pas afficher les sorties ou erreurs dans le terminal, ça nettoie la sortie.
+- \>/dev/null 2>&1 signifie que tu ne veux pas afficher les sorties ou erreurs dans le terminal, ça nettoie la sortie.
 
 
 
@@ -78,6 +78,7 @@ Même si l’Autocron existe, la **méthode crontab manuelle** est toujours la m
 - **Fiabilité** : la tâche s’exécute vraiment toutes les minutes.  
 - **Prévisibilité** : pas dépendant de la navigation d’un utilisateur.  
 - **Production-ready** : indispensable pour garantir que mails, escalades et synchronisations partent à l’heure.  
+
 
 
 
