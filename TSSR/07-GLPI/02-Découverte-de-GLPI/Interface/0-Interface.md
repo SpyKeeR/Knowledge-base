@@ -14,7 +14,12 @@
 - 📜 **Listes** : Accès aux recherches enregistrées.
 - 🧰 **Gabarits** : Gestion des modèles d’objets (création rapide).
 - 🔎 **Zone de recherche globale** : Recherche dans toute la base GLPI.
-- 🙋 **Zone utilisateur** : 👤 Identité et entité de travail / ⚙️ Paramètres utilisateur / 🌍 Langue / 🐞 Mode debug / 🔚 Déconnexion
+- 🙋 **Zone utilisateur** :
+  - 👤 Identité et entité de travail
+  - ⚙️ Paramètres utilisateur
+  - 🌍 Langue
+  - 🐞 Mode debug
+  - 🔚 Déconnexion
 
 
 
@@ -43,4 +48,5 @@ Pour faire des recherches précises dans les données.
 - ▶️ **Rechercher** : Lance la recherche
 - ⭐ **Étoile** : Enregistre la recherche
 - 🔄 **Cercle pointé** : Réinitialise la recherche
+
 
