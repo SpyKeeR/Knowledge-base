@@ -43,15 +43,8 @@ Tu peux l’utiliser pour :
 
 **Exemple express** : Dans une **gestion d’incident**, on pourrait avoir :
 
-| R – Responsable | Technicien de niveau 1         |
-|-------|------------|
-| A – Accountable | Manager support                |
-| C – Consulted   | Responsable applicatif         |
-| I – Informed    | Responsable métier utilisateur |
-
-![](../../media/Cours-Intro-ITIL4-V2-6-BONUS-image1.png)
-
 ![](../../media/Cours-Intro-ITIL4-V2-6-BONUS-image2.png)
+
 
 
 
