@@ -1,31 +1,32 @@
-# 1 - Présentation - Installation**🎯 Objectifs du chapitre**
+# **🎯 Objectifs du chapitre**
 
-✅ Présentation de l’environnement de formation
-
-
-
-🌐 Présentation du **projet GLPI** via son site officiel
+### ✅ Présentation de l’environnement de formation
 
 
 
-🧱 Présentation des **composants logiciels nécessaires**
+### 🌐 Présentation du **projet GLPI** via son site officiel
 
 
 
-💾 Installation du service de **base de données MySQL / MariaDB**
+### 🧱 Présentation des **composants logiciels nécessaires**
 
 
 
-🌍 Installation du serveur **web Apache2**
+### 💾 Installation du service de **base de données MySQL / MariaDB**
 
 
 
-⚙️ Installation de l’interpréteur **PHP** + **modules requis par GLPI**
+### 🌍 Installation du serveur **web Apache2**
 
 
 
-📥 Récupération du **code source de GLPI**
+### ⚙️ Installation de l’interpréteur **PHP** + **modules requis par GLPI**
 
 
 
-🚀 Lancement du **paramétrage initial** de l’outil
+### 📥 Récupération du **code source de GLPI**
+
+
+
+### 🚀 Lancement du **paramétrage initial** de l’outil
+
