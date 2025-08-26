@@ -80,7 +80,11 @@ Utilisation d’un outil **d’inventaire automatique** (ex : FusionInventory) �
 
 ## **🧷 Logiciels et licences**
 
-GLPI permet aussi de : Gérer les **licences /** Associer les logiciels aux équipements / Vérifier leur **conformité** (comptes, installations, affectations)
+GLPI permet aussi de : 
+- Gérer les **licences**
+- Associer les logiciels aux équipements
+- Vérifier leur **conformité** (comptes, installations, affectations)
+
 
 
 
