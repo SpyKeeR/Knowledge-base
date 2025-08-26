@@ -1,12 +1,18 @@
-# Suivi de ticket**Menu :** Accueil > Assistance > Tickets - Tu arrives sur **la liste des tickets visibles** par l’utilisateur connecté. ➡️ Clique sur le **titre** pour accéder aux **détails** et gérer son suivi.
+# Suivi de ticket
 
-**🧾 Propriétés du ticket**
+**Menu :** Accueil > Assistance > Tickets - Tu arrives sur **la liste des tickets visibles** par l’utilisateur connecté. 
 
-En haut ou en premier affichage, Les **informations initiales** (titre, description, type…) et L’ensemble des **interactions passées** (réponses, tâches, changements de statut, etc.)
+➡️ Clique sur le **titre** pour accéder aux **détails** et gérer son suivi.
+
+## **🧾 Propriétés du ticket**
+
+En haut ou en premier affichage, 
+- Les **informations initiales** (titre, description, type…)
+- L’ensemble des **interactions passées** (réponses, tâches, changements de statut, etc.)
 
 
 
-**💬 Suivi / Réponse**
+## **💬 Suivi / Réponse**
 
 Clique sur **« Réponse »** pour : Informer le demandeur / Ajouter une info interne (en privé) / Joindre des documents (screenshot, doc utilisateur…)
 
@@ -16,9 +22,8 @@ Clique sur **« Réponse »** pour : Informer le demandeur / Ajouter une info in
 | 📎 **Sélect. fichiers** | Joindre un fichier |
 | 🧩 **Gabarit de réponse** | Structurer automatiquement la réponse |
 | 📡 **Source de réponse** | Canal utilisé (mail, téléphone, portail…) |
-|  |  |
 
-**✅ Créer une tâche**
+## **✅ Créer une tâche**
 
 Permet d’assigner une action à réaliser (analyse, test, intervention…)
 
@@ -38,7 +43,7 @@ Permet d’assigner une action à réaliser (analyse, test, intervention…)
 
 
 
-**🔚 Clôture d’un ticket**
+## **🔚 Clôture d’un ticket**
 
 Trois cas possibles :
 
@@ -46,7 +51,7 @@ Trois cas possibles :
 - ✅ **Par un responsable** : en clôturant manuellement
 - 🕓 **Automatique** : après un délai paramétré dans les réglages de l’entité
 
-**💡 Ajouter une solution**
+### **💡 Ajouter une solution**
 
 Quand le ticket est traité, tu proposes une solution.
 
@@ -56,9 +61,8 @@ Quand le ticket est traité, tu proposes une solution.
 | 🏷️ **Étiquette** | Type de solution (corrective, contournement, etc.)    |
 | 💾 **Disquette** | Enregistrer la solution dans la base de connaissances |
 | 📎 **Fichiers**  | Joindre un fichier explicatif ou de correction        |
-|                 |                                                      |
 
-**🧾 Autres actions possibles**
+### **🧾 Autres actions possibles**
 
 | 📎 **Ajouter un document**   | Pièce jointe libre                          |
 |------------------------------|---------------------------------------------|
@@ -73,3 +77,4 @@ Quand le ticket est traité, tu proposes une solution.
 | ❗ **Problèmes**             | Créer un problème à partir du ticket        |
 | 🔄 **Changements**           | Lier ou générer un changement               |
 | 📜 **Contrats**              | Lier un contrat spécifique au ticket        |
+
