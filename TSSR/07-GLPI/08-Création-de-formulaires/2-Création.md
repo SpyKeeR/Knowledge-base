@@ -1,6 +1,6 @@
-# Création**
+# Création
 
-🧭 Accès** 📍 Menu : ↸ Accueil / Administration / Formulaires
+🧭 **Accès** 📍 Menu : ↸ Accueil / Administration / Formulaires
 
 C’est ici que tu peux : Voir la **liste de tous les formulaires existants**, Créer, modifier, organiser, tester et activer tes formulaires.
 
@@ -46,4 +46,5 @@ Une fois créé, tu vas pouvoir affiner plein d’éléments :
 - **Réponses aux formulaires** : Liste de toutes les réponses déjà soumises.
 - **Variables** : Tu peux utiliser des **variables dynamiques** pour transférer les réponses vers un ticket (ex : titre dynamique avec le nom ou le service de l’utilisateur).
 - **Langues complémentaires** : Tu peux ajouter d'autres langues et **traduire manuellement** chaque élément du formulaire.
+
 
