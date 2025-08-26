@@ -1,6 +1,6 @@
-# Articles**
+# Articles
 
-### 🏠 Où les trouver ?**
+### 🏠 **Où les trouver ?**
 
 - **Menu** : Accueil / Outils / Base de connaissance  
   C’est là que tu gères tous les articles qui servent à documenter les incidents, solutions, procédures, etc.
@@ -42,4 +42,5 @@ Quand tu veux modifier un article, tu peux :
 - **Documents** : gérer tous les fichiers liés à l’article
 - **Révision** : consulter et revenir aux versions précédentes
 - **Commentaires** : espace pour ajouter des notes ou remarques
+
 
