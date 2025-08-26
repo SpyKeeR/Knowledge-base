@@ -1,6 +1,8 @@
-# Introduction - Généralités**📌 Qu’est-ce qu’ITIL ?**
+# Introduction - Généralités
 
-**ITIL = Information Technology Infrastructure Library**
+## **📌 Qu’est-ce qu’ITIL ?**
+
+#### **ITIL = Information Technology Infrastructure Library**
 
 - 🔧 C’est un **cadre de bonnes pratiques** pour bien **organiser les services informatiques**.
 - 🎯 Objectif principal : **fournir un service de qualité** à l’utilisateur, **conformément aux engagements pris avec le client** (SLA).
@@ -8,7 +10,7 @@
 
 
 
-**📚 ITIL, c’est quoi concrètement ?**
+### **📚 ITIL, c’est quoi concrètement ?**
 
 - Un **référentiel reconnu à l'international**, adopté dans beaucoup de **DSI**.
 - Il est utilisé pour :
@@ -18,7 +20,7 @@
   - 📚 Les **bases de connaissances**
   - Et plein d'autres cas de gestion IT
 
-**🤝 Un "Service", c’est quoi ?**
+#### **🤝 Un "Service", c’est quoi ?**
 
 - En ITIL, un **Service** = ce que l’IT **fournit à un utilisateur final**.
 - ❌ Ce n’est **pas** un service "RH" ou une unité hiérarchique.
@@ -26,7 +28,7 @@
 
 
 
-**🧩 ITIL repose sur deux mots clés :**
+### **🧩 ITIL repose sur deux mots clés :**
 
 **👉 Adopt & Adapt**
 
@@ -41,12 +43,12 @@
 
 
 
-💡 **Remarque importante** :
+#### 💡 **Remarque importante** :
 
 **ITIL®** est le modèle le plus connu de gestion des services informatiques, **mais ce n’est pas le seul**.
 
-➡️ **ISO/IEC 20000** : norme internationale proche d’ITIL4, adoptée par certaines entreprises en quête de standardisation officielle.
-
-➡️ **FitSM** : standard plus léger et accessible, souvent utilisé dans les PME ou les environnements agiles.
+- ➡️ **ISO/IEC 20000** : norme internationale proche d’ITIL4, adoptée par certaines entreprises en quête de standardisation officielle.
+- ➡️ **FitSM** : standard plus léger et accessible, souvent utilisé dans les PME ou les environnements agiles.
 
 Depuis le rachat d’ITIL® par **PeopleCert**, certaines organisations préfèrent ces alternatives, jugées plus ouvertes ou moins commerciales.
+
