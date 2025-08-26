@@ -1,13 +1,14 @@
-# 4 - Transition des services**🎯 Objectifs du chapitre :**
+# **🎯 Objectifs du chapitre :**
 
-✅ **Connaître le rôle de la transition des services**
+### ✅ **Connaître le rôle de la transition des services**
 
-✅ **Identifier les différents processus**
+### ✅ **Identifier les différents processus**
 
-✅ **Définir un changement**
+### ✅ **Définir un changement**
 
-✅ **Définir un Configuration Item (CI)**
+### ✅ **Définir un Configuration Item (CI)**
 
-✅ **Identifier les outils**
+### ✅ **Identifier les outils**
 
-✅ **Définir la connaissance**
+### ✅ **Définir la connaissance**
+
