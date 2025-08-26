@@ -44,10 +44,10 @@ Les gabarits sont **propres à chaque entité**, et **non visibles** ailleurs sa
 
 Onglets disponibles lors de la création :
 
-- **Champs obligatoires / Champs définis (valeurs par défaut)
+- Champs obligatoires / Champs définis (valeurs par défaut)
 - Champs masqués
-- Interface standard** vs **interface simplifiée
-- Catégorie de ticket** (type + catégorie)
+- Interface standard vs interface simplifiée
+- Catégorie de ticket (type + catégorie)
 
 
 
@@ -70,5 +70,6 @@ Onglets disponibles lors de la création :
 ### **🔄 Nombre de gabarits par catégorie**
 
 ➡️ On peut avoir jusqu’à **4 gabarits par catégorie** dans certaines versions : 2 classiques : **Incident**, **Demande, Changement, Problème.**
+
 
 
