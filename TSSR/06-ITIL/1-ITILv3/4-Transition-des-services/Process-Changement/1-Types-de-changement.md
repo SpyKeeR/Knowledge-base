@@ -7,7 +7,8 @@
 - C’est un changement **routinier**, **fréquent**, **documenté**, déjà **testé et validé**.
 - Il est **prévisible**, avec un **risque faible** ou **nul**.
 - On les retrouve dans un **mini-catalogue de changements standards**.
-- ✅ **Exemples** : Remplacement de toner dans une imprimante ou Remplacement d’une alimentation d’un PC.
+
+✅ **Exemples** : Remplacement de toner dans une imprimante ou Remplacement d’une alimentation d’un PC.
 - **Aucun besoin de CAB** pour validation (car c’est du déjà-vu).
 
 ### **⚙️ Changement normal**
@@ -63,4 +64,5 @@
 | **CAB** | Comité consultatif pour les **changements normaux**. |
 | **ECAB** | Version d’urgence du CAB, pour les **changements urgents**. |
 | **Bilan post-implémentation** | Analyse finale pour valider ou rejeter le changement définitivement. |
+
 
