@@ -22,22 +22,23 @@ Mettre en production des services **nouveaux** (issus de la *conception*) ou **a
 
 ## **🧾 Processus de la transition (enchaînement logique) :**
 
-1.  **RFC (Request For Change)  **
+1.  **RFC (Request For Change)**
     → Demande de changement issue d’un client ou utilisateur.
 
-2.  **Gestion des changements (Change Management)  **
+2.  **Gestion des changements (Change Management)**
     → Analyse et validation de la demande.
 
-3.  **Gestion des actifs et de la configuration  **
+3.  **Gestion des actifs et de la configuration**
     → Mise à jour des éléments impactés (Configuration Items).
 
-4.  **Planification et support de transition  **
+4.  **Planification et support de transition**
     → Organisation, tests, documentation, évaluation des impacts sur l’infrastructure.
 
-5.  **Déploiement / Mise en production (Industrialisation)  **
+5.  **Déploiement / Mise en production (Industrialisation)**
     → Définir **qui déploie, quoi et comment**.
 
-6.  **Gestion de la connaissance  **
-    → Stockage de la documentation dans une **base de connaissance  **
+6.  **Gestion de la connaissance**
+    → Stockage de la documentation dans une **base de connaissance**
     → Accès pour les **techniciens support** → meilleure assistance utilisateur.
+
 
