@@ -1,6 +1,6 @@
 # Centralisé
 
-![](../../../media/Cours-Intro-ITIL4-V2-Centralisé-image1.png)
+![](../../../../media/Cours-Intro-ITIL4-V2-Centralisé-image1.png)
 
 ### **⚙️ Définition :**
 
@@ -44,4 +44,5 @@ Un **centre de services centralisé** est un **point unique**, souvent **externa
 
 
 ### **🧩 Remarque importante :** Le **centre de services centralisé** peut **aussi servir de centre local** pour le **site principal** (siège), ce qui rend le modèle **hybride**.
+
 
