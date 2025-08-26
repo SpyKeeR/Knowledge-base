@@ -11,8 +11,6 @@
 - Tenter de résoudre eux-mêmes des incidents courants avant de créer un ticket.  
 - **Réduire le nombre de tickets** et alléger le support.
 
----
-
 ## 🗂️ Organisation : catégories et sous-catégories
 - Les **catégories** servent à structurer la KB, comme des dossiers sur ton PC.  
 - **Propriétés principales** :  
@@ -25,14 +23,12 @@
 - Modifier le nom, les commentaires, ou la hiérarchie.  
 - Visualiser les catégories enfants pour maintenir une architecture claire.
 
----
 
 ## 🏗️ Mise en place initiale
 1. Créer une **structure claire** de catégories et sous-catégories.  
 2. Organiser les **articles** pour que les techniciens s’y retrouvent facilement.  
 3. Rédiger des articles **simples, précis et efficaces** pour chaque incident ou problème récurrent.
 
----
 
 ## ✍️ Création d’un article
 Chaque article contient :  
@@ -50,14 +46,12 @@ Chaque article contient :
   - Réduction du nombre de tickets  
   - Gain de temps pour l’équipe support.
 
----
 
 ## 📋 Accès et menu dans GLPI
 - Menu principal : **Outils > Base de connaissances**  
 - Gestion des **catégories** : Accueil / Configuration / Intitulés / Catégories de la base de connaissances  
 - Gestion des **articles** : création, édition, publication, ciblage.
 
----
 
 ## 🔁 Résumé pratique
 - La KB est **un outil central de documentation et partage** pour tout le personnel IT et les utilisateurs.  
