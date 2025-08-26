@@ -1,4 +1,4 @@
-# Crontab - ActionsAuto
+#Crontab
 
 ## **⏳ Qu’est-ce que la crontab dans GLPI ?**
 
@@ -55,6 +55,8 @@ Si cette crontab n’est pas configurée ou mal configurée :
 
 ---
 
+#Autocron
+
 ## **✨ L’Autocron dans GLPI**
 GLPI propose aussi un système appelé **Autocron**.  
 - Il s’exécute automatiquement **lorsqu’un utilisateur avec des privilèges administratifs navigue dans l’interface**.  
@@ -76,5 +78,6 @@ Même si l’Autocron existe, la **méthode crontab manuelle** est toujours la m
 - **Fiabilité** : la tâche s’exécute vraiment toutes les minutes.  
 - **Prévisibilité** : pas dépendant de la navigation d’un utilisateur.  
 - **Production-ready** : indispensable pour garantir que mails, escalades et synchronisations partent à l’heure.  
+
 
 
