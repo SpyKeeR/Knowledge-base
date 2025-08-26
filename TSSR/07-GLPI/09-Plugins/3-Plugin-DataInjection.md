@@ -12,11 +12,16 @@ Avant d’importer un fichier, tu dois créer un **modèle**. Ce modèle sert à
 
 - **Nom** : Donne-lui un nom clair, genre "Import PC mai 2025"
 
-- **Visibilité** : *Privé* : visible que pour toi / *Public* : visible pour tous les utilisateurs ayant les droits / *Entité / Sous-entités* : utile si ton GLPI gère plusieurs sites
+- **Visibilité** :
+  - *Privé* : visible que pour toi
+  - *Public* : visible pour tous les utilisateurs ayant les droits
+  - *Entité / Sous-entités* : utile si ton GLPI gère plusieurs sites
 
 📂 **Type de données à importer :** Tu dois choisir la **table principale** sur laquelle tu veux injecter des données (Ordinateurs, Utilisateurs, Moniteurs, etc.).
 
-⚙️ **Comportement de l'import : Création des lignes** : Active si tu veux créer de nouveaux objets / **Mise à jour des lignes** : Active si tu veux mettre à jour ceux existants
+⚙️ **Comportement de l'import** : 
+- **Création des lignes** : Active si tu veux créer de nouveaux objets 
+- **Mise à jour des lignes** : Active si tu veux mettre à jour ceux existants
 
 🧠 **Exemple concret :** Tu veux importer une liste de 100 postes client d’une ancienne base Excel. Tu crées un modèle qui cible la table **Ordinateurs**, et tu choisis "Créer les lignes".
 
@@ -64,5 +69,6 @@ Une fois ton modèle prêt :
 - Tu le sélectionnes dans le plugin, Tu choisis le fichier contenant les données,
 - Tu indiques le **champ de liaison** (ex : nom, numéro d'inventaire) pour que GLPI sache **quoi mettre à jour ou créer,**
 - Tu lances l’import \> GLPI va te faire un petit **récap** de ce qui a été fait : lignes créées, modifiées, ou ignorées.
+
 
 
