@@ -12,9 +12,9 @@ Tu peux donc **personnaliser les intitulés** pour refléter le vocabulaire util
 
 
 
-### **⚙️ Où on les gère ? >
+### **⚙️ Où on les gère ?**
 
-- ** Menu **Administration > Gestion des intitulés** C’est ici que tu peux : Ajouter, Modifier, Supprimer, Organiser les intitulés.
+- Menu **Administration > Gestion des intitulés** C’est ici que tu peux : Ajouter, Modifier, Supprimer, Organiser les intitulés.
 
 
 
@@ -54,4 +54,5 @@ Si tu relies GLPI à un **Active Directory**, tu peux : Définir les **lieux dan
 GLPI est un **PGI (Progiciel de Gestion Intégré)** → il faut que **tous les services parlent le même langage**.
 
 👉 Avant de te lancer dans la config, **prends du recul** : Réfléchis avec les équipes : comment on appelle les lieux, équipements, statuts, etc. ? **Crée une convention de nommage claire et** Implante ensuite ces conventions dans GLPI via les intitulés.
+
 
