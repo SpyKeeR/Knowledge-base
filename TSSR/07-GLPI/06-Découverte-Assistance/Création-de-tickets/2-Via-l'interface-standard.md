@@ -3,8 +3,8 @@
 **Menu :** Assistance > + Créer un ticket ou Assistance > Tickets > + Ajouter 🔒 Accessible uniquement aux utilisateurs autorisés (profil "Technicien", "Super-Admin", etc.)
 
 ### **🧭 Structure du formulaire**
-- 🟩 Partie centrale (contenu principal du ticket)
-- 🟦 Partie droite (paramètres détaillés)**
+- 🟩 **Partie centrale** (contenu principal du ticket)
+- 🟦 **Partie droite** (paramètres détaillés)
 
 ## **🟩 Partie centrale – Contenu du ticket**
 
@@ -63,4 +63,5 @@
 |------------------|------------------------------------------|
 | **Observateurs** | Suivront le ticket sans y intervenir     |
 | **Attribué à**   | Technicien ou groupe en charge du ticket |
+
 
