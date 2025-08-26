@@ -35,7 +35,8 @@ Voici les types d’objets que tu peux gérer :
 
 
 
-## 🖱️ **🆕 Création d’un nouvel objet « Ordinateur »** 👉 Accueil > Parc > Ordinateurs > **+ Ajouter**
+## 🖱️ **🆕 Création d’un nouvel objet « Ordinateur »** 
+### 👉 Accueil > Parc > Ordinateurs > **+ Ajouter**
 
 Tu peux : Créer à partir d’un **gabarit vide ou** Créer à partir d’un **gabarit existant** (déjà prérempli = gain de temps)
 
@@ -89,4 +90,5 @@ Tu as défini un gabarit “Portable Dell Compta 2024”, Tu crées les objets �
 ➡️ **Avec gabarit possible** : Moniteurs, Matériels réseau, Périphériques, Imprimantes, Téléphones, Baies, Châssis, PDU, Équipements passifs
 
 ➡️ **Sans gabarit** : Consommables, Équipements non gérés, Câbles, Cartes SIM
+
 
