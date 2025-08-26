@@ -27,9 +27,10 @@ Quand tu crées ou modifies un gabarit, tu peux :
 - Masquer certains champs dans :
   - L’**interface standard** (vue complète)
   - L’**interface simplifiée** (vue pour utilisateurs moins techniques)
-  - 
+  
 
 ### **🧠 Bonus : lien avec les catégories ITIL**
 
 Un gabarit peut être **rattaché à une ou plusieurs catégories ITIL**, pour faciliter le routage du ticket vers le bon traitement ou la bonne équipe.
+
 
