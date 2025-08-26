@@ -2,7 +2,13 @@
 
 ### **À quoi servent les intitulés ?** ↳ Accueil > Configuration > Intitulés
 
-Les **intitulés** dans GLPI sont **des listes personnalisables** utilisées dans **les menus déroulants**, **les filtres de recherche**, et les **fiches d’objets**. 👉 En gros, c’est grâce à eux que tu peux adapter GLPI à ton environnement réel (noms, types, statuts, modèles, etc.) 💡 **Contexte concret :** T’es en train d’inventorier un nouveau parc. Les technos que tu utilises ne sont pas dans les listes par défaut ? Tu les ajoutes ici ! Tu as un type spécifique de câblage dans ton entreprise ? Hop, un intitulé.
+Les **intitulés** dans GLPI sont **des listes personnalisables** utilisées dans **les menus déroulants**, **les filtres de recherche**, et les **fiches d’objets**. 
+
+👉 En gros, c’est grâce à eux que tu peux adapter GLPI à ton environnement réel (noms, types, statuts, modèles, etc.) 
+
+💡 **Contexte concret :** T’es en train d’inventorier un nouveau parc. 
+
+Les technos que tu utilises ne sont pas dans les listes par défaut ? Tu les ajoutes ici ! Tu as un type spécifique de câblage dans ton entreprise ? Hop, un intitulé.
 
 
 
@@ -47,4 +53,5 @@ Tu veux ajouter un nouveau type de matériel réseau appelé *“Routeur 5G Pro�
 - Tu ajoutes : **Routeur 5G Pro**
 
 ✅ Désormais, tu peux le sélectionner lors de la création ou modification d’un objet. Même chose si tu veux suivre des modèles très spécifiques, créer de nouveaux statuts (*En transit*, *À recycler*), ou gérer des types de câbles comme *CAT8 blindé*.
+
 
