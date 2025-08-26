@@ -1,4 +1,6 @@
-# 6 - Amélioration Continue**🎯 Objectifs de l’amélioration continue**
+# 6 - Amélioration Continue
+
+### **🎯 Objectifs de l’amélioration continue**
 - 🔍 **Analyser les résultats** des contrats (SLAs) signés avec les clients et prestataires externes.
 - 🧠 **Être critique** sur la qualité des services fournis.
 - 💡 **Proposer des solutions** pour améliorer l’efficacité (résultats) et l’efficience (rentabilité).
@@ -7,7 +9,7 @@
 
 
 
-**🛠️ Missions principales**
+## **🛠️ Missions principales**
 
 - Réaliser des **enquêtes de satisfaction**.
 - Mener des **audits internes**.
@@ -16,7 +18,7 @@
 
 
 
-**📏 Indicateurs de performance**
+## **📏 Indicateurs de performance**
 
 | 📊 **KPI** (Key Performance Indicators) | Mesurent la performance des services. |
 |----|----|
@@ -29,7 +31,7 @@ Ces indicateurs permettent de **démontrer la fiabilité** et **l’efficacité 
 
 
 
-**🔁 Roue de Deming**
+## **🔁 Roue de Deming**
 
 Elle structure l’amélioration continue en 4 étapes : **Plan – Do – Check – Act** (Planifier – Réaliser – Vérifier – Agir)
 
@@ -39,3 +41,4 @@ Elle structure l’amélioration continue en 4 étapes : **Plan – Do – Check
 | 🛠️ **Do** | Mettre en œuvre ce qui a été prévu. |
 | 🔍 **Check** | Vérifier que les résultats correspondent aux attentes. |
 | 🔧 **Act** | Ajuster, corriger, relancer une nouvelle itération si besoin. |
+
