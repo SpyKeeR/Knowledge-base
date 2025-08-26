@@ -33,7 +33,7 @@ GLPI permet d’utiliser des **balises spéciales** pour remplir certains champs
 
 **>** LAPTOP-###
 
-- ### = compteur (ex : LAPTOP-001, LAPTOP-002…)
+- \### = compteur (ex : LAPTOP-001, LAPTOP-002…)
 
 ### 🔣 **Balises disponibles :**
 
@@ -63,4 +63,5 @@ GLPI permet d’utiliser des **balises spéciales** pour remplir certains champs
 | **Utilisateur** | Personne qui utilise cet item |
 | **Groupe d’utilisateurs** | Si l’équipement est partagé |
 | **Commentaires** | Infos diverses utiles à la gestion |
+
 
