@@ -13,21 +13,21 @@ C’est tout ce qui passe **sans paroles** :
 
 
 
-## 👀**Le regard**
+## **👀 Le regard**
 
 - Selon la direction du regard, on peut deviner ce que la personne pense ou ressent (par exemple, regarder à gauche ou à droite).
 - Le regard transmet aussi la disponibilité, la sympathie ou l’opposition.
 
 
 
-## 🙂**L’expression du visage**
+## **🙂 L’expression du visage**
 
 - Un visage **ouvert** montre que tu es disponible et à l’écoute.
 - Un visage **fermé** peut indiquer que tu es fermé à la discussion, voire hostile ou méfiant.
 
 
 
-## 🧍‍♂️**La posture**
+## **🧍‍♂️ La posture**
 
 - Ta façon de te tenir (debout, assis) en dit long sur ton intérêt.
 - Une posture attentive montre que tu es impliqué dans la conversation.
@@ -35,7 +35,7 @@ C’est tout ce qui passe **sans paroles** :
 
 
 
-## 👔**Les vêtements (et les chaussures !)**
+## **👔 Les vêtements (et les chaussures !)**
 
 - Ça peut paraître étonnant, mais ton style vestimentaire communique aussi.
 - Exemple : pour un entretien, oublie le short et le t-shirt, préfère un costume propre avec des chaussures bien soignées.
@@ -58,5 +58,6 @@ C’est tout ce qui passe **sans paroles** :
 La communication non verbale est un **outil puissant** pour comprendre les émotions et attitudes des autres, et faire passer tes messages plus clairement.
 
 Sois conscient de ce que ton corps dit, et surtout observe celui des autres pour mieux capter les vraies intentions dans une conversation.
+
 
 
