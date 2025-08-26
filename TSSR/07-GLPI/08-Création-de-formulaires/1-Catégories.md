@@ -1,6 +1,6 @@
-# Catégories**
+# Catégories
 
-🧭 Menu de navigation** 📍 **Accès depuis l'interface GLPI** : ↸ Accueil / Configuration / Intitulés / Catégories de formulaire
+🧭 **Menu de navigation** 📍 **Accès depuis l'interface GLPI** : ↸ Accueil / Configuration / Intitulés / Catégories de formulaire
 
 📌 Ce menu est **disponible uniquement si le plugin Form Creator est activé**.
 
@@ -41,4 +41,5 @@ Une fois ta catégorie créée, tu peux évidemment la modifier :
 
 - Tu peux **changer le nom**, la rattacher à une **autre catégorie parent**, ajouter un commentaire, ou **changer son lien avec la base de connaissance**.
 - Tu as aussi accès à la **liste des sous-catégories** depuis cette interface.
+
 
