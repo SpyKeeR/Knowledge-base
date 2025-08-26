@@ -6,7 +6,7 @@
 
 - 📈 l’**efficacité** (atteindre les objectifs),
 - 💸 l’**efficience** (optimiser les coûts)
-- et ✅ la **qualité** des services informatiques.
+- ✅ la **qualité** des services informatiques.
 
 #### **🧮 Objectif principal d’ITIL**
 
@@ -56,7 +56,7 @@
 - Intègre **le Cloud, DevOps, Agile**
 - Accent sur la **sécurité**, la **valeur ajoutée** et **l'adaptabilité**
 
-- 
+
 🎯 ITIL devient un **référentiel mondial** pour piloter la qualité du service IT
 
 
@@ -65,4 +65,5 @@
 
 - 📌 **ISO 9001** : Qualité de gestion 
 - 📌 **ISO 20000** : Spécifique aux services IT, s’appuie sur ITIL
+
 
