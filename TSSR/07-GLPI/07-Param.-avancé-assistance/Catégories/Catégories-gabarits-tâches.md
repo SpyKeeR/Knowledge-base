@@ -1,4 +1,6 @@
-# Catégories/gabarits tâches**🗂️ Les catégories de tâches**
+# Catégories/gabarits tâches
+
+## **🗂️ Les catégories de tâches**
 
 📍 Menu : Accueil > Configuration > Intitulés > Catégories de tâches
 
@@ -6,7 +8,7 @@ Les catégories de tâches permettent de **structurer les actions à réaliser**
 
 
 
-**⚙️ À la création, tu peux définir :**
+### **⚙️ À la création, tu peux définir :**
 
 - **Nom** de la catégorie
 - **Hiérarchie** (catégorie parente)
@@ -17,7 +19,7 @@ Les catégories de tâches permettent de **structurer les actions à réaliser**
 
 
 
-**📝 Les gabarits de tâches**
+### **📝 Les gabarits de tâches**
 
 📍 Menu : Accueil > Configuration > Intitulés > Gabarits de tâches (sous-menu Assistance)
 
@@ -25,7 +27,7 @@ Ils servent à **pré-remplir automatiquement une tâche** dans un ticket, pour 
 
 
 
-**📋 Un gabarit contient :**
+### **📋 Un gabarit contient :**
 
 - **Nom** et **commentaire**
 - **Contenu prédéfini** du message (tu peux insérer des variables GLPI)
@@ -35,3 +37,4 @@ Ils servent à **pré-remplir automatiquement une tâche** dans un ticket, pour 
 - **Utilisateur ou groupe** assigné
 - **Visibilité** : privé ou public
 - **Récursivité**
+
