@@ -1,6 +1,6 @@
 # Terminologie
 
-### **📦 Service**
+## **📦 Service**
 
 🔹 Moyens de **fournir de la valeur** au client, en facilitant les résultats qu’il souhaite, **sans qu’il ait à gérer les coûts ou les risques**.
 
@@ -8,13 +8,13 @@
 
 
 
-### **💎 Valeur**
+## **💎 Valeur**
 
 🔹 Ce que **l’utilisateur perçoit** comme bénéfique, utile, ou important. Elle est **co-créée** : fournisseur ↔ consommateur doivent interagir et collaborer.
 
 🧠 Ce n’est pas juste « j’ai livré le truc », c’est « est-ce que ça rend vraiment service à l’utilisateur ? »
 
-**🚧 Projet ≠ Service**
+### **🚧 Projet ≠ Service**
 
 | **Projet** | **Service** |
 |----|----|
@@ -24,7 +24,7 @@
 
 
 
-### **👤 Rôles côté Consommateur**
+## **👤 Rôles côté Consommateur**
 
 | **Rôle** | **Description** |
 |----|----|
@@ -36,26 +36,27 @@
 
 
 
-### **🏢 Organisation**
+## **🏢 Organisation**
 
 Une **personne** ou un **groupe** ayant les moyens pour atteindre des objectifs (entreprise, asso, etc.)
 
-#### **🤝 Fournisseur de Services**
+### **🤝 Fournisseur de Services**
 
 Organisation (interne ou externe) qui **fournit des services IT** à des clients/utilisateurs. Peut bosser seul, ou en alliance avec d'autres (coproduction de services).
 
-#### **👥 Consommateur de Services**
+### **👥 Consommateur de Services**
 
 Organisation qui **reçoit** les services. Englobe tous les rôles vus avant : Utilisateur / Client / Sponsor
 
-#### **🧭 Partie Prenante (Stakeholder)**
+### **🧭 Partie Prenante (Stakeholder)**
 
 Terme générique : **toute personne** ou **organisation** impliquée ou impactée par un service, projet ou activité.
 
 
 
 
-### **📄 Livrable (Output)**
+## **📄 Livrable (Output)**
 
 Élément fourni par une activité (tangible ou non). Ce n’est **pas forcément un service** → ça peut être un document, un logiciel, un rapport...
+
 
