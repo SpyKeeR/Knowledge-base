@@ -6,7 +6,7 @@ Assurer **l’amélioration continue** de **tous les produits, services, process
 
 L’idée, c’est de ne jamais stagner, toujours chercher à faire mieux, que ce soit en efficacité, qualité, coûts ou satisfaction.
 
-
+![](../../../../media/Cours-Intro-ITIL4-V2-Améliorer-image2.png)
 
 ## **🔗 Connexion avec la chaîne de valeur :**
 
@@ -41,7 +41,6 @@ C’est le moteur qui pousse à évoluer constamment.
 - Propositions d’évolutions (ex: ajout d’un module ou automatisation) à intégrer dans la roadmap
 - Mise à jour des procédures et documents selon les retours et le contexte évolutif
 
-![](../../../../media/Cours-Intro-ITIL4-V2-Améliorer-image2.png)
 ![](../../../../media/Cours-Intro-ITIL4-V2-Améliorer-image3.png)
 
 - PLAN : Etablir les objectifs et processus nécessaire à la production de valeur en accord avec l’objectif
@@ -51,6 +50,7 @@ C’est le moteur qui pousse à évoluer constamment.
 - CHECK : Analyser les retours, les métriques et rechercher les différences éventuelles avec l’objectif
 
 - ACT : Demander des correctifs pour les différences importantes, analyser les différences afin de trouver la cause originelle de cette différence (root cause)
+
 
 
 
