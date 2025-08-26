@@ -14,7 +14,9 @@ Avant tout, il faut associer toutes les parties prenantes concernées pour bien 
 
 ### 🔄 **Interactions permanentes**
 
-Les 6 activités de la CVS communiquent constamment entre elles, notamment le trio **Conception & Transition**, **Obtenir & Construire** et **Fournir & Soutenir**, qui forment un bloc solide. L’**Amélioration Continue** est présente partout pour améliorer chaque étape.
+Les 6 activités de la CVS communiquent constamment entre elles, notamment le trio **Conception & Transition**, **Obtenir & Construire** et **Fournir & Soutenir**, qui forment un bloc solide.
+
+L’**Amélioration Continue** est présente partout pour améliorer chaque étape.
 
 
 
@@ -41,4 +43,5 @@ La valeur générée déclenche ensuite de nouvelles demandes, des nouveaux serv
 Le Système de Valeur des Services (SVS) est le cœur d’ITIL 4.
 
 L’objectif ultime est de **créer de la valeur** grâce à l’interaction fluide et dynamique de toutes les activités de la chaîne de valeur.
+
 
