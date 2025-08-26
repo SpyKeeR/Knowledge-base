@@ -12,11 +12,13 @@ Il est donc essentiel de pouvoir **retrouver rapidement et précisément** les i
 
 ### **🔎 Recherche globale**
 
-- Barre de recherche accessible en haut de l’interface / Permet de **chercher dans tout le logiciel**
+- Barre de recherche accessible en haut de l’interface
+- Permet de **chercher dans tout le logiciel**
 
 ### **🧰 Recherche par module**
 
-- Par exemple dans le **menu "Parc"** (inventaire matériel) / Chaque module a sa propre barre de recherche
+- Par exemple dans le **menu "Parc"** (inventaire matériel)
+- Chaque module a sa propre barre de recherche
 
 
 
@@ -61,4 +63,5 @@ Il est donc essentiel de pouvoir **retrouver rapidement et précisément** les i
 ✅ Utiliser les recherches avancées quand nécessaire
 
 ✅ Sauvegarder les recherches utiles pour un **gain de temps au quotidien**
+
 
