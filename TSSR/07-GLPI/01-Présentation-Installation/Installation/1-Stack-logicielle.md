@@ -1,8 +1,10 @@
-# Stack logicielleGLPI est écrit en **PHP**, donc il a besoin d’une **infrastructure logicielle spécifique** pour fonctionner. En gros, on ne peut pas le lancer tout seul : il lui faut un environnement complet, qu’on appelle **LAMP** (Linux – Apache – MySQL/MariaDB – PHP).
+# Stack logicielle
+
+GLPI est écrit en **PHP**, donc il a besoin d’une **infrastructure logicielle spécifique** pour fonctionner. En gros, on ne peut pas le lancer tout seul : il lui faut un environnement complet, qu’on appelle **LAMP** (Linux – Apache – MySQL/MariaDB – PHP).
 
 
 
-**🔥 Serveur Web (Apache, Nginx ou IIS)**
+## **🔥 Serveur Web (Apache, Nginx ou IIS)**
 
 - **Apache** est le serveur web le plus utilisé avec GLPI.
 - Il prend en charge les **requêtes HTTP** faites par les navigateurs et sait comment traiter les fichiers .php.
@@ -10,7 +12,7 @@
 
 
 
-**🧠 PHP (le langage de GLPI)**
+## **🧠 PHP (le langage de GLPI)**
 
 PHP est **l’interpréteur** qui exécute le code de GLPI.
 
@@ -28,17 +30,19 @@ Mais attention, pour que GLPI fonctionne bien, **plusieurs modules PHP compléme
 
 
 
-**🧮 Base de données (MySQL ou MariaDB)**
+## **🧮 Base de données (MySQL ou MariaDB)**
 
 GLPI a besoin d’un **SGDBR** (Système de Gestion de Base de Données Relationnelle).
 
 Il stocke toutes les données : tickets, utilisateurs, matériels, etc.
 
-Deux options possibles : **MySQL** : historiquement utilisé / **MariaDB** : fork de MySQL, plus courant aujourd’hui sur les distros Linux (par défaut sur Debian).
+Deux options possibles : 
+- **MySQL** : historiquement utilisé 
+- **MariaDB** : fork de MySQL, plus courant aujourd’hui sur les distros Linux (par défaut sur Debian).
 
 
 
-**📡 Communication entre les composants**
+## **📡 Communication entre les composants**
 
 Voici **comment tout fonctionne ensemble** (important à bien visualiser) :
 
@@ -51,3 +55,4 @@ Voici **comment tout fonctionne ensemble** (important à bien visualiser) :
 7.  Apache envoie la page finalisée **au navigateur de l'utilisateur**.
 
 Chaque étape dépend des autres. Si un seul composant est mal configuré, GLPI ne fonctionnera pas.
+
