@@ -1,10 +1,15 @@
-# Règles métiers🧠 Une fois le ticket créé (après avoir cliqué sur "Envoyer"), le gabarit n'est plus utilisé. À partir de là, **le moteur de règles métiers** entre en jeu.
+# Règles métiers
 
-🔁 Il peut se déclencher : ✳️ **À la création** d’un ticket / ✳️ **À la modification** d’un ticket / ✳️ Ou **aux deux moments**
+🧠 Une fois le ticket créé (après avoir cliqué sur "Envoyer"), le gabarit n'est plus utilisé. À partir de là, **le moteur de règles métiers** entre en jeu.
+
+🔁 Il peut se déclencher : 
+✳️ **À la création** d’un ticket 
+✳️ **À la modification** d’un ticket 
+✳️ Ou **aux deux moments**
 
 
 
-**🧩 Fonctionnement du moteur de règles**
+## **🧩 Fonctionnement du moteur de règles**
 
 🧱 Les règles sont lues **dans l’ordre** ➜ **pile de règles**
 
@@ -14,38 +19,41 @@
 
 
 
-**🔍 Structure d’une règle métier**
+## **🔍 Structure d’une règle métier**
 
-**🎯 Critères de sélection**
+### **🎯 Critères de sélection**
 
 - Exemples : **type** du ticket, **catégorie**, etc.
 - Possibilité d’utiliser des **opérateurs logiques** : ET, OU
 
-**🛠️ Actions déclenchées si critères validés**
+### **🛠️ Actions déclenchées si critères validés**
 
 - Modifier la **priorité**
 - Réaffecter un **technicien** ou un **groupe**
 - Changer le **contrat de service**
 - Appliquer un **SLA (Service Level Agreement)**
 
-**⏱️ Gestion des SLA (niveaux de service)**
 
-**📐 SLA = engagements sur les délais**
+
+## **⏱️ Gestion des SLA (niveaux de service)**
+
+#### **📐 SLA = engagements sur les délais**
 
 - **TTO** (Time To Own) ⏳ : Temps de **prise en charge**
 - **TTR** (Time To Resolve) ⏱️ : Temps de **résolution**
 
-**🕐 Chaque SLA est lié à :**
+#### **🕐 Chaque SLA est lié à :**
 
 - Un **calendrier** (jours ouvrés, heures d'ouverture…)
 - Une **durée maximale** autorisée
 
-⚠️ Si un SLA est dépassé :
+#### ⚠️ Si un SLA est dépassé :
 
 - Pas bloquant techniquement
 - Peut être problématique si lié à un **contrat externe** (risques de pénalités)
 
-**📈 Escalades SLA (niveaux d'escalade)**
+
+### **📈 Escalades SLA (niveaux d'escalade)**
 
 🔁 Si aucune action n’est faite dans un délai donné → **action automatique**
 
@@ -59,7 +67,7 @@
 
 
 
-**🧱 Ordre de mise en œuvre (bonnes pratiques)**
+## **🧱 Ordre de mise en œuvre (bonnes pratiques)**
 
 1.  🔖 Créer les **catégories** de tickets  
     → Précises mais pas trop nombreuses
@@ -76,3 +84,4 @@
 
 5.  🧠 Créer les **règles métiers** pour appliquer tout ça  
     → Enchaînement logique basé sur critères + actions
+
