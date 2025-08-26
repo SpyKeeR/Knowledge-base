@@ -17,15 +17,26 @@ Un **gabarit**, c’est un **modèle de ticket** utilisé pour **pré-remplir** 
 
 Le **déclencheur** active un gabarit en fonction du **type** et de la **catégorie** du ticket.
 
-📝 Étapes lors de la création d’un ticket : L’utilisateur clique sur **"Nouveau ticket" /** Il choisit le **type** (incident / demande) / Il peut saisir une **catégorie /** → Un **déclencheur** est activé qui charge le **gabarit associé**
+📝 Étapes lors de la création d’un ticket : 
 
-🎯 Rôle de la catégorie : Aide à **classer correctement** le ticket / Permet de cibler les **bonnes équipes** de résolution / Important de **former les utilisateurs** à comprendre la **nomenclature**
+- L’utilisateur clique sur **"Nouveau ticket"**
+- Il choisit le **type** (incident / demande)
+- Il peut saisir une **catégorie** → Un **déclencheur** est activé qui charge le **gabarit associé**
+
+🎯 Rôle de la catégorie : 
+- Aide à **classer correctement** le ticket
+- Permet de cibler les **bonnes équipes** de résolution
+- Important de **former les utilisateurs** à comprendre la **nomenclature**
 
 
 
 ## **📂 Où créer les gabarits de ticket ?**
 
-🔍 Menu : **Assistance > Tickets >** ⚠️ Attention à bien vérifier **l’entité active** lors de la création ! Les gabarits sont **propres à chaque entité**, et **non visibles** ailleurs sans récursivité activée.
+🔍 Menu : **Assistance > Tickets** 
+
+⚠️ Attention à bien vérifier **l’entité active** lors de la création ! 
+
+Les gabarits sont **propres à chaque entité**, et **non visibles** ailleurs sans récursivité activée.
 
 
 
@@ -33,7 +44,10 @@ Le **déclencheur** active un gabarit en fonction du **type** et de la **catégo
 
 Onglets disponibles lors de la création :
 
-- **Champs obligatoires / Champs définis (valeurs par défaut) / Champs masqués / Interface standard** vs **interface simplifiée / Catégorie de ticket** (type + catégorie)
+- **Champs obligatoires / Champs définis (valeurs par défaut)
+- Champs masqués
+- Interface standard** vs **interface simplifiée
+- Catégorie de ticket** (type + catégorie)
 
 
 
@@ -56,4 +70,5 @@ Onglets disponibles lors de la création :
 ### **🔄 Nombre de gabarits par catégorie**
 
 ➡️ On peut avoir jusqu’à **4 gabarits par catégorie** dans certaines versions : 2 classiques : **Incident**, **Demande, Changement, Problème.**
+
 
