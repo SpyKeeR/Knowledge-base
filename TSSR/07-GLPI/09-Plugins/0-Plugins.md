@@ -1,4 +1,4 @@
-# **🎯 Objectifs du module : Plugins & FusionInventory dans GLPI**
+# **🎯 Objectifs du module : Plugins dans GLPI**
 
 ### 🔌 **Ajout & gestion des plugins dans GLPI**
 
@@ -13,6 +13,7 @@
 
 
 ### 📝 **Paramétrer un modèle d’importation avec Data-Injection**
+
 
 
 
