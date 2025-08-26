@@ -29,33 +29,13 @@ Voici ce qu’il faut pour faire tourner GLPI en local ou sur un serveur :
 
 ## 🎯 **Fonctionnalités clés de GLPI**
 
-### 🗂️ **Gestion de parc informatique** → Gérer les postes, serveurs, imprimantes, téléphones, logiciels installés. Tout est structuré, avec fiches et relations entre éléments.
+- 🗂️ **Gestion de parc informatique** → Gérer les postes, serveurs, imprimantes, téléphones, logiciels installés. Tout est structuré, avec fiches et relations entre éléments.
+- 📦 **Inventaire** → Collecte automatique ou manuelle des équipements + informations détaillées (RAM, OS, IP, etc.)
+- 🎫 **Gestion des tickets** (Incidents et demandes) → Interface pour que les utilisateurs déclarent un problème, et que les techniciens le résolvent.
+- 🔥 **Gestion des problèmes** → Identifier les causes profondes des incidents récurrents, et les éradiquer.
+- 🔄 **Gestion des changements** → Encadrer les modifications importantes (ex : mise à jour d’un serveur) avec des étapes de validation.
+- ⏱️ **SLAs/OLAs** → Engagements de qualité de service (temps de réponse, temps de résolution). Très utile pour prioriser les tickets. *Résoudre les pannes en moins de 2h.*
+- 📚 **Base de connaissances** → FAQ interne avec des procédures, des astuces, pour éviter de réinventer la roue à chaque ticket.
+- 📊 **Statistiques & rapports** → Pour suivre l’activité, voir les équipes surchargées, identifier les équipements à renouveler, etc.
 
-
-
-### 📦 **Inventaire** → Collecte automatique ou manuelle des équipements + informations détaillées (RAM, OS, IP, etc.)
-
-
-
-### 🎫 **Gestion des tickets** (Incidents et demandes) → Interface pour que les utilisateurs déclarent un problème, et que les techniciens le résolvent.
-
-
-
-### 🔥 **Gestion des problèmes** → Identifier les causes profondes des incidents récurrents, et les éradiquer.
-
-
-
-### 🔄 **Gestion des changements** → Encadrer les modifications importantes (ex : mise à jour d’un serveur) avec des étapes de validation.
-
-
-
-### ⏱️ **SLAs/OLAs** → Engagements de qualité de service (temps de réponse, temps de résolution). Très utile pour prioriser les tickets. *Résoudre les pannes en moins de 2h.*
-
-
-
-📚 **Base de connaissances** → FAQ interne avec des procédures, des astuces, pour éviter de réinventer la roue à chaque ticket.
-
-
-
-📊 **Statistiques & rapports** → Pour suivre l’activité, voir les équipes surchargées, identifier les équipements à renouveler, etc.
 
