@@ -1,6 +1,3 @@
-# Impliquer (Engage)
-
-
 ![](../../../../media/Cours-Intro-ITIL4-V2-Impliquer-(Engage)-image1.png)
 
 **🧠 Objectif :**
@@ -50,6 +47,7 @@ Cette activité **alimente directement** les autres blocs :
 - Tu ne construis **jamais un service tout seul** : l’implication des autres, c’est **ton carburant**.
 - L’activité **Engage** n’est pas un moment ponctuel → c’est une **relation continue** avec les parties prenantes.
 - Plus tu impliques **tôt**, plus tu évites les **ratés** en bout de chaîne.
+
 
 
 
