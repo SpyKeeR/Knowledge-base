@@ -1,4 +1,4 @@
-# Planifier
+![](../../../../media/Cours-Intro-ITIL4-V2-Planifier-image1.png)
 
 ### **🎯 Objectif :**
 
@@ -75,8 +75,5 @@ Ici, on est sur une **démarche de pilotage stratégique**, pas juste un plannin
 - Choix du modèle de déploiement (on-premise, SaaS, etc.)
 - Modèle de gouvernance du projet
 
-
-
-![](../../../../media/Cours-Intro-ITIL4-V2-Planifier-image1.png)
 
 
