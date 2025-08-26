@@ -15,13 +15,22 @@ Un **centre de services centralisé** est un **point unique**, souvent **externa
 | 📍 Implantation | Un **site unique**, parfois externalisé ou en interne |
 | 📞 Canaux de contact | Téléphone, e-mail, portail intranet, outils de ticketing |
 | 📡 Destiné à | Plusieurs **sites distants** ou agences d’une même entreprise |
-|  |  |
 
-### **✅ Avantages :** Mutualisation | Centralise les ressources humaines, techniques et outils|Procédures homogènes | Tous les utilisateurs bénéficient des **mêmes niveaux de service**, des **mêmes process** | Partage des connaissances | Meilleure documentation, base de connaissance unifiée
+### **✅ Avantages :** 
+- Mutualisation
+- Centralise les ressources humaines, techniques et outils
+- Procédures homogènes
+- Tous les utilisateurs bénéficient des **mêmes niveaux de service**, des **mêmes process**
+- Partage des connaissances
+- Meilleure documentation, base de connaissance unifiée
 
 
 
-### **❌ Inconvénients :** Moins de proximité | Pas de présence physique sur sites distants | Réactivité réduite | Dépend du réseau, outils à distance, délais de réponse
+### **❌ Inconvénients :** 
+- Moins de proximité
+- Pas de présence physique sur sites distants
+- Réactivité réduite
+- Dépend du réseau, outils à distance, délais de réponse
 
 
 
@@ -35,3 +44,4 @@ Un **centre de services centralisé** est un **point unique**, souvent **externa
 
 
 ### **🧩 Remarque importante :** Le **centre de services centralisé** peut **aussi servir de centre local** pour le **site principal** (siège), ce qui rend le modèle **hybride**.
+
