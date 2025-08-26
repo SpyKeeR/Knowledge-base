@@ -26,7 +26,11 @@ L’interface simplifiée est pensée pour : Être claire, intuitive, **Accompag
 
 ### **🧠 Fonctionnement du gabarit de ticket**
 
-Le gabarit (template) permet de : Guider l’utilisateur (description préremplie, titres prédéfinis), Cacher les champs inutiles, Préconfigurer certaines options (lieu, urgence, observateurs, etc.) C’est **grâce au gabarit** que l’interface reste simple, mais adaptable à différents types de demandes.
+Le gabarit (template) permet de : 
+- Guider l’utilisateur (description préremplie, titres prédéfinis),
+- Cacher les champs inutiles,
+- Préconfigurer certaines options (lieu, urgence, observateurs, etc.)
+- C’est **grâce au gabarit** que l’interface reste simple, mais adaptable à différents types de demandes.
 
 
 
@@ -48,4 +52,5 @@ Après création d’un ticket, l’utilisateur peut :
 5.  Renseigner les champs affichés (guidé par le gabarit)
 6.  Joindre des documents si besoin
 7.  Valider
+
 
