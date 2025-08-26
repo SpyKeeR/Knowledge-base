@@ -3,9 +3,9 @@
 🧠 Une fois le ticket créé (après avoir cliqué sur "Envoyer"), le gabarit n'est plus utilisé. À partir de là, **le moteur de règles métiers** entre en jeu.
 
 🔁 Il peut se déclencher : 
-✳️ **À la création** d’un ticket 
-✳️ **À la modification** d’un ticket 
-✳️ Ou **aux deux moments**
+- ✳️ **À la création** d’un ticket 
+- ✳️ **À la modification** d’un ticket 
+- ✳️ Ou **aux deux moments**
 
 
 
@@ -84,4 +84,5 @@
 
 5.  🧠 Créer les **règles métiers** pour appliquer tout ça  
     → Enchaînement logique basé sur critères + actions
+
 
