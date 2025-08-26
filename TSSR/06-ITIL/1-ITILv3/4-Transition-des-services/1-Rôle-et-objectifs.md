@@ -38,7 +38,9 @@ Mettre en production des services **nouveaux** (issus de la *conception*) ou **a
     → Définir **qui déploie, quoi et comment**.
 
 6.  **Gestion de la connaissance**
-    → Stockage de la documentation dans une **base de connaissance**
-    → Accès pour les **techniciens support** → meilleure assistance utilisateur.
+   - → Stockage de la documentation dans une **base de connaissance**
+   - → Accès pour les **techniciens support**
+   - → meilleure assistance utilisateur.
+
 
 
