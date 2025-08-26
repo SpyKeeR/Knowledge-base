@@ -1,6 +1,8 @@
 # Impliquer (Engage)
 
 
+![](../../../../media/Cours-Intro-ITIL4-V2-Impliquer-(Engage)-image1.png)
+
 **🧠 Objectif :**
 
 S'assurer que **toutes les personnes et parties prenantes** concernées par le service sont : **Écoutées, Consultées, Impliquées activement** et que les **relations sont entretenues** tout au long du cycle de vie du service.
@@ -49,6 +51,5 @@ Cette activité **alimente directement** les autres blocs :
 - L’activité **Engage** n’est pas un moment ponctuel → c’est une **relation continue** avec les parties prenantes.
 - Plus tu impliques **tôt**, plus tu évites les **ratés** en bout de chaîne.
 
-![](../../../../media/Cours-Intro-ITIL4-V2-Impliquer-(Engage)-image1.png)
 
 
