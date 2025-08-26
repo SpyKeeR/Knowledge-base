@@ -10,7 +10,8 @@ C’est exactement ça une table en base de données :
 
 SELECT sert à demander des données dans une ou plusieurs colonnes d’une table.
 
-- `SELECT * FROM client` = afficher toutes les colonnes et tous les enregistrements / SELECT nom, ville FROM client = afficher uniquement la colonne nom et ville
+- `SELECT * FROM client` = afficher toutes les colonnes et tous les enregistrements
+- `SELECT nom, ville FROM client` = afficher uniquement la colonne nom et ville
 
 
 
@@ -89,4 +90,5 @@ Elles ignorent les valeurs NULL.
 **Exemple :** `SELECT AVG(âge) FROM client` 
 
 Donne la moyenne des âges des clients.
+
 
