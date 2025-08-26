@@ -2,7 +2,6 @@
 
 Ce plugin est **hyper pratique** pour importer des **données en masse** dans GLPI à partir d’un fichier (CSV par exemple). Tu peux t’en servir pour ajouter ou mettre à jour des matériels, utilisateurs, logiciels, etc., **en évitant de tout faire à la main**.
 
- 
 
 ## 🧩 **Ajout d’un modèle d’importation**
 
@@ -69,6 +68,7 @@ Une fois ton modèle prêt :
 - Tu le sélectionnes dans le plugin, Tu choisis le fichier contenant les données,
 - Tu indiques le **champ de liaison** (ex : nom, numéro d'inventaire) pour que GLPI sache **quoi mettre à jour ou créer,**
 - Tu lances l’import \> GLPI va te faire un petit **récap** de ce qui a été fait : lignes créées, modifiées, ou ignorées.
+
 
 
 
