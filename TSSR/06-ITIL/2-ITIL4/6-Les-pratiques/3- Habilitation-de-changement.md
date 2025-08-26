@@ -55,7 +55,7 @@ Toute **modification** impactant **le système d’information** :
 
 🎯 On ne peut pas évaluer un changement si on ne sait pas : Quels composants sont impactés, Où ils sont, Qui les utilise, Comment ils sont liés ➡️ Importance du **CMS**
 
-![](../../media/Cours-Intro-ITIL4-V2-Habilitation-de-changement-image1.png)
+![](../../../media/Cours-Intro-ITIL4-V2-Habilitation-de-changement-image1.png)
 
 ### **🛡️ Gestion du risque**
 
@@ -74,5 +74,6 @@ Probabilité : Improbable / Probable / Très probable
 Résultat : 🟩 Vert / 🟧 Orange / 🟥 Rouge
 
 🧠 Chaque entreprise peut affiner avec plus de niveaux (4x4, 5x5, etc.)
+
 
 
