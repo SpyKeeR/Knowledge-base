@@ -10,7 +10,7 @@ L’**agent d’inventaire GLPI** est un petit logiciel qu’on installe sur les
 
 - Installation automatique via l’utilisation d’un script VBS (Possibilité de déploiement via GPO)
 
-🧠 **Documentation complète (à garder sous le coude)** : <https://glpi-agent.readthedocs.io/en/latest/> et DL Sur GitHub : <https://github.com/glpi-project/glpi-agent/releases>
+🧠 [**Documentation complète (à garder sous le coude)**](https://glpi-agent.readthedocs.io/en/latest) et [DL Sur GitHub](<https://github.com/glpi-project/glpi-agent/releases>)
 
  
 
@@ -63,5 +63,6 @@ L’**agent d’inventaire GLPI** est un petit logiciel qu’on installe sur les
 📦 Le projet fournit des **packages MPKG** prêts à installer.
 
 Même logique que sous Linux : → tu télécharges, tu installes, tu paramètres (TAG, URL serveur, etc.)
+
 
 
