@@ -8,8 +8,6 @@
   - **Version** (ex. Office 365 Pro Plus, Office 2021)  
   - **Statut** : installé ou en stock (non utilisé)
 
----
-
 ## 🗂️ Étapes de gestion d’un logiciel
 
 ### 1️⃣ Créer des catégories logicielles
@@ -84,22 +82,3 @@ Une licence peut aussi être liée à :
 - **🔗 Liens** → relier à d’autres objets GLPI.  
 - **📝 Notes, Réservations, Domaines, Applicatifs, Regroupements** → usages avancés.
 
----
-
-## 🎯 Exemple concret
-Entreprise avec 50 postes :  
-- 50 licences **Office 2021 Volume**  
-- 10 licences **Adobe Acrobat Pro 2020**  
-- 1 licence **LibreOffice** (logiciel libre)  
-
-Dans GLPI :  
-1. Créer 3 objets logiciels : *Office 2021*, *Acrobat Pro 2020*, *LibreOffice*.  
-2. Ajouter leurs **versions**.  
-3. Lier les **licences** correspondantes.  
-4. Créer les **installations** en les associant aux postes.  
-
-👉 Résultat : tu sais à tout moment :  
-- ✅ Combien de licences sont utilisées  
-- ✅ Où elles sont installées  
-- ✅ Quand elles expirent  
-- ✅ Qui est responsable
