@@ -1,12 +1,11 @@
-🧭 **1\. Où ça se passe ?** ↳ **Accueil > Configuration > Plugins**
+## 🧭 **1. Où ça se passe ?** ↳ **Accueil > Configuration > Plugins**
 
 C’est ici que tu installes, actives, configures, désinstalles et explores les **plugins** qui permettent de **booster** ton GLPI.
 
 📦 Les plugins, c’est ce qui permet d’ajouter plein de fonctionnalités à GLPI sans toucher au cœur du système (comme l’inventaire automatique, la cartographie réseau, ou la gestion des contrats).
 
-&nbsp;
 
-🛒 **2\. Installation depuis le Marketplace (méthode recommandée)**
+## 🛒 **2\. Installation depuis le Marketplace (méthode recommandée)**
 
 1. Clique sur **« Marketplace »**
 2. Deux onglets :
@@ -16,14 +15,13 @@ C’est ici que tu installes, actives, configures, désinstalles et explores les
 4. Une fois installé, tu dois **l’activer**
 5. Ensuite, **Configure-le** si besoin
 
-🧠 **À retenir :**
+### 🧠 **À retenir :**
 
 - Les plugins **non compatibles** ne seront **pas installables**
 - Certains plugins nécessitent une **offre GLPI-Network** (GLPI payant avec support)
 
-&nbsp;
 
-🧰 **3\. Gestion des plugins installés**
+## 🧰 **3\. Gestion des plugins installés**
 
 Depuis l’onglet **Installé**, tu peux :
 
@@ -35,9 +33,8 @@ Si tu désinstalles un plugin, il peut rester des **fichiers résiduels** sur le
 
 🧹 Pense à faire le ménage dans le dossier /var/www/glpi/marketplace si besoin.
 
-&nbsp;
 
-📁 **4\. Installation manuelle (à faire uniquement si besoin)**
+## 📁 **4\. Installation manuelle (à faire uniquement si besoin)**
 
 👉 Cas typique : le plugin n’est pas dispo sur le Marketplace ou tu as une version modifiée.
 
@@ -51,3 +48,4 @@ Si tu désinstalles un plugin, il peut rester des **fichiers résiduels** sur le
 🖥️ Ensuite, sur l’interface GLPI : Le plugin apparaîtra dans l’onglet **Installé et** Tu pourras alors l’**installer**, puis l’**activer**
 
 🧽 Pour désinstaller complètement : Supprime manuellement le dossier dans /var/www/glpi/plugins
+
