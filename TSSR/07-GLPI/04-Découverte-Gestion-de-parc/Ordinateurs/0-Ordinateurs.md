@@ -1,7 +1,10 @@
 # Item Ordinateurs
 
 
-Un **inventaire informatique**, c’est faire un **état des lieux du parc matériel** : 📦 Matériel physique (PC, imprimantes, serveurs, etc.) / 💻 Logiciels installés, avec ou sans licence / 🧰 Composants (RAM, disque, carte mère, etc.)
+Un **inventaire informatique**, c’est faire un **état des lieux du parc matériel** : 
+- 📦 Matériel physique (PC, imprimantes, serveurs, etc.)
+- 💻 Logiciels installés, avec ou sans licence 
+- 🧰 Composants (RAM, disque, carte mère, etc.)
 
 GLPI permet d’**organiser toutes ces informations dans un outil centralisé**, à travers une gestion informatisée.
 
@@ -78,5 +81,6 @@ Utilisation d’un outil **d’inventaire automatique** (ex : FusionInventory) �
 ## **🧷 Logiciels et licences**
 
 GLPI permet aussi de : Gérer les **licences /** Associer les logiciels aux équipements / Vérifier leur **conformité** (comptes, installations, affectations)
+
 
 
