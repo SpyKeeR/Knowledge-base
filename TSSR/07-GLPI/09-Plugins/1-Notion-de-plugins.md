@@ -11,7 +11,6 @@ On y retrouve :
 - 🔄 La **compatibilité** selon la version GLPI  
 - 📊 Un classement par catégories : Reporting, Inventaire (ex : FusionInventory), Réseau, Gestion financière/administrative, Import/Export (ex : Data-Injection)  
 
----
 
 ## **📍 Où ça se passe dans GLPI ?**  
 ↳ **Accueil > Configuration > Plugins**
@@ -19,7 +18,6 @@ On y retrouve :
 C’est ici que tu installes, actives, configures ou désinstalles les plugins.  
 👉 Les plugins permettent d’ajouter plein de fonctions (inventaire auto, cartographie réseau, gestion des contrats, etc.).
 
----
 
 ## **🛒 Installation depuis le Marketplace (méthode recommandée)**
 1. Ouvre l’onglet **Marketplace**  
@@ -34,7 +32,6 @@ C’est ici que tu installes, actives, configures ou désinstalles les plugins.
 - Certains nécessitent une **offre GLPI-Network** (support payant).  
 - Les fichiers téléchargés sont stockés dans `/var/www/glpi/marketplace`.
 
----
 
 ## **📁 Installation manuelle (méthode alternative)**
 À utiliser uniquement si le plugin n’existe pas dans le Marketplace ou si tu as une version spécifique.
@@ -50,7 +47,6 @@ C’est ici que tu installes, actives, configures ou désinstalles les plugins.
 
 🧹 Pour désinstaller complètement : supprimer manuellement le dossier du plugin.  
 
----
 
 ## **🛠️ Gestion des plugins installés**
 Depuis **Configuration > Plugins > Installé** :  
@@ -58,10 +54,10 @@ Depuis **Configuration > Plugins > Installé** :
 - Configurer ⚙️  
 - Désinstaller (⚠️ des fichiers peuvent rester → nettoyage manuel possible)  
 
----
 
 ## **⚠️ Compatibilité et mises à jour**
 Lors d’une mise à jour de GLPI :  
 - Vérifie la **compatibilité des plugins principaux** avec la nouvelle version  
 - Mets à jour **GLPI et tes plugins en parallèle**  
 - Sinon, certaines fonctionnalités peuvent casser ou devenir inutilisables
+
