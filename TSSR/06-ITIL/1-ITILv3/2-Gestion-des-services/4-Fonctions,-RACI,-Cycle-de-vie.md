@@ -3,6 +3,7 @@
 **📌 Définition d'une fonction**
 
 Une **fonction** est un **groupe structuré de personnes**, avec des **compétences**, des **ressources** (matériel, outils, logiciels) et des **responsabilités précises**, qui travaillent ensemble pour produire un **résultat spécifique**.
+
 🎯 Une fonction **réalise une ou plusieurs activités** d’un ou plusieurs processus.
 
 ## **🛠️ Les 4 fonctions principales dans ITIL**
@@ -48,4 +49,5 @@ ITIL décrit **5 grandes phases** du cycle de vie d’un service IT :
 | **3. Transition des services** | Mettre en place, tester, documenter, **industrialiser** le service |
 | **4. Exploitation des services** | Le service est **en production**, accessible aux utilisateurs, avec du support |
 | **5. Amélioration continue** | Analyse post-déploiement : on mesure, **on améliore** en continu, on adapte |
+
 
