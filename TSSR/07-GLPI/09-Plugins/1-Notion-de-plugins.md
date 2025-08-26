@@ -1,4 +1,4 @@
-# Notion de plugins**🧩 Qu’est-ce qu’un plugin dans GLPI ?**
+# **🧩 Qu’est-ce qu’un plugin dans GLPI ?**
 
 - Un **plugin (ou extension)** permet **d'étendre les fonctionnalités natives** de GLPI.
 - Ils ne sont **pas toujours développés par l’équipe officielle** de GLPI.
@@ -43,3 +43,4 @@
   - Que tes plugins principaux sont **compatibles** avec la nouvelle version.
   - Sinon, cela peut **casser des fonctionnalités** ou rendre le plugin inutilisable.
 - 🛠️ Mieux vaut **mettre à jour GLPI et les plugins en parallèle**.
+
