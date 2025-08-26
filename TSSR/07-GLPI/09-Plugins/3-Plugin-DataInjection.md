@@ -25,7 +25,6 @@ Avant d’importer un fichier, tu dois créer un **modèle**. Ce modèle sert à
 🧠 **Exemple concret :** Tu veux importer une liste de 100 postes client d’une ancienne base Excel. Tu crées un modèle qui cible la table **Ordinateurs**, et tu choisis "Créer les lignes".
 
  
-
 ## 🛠️ **Options avancées du modèle**
 
 Tu peux aller plus loin avec des réglages fins :
@@ -39,7 +38,6 @@ Tu peux aller plus loin avec des réglages fins :
 - **Mise à jour des champs existants** : Précise si certains champs doivent être écrasés
 
  
-
 📄 **Préparer le fichier d'import**
 
 Tu dois avoir un **fichier bien formé**, souvent au format CSV.
@@ -51,7 +49,6 @@ Tu dois avoir un **fichier bien formé**, souvent au format CSV.
 - Ensuite, tu le **charges dans GLPI** via l’interface du plugin.
 
  
-
 ### 🔁 **Correspondance des champs**
 
 C’est l’étape **clé** : tu dois dire à GLPI **à quoi correspond chaque colonne** de ton fichier.
@@ -60,7 +57,6 @@ C’est l’étape **clé** : tu dois dire à GLPI **à quoi correspond chaque c
 
 Et tu peux sauvegarder un **exemple** dans la base de connaissances pour les prochains imports.
 
- 
 
 ### 🚀 **Utilisation du modèle**
 
@@ -68,6 +64,7 @@ Une fois ton modèle prêt :
 - Tu le sélectionnes dans le plugin, Tu choisis le fichier contenant les données,
 - Tu indiques le **champ de liaison** (ex : nom, numéro d'inventaire) pour que GLPI sache **quoi mettre à jour ou créer,**
 - Tu lances l’import \> GLPI va te faire un petit **récap** de ce qui a été fait : lignes créées, modifiées, ou ignorées.
+
 
 
 
