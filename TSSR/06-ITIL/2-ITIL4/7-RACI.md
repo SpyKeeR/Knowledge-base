@@ -1,8 +1,17 @@
-# BONUS
+# RACI
+
+![](../../media/Cours-Intro-ITIL4-V2-6-BONUS-image1.png)
+
 
 ## **🧩 C’est quoi cette matrice RACI ?**
 
 La **matrice RACI** est un outil de **clarification des rôles et responsabilités** sur un processus, une tâche, une activité ou un projet.
+
+| R – Responsable | Technicien de niveau 1         |
+|-------|------------|
+| A – Accountable | Manager support                |
+| C – Consulted   | Responsable applicatif         |
+| I – Informed    | Responsable métier utilisateur |
 
 L’idée, c’est d’éviter les situations du type :
 
@@ -43,6 +52,7 @@ Tu peux l’utiliser pour :
 ![](../../media/Cours-Intro-ITIL4-V2-6-BONUS-image1.png)
 
 ![](../../media/Cours-Intro-ITIL4-V2-6-BONUS-image2.png)
+
 
 
 
