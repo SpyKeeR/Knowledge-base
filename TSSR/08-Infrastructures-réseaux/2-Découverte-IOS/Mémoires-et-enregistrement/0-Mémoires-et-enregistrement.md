@@ -29,9 +29,7 @@ Chaque type de mémoire a un rôle bien précis au boot ⬇️
 
 4️⃣ **RAM** (copie de la startup-config dans la running-config, exécution)
 
-🎯 La running-config est donc toujours une copie volatile de la startup-config…
-
-sauf si tu bosses dessus et que tu oublies de la sauvegarder 💣
+🎯 La running-config est donc toujours une copie volatile de la startup-config… sauf si tu bosses dessus et que tu oublies de la sauvegarder 💣
 
 
 
@@ -55,6 +53,7 @@ Deux configs à bien distinguer :
 Tu peux ensuite copier de **“building configuration”** jusqu’à **“end”** et coller dans un fichier à plat.
 
 🧠 Astuce : très utile pour documenter une config ou réinjecter sur un autre équipement plus tard.
+
 
 
 
