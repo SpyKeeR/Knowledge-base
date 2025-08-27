@@ -19,9 +19,9 @@ Tu veux qu’un routeur parle sur le réseau ? Il faut activer ses interfaces
 
 (souvent désactivées par défaut sur routeur) :
 
-- Aller dans l’interface : interface GigabitEthernet0/0
-- Donner une IP + masque : ip address 192.168.X.X 255.255.255.0
-- Activer l’interface : no shutdown
+- Aller dans l’interface : `interface GigabitEthernet0/0`
+- Donner une IP + masque : `ip address 192.168.X.X 255.255.255.0`
+- Activer l’interface : `no shutdown`
 
 
 
@@ -76,4 +76,5 @@ Le routeur travaille sur **trois couches du modèle OSI** :
 - **Couche 1 (physique)** : transmission du signal brut
 - **Couche 2 (liaison)** : lecture/création des **trames Ethernet**
 - **Couche 3 (réseau)** : traitement des **paquets IP** et routage
+
 
