@@ -1,4 +1,4 @@
-# RIP**📛 Présentation du protocole RIP**
+# **📛 Présentation du protocole RIP**
 
 RIP (*Routing Information Protocol*) est un **protocole de routage dynamique standard**, basé sur un **vecteur de distance** (distance-vector).
 
@@ -53,4 +53,5 @@ network 192.168.1.0
 - RIP limite à **15 sauts max** (au-delà = inatteignable).
 - Convergence **lente**, sensible aux **boucles** sans mécanismes de prévention (split horizon, hold-down, etc.).
 - Pratique en **lab ou petits réseaux**, mais souvent remplacé en prod par **OSPF** ou **EIGRP**.
+
 
