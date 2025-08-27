@@ -60,9 +60,9 @@
 
 #### 🔧 **Commandes** :
 
-• duplex {auto | full | half}
+• `duplex {auto | full | half}`
 
-• speed {10 | 100 | 1000 | auto}
+• `speed {10 | 100 | 1000 | auto}`
 
 **🧩 Domaines de collision vs. diffusion**
 
@@ -91,6 +91,7 @@
 | Hub                | 1 global                 | 1 global                 |
 | Switch (par port)  | 1 par port               | 1 par VLAN               |
 | Routeur (par port) | Isolement total          | 1 par interface          |
+
 
 
 
