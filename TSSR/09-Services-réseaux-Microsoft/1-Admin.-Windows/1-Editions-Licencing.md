@@ -5,7 +5,7 @@
 On va comparer plusieurs versions de **Windows Server** :
 
 - 🌱 **Anciennes versions** : Windows Server **2008 R2** et **2016**
-- 🌳 **Version actuelle étudiée** : **Windows Server 2019**
+- 🌳 **Version étudiée** : **Windows Server 2019** (2022 et 2025 disponible à l'heure ou j'écrit)
 
 📌 Ces OS ont des *releases* (versions majeures) et des *patch notes* (correctifs), indispensables pour la **sécurité, la stabilité et les évolutions** du serveur.
 
@@ -40,6 +40,7 @@ Trois grandes éditions principales, avec des **fonctions et limites** bien déf
 
 - Le **serveur** doit être activé avec une licence adaptée (**Standard, Datacenter, Essential**)
 - Chaque **client** qui se connecte à ce serveur a besoin d’une **CAL**
+
 
 
 
