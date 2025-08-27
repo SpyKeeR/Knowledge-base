@@ -8,15 +8,13 @@ Ils répondent à un **besoin fort de mobilité**. Le standard de référence es
 
 (plusieurs versions selon les débits, fréquences, portée...).
 
-
+![](../../../media/Cours-Infrastructures-réseaux-Fonctionnement-Normes-image2.png)
 
 ### **🧪 Wi-Fi Alliance & certification**
 
 La **Wi-Fi Alliance** est un organisme qui teste et certifie les équip. sans fil selon normes IEEE 802.11.
 
-📍 Si l’équipement affiche le logo **Wi-Fi CERTIFIED**,
-
-cela signifie qu’il est **interopérable** avec d’autres appareils compatibles.
+📍 Si l’équipement affiche le logo **Wi-Fi CERTIFIED**, cela signifie qu’il est **interopérable** avec d’autres appareils compatibles.
 
 
 
@@ -63,8 +61,3 @@ Le Wi-Fi est en **half duplex**, donc une seule transmission à la fois.
   - **CTS** (Clear To Send) → réponse du point d’accès
 
 Ce mécanisme assure que personne ne parle en même temps, **réduit les collisions** mais **introduit une latence**.
-
-![](../../../media/Cours-Infrastructures-réseaux-Fonctionnement-Normes-image2.png)
-
-
-
