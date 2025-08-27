@@ -33,15 +33,14 @@ Dans ton cas :
 - Le serveur SMTP (172.25.10.2:25) est mappé sur 192.0.2.50:25
 - Le serveur POP3 (172.25.10.2:110) est mappé sur 192.0.2.50:110
 
-🔐 ⚠️ Attention : ouvrir des ports vers des machines internes augmente
-
-la **surface d’exposition**, bien sécuriser les services derrière !
+🔐 ⚠️ Attention : ouvrir des ports vers des machines internes augmente la **surface d’exposition**, bien sécuriser les services derrière !
 
 
 
 ### **🔍 Vérification🎯**
 
-- 📋 show ip nat translations → Affiche les mappings actifs (IP + port)
-- 📊 show ip nat statistics → Statistiques NAT globales : connexions, translations, erreurs…
+- 📋 `show ip nat translations` → Affiche les mappings actifs (IP + port)
+- 📊 `show ip nat statistics` → Statistiques NAT globales : connexions, translations, erreurs…
+
 
 
