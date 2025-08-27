@@ -46,11 +46,12 @@
 
 
 
-##**🎛️🧪 Les codecs : qualité audio & MOS**
+## **🎛️🧪 Les codecs : qualité audio & MOS**
 
 - **Codecs principaux** : G711 (qualité élevée, 64 kbps), G729 (compressé, 8 kbps)
 - Fonctionnement : encode/décode la voix via **DSP**
 - **MOS (Mean Opinion Score)** : de 1 (mauvais) à 5 (excellent), permet d’évaluer la qualité vocale d’un codec
 
 🎯 Le choix du codec dépend de la **bande passante** dispo et du **niveau de qualité** attendu.
+
 
