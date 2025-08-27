@@ -11,9 +11,8 @@ Les **ACL étendues** filtrent les paquets **IP** selon :
 - 📦 **Protocole (TCP, UDP, ICMP…)**
 - 🚪 **Port(s) spécifique(s)** (ex : HTTP = 80, DNS = 53)
 - 📌 Numérotation : 100 à 199 (classique) et 2000 à 2699 (plage étendue)
-- 📍 **À positionner au plus près de la source** du trafic à bloquer
 
-(pour éviter de filtrer trop large trop tôt)
+📍 **À positionner au plus près de la source** du trafic à bloquer (pour éviter de filtrer trop large trop tôt)
 
 
 
@@ -61,3 +60,4 @@ Si tu veux bloquer les requêtes HTTP sortant de LAN20 → mettre l’ACL **en e
 - `show access-lists` → affiche les règles + compteur de matches
 - `show ip interface <iface>` → pour voir si une ACL est appliquée en in ou out
 - `clear access-list counters` → reset des compteurs si besoin
+
