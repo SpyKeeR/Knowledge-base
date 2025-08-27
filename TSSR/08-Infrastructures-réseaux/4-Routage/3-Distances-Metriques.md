@@ -11,7 +11,7 @@ La **distance administrative** permet de déterminer **quelle route choisir** qu
 
 🧠 *Exemple :* Si une route vers un réseau existe à la fois en OSPF (AD 110) et en RIP (AD 120), **OSPF sera choisi**.
 
-
+![](../../media/Cours-Infrastructures-réseaux-Distances-Metriques-image1.png)
 
 ### **🛠️ Pourquoi la distance administrative ?**
 
@@ -45,7 +45,6 @@ Les deux servent à **prendre des décisions de routage**, mais à deux niveaux 
 
 Donc : ➡️ **AD = choix du protocole**, ➡️ **Métrique = choix du chemin à l'intérieur du protocole**.
 
-![](../../media/Cours-Infrastructures-réseaux-Distances-Metriques-image1.png)
 
 ### **🧮 La métrique en routage : la boussole du trafic**
 
@@ -64,5 +63,6 @@ La **métrique** est la **valeur numérique** utilisée par un protocole de rout
   - 🐢 Une interface lente = chemin plus "cher"
 
 👉 Résultat : **RIP privilégie les chemins les plus courts**, **OSPF privilégie les chemins les plus rapides**.
+
 
 
