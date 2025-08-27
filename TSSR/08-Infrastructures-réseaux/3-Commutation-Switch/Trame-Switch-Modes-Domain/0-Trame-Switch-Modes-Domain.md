@@ -16,7 +16,8 @@
 
 • Intègre un **contrôle d’erreurs** (FCS)
 
-### 🧱 **Couche OSI** concernée : **Couche 2 - Liaison de données**
+### 🧱 **Couche OSI** concernée : 
+- **Couche 2 - Liaison de données**
 
 
 
@@ -91,6 +92,7 @@
 | Hub                | 1 global                 | 1 global                 |
 | Switch (par port)  | 1 par port               | 1 par VLAN               |
 | Routeur (par port) | Isolement total          | 1 par interface          |
+
 
 
 
