@@ -1,6 +1,6 @@
-# TFTP**
+# TFTP
 
-## 💾 La commande copy – Transferts de fichiers (via TFTP)**
+## **💾 La commande copy – Transferts de fichiers (via TFTP)**
 
 La commande copy permet de transférer des fichiers d’un emplacement à un autre sur un routeur/switch Cisco.
 
@@ -36,4 +36,5 @@ En plus de la config, tu peux carrément **sauvegarder l’image IOS** utilisée
 🔍 L’IOS est stocké dans la mémoire **flash**, c’est pour ça qu’on indique flash: comme source.
 
 🧠 Astuce : toujours vérifier que le TFTP est joignable avant de lancer la commande (ping, interface up, etc.)
+
 
