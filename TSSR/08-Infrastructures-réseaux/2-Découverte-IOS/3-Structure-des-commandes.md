@@ -22,9 +22,12 @@ Deux outils très pratiques :
 - **? (point d’interrogation)** ➜ propose les options possibles à l’endroit où il est placé  
   Ex : `ping ?` ➜ suggère ip, ipv6, etc.
 
+  ![](../../media/Cours-Infrastructures-réseaux-Structure-des-commandes-image3.png)
+
 - **^ (accent circonflexe)** ➜ **montre l’erreur dans une commande tapée  **
   Ex : `interface LastEthernet (mal écrit)` ➜ le ^ apparaîtra sous "L" pour signaler l'erreur
 
+  ![](../../media/Cours-Infrastructures-réseaux-Structure-des-commandes-image2.png)
 
 
 ## **⚡ Raccourcis clavier indispensables**
@@ -47,14 +50,4 @@ IOS permet de gagner un max de temps avec des raccourcis :
 - **Mots-clés + arguments**, séparés par des espaces
 - Les aides `?` et ^ sont **tes meilleurs amis** pour éviter les erreurs
 - Les **raccourcis clavier** boostent ta productivité au quotidien
-
-![](../../media/Cours-Infrastructures-réseaux-Structure-des-commandes-image2.png)
-
-
-
-![](../../media/Cours-Infrastructures-réseaux-Structure-des-commandes-image3.png)
-
-
-
-
 
