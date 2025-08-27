@@ -10,6 +10,8 @@ La **trame Ethernet** est l’unité de base du transport de données sur un **r
 
 ## **🧱 Champs clés d’une trame Ethernet classique**
 
+![](../../media/Cours-Infrastructures-réseaux-Trame-Ethernet-image3.png)
+
 Une trame **norme IEEE 802.3** est composée de :
 
 1.  **📨 Destination MAC Address** : à qui sont destinées les données
@@ -21,6 +23,8 @@ Une trame **norme IEEE 802.3** est composée de :
 
 
 ## **🏷️ Trame Ethernet avec tag VLAN (802.1Q)**
+
+![](../../media/Cours-Infrastructures-réseaux-Trame-Ethernet-image2.png)
 
 Quand une trame est **taguée VLAN**, des champs supplémentaires
 
@@ -46,7 +50,6 @@ Un **domaine de collision** = zone où deux paquets peuvent entrer en collision
 
 🧠 **+ de domaines = + d’efficacité réseau** → d'où l’intérêt des switches en entreprise.
 
-![](../../media/Cours-Infrastructures-réseaux-Trame-Ethernet-image2.png)![](../../media/Cours-Infrastructures-réseaux-Trame-Ethernet-image3.png)
 
 
 
