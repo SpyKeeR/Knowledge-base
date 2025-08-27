@@ -14,7 +14,7 @@ Le **routage inter-VLAN** permet à des équipements situés dans des VLANs diff
 
 ![](../../../media/Cours-Infrastructures-réseaux-Routage-Inter-VLAN-image1.png)
 
-### **📥 Scénario typique**
+### **📥 Scénario typique (Router-On-a-Stick)**
 
 📍 *Exemple* : PC1 (VLAN 10) veut parler à PC2 (VLAN 20).
 
@@ -53,3 +53,4 @@ Utilise ces commandes pour diagnostiquer :
 - `show interfaces trunk` : vérifie le trunking
 
 🧠 *Check-list rapide* : → VLANs créés ✅ → Trunk actif ✅ → Sous-interfaces IP OK ✅ → Pings inter-VLAN OK ✅
+
