@@ -34,7 +34,7 @@ Elles agissent uniquement **sur l’adresse IP source** du paquet.
 
 `deny|permit <source IP> <wildcard>`
 
-### Exemple clair : • 🚫 Interdire LAN10 → LAN30 • ✅ Autoriser LAN20 → LAN30
+### Exemple clair : 
 
 ![](../../../media/Cours-Infrastructures-réseaux-ACL-Standard-image1.png)
 
@@ -65,6 +65,7 @@ Chaque règle (ACE) a un **numéro de séquence** (10, 20, 30…) :
 - Tu peux **insérer entre deux lignes** → ajouter 15 entre 10 et 20
 
 ✂️ Supprimer une ACL : `no ip access-group <num>` sur l'interface et `no access-list <num>` pour la virer du routeur
+
 
 
 
