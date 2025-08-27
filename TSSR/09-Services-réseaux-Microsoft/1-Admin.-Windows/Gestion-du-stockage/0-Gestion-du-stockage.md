@@ -28,11 +28,16 @@ Deux grands formats pour structurer un disque 🧱 :
 - **RAID 0** : striping, + perf, pas de redondance
 - **RAID 1** : mirroring, + sécurité (copie exacte)
 - **RAID 5** : striping + parité, bon équilibre (min. 3 disques)
-- **RAID 10** : mirroring + striping, perf + sécurité (min. 4 disques)
 
 🧱 RAID peut être **géré matériellement (BIOS RAID / carte RAID)** ou **logiciellement (via OS ou stockage virtuel)**.
 
 🔧 Sous Windows Server, on peut créer du RAID logiciel via la **Gestion des disques**, mais c’est limité comparé à une vraie solution matérielle.
+
+| **Type** | **Disques min.** | **Redondance** | **Capacité dispo** | **Performance** |
+|----|----|----|----|----|
+| RAID 0 | 2 | ❌ | 100% | 🔥 Très rapide |
+| RAID 1 | 2 | ✅ (1 panne) | 50% | ⚡ Lecture rapide |
+| RAID 5 | 3 | ✅ (1 panne) | (n-1) x taille | ⚡ Bon mix perf/sécurité |
 
 
 
@@ -66,4 +71,5 @@ Pour revenir à un disque de base, tu dois **supprimer tous les volumes** avant.
 - **Volume agrégé par bande (striped)** : RAID 0, + performances, pas de redondance.
 - **Volume en miroir** : RAID 1, copie exacte entre deux disques.
 - **Volume RAID-5** : tolérance aux pannes + perf, nécessite 3 disques min (version Server uniquement).
+
 
