@@ -45,11 +45,12 @@ Quand une trame arrive :
 
 
 
-## **⚔️ Comparatif rapide**
+### **⚔️ Comparatif rapide**
 
 | **🧪 Méthode**    | **⏱️ Latence** | **✔️ Intégrité** | **⚡ Conditions**    |
 |-------------------|----------------|------------------|----------------------|
 | Store-and-Forward | Haute          | ✅ Oui (FCS)     | Ports mixtes         |
 | Cut-through       | Très faible    | ❌ Non           | Ports mêmes vitesses |
+
 
 
