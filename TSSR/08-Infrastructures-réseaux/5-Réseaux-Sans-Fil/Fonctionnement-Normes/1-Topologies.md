@@ -69,7 +69,10 @@ Un AP peut diffuser **plusieurs SSID**, et **plusieurs APs peuvent**
 
 **diffuser le même SSID** pour étendre la couverture.
 
+
+![](../../../media/Cours-Infrastructures-réseaux-Topologies-image1.png)
 ![](../../../media/Cours-Infrastructures-réseaux-Topologies-image2.png)
+
 
 
 
