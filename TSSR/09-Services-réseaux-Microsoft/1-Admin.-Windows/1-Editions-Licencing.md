@@ -11,15 +11,6 @@ On va comparer plusieurs versions de **Windows Server** :
 
 
 
-### **🆚 Parallèle avec les clients Windows**
-
-On fait aussi un petit détour côté **clients** :
-
-- 🖼️ Comparaison rapide avec **Windows XP** et **Windows 10**
-- 🎯 Objectif : comprendre les **différences de rôle** entre un OS serveur (centralisateur, services réseau) et un OS client (poste utilisateur)
-
-
-
 ## **📦 Éditions de Windows Server**
 
 Trois grandes éditions principales, avec des **fonctions et limites** bien définies :
@@ -49,5 +40,6 @@ Trois grandes éditions principales, avec des **fonctions et limites** bien déf
 
 - Le **serveur** doit être activé avec une licence adaptée (**Standard, Datacenter, Essential**)
 - Chaque **client** qui se connecte à ce serveur a besoin d’une **CAL**
+
 
 
