@@ -1,6 +1,6 @@
-# Routage**
+# Routage
 
-🚪 Principe du routage**
+**🚪 Principe du routage**
 
 Quand plusieurs **domaines de diffusion** existent (ex : 3 réseaux), il faut un **routeur** pour permettre aux machines de ces réseaux de **communiquer entre elles**.
 
@@ -48,4 +48,5 @@ Deux grandes familles :
 📡 Protocoles de routage connus :
 
 RIP (ancien, simple), OSPF (efficace, utilisé en entreprise), IGRP/EIGRP (Cisco)
+
 
