@@ -10,6 +10,8 @@ Le **NAPT dynamique**, c’est le **NAPT appliqué à la source** :
 
 🎯 Ce processus permet de **multiplexer plusieurs connexions privées vers Internet via une seule IP publique**.
 
+![](../../../media/Cours-Infrastructures-réseaux-NAPT-Dynamic-Source-image1.png)
+
 ## **🔁 Translation Inversée (Destination NAT)**
 
 Quand le **trafic revient**, le routeur fait le boulot inverse :
@@ -23,12 +25,10 @@ Quand le **trafic revient**, le routeur fait le boulot inverse :
 
 ## **⚙️ Configuration NAT dynamique sur Cisco IOS**
 
-Voici ce que fait chaque ligne de conf (pas de panique, t’as pas besoin de les taper, on les commente ici 🔍) :
-
-- 🏠 ip nat inside → Définit l’**interface interne** (côté LAN)
-- 🌐 ip nat outside → Définit l’**interface externe** (côté WAN)
-- 🧾 access-list 5 permit 172.25.10.0 0.0.0.255 → Crée une **ACL** qui cible les IP internes autorisées à sortir
-- 🔁 ip nat inside source list 5 interface g0/0/1 overload  
+- 🏠 `ip nat inside` → Définit l’**interface interne** (côté LAN)
+- 🌐 `ip nat outside` → Définit l’**interface externe** (côté WAN)
+- 🧾 `access-list 5 permit 172.25.10.0 0.0.0.255` → Crée une **ACL** qui cible les IP internes autorisées à sortir
+- 🔁 `ip nat inside source list 5 interface g0/0/1 overload` 
   → Crée une **translation dynamique** (avec surcharge = NAPT)  
   → Les IP de l’ACL seront traduites via l’IP publique de l’interface WAN
 
@@ -38,16 +38,10 @@ Voici ce que fait chaque ligne de conf (pas de panique, t’as pas besoin de les
 
 ### **🔍 Vérification NAT sur IOS**
 
-🧮 show ip nat translations → Affiche la **table active** des translations (IP privée ↔ IP publique)
+🧮 `show ip nat translations` → Affiche la **table active** des translations (IP privée ↔ IP publique)
 
-📊 show ip nat statistics → Montre les **stats NAT** (nb de translations actives, hits, misses, etc.)
+📊 `show ip nat statistics` → Montre les **stats NAT** (nb de translations actives, hits, misses, etc.)
 
 Très utile pour **déboguer** ou **suivre l'activité NAT** en temps réel.
-
-
-
-
-
-![](../../../media/Cours-Infrastructures-réseaux-NAPT-Dynamic-Source-image1.png)
 
 
