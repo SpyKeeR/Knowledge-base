@@ -56,7 +56,9 @@
 
 • **full-duplex** = bidirectionnel **simultané** (→ CSMA/CD désactivé)
 
-####🔧 **Commandes** :
+![](../../../media/Cours-Infrastructures-réseaux-Trame-Switch-Modes-Domain-image2.png)
+
+#### 🔧 **Commandes** :
 
 • duplex {auto | full | half}
 
@@ -90,7 +92,7 @@
 | Switch (par port)  | 1 par port               | 1 par VLAN               |
 | Routeur (par port) | Isolement total          | 1 par interface          |
 
-![](../../../media/Cours-Infrastructures-réseaux-Trame-Switch-Modes-Domain-image2.png)
+
 
 
 
