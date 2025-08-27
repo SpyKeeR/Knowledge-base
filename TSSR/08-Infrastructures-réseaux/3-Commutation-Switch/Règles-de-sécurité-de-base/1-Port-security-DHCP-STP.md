@@ -1,14 +1,12 @@
 # Port-security/DHCP/STP
 
-![](../../../media/Cours-Infrastructures-réseaux-Port-security-DHCP-STP-image1.png)
-
 ## **🔒 Sécurité de port – Port Security**
 
 ### **⚙️ Activation & vérification**
 
-🔧 Activation sur une interface : switchport port-security *(se configure dans l'interface)*
+🔧 Activation sur une interface : `switchport port-security` *(se configure dans l'interface)*
 
-🔍 Vérif config & état : show port-security interface <id>
+🔍 Vérif config & état : `show port-security interface <id>`
 
 → Affiche **statut**, le **nb max**, les **violations**, etc.
 
@@ -16,11 +14,11 @@
 
 ### **🧠 Apprentissage des adresses MAC**
 
-- switchport port-security mac-address :
-  - sticky : apprend dynamiquement et enregistre la MAC
-  - static : saisie manuelle fixe
-- switchport port-security maximum <nb> : limite de MAC autorisées
-- 🧾 Liste des adresses sécurisées : show port-security address
+- `switchport port-security mac-address` :
+  - `sticky` : apprend dynamiquement et enregistre la MAC
+  - `static` : saisie manuelle fixe
+- `switchport port-security maximum <nb>` : limite de MAC autorisées
+- 🧾 Liste des adresses sécurisées : `show port-security address`
 
 
 
@@ -30,11 +28,11 @@
 - **restrict** 🚨 : bloque, log l'évènement, incrémente les violations
 - **shutdown** ❌ : désactive l’interface (mode err-disabled) → C'est le **mode par défaut**
 
-
+![](../../../media/Cours-Infrastructures-réseaux-Port-security-DHCP-STP-image1.png)
 
 ### **🛠️ Redémarrage d’une interface SecureShutdown** → Nécessite un **reset manuel**
 
-💡 Cmds : shutdown puis no shutdown dans l’interface concernée
+💡 Cmds : `shutdown` puis `no shutdown` dans l’interface concernée
 
 
 
@@ -44,7 +42,7 @@
 
 Active le basculement immédiat du port en état forwarding (pas de délai STP)
 
-**Commande :** interface <id> / spanning-tree portfast
+**Commande :** `interface <id>` / `spanning-tree portfast`
 
 À activer uniquement sur les ports vers des hôtes (PC, imprimantes), **jamais vers un autre switch**.
 
@@ -56,7 +54,7 @@ Si un BPDU est reçu sur un port portfast → shutdown immédiat
 
 Protège contre les switchs branchés à l’arrache
 
-**Commande :** interface <id> / spanning-tree bpduguard enable
+**Commande :** `interface <id>` / `spanning-tree bpduguard enable`
 
 
 
@@ -66,7 +64,7 @@ Bloque l’envoi **et** la réception de BPDU.
 
 ⚠️ Dangereux : désactive complètement STP, risque de boucle si mal utilisé
 
-**Commande :** interface <id> / spanning-tree bpdufilter enable
+**Commande :** `interface <id>` / `spanning-tree bpdufilter enable`
 
 
 
@@ -84,17 +82,15 @@ Par défaut, toutes les interfaces sont **Untrust**
 
 Il faut définir les interfaces uplink vers **le vrai DHCP** comme **Trust** :
 
-**Commande :** interface <id>
-
-ip dhcp snooping trust
+**Commande :** `interface <id>` / `ip dhcp snooping trust`
 
 
 
 ### **⚙️ Configuration globale :**
 
-**Commandes :** ip dhcp snooping
+**Commandes :** `ip dhcp snooping`
 
-ip dhcp snooping vlan <vlan-id>
+`ip dhcp snooping vlan <vlan-id>`
 
 → Active DHCP Snooping **et** sur les VLANs concernés.
 
@@ -104,9 +100,7 @@ ip dhcp snooping vlan <vlan-id>
 
 Empêche les attaques de type flood DHCP Discover :
 
-**Commande :** interface <id>
-
-ip dhcp snooping limit rate <valeur>
+**Commande :** `interface <id>` / `ip dhcp snooping limit rate <valeur>`
 
 
 
@@ -114,17 +108,14 @@ ip dhcp snooping limit rate <valeur>
 
 **🎯 But :** Empêche l'usurpation ARP (spoofing de MAC/IP) en croisant les requêtes ARP avec la base de DHCP Snooping.
 
-**Commande globale :** ip arp inspection vlan <vlan-id>
+**Commande globale :** `ip arp inspection vlan <vlan-id>`
 
 → Nécessite que DHCP Snooping soit activé.
 
 **Pour "trust" les ports uplink :**
 
-interface <id>
+`interface <id>` / `ip arp inspection trust`
 
-ip arp inspection trust
-
-![](../../../media/Cours-Infrastructures-réseaux-Port-security-DHCP-STP-image2.png)
 
 
 
