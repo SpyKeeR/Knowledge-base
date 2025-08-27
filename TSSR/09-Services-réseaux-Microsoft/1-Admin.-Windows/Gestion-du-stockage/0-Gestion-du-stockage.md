@@ -1,5 +1,16 @@
 # Gestion du stockage
 
+## **🧱 Étapes d’initialisation & formatage**
+
+1.  **Initialisation** du disque (choix MBR/GPT)
+2.  **Création** des partitions (primaire, logique)
+3.  **Formatage** (choix du système de fichiers)
+4.  **Utilisation** (écriture des données)
+
+🧠 Tant qu’un disque n’est pas initialisé, il n’est pas exploitable par l’OS.
+
+Une fois les partitions créées → il faut formater pour qu’elles soient montées et utilisables.
+
 ## **💽 Types de partitionnement : MBR vs GPT**
 
 Deux grands formats pour structurer un disque 🧱 :
@@ -71,5 +82,16 @@ Pour revenir à un disque de base, tu dois **supprimer tous les volumes** avant.
 - **Volume agrégé par bande (striped)** : RAID 0, + performances, pas de redondance.
 - **Volume en miroir** : RAID 1, copie exacte entre deux disques.
 - **Volume RAID-5** : tolérance aux pannes + perf, nécessite 3 disques min (version Server uniquement).
+
+
+## **💾 Systèmes de fichiers : FAT32 vs NTFS**
+
+Petit match ⚔️ entre deux systèmes bien connus :
+
+- **FAT32** : ancien standard, ultra-compatible, mais limité → Fichier max : **4 Go**, Partition max : **2 To**
+- **NTFS** : actuel standard Windows → Fichier max : **256 To**, Sécurité (droits NTFS), compression, journalisation, chiffrement
+- **ReFS** (mentionné mais moins utilisé) : orienté stockage à haute résilience, usage serveur
+
+👉 En environnement pro/Windows, **NTFS est incontournable** pour ses fonctionnalités avancées.
 
 
