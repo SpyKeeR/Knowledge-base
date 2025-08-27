@@ -26,13 +26,13 @@ Le routeur peut apprendre plusieurs chemins vers le même réseau via différent
 Pour vérifier les routes dans la table : show ip route OU show ipv6 route
 
 La sortie donne aussi une **légende** des routes listées. Tu peux y voir : 
-- **🔹C :** Connectée directement,**
-- 🔹L :** Interface locale dans le réseau,
-- 🔹S : Statique,
-- 🔹O : OSPF,
-- 🔹R : RIP,
-- 🔹D : EIGRP,
-- 🔹* : Candidat pour route par défaut
+- 🔹C : **Connectée directement,**
+- 🔹L : **Interface locale dans le réseau**,
+- 🔹S : **Statique**,
+- 🔹O : **OSPF**,
+- 🔹R : **RIP**,
+- 🔹D : **EIGRP**,
+- 🔹* : Candidat pour **route par défaut**
 
 
 
@@ -63,6 +63,7 @@ La **métrique** est la **valeur numérique** utilisée par un protocole de rout
   - 🐢 Une interface lente = chemin plus "cher"
 
 👉 Résultat : **RIP privilégie les chemins les plus courts**, **OSPF privilégie les chemins les plus rapides**.
+
 
 
 
