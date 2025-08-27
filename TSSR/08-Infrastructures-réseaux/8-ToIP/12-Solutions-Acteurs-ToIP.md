@@ -22,7 +22,7 @@ Fournisseurs : **Nokia**, **Cisco**, **3CX**.
 
 
 
-### 📲 **Softphones / Téléphones logiciels**
+## 📲 **Softphones / Téléphones logiciels**
 
 Utilisables sur PC/smartphone pour passer/recevoir des appels via ToIP.
 
@@ -31,4 +31,5 @@ Utilisables sur PC/smartphone pour passer/recevoir des appels via ToIP.
 💼 Versions pro/payantes : **Cisco Jabber**, **3CX Phone**, souvent mieux intégrées aux solutions maisons.
 
 ⚠️ Attention aux coûts cachés (licences, fonctions bridées, intégration CRM...).
+
 
