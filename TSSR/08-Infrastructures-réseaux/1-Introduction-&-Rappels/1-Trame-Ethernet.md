@@ -2,6 +2,8 @@
 
 **📡 La trame Ethernet 802.3 – Vue générale**
 
+![](../../media/Cours-Infrastructures-réseaux-Trame-Ethernet-image3.png)
+
 La **trame Ethernet** est l’unité de base du transport de données sur un **réseau local filaire**. Elle contient **plusieurs champs** qui assurent la bonne livraison des données.
 
 🎯 Comprendre sa structure = savoir lire un paquet dans Wireshark, déboguer un switch, ou analyser un souci réseau.
@@ -9,8 +11,6 @@ La **trame Ethernet** est l’unité de base du transport de données sur un **r
 
 
 ## **🧱 Champs clés d’une trame Ethernet classique**
-
-![](../../media/Cours-Infrastructures-réseaux-Trame-Ethernet-image3.png)
 
 Une trame **norme IEEE 802.3** est composée de :
 
@@ -49,6 +49,7 @@ Un **domaine de collision** = zone où deux paquets peuvent entrer en collision
 **🧠 Switches** : 1 domaine de collision par port → plus efficace, moins de collisions
 
 🧠 **+ de domaines = + d’efficacité réseau** → d'où l’intérêt des switches en entreprise.
+
 
 
 
