@@ -11,16 +11,15 @@
 - Associer chaque interface à un réseau IP distinct
 - Activer les interfaces (no shutdown)
 
+![](../../../media/Cours-Infrastructures-réseaux-Traditionnel-image2.png)
+
 ### 🔀 **Sur le switch** :
 
 - Créer les VLAN (ex : 10, 20)
 - Affecter les ports des machines aux bons VLANs
 - Brancher chaque VLAN vers une interface dédiée du routeur
 
+![](../../../media/Cours-Infrastructures-réseaux-Traditionnel-image3.png)
+
+
 ⚠️ ➤ *Méthode peu scalable : il faut autant d'interfaces physiques que de VLANs !*
-
-![](../../../media/Cours-Infrastructures-réseaux-Traditionnel-image1.png)![](../../../media/Cours-Infrastructures-réseaux-Traditionnel-image2.png)![](../../../media/Cours-Infrastructures-réseaux-Traditionnel-image3.png)
-
-
-
-
