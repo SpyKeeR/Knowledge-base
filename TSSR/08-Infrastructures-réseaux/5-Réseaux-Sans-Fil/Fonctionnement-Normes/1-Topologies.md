@@ -1,60 +1,20 @@
 # Topologies
 
-**🏗 Topologie réseau Wi-Fi : BSS & ESS**
+## **🏗 Topologie réseau Wi-Fi : BSS & ESS**
 
-**Basic Service Set (BSS)  **
+**Basic Service Set (BSS)**
 ➡️ Un seul point d’accès + ses clients.
 
 
+![](../../../media/Cours-Infrastructures-réseaux-Topologies-image1.png)
 
 
+## **Extended Service Set (ESS)**
+
+➡️ Plusieurs points d’accès avec le **même SSID**, reliés au même réseau. Permet la **mobilité transparente** entre APs.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Extended Service Set (ESS)**
-
-➡️ Plusieurs points d’accès avec le **même SSID**,
-
-reliés au même réseau. Permet la **mobilité**
-
-**transparente** entre APs.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](../../../media/Cours-Infrastructures-réseaux-Topologies-image2.png)
 
 
 **🆔 Identifiants du réseau Wi-Fi**
@@ -65,14 +25,4 @@ reliés au même réseau. Permet la **mobilité**
 
 📶 **ESSID** : Même SSID partagé sur plusieurs APs dans un ESS
 
-Un AP peut diffuser **plusieurs SSID**, et **plusieurs APs peuvent**
-
-**diffuser le même SSID** pour étendre la couverture.
-
-
-![](../../../media/Cours-Infrastructures-réseaux-Topologies-image1.png)
-![](../../../media/Cours-Infrastructures-réseaux-Topologies-image2.png)
-
-
-
-
+Un AP peut diffuser **plusieurs SSID**, et **plusieurs APs peuvent diffuser le même SSID** pour étendre la couverture.
