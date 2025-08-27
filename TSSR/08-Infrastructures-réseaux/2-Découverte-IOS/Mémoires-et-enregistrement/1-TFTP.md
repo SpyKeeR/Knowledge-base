@@ -31,8 +31,9 @@ En plus de la config, tu peux carrément **sauvegarder l’image IOS** utilisée
   - **Cloner** une image vers d'autres équipements
   - Garder une **version stable** à disposition
 
+![](../../../media/Cours-Infrastructures-réseaux-TFTP-image1.png)
+
 🔍 L’IOS est stocké dans la mémoire **flash**, c’est pour ça qu’on indique flash: comme source.
 
 🧠 Astuce : toujours vérifier que le TFTP est joignable avant de lancer la commande (ping, interface up, etc.)
 
-![](../../../media/Cours-Infrastructures-réseaux-TFTP-image1.png)
