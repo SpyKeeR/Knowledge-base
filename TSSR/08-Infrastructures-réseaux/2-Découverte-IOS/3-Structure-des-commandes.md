@@ -1,10 +1,10 @@
 # Structure des commandes
 
-![](../../media/Cours-Infrastructures-réseaux-Structure-des-commandes-image1.png)
-
 ## **🧱 Structure de base d’une commande IOS**
 
 Une commande IOS est **composée de mots-clés + arguments** (valeurs variables).
+
+![](../../media/Cours-Infrastructures-réseaux-Structure-des-commandes-image1.png)
 
 Exemples :
 
@@ -53,6 +53,7 @@ IOS permet de gagner un max de temps avec des raccourcis :
 
 
 ![](../../media/Cours-Infrastructures-réseaux-Structure-des-commandes-image3.png)
+
 
 
 
