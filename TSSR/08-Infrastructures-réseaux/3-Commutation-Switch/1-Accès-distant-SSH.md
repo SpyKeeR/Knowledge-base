@@ -33,7 +33,6 @@ Voici les 5 étapes à suivre pour une config SSH propre et fonctionnelle :
 
 ### **🚫 Bonnes pratiques complémentaires**
 
-- Désactiver Telnet si présent : `transport input ssh`
 - Activer un **timeout** d'inactivité : `exec-timeout 5 0` (5 min)
 - Limiter le nombre de connexions simultanées : `line vty 0 4` → `login local` + `access-class` si filtrage IP
 
@@ -55,6 +54,7 @@ Sans le K9 → pas de SSH possible (juste Telnet en clair ❌)
 - `show ip ssh` → Affiche la **version SSH**, le **timeout**, le **nombre de tentatives de connexion**, etc.  
   Exemple : SSH Enabled - version 2.0
 - `show ssh` → Affiche les **sessions actives** SSH et leurs détails (utilisateur, IP source, durée...)
+
 
 
 
