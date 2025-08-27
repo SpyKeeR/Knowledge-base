@@ -42,7 +42,7 @@ La QoS agit sur 4 grandes **caractéristiques réseau** :
 
 💡 Le marquage se fait selon le **contexte réseau** (type d’équipement, support utilisé)
 
-
+![](../../media/Cours-Infrastructures-réseaux-QoS-image1.png)
 
 ### **🧬📡 Focus sur la trame Ethernet 802.1Q**
 
@@ -54,6 +54,8 @@ La QoS agit sur 4 grandes **caractéristiques réseau** :
   - **VLAN ID (12 bits)** : jusqu'à **4096 VLANs**
 
 👉 La priorité (802.1p) permet de **différencier les flux critiques** (ex : VoIP = niveau 5 ou 6)
+
+![](../../media/Cours-Infrastructures-réseaux-QoS-image2.png)
 
 ### **🧠📌 DSCP (Differentiated Services Code Point)**
 
@@ -70,8 +72,3 @@ La QoS agit sur 4 grandes **caractéristiques réseau** :
 - Il faut **mesurer régulièrement** la QoS (latence, gigue, pertes)
 - **Adapter les règles** selon l’évolution du trafic et des services
 - Anticiper la saturation pour garantir la **qualité perçue** par les utilisateurs
-
-![](../../media/Cours-Infrastructures-réseaux-QoS-image1.png)![](../../media/Cours-Infrastructures-réseaux-QoS-image2.png)
-
-
-
