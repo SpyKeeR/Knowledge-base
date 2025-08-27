@@ -42,7 +42,8 @@ Une fois en mode privilégié, on peut entrer en **mode configuration** (global 
 
 - Chaque mode a un **niveau d'accès** et un **prompt spécifique**
 - La **commande enable** ouvre l'accès aux configurations
-- configure terminal permet de **modifier le système**
-- exit et end sont essentiels pour **naviguer efficacement**
+- `configure terminal` permet de **modifier le système**
+- `exit` et `end` sont essentiels pour **naviguer efficacement**
 - Savoir **identifier les prompts** t’aide à ne pas te tromper de niveau
+
 
