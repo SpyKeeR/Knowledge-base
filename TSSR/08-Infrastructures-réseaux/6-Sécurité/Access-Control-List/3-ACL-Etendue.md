@@ -16,7 +16,7 @@ Les **ACL étendues** filtrent les paquets **IP** selon :
 
 
 
-### **🧾 Syntaxe**
+### **🧾 Syntaxe & exemple**
 
 Deux manières de les créer, comme pour les ACL standards :
 
@@ -33,7 +33,11 @@ Deux manières de les créer, comme pour les ACL standards :
 
 `{ip} access-list <num>{nom} deny|permit <proto> <IP src> <wildcard> <IP dst> <wildcard> eq <port>`
 
+#### Exemple : 
+- Bloquer HTTP (TCP 80) entre LAN20 et LAN40
+- Autoriser le ping (ICMP)
 
+![](../../../media/Cours-Infrastructures-réseaux-ACL-Etendue-image1.png)
 
 ## **🔧 Protocole et ports gérés**
 
@@ -60,4 +64,5 @@ Si tu veux bloquer les requêtes HTTP sortant de LAN20 → mettre l’ACL **en e
 - `show access-lists` → affiche les règles + compteur de matches
 - `show ip interface <iface>` → pour voir si une ACL est appliquée en in ou out
 - `clear access-list counters` → reset des compteurs si besoin
+
 
