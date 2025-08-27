@@ -45,6 +45,8 @@ Quand un hôte (ex : PC1) veut parler à un autre sur un réseau différent (ex 
 6.  **Horodatage** : temps écoulé depuis découverte (utilisé en dynamique)
 7.  **Interface de sortie** : port utilisé pour envoyer le paquet
 
+![](../../media/Cours-Infrastructures-réseaux-Routage-statique-image2.png)
+
 ⚠️ Si aucune route n’est définie : Soit route par défaut = utilisé / Soit erreur ICMP envoyée à l’émetteur (host/network unreachable)
 
 
@@ -55,8 +57,4 @@ Quand un hôte (ex : PC1) veut parler à un autre sur un réseau différent (ex 
 - Les **routes enfants** sont des sous-réseaux ou connexions directes
 - Le L (local) indique que le routeur **possède une IP** dans ce réseau
 - Une route connectée directe (via C) est toujours considérée comme enfant
-
-![](../../media/Cours-Infrastructures-réseaux-Routage-statique-image2.png)
-
-
 
