@@ -12,7 +12,7 @@ Le **routage inter-VLAN** permet à des équipements situés dans des VLANs diff
 
 ➡️ Choix selon la **taille du réseau** : un routeur pour les petits déploiements, un switch L3 pour les réseaux plus denses/complexes.
 
-
+![](../../../media/Cours-Infrastructures-réseaux-Routage-Inter-VLAN-image1.png)
 
 ### **📥 Scénario typique**
 
@@ -53,9 +53,3 @@ Utilise ces commandes pour diagnostiquer :
 - `show interfaces trunk` : vérifie le trunking
 
 🧠 *Check-list rapide* : → VLANs créés ✅ → Trunk actif ✅ → Sous-interfaces IP OK ✅ → Pings inter-VLAN OK ✅
-
-
-![](../../../media/Cours-Infrastructures-réseaux-Routage-Inter-VLAN-image1.png)
-
-
-
