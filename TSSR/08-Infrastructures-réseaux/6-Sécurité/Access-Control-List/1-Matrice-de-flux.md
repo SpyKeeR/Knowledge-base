@@ -16,6 +16,8 @@ Un **flux**, c’est un **ensemble de paquets** qui ont en commun trois élémen
 
 Une **socket**, c’est l’**identité d’un flux** côté client ou serveur.
 
+![](../../../media/Cours-Infrastructures-réseaux-Matrice-de-flux-image2.png)
+
 🧩 Une socket = **3 éléments** (triade) :
 
 - 🏷️ Adresse IP
@@ -35,13 +37,13 @@ Une **socket**, c’est l’**identité d’un flux** côté client ou serveur.
 
 🧠 Une connexion réseau = **paire de sockets** (client ↔ serveur)
 
-
+![](../../../media/Cours-Infrastructures-réseaux-Matrice-de-flux-image2.png)
 
 ## **🧮 La matrice de flux : visualiser les échanges**
 
-La **matrice de flux**, c’est un tableau qui **recense tous les flux** d’un système,
+![](../../../media/Cours-Infrastructures-réseaux-Matrice-de-flux-image3.png)
 
-d’un réseau, ou d’une appli distribuée.
+La **matrice de flux**, c’est un tableau qui **recense tous les flux** d’un système, d’un réseau, ou d’une appli distribuée.
 
 📋 Elle contient généralement :
 
@@ -53,7 +55,6 @@ d’un réseau, ou d’une appli distribuée.
 
 📌 Ça sert à **cartographier les communications**, comprendre les **besoins réseau réels**, et **créer des règles de sécurité** précises (ACL, firewall, etc.)
 
-![](../../../media/Cours-Infrastructures-réseaux-Matrice-de-flux-image2.png)![](../../../media/Cours-Infrastructures-réseaux-Matrice-de-flux-image3.png)
 
 
 
