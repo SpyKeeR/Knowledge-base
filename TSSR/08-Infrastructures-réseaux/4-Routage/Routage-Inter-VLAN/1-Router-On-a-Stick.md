@@ -13,19 +13,17 @@
 - Associer une **IP passerelle** par VLAN
 - Activer l'interface mère (no shutdown)
 
+![](../../../media/Cours-Infrastructures-réseaux-Router-On-a-Stick-image2.png)
+
 ### 🧰 **Sur le switch** :
 
 - Créer les VLANs
 - Associer les ports aux bons VLANs
 - Configurer le **port trunk** vers le routeur (celui qui transporte tous les VLANs)
 
-⚡ ➤ *Méthode très utilisée en prod ou en labo : économe en interfaces, facile à configurer*
-
-![](../../../media/Cours-Infrastructures-réseaux-Router-On-a-Stick-image2.png)
-
 ![](../../../media/Cours-Infrastructures-réseaux-Router-On-a-Stick-image3.png)
 
-
+⚡ ➤ *Méthode très utilisée en prod ou en labo : économe en interfaces, facile à configurer*
 
 
 
