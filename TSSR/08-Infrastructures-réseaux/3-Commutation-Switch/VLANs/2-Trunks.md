@@ -23,23 +23,6 @@ Un **trunk** est une **liaison point-à-point** entre deux équipements réseau 
 • allowed vlan <IDs> : VLANs autorisés à passer (ex. 10,20,30 ou all)
 
 
-
-### **🧪 Exemple de config simple**
-
-🔸 Port FastEthernet 0/1 :
-
-• Mode trunk activé
-
-• VLAN natif = 99
-
-• Tous les VLANs autorisés (config par défaut)
-
-✳️ À noter :
-
-Un **OU** devant une commande indique que cette config a **été supprimée** (ex : suppression du VLAN natif précédemment défini).
-
-
-
 ## **🔍 Vérification de la config Trunk**
 
 🔹 Commande principale : `show interfaces <ID> switchport` ET `show interface trunk`
@@ -55,4 +38,5 @@ Un **OU** devant une commande indique que cette config a **été supprimée** (e
 • VLANs autorisés
 
 🧠 À utiliser dès qu’un trunk ne fonctionne pas comme prévu. C’est ta loupe réseau 🔎
+
 
