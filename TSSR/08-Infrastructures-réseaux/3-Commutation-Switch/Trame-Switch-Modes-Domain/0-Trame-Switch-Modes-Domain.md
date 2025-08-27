@@ -85,13 +85,14 @@
 
 
 
-**⚔️ Comparatif visuel**
+## **⚔️ Comparatif visuel**
 
 | **Équipement**     | **Domaine de collision** | **Domaine de diffusion** |
 |--------------------|--------------------------|--------------------------|
 | Hub                | 1 global                 | 1 global                 |
 | Switch (par port)  | 1 par port               | 1 par VLAN               |
 | Routeur (par port) | Isolement total          | 1 par interface          |
+
 
 
 
