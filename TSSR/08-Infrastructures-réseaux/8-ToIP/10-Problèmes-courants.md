@@ -61,7 +61,8 @@ Deux types d’écho en ToIP :
     ➕ Copies du signal avec délai (~400 ms = perceptible).  
     ➡️ Provoqué par composants électromécaniques/électroniques.
 
-2.  **Écho acoustique  **
+2.  **Écho acoustique**
     ➕ Micro capte le son du haut-parleur.  
     ➡️ Contré par mécanismes **EC (Echo Cancellation)** intégrés aux passerelles VoIP.
+
 
