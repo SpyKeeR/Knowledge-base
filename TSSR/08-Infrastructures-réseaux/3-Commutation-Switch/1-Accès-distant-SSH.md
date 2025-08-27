@@ -27,7 +27,7 @@ Voici les 5 étapes à suivre pour une config SSH propre et fonctionnelle :
 - Tu peux vérifier que les connexions passent bien en SSH avec :  
   ➜ `show ip ssh` (vérifie la version, l’état, les timeouts)  
   ➜ `show run | section vty` (regarde bien transport input ssh)  
-  ➜ `show users` (voir qui est connecté et comment)
+  ➜ `show user` (voir qui est connecté et comment)
 
 
 
@@ -54,6 +54,7 @@ Sans le K9 → pas de SSH possible (juste Telnet en clair ❌)
 - `show ip ssh` → Affiche la **version SSH**, le **timeout**, le **nombre de tentatives de connexion**, etc.  
   Exemple : SSH Enabled - version 2.0
 - `show ssh` → Affiche les **sessions actives** SSH et leurs détails (utilisateur, IP source, durée...)
+
 
 
 
