@@ -65,7 +65,7 @@
 
 • `speed {10 | 100 | 1000 | auto}`
 
-**🧩 Domaines de collision vs. diffusion**
+## **🧩 Domaines de collision vs. diffusion**
 
 ### **🔁 Collision**
 
@@ -92,6 +92,7 @@
 | Hub                | 1 global                 | 1 global                 |
 | Switch (par port)  | 1 par port               | 1 par VLAN               |
 | Routeur (par port) | Isolement total          | 1 par interface          |
+
 
 
 
