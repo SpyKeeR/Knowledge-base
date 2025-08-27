@@ -23,7 +23,7 @@ Chaque ACL contient des **ACE (Access Control Entries)**, qui sont des règles *
 
 ➡️ Tu peux appliquer **1 seule ACL entrante** *et/ou* **1 seule ACL sortante** par interface.
 
-
+![](../../../media/Cours-Infrastructures-réseaux-Access-Control-List-image1.png)![](../../../media/Cours-Infrastructures-réseaux-Access-Control-List-image2.png)
 
 ## **🧬 Types d’ACL**
 
@@ -35,8 +35,8 @@ Deux types à connaître :
 
 Il existe 2 syntaxes pour créer des ACL :
 
-- access-list <numéro> ... : méthode classique (numérotée)
-- ip access-list standard <nom> : méthode **nommée**, plus lisible, plus souple (tu peux éditer ligne par ligne)
+- `access-list <numéro> ...` : méthode classique (numérotée)
+- `ip access-list standard <nom>` : méthode **nommée**, plus lisible, plus souple (tu peux éditer ligne par ligne)
 
 
 
@@ -47,6 +47,8 @@ Voici comment une **ACL standard** fonctionne, étape par étape 🧩 :
 1.  🔍 Regarde l’**IP source** du paquet
 2.  🔁 Compare à chaque **ACE** dans l’ordre ✅ Autorise ou ❌ bloque
 3.  🚫 Si aucune correspondance → **refus implicite**
+
+![](../../../media/Cours-Infrastructures-réseaux-Access-Control-List-image3.png)
 
 🧠 Les ACL standard ne filtrent que sur l’**IP source**.
 
@@ -66,7 +68,7 @@ Exemples : 193.62.31.64/26 → masque 255.255.255.192 → wildcard = **0.0.0.63 
 
 Réseaux 192.168.16.0 à 192.168.31.255 → wildcard = **0.0.15.255** 
 
-ACL typique : ACCESS-LIST 10 PERMIT 192.168.16.0 0.0.15.255
+ACL typique : `ACCESS-LIST 10 PERMIT 192.168.16.0 0.0.15.255`
 
 **Mots clés** :
 -  **HOST** = masque **0.0.0.0** → cible **1 seule IP**
@@ -83,13 +85,3 @@ ACL typique : ACCESS-LIST 10 PERMIT 192.168.16.0 0.0.15.255
 - ✅ Éviter les erreurs d’accès accidentelles
 - ✅ Rédiger et stocker les ACL dans un **éditeur de texte** pour réutilisation
 - ✅ Bien **placer l’ACL** selon le sens du trafic
-
-![](../../../media/Cours-Infrastructures-réseaux-Access-Control-List-image1.png)![](../../../media/Cours-Infrastructures-réseaux-Access-Control-List-image2.png)
-
-
-
-![](../../../media/Cours-Infrastructures-réseaux-Access-Control-List-image3.png)
-
-
-
-
