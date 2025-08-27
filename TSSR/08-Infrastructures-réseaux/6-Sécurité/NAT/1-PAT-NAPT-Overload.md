@@ -34,7 +34,7 @@ Un **socket** identifie de façon **unique** une communication réseau. Il est f
 
 C’est comme une **adresse complète** : la maison (IP) et la sonnette (port).
 
-
+![](../../../media/Cours-Infrastructures-réseaux-PAT-NAPT-Overload-image1.png)
 
 ### **🧩 RFC2782 – Les plages de ports**
 
@@ -46,6 +46,5 @@ La **RFC2782** catégorise les **plages de ports TCP/UDP** :
 
 🔐 Ces plages sont cruciales en NAT/NAPT pour créer des correspondances uniques de sessions sortantes.
 
-![](../../../media/Cours-Infrastructures-réseaux-PAT-NAPT-Overload-image1.png)
 
 
