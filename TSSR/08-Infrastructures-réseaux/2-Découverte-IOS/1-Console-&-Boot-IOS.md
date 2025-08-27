@@ -3,6 +3,7 @@
 ## **🧠 Console Cisco : Accès physique et couches OSI**
 
 • Ports console : RJ-45 classique + USB mini-B (nouveau format)
+
 • Câbles : RS-232 vers RJ-45 + USB Type A vers mini-B
 
 
@@ -56,4 +57,5 @@ Deux méthodes principales :
 
 
 🔐 Console = indispensable lors de la **première config** ou en cas de **perte d’accès réseau**
+
 
