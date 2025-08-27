@@ -4,10 +4,11 @@
 
 Le **routage inter-VLAN** permet à des équipements situés dans des VLANs différents de **communiquer entre eux**. Sans lui, chaque VLAN reste isolé.
 
-### **🛠️ Deux méthodes pour le faire**
+### **🛠️ Trois méthodes pour le faire**
 
 1.  **Routeur avec sous-interfaces** (a.k.a. « Router-on-a-Stick »)
 2.  **Switch de niveau 3 (Layer 3)** avec interfaces SVI (Switch Virtual Interfaces)
+3.  **Routeur avec 3 interfaces** (Traditionnel)
 
 ➡️ Choix selon la **taille du réseau** : un routeur pour les petits déploiements, un switch L3 pour les réseaux plus denses/complexes.
 
@@ -23,12 +24,12 @@ Le chemin : PC1 → Switch 1 → Trunk → Routeur R1 → routage inter-VLAN →
 
 
 
-## **🔧 Configuration routeur : sous-interfaces**
+## **🔧 Configuration routeur-on-a-stick : sous-interfaces**
 
 Chaque VLAN = 1 sous-interface avec 2 éléments à configurer :
 
-- encapsulation dot1Q VLAN_ID [native]
-- ip address IP SUBNET_MASK
+- `encapsulation dot1Q VLAN_ID [native]`
+- `ip address IP SUBNET_MASK`
 
 ### 🛠️ Exemple rapide :
 
@@ -46,14 +47,15 @@ Gi0/1.20 (VLAN 20) → IP 192.168.20.1
 
 Utilise ces commandes pour diagnostiquer :
 
-- show ip route : routes apprises/connues
-- show ip interface brief : état général IP
-- show interfaces : état physique/logique
-- show interfaces trunk : vérifie le trunking
+- `show ip route` : routes apprises/connues
+- `show ip interface brief` : état général IP
+- `show interfaces` : état physique/logique
+- `show interfaces trunk` : vérifie le trunking
 
 🧠 *Check-list rapide* : → VLANs créés ✅ → Trunk actif ✅ → Sous-interfaces IP OK ✅ → Pings inter-VLAN OK ✅
 
 
 ![](../../../media/Cours-Infrastructures-réseaux-Routage-Inter-VLAN-image1.png)
+
 
 
