@@ -66,5 +66,8 @@ Pour **interconnecter un autocom avec le RTC**, on utilise :
 
 → Simplifie câblage + meilleure résilience (via onduleur réseau).
 
-📏 **Types de PoE** : **IEEE 802.3af** : jusqu’à 12,9 W (modèles classiques) / **IEEE 802.3at (PoE+)** : entre 24 et 30 W (modèles haut de gamme)
+📏 **Types de PoE** : 
+- **IEEE 802.3af** : jusqu’à 12,9 W (modèles classiques)
+- **IEEE 802.3at (PoE+)** : entre 24 et 30 W (modèles haut de gamme)
+
 
