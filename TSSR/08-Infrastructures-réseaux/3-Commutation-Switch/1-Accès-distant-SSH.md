@@ -19,7 +19,7 @@ Voici les 5 étapes à suivre pour une config SSH propre et fonctionnelle :
 4.  **Utilisateur local** : `username nom_utilisateur secret mot_de_passe`
 5.  **Activation sur les lignes VTY** : se placer sur les lignes (`line vty 0 4`) puis `login local` (pointer le magasin d'identifiant local) et `transport input ssh`.
 
-
+![](../../media/Cours-Infrastructures-réseaux-Accès-distant-SSH-image1.png)
 
 ### **🧪 Et après la config ?**
 
@@ -36,9 +36,6 @@ Voici les 5 étapes à suivre pour une config SSH propre et fonctionnelle :
 - Désactiver Telnet si présent : `transport input ssh`
 - Activer un **timeout** d'inactivité : `exec-timeout 5 0` (5 min)
 - Limiter le nombre de connexions simultanées : `line vty 0 4` → `login local` + `access-class` si filtrage IP
-
-![](../../media/Cours-Infrastructures-réseaux-Accès-distant-SSH-image1.png)
-
 
 
 ### **🔎 show version et modules de chiffrement**
@@ -58,5 +55,6 @@ Sans le K9 → pas de SSH possible (juste Telnet en clair ❌)
 - `show ip ssh` → Affiche la **version SSH**, le **timeout**, le **nombre de tentatives de connexion**, etc.  
   Exemple : SSH Enabled - version 2.0
 - `show ssh` → Affiche les **sessions actives** SSH et leurs détails (utilisateur, IP source, durée...)
+
 
 
