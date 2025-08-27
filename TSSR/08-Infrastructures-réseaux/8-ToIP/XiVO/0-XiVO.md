@@ -26,7 +26,7 @@ XiVO propose tout ce qu’on attend d’un IPBX :
 
 
 
-### 🧭👀 **Interface utilisateur XiVO**
+## 🧭👀 **Interface utilisateur XiVO**
 
 L’interface est en deux volets :
 
@@ -47,4 +47,5 @@ Accès rapide à :
 📌 Important : pour utiliser le **client XiVO**, il faut **l’activer lors de la création de l’utilisateur**.
 
 ➡️ Les **ID/mots de passe** peuvent différer de ceux du compte SIP !
+
 
