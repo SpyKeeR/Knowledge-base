@@ -19,6 +19,8 @@ Chaque type de mémoire a un rôle bien précis au boot ⬇️
 
 ## **🦾 Ordre de chargement au démarrage**
 
+![](../../../media/Cours-Infrastructures-réseaux-Mémoires-et-enregistrement-image2.png)
+
 1️⃣ **ROM** (bootstrap / mini-IOS si nécessaire)
 
 2️⃣ **Flash** (chargement de l’IOS)
@@ -54,7 +56,6 @@ Tu peux ensuite copier de **“building configuration”** jusqu’à **“end�
 
 🧠 Astuce : très utile pour documenter une config ou réinjecter sur un autre équipement plus tard.
 
-![](../../../media/Cours-Infrastructures-réseaux-Mémoires-et-enregistrement-image2.png)
 
 
 
