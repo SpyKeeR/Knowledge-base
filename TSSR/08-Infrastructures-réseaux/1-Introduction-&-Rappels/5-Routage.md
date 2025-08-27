@@ -47,6 +47,9 @@ Deux grandes familles :
 
 📡 Protocoles de routage connus :
 
-RIP (ancien, simple), OSPF (efficace, utilisé en entreprise), IGRP/EIGRP (Cisco)
+- RIP (ancien, simple)
+- OSPF (efficace, utilisé en entreprise)
+- IGRP/EIGRP (Cisco)
+
 
 
