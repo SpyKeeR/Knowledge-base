@@ -11,7 +11,9 @@ La commande copy permet de transférer des fichiers d’un emplacement à un aut
 - tftp: → startup-config (restauration)
 - running-config → startup-config (enregistrement de la config en NVRAM)
 
-📡 Tu peux **envoyer** ou **récupérer** des configs sur un **serveur TFTP distant** (très utile en formation ou en environnement centralisé).
+![](../../../media/Cours-Infrastructures-réseaux-TFTP-image2.png)
+
+📡 Tu peux **envoyer** ou **récupérer** des configs sur un **serveur TFTP distant**.
 
 🎯 Exemples : 
 - **Sauvegarde** : `copy running-config tftp:`
@@ -34,10 +36,3 @@ En plus de la config, tu peux carrément **sauvegarder l’image IOS** utilisée
 🧠 Astuce : toujours vérifier que le TFTP est joignable avant de lancer la commande (ping, interface up, etc.)
 
 ![](../../../media/Cours-Infrastructures-réseaux-TFTP-image1.png)
-
-
-
-![](../../../media/Cours-Infrastructures-réseaux-TFTP-image2.png)
-
-
-
