@@ -26,9 +26,7 @@ Une trame **norme IEEE 802.3** est composée de :
 
 ![](../../media/Cours-Infrastructures-réseaux-Trame-Ethernet-image2.png)
 
-Quand une trame est **taguée VLAN**, des champs supplémentaires
-
-s'ajoutent **entre** l’adresse MAC source et l’Ethertype :
+Quand une trame est **taguée VLAN**, des champs supplémentaires s'ajoutent **entre** l’adresse MAC source et l’Ethertype :
 
 - **🔖 TPID (Tag Protocol ID)** : 0x8100 signale un tag VLAN
 - **📊 TCI (Tag Control Info)** : contient 3 sous-champs :
@@ -49,6 +47,7 @@ Un **domaine de collision** = zone où deux paquets peuvent entrer en collision
 **🧠 Switches** : 1 domaine de collision par port → plus efficace, moins de collisions
 
 🧠 **+ de domaines = + d’efficacité réseau** → d'où l’intérêt des switches en entreprise.
+
 
 
 
