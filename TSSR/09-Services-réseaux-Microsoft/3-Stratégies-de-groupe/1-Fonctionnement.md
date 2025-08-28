@@ -4,9 +4,12 @@ Les **GPO (stratégies de groupe)** s'appliquent aux **ordinateurs et utilisateu
 
 ✅ Elles **automatisent, sécurisent, normalisent** le fonctionnement des postes.
 
-❗Mais attention, la **richesse des options** rend la configuration parfois **complexe**.
+❗ Mais attention, la **richesse des options** rend la configuration parfois **complexe**.
 
-📌 Exemples : fond d’écran unique 🖼️, désactivation du Panneau de config 🛑, déploiement de scripts de login 🚀…
+📌 Exemples : 
+- fond d’écran unique 🖼️,
+- désactivation du Panneau de config 🛑,
+- déploiement de scripts de login 🚀…
 
 
 
@@ -45,4 +48,5 @@ Les **GPO (stratégies de groupe)** s'appliquent aux **ordinateurs et utilisateu
 ⚠️ On évite de **modifier directement ces GPO par défaut**.
 
 Pour des besoins ciblés (groupes, postes, utilisateurs), on **crée une nouvelle GPO** liée à l’**OU concernée**.
+
 
