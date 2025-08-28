@@ -16,7 +16,11 @@ C’est un **protocole fondamental d’Internet**, défini par des **RFC** (nota
 ## **🧬 Principales caractéristiques du DNS**
 
 - 🧭 **Résolution de noms** → associer un nom (FQDN) à une IP
-- 🌐 **Hiérarchie** → ., .com, .exemple.com, srv1.exemple.com
+- 🌐 **Hiérarchie**
+  - .,
+  - .com,
+  - .exemple.com,
+  - srv1.exemple.com
 - 🔁 **Routage distribué** → résolution progressive via serveurs racine, TLD, autoritaires
 - 🧱 **Gestion décentralisée** → chaque organisation gère sa propre zone
 - 📥 **Protocoles standardisés** (RFCs)
@@ -52,4 +56,5 @@ L’**EDNS** (RFC 6891) ajoute des **capacités avancées** au DNS classique :
 - ⚙️ Permet d’ajouter des **options** supplémentaires sans modifier le protocole de base
 - 🔄 Compatible avec les serveurs DNS récents
 - Indispensable pour les fonctionnalités modernes (sécurité, performance)
+
 
