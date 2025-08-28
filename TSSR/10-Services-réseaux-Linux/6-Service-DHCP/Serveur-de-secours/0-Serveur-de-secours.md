@@ -33,6 +33,8 @@ Pour **prioriser** le serveur principal, on peut retarder volontairement le seco
 
 ## **⚙️ Extrait de conf typique du DHCP "secours"**
 
+![](../../../media/Cours-Services-réseaux-Linux-Serveur-de-secours-image1.png)
+
 Voici ce qu’on y met en général :
 ```bash
 - default-lease-time 1800,
@@ -40,6 +42,6 @@ Voici ce qu’on y met en général :
 - not authoritative ➜ ce serveur ne s’impose pas comme autorité (évite conflits)
 - min-secs 5 ➜ temporisation pour laisser le principal agir
 ```
-![](../../../media/Cours-Services-réseaux-Linux-Serveur-de-secours-image1.png)
+
 
 
