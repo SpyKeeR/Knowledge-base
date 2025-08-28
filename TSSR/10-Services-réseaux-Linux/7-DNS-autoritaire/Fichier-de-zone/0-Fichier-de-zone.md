@@ -4,9 +4,11 @@
 
 Le **fichier de zone** contient **toutes les données d’un domaine** dans un serveur DNS (Bind). Il est divisé en **trois grandes parties** :
 
-**Directives globales** ($ORIGIN, $TTL) / **En-tête SOA et enregistrements NS / Enregistrements de ressource** (A, AAAA, MX, CNAME, PTR, etc.)
+- **Directives globales** ($ORIGIN, $TTL) 
+- **En-tête SOA et enregistrements NS
+- Enregistrements de ressource** (A, AAAA, MX, CNAME, PTR, etc.)
 
-
+![](../../../media/Cours-Services-réseaux-Linux-Fichier-de-zone-image1.png)
 
 ### **🧷 Partie 1 – Les directives globales**
 
@@ -46,13 +48,13 @@ Voici les enregistrements qu'on retrouve dans la base de données DNS 🗂️ :
 - **MX** 📬 : serveurs de mails (@ MX 10 smtp.mailhost.net. → priorité 10, serveur SMTP)
 - **PTR** 🔁 : zone inverse, associe une IP à un nom.
 
-![](../../../media/Cours-Services-réseaux-Linux-Fichier-de-zone-image1.png)
 
 ## **🔄 Zone inverse (Reverse DNS)**
 
 Une zone inverse est définie dans un fichier à part pour faire la **résolution IP → nom**. Elle utilise des **PTR** :
 
 Ex : IP 192.168.1.2 devient : 2.1.168.192.in-addr.arpa. > Enregistrement : 2 IN PTR srv01.unite-ecole.bzdesas.
+
 
 
 
