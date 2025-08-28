@@ -1,6 +1,6 @@
 # Fichier de zone
 
-## **🧾 Fichier de zone DNS : structure générale (placé dans /var/cache/bind, défini dans named.conf.options)**
+**🧾 Fichier de zone DNS : structure générale (placé dans /var/cache/bind, défini dans named.conf.options)**
 
 Le **fichier de zone** contient **toutes les données d’un domaine** dans un serveur DNS (Bind). Il est divisé en **trois grandes parties** :
 
@@ -54,6 +54,7 @@ Voici les enregistrements qu'on retrouve dans la base de données DNS 🗂️ :
 Une zone inverse est définie dans un fichier à part pour faire la **résolution IP → nom**. Elle utilise des **PTR** :
 
 Ex : IP 192.168.1.2 devient : 2.1.168.192.in-addr.arpa. > Enregistrement : 2 IN PTR srv01.unite-ecole.bzdesas.
+
 
 
 
