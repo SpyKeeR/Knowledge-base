@@ -1,4 +1,6 @@
-# DNS résolveur**🧭 Le rôle du DNS résolveur : l’intermédiaire malin**
+# DNS résolveur
+
+## **🧭 Le rôle du DNS résolveur : l’intermédiaire malin**
 
 Le **DNS résolveur** (ou récursif) est **le point de contact direct entre un poste client et l’univers DNS**.
 
@@ -10,7 +12,7 @@ Il **ne stocke pas les enregistrements DNS** → il **les cherche pour toi**.
 
 
 
-**🔁 Interaction client ↔️ résolveur**
+## **🔁 Interaction client ↔️ résolveur**
 
 💬 Le client (comme Toto) envoie une requête DNS → le **résolveur prend le relais**.
 
@@ -25,7 +27,7 @@ Il **ne stocke pas les enregistrements DNS** → il **les cherche pour toi**.
 
 
 
-**🧠 Fonction principale : résolution de noms**
+## **🧠 Fonction principale : résolution de noms**
 
 Le DNS résolveur sert à :
 
@@ -37,7 +39,7 @@ C’est le **"GPS du réseau"**, il connaît **le chemin vers les bons serveurs*
 
 
 
-**❗Ce que le résolveur *ne fait pas***
+### **❗Ce que le résolveur *ne fait pas***
 
 🚫 Il ne gère **aucune zone DNS** (pas d’espace de noms à lui)
 
@@ -46,3 +48,4 @@ C’est le **"GPS du réseau"**, il connaît **le chemin vers les bons serveurs*
 ✅ Il **délègue** la recherche aux bons serveurs (racine → TLD → domaine...)
 
 Il agit donc **comme un proxy DNS**, sans jamais détenir la vérité, juste en la recherchant 🔍
+
