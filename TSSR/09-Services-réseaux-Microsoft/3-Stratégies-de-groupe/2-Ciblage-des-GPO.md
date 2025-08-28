@@ -2,11 +2,9 @@
 
 Une **GPO est liée à un objet AD** pour s’appliquer :
 
-🔹 **Site** AD (niveau géographique/réseau)
-
-🔹 **Domaine** (global)
-
-🔹 **OU (Unité d’organisation)** (ciblage fin)
+- 🔹 **Site** AD (niveau géographique/réseau)
+- 🔹 **Domaine** (global)
+- 🔹 **OU (Unité d’organisation)** (ciblage fin)
 
 💡 La GPO **agit uniquement sur les objets "utilisateur" et "ordinateur"**.
 
@@ -20,11 +18,9 @@ Une **GPO est liée à un objet AD** pour s’appliquer :
 
 La **console GPMC** (Group Policy Management Console) affiche :
 
-🔹 **Bleu** : domaines/OU (ex: ENI.local)
-
-🔹 **Rouge** : liaisons de GPO (où les GPO sont actives)
-
-🔹 **Vert** : liste globale des GPO disponibles
+- 🔹 **Bleu** : domaines/OU (ex: ENI.local)
+- 🔹 **Rouge** : liaisons de GPO (où les GPO sont actives)
+- 🔹 **Vert** : liste globale des GPO disponibles
 
 👍 Vue centralisée, claire, idéale pour organiser et suivre les politiques.
 
@@ -66,3 +62,4 @@ La **console GPMC** (Group Policy Management Console) affiche :
 🧪 **Filtres WMI** : filtrage via requêtes système (ex: OS = Windows 11, RAM > 4Go, etc)
 
 ➡️ Utiles pour cibler précisément selon les **caractéristiques du poste**
+
