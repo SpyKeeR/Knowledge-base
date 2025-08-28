@@ -1,4 +1,4 @@
-# NAT**🌐 Routage : limites et besoin de NAT**
+# **🌐 Routage : limites et besoin de NAT**
 
 ➡️ Le **routage** classique repose sur des **tables de routage** : chaque routeur doit connaître les réseaux à atteindre.
 
@@ -12,7 +12,7 @@
 
 
 
-**🔁 NAT – Network Address Translation**
+## **🔁 NAT – Network Address Translation**
 
 🎯 Le NAT permet de **convertir les adresses IP** entre un réseau local et un réseau externe.
 
@@ -25,7 +25,7 @@ Deux formes principales :
 
 
 
-**🧩 Cas d’usage typiques**
+### **🧩 Cas d’usage typiques**
 
 | **Type de réseau** | **Besoin** | **NAT utilisé** |
 |----|----|----|
@@ -37,10 +37,11 @@ Deux formes principales :
 
 
 
-**🛠️ Mise en œuvre du NAT sous Linux & PfSense**
+## **🛠️ Mise en œuvre du NAT sous Linux & PfSense**
 
 💡 Plusieurs façons d'implémenter le NAT :
 
 - **iptables** : solution native Linux (manuel ou scripté)
 - **Shorewall** : framework facilitant la gestion d’iptables via des fichiers de conf
 - **PfSense** : solution utilisée dans ce cours (web UI intuitive, puissante)
+
