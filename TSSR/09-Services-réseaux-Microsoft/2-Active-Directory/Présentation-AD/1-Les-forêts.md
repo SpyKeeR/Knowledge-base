@@ -32,11 +32,12 @@ Entre les domaines d’une même forêt, les **relations d'approbation sont tran
 
 
 
-### **🧠 Schéma unique partagé**
+## **🧠 Schéma unique partagé**
 
 Tous les domaines d’une forêt partagent le **même schéma Active Directory** :
 
 📘 Le schéma, c’est la "base de règles" : il définit les types d’objets et d’attributs utilisables (ex. : utilisateur, groupe, mot de passe max...).
 
 💡 Cela garantit une **cohérence globale** : pas de conflit entre les objets, même répartis sur plusieurs domaines.
+
 
