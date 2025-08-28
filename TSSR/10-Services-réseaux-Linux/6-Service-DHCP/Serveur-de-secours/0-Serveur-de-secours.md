@@ -36,12 +36,11 @@ Pour **prioriser** le serveur principal, on peut retarder volontairement le seco
 ![](../../../media/Cours-Services-réseaux-Linux-Serveur-de-secours-image1.png)
 
 Voici ce qu’on y met en général :
-```bash
-- default-lease-time 1800,
-- max-lease-time 3600 ➜ baux courts (30min à 1h)
-- not authoritative ➜ ce serveur ne s’impose pas comme autorité (évite conflits)
-- min-secs 5 ➜ temporisation pour laisser le principal agir
-```
+- `default-lease-time 1800`,
+- `max-lease-time 3600` ➜ baux courts (30min à 1h)
+- `not authoritative` ➜ ce serveur ne s’impose pas comme autorité (évite conflits)
+- `min-secs 5` ➜ temporisation pour laisser le principal agir
+
 
 
 
