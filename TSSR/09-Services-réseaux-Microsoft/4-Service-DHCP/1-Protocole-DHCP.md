@@ -12,7 +12,7 @@ DHCP = **Dynamic Host Configuration Protocol**
 
 Quand un poste démarre,
 
-- il envoie une **demande d’adresse (DHCPDISCOVER)**
+- → il envoie une **demande d’adresse (DHCPDISCOVER)**
 - → le serveur DHCP **répond avec une IP et des infos réseau (DHCPOFFER)**
 - → le poste **accepte (DHCPREQUEST)**
 - → le serveur **confirme (DHCPACK)**.
@@ -48,4 +48,5 @@ Quand un poste démarre,
 🎯 Le DHCP, bien que pratique, doit être **sécurisé et surveillé**.
 
 Une **mauvaise config = impact global**, donc chaque option doit être pensée.
+
 
