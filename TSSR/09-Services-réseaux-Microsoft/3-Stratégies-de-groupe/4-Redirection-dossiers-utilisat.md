@@ -34,7 +34,7 @@ Les GPO permettent de **gérer cette redirection en masse**, de façon propre et
 
 ## **🔄 Types de redirection possibles**
 
-1.  📁 **Vers un dossier partagé commun** (ex : \\\srv\dossiers  
+1.  📁 **Vers un dossier partagé commun** (ex : \\\srv\dossiers)
     ➕ Simple à mettre en place  
     ➖ Risque de mauvaise gestion des droits
 
@@ -55,4 +55,5 @@ Les GPO permettent de **gérer cette redirection en masse**, de façon propre et
 - 🧾 Activer l’option "Créer un dossier pour chaque utilisateur"
 - 🔒 Appliquer le modèle de permission : Admin + utilisateur uniquement
 - ⚙️ Tester la redirection avec un compte test avant déploiement massif
+
 
