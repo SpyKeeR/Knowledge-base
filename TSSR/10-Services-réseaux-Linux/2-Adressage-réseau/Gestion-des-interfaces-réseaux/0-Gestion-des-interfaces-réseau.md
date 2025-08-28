@@ -30,7 +30,8 @@ Avant, on avait eth0, eth1… Maintenant, grâce à **systemd**, les noms sont *
 
 ### **🗂️ b. Statique via /etc/network/interfaces**
 
-- 🧷 **Persistante**, relue à chaque boot
+🧷 **Persistante**, relue à chaque boot
+
 - 🖊️ Exemple IP fixe :
   ```bash
   auto ens33
@@ -39,11 +40,13 @@ Avant, on avait eth0, eth1… Maintenant, grâce à **systemd**, les noms sont *
     netmask 255.255.0.0
     gateway 192.168.66.1
   ```
+
 - 🔁 Exemple DHCP :
    ```bash
   auto ens37
   iface ens37 inet dhcp
    ```
+
 - 🔄 Redémarrage nécessaire : `systemctl restart networking`
 
 🔎 *Simple, clair, mais pas compatible avec NetworkManager activé.*
@@ -60,4 +63,5 @@ Avant, on avait eth0, eth1… Maintenant, grâce à **systemd**, les noms sont *
 - 🧩 GUI possible (avec `nmtui` ou interface graphique)
 
 🎯 *Utilisé sur les postes utilisateurs ou si tu veux une gestion centralisée plus souple.*
+
 
