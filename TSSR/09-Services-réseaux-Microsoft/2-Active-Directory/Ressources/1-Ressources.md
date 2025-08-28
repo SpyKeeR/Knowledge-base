@@ -1,8 +1,13 @@
-# Ressources**🗂️ Qu’est-ce qu’une ressource partagée ?**
+# Ressources
+
+## **🗂️ Qu’est-ce qu’une ressource partagée ?**
 
 Une **ressource partagée** est tout **élément accessible en réseau** dont plusieurs utilisateurs peuvent avoir besoin :
 
-📁 Dossier commun – 🖨️ Imprimante réseau – 💾 Espace disque – 🔗 Application métier
+- 📁 Dossier commun 
+- 🖨️ Imprimante réseau 
+- 💾 Espace disque 
+- 🔗 Application métier
 
 👉 Ces ressources sont **au cœur de l’organisation** car elles **facilitent le travail en équipe**
 
@@ -10,7 +15,7 @@ Une **ressource partagée** est tout **élément accessible en réseau** dont pl
 
 
 
-**🛠️ Le rôle des administrateurs systèmes**
+## **🛠️ Le rôle des administrateurs systèmes**
 
 L’admin sys gère **la sécurité, la disponibilité et l’organisation** des ressources partagées :
 
@@ -26,7 +31,7 @@ L’admin sys gère **la sécurité, la disponibilité et l’organisation** des
 
 
 
-**🖨️ Périphériques partagés : cas des imprimantes**
+## **🖨️ Périphériques partagés : cas des imprimantes**
 
 Les imprimantes réseau sont aussi **des ressources critiques** dans certains contextes :
 
@@ -38,7 +43,7 @@ Les imprimantes réseau sont aussi **des ressources critiques** dans certains co
 
 
 
-**💾 Gestion des espaces disques partagés**
+## **💾 Gestion des espaces disques partagés**
 
 L’espace disque partagé (souvent sur un serveur de fichiers) doit être :
 
@@ -49,3 +54,4 @@ L’espace disque partagé (souvent sur un serveur de fichiers) doit être :
 ✅ Sauvegardé régulièrement pour éviter toute perte de données
 
 🎯 L’objectif = permettre un accès rapide et sécurisé aux données de travail sans chevauchement non contrôlé.
+
