@@ -1,6 +1,4 @@
-# Objets AD
-
-**🧱 Objets AD : deux grandes familles**
+# **🧱 Objets AD : deux grandes familles**
 
 Dans Active Directory, les **objets** sont divisés en **entités de sécurité** et **conteneurs**.
 
@@ -44,4 +42,5 @@ Pour créer, modifier ou supprimer des objets, plusieurs outils sont dispo :
 - **PowerShell** : pour l'automatisation, la gestion en masse, ou les tâches avancées
 
 💡 L’outil MMC devient dispo **dès l’installation du rôle AD DS** sur un serveur.
+
 
