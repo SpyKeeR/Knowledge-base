@@ -16,7 +16,7 @@ Le **DHCP (Dynamic Host Configuration Protocol)** est un service qui permet d’
 
 ## **🔁 Le cycle DORA : les 4 étapes d'une attribution IP**
 
-
+![](../../media/Cours-Services-réseaux-Linux-Fonctionnement-DHCP-image1.png)
 
 Quand un client arrive sur le réseau sans IP, il suit ce **processus d’échange** avec un serveur DHCP :
 
@@ -50,7 +50,3 @@ Deux solutions principales, toutes deux supportées par **ISC (Internet Systems 
 - **kea** 🚀  
   ➕ Moderne, performant, conçu pour le cloud  
   ➖ Plus complexe, encore peu utilisé, config JSON plus verbeuse
-
-![](../../media/Cours-Services-réseaux-Linux-Fonctionnement-DHCP-image1.png)
-
-
