@@ -6,7 +6,9 @@ Un **serveur DHCP sous Windows Server doit être autorisé** dans Active Directo
 
 ➡️ Sans autorisation, le service **ne démarre pas** 
 
-➡️ Cette sécurité **évite les serveurs DHCP pirates** dans le domaine 🔸 Ce n’est **pas requis** sur des serveurs DHCP non-Windows (Linux, pfSense...)
+➡️ Cette sécurité **évite les serveurs DHCP pirates** dans le domaine 
+
+🔸 Ce n’est **pas requis** sur des serveurs DHCP non-Windows (Linux, pfSense...)
 
 
 
@@ -73,4 +75,5 @@ Chaque jour, le serveur DHCP génère un fichier de **log dans son répertoire d
 
 - **Journaux d’événements Windows** (console Événements)
 - **Journaux DHCP** (dans %windir%\System32\dhcp\
+
 
