@@ -38,8 +38,10 @@ Un réseau d’entreprise peut être composé de plusieurs sous-réseaux :
 
 - vers un réseau : `ip route add 10.56.0.0/16 via 172.16.6.253`
 - par défaut : `ip route add default via 172.16.6.1  `
-  🔁 Modification : `ip route change ...`
-  ❌ Suppression : `ip route del ...`
+
+🔁 Modification : `ip route change ...`
+
+❌ Suppression : `ip route del ...`
 
 
 
@@ -62,4 +64,5 @@ Par défaut, un Linux **ne fait pas de routage** (il ne transmet pas les paquets
 1.  Éditer /etc/sysctl.conf ➜ ajouter/modifier `net.ipv4.ip_forward = 1`
 2.  Appliquer le changement : `sysctl -p`
 3.  Vérifier : `sysctl net.ipv4.ip_forward` ➜ si 1 = activé / 0 = désactivé
+
 
