@@ -42,16 +42,3 @@ La console **“Gestion de l'impression”** (via MMC) permet :
 🔧 Ajout/suppression d’imprimantes, configuration de ports, installation de pilotes
 
 📊 Surveillance des erreurs, files bloquées, imprimantes indisponibles
-
-
-
-## **📦 Déploiement via GPO**
-
-On peut **déployer automatiquement des imprimantes** sur les postes via **stratégies de groupe (GPO)** :
-
-➡️ Gain de temps pour les admins
-
-➡️ Installation silencieuse, ciblée par utilisateur ou machine
-
-➡️ Plus besoin de config manuelle sur chaque poste
-
