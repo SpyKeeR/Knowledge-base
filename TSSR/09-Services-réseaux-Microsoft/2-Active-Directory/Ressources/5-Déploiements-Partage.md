@@ -52,3 +52,7 @@ Il existe plusieurs méthodes pour installer les imprimantes sur les postes. Le 
 
 🛡️ Gère aussi les **droits utilisateurs, installation de pilotes** et la **suppressions des anciennes imprimantes**
 
+➡️ Gain de temps pour les admins
+
+➡️ Plus besoin de config manuelle sur chaque poste
+
