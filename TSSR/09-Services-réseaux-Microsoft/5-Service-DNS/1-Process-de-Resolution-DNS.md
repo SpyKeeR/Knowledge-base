@@ -30,7 +30,7 @@ Lorsqu’on demande la résolution d’un nom, l’OS consulte différentes **so
 
 💡 Un cache "pollué" peut bloquer l'accès à un site ou retourner une fausse réponse.
 
-➡️ On peut le vider avec ipconfig /flushdns.
+➡️ On peut le vider avec `ipconfig /flushdns`.
 
 
 
@@ -54,9 +54,10 @@ Ce fichier situé dans C:\Windows\System32\drivers\etc\hosts permet de :
 - Ajouter des IP ↔ noms manuellement
 - **Contourner un DNS externe** (utile pour tests, redirections, blocage volontaire)
 
-🧠 Syntaxe : IP nomd'hôte (ex. 192.168.1.10 serveurweb)
+🧠 Syntaxe : IP nom d'hôte (ex. 192.168.1.10 serveurweb)
 
 ➡️ Les entrées du fichier hosts **ont priorité** sur le serveur DNS → très utile, mais aussi risqué si mal configuré !
 
 Ex : écrire 172.17.0.0 google.com va **rediriger Google vers une IP fausse** → piégeage ou blocage.
+
 
