@@ -1,7 +1,5 @@
 # Ciblage des GPO
 
-![](../../media/Cours-Services-réseaux-Microsoft-Ciblage-des-GPO-image1.png)
-
 Une **GPO est liée à un objet AD** pour s’appliquer :
 
 🔹 **Site** AD (niveau géographique/réseau)
@@ -30,7 +28,7 @@ La **console GPMC** (Group Policy Management Console) affiche :
 
 👍 Vue centralisée, claire, idéale pour organiser et suivre les politiques.
 
-
+![](../../media/Cours-Services-réseaux-Microsoft-Ciblage-des-GPO-image1.png)
 
 ## **📚 Ordre d’application et héritage**
 
@@ -68,8 +66,3 @@ La **console GPMC** (Group Policy Management Console) affiche :
 🧪 **Filtres WMI** : filtrage via requêtes système (ex: OS = Windows 11, RAM > 4Go, etc)
 
 ➡️ Utiles pour cibler précisément selon les **caractéristiques du poste**
-
-![](../../media/Cours-Services-réseaux-Microsoft-Ciblage-des-GPO-image2.png)
-
-
-
