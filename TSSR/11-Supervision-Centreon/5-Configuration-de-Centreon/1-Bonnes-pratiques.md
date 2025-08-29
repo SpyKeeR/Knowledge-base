@@ -4,7 +4,7 @@
 
 ➡️ Exemples typiques de variables à utiliser dans une commande Centreon :
 
-→ \$HOSTADDRESS$ (adresse IP ou nom DNS), \$ARG1\$, \$ARG2\$ (paramètres personnalisés), \$SNMPVERSION\$, \$SNMPCOMMUNITY\$
+→ `$HOSTADDRESS$` (adresse IP ou nom DNS), `$ARG1$`, `$ARG2$` (paramètres personnalisés), `$SNMPVERSION$`, `$SNMPCOMMUNITY$`
 
 ➡️ Exemple pratique : une commande de check CPU Windows via SNMP
 
@@ -63,6 +63,7 @@ Champs principaux à renseigner :
 - **Nom** : unique, explicite (ex : check_http_api)
 - **Type** : **Check command**
 - **Command line** : ligne complète validée dans le shell (avec les variables si besoin : $ARG1$, etc.)
+
 
 
 
