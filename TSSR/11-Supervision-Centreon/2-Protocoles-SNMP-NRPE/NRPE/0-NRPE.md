@@ -56,9 +56,12 @@ Il permet de superviser des *ressources locales* non accessibles via SNMP (ex: C
 
 ## 📟 **Client côté serveur**
 
-Le serveur doit posséder le plugin NRPE (souvent check_nrpe) pour interroger l’agent. Exemple de commande : check_nrpe -H 192.168.1.50 -c check_load
+Le serveur doit posséder le plugin NRPE (souvent check_nrpe) pour interroger l’agent. 
+
+Exemple de commande : `check_nrpe -H 192.168.1.50 -c check_load`
 
 📌 Ce plugin est *exécuté par le moteur de supervision* (Nagios/Centreon) lors de chaque vérification de service.
+
 
 
 
