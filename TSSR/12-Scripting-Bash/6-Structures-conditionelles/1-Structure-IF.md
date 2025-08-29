@@ -8,8 +8,8 @@ L’instruction if permet d’**exécuter des commandes seulement si une conditi
 
 Une structure if classique contient au minimum :
 
-- if ➜ début de la condition et une **commande/test** qui renvoie 0 (succès) ou non
-- then ➜ actions à faire si vrai et fi ➜ fin de la structure
+- `if` ➜ début de la condition et une **commande/test** qui renvoie 0 (succès) ou non
+- `then` ➜ actions à faire si vrai et `fi` ➜ fin de la structure
 
 
 
@@ -81,4 +81,5 @@ else
 action3  
 fi
 ```
+
 
