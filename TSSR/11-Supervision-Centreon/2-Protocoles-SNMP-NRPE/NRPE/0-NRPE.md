@@ -12,6 +12,8 @@ Il permet de superviser des *ressources locales* non accessibles via SNMP (ex: C
 
 ## 🧰 **Fonctionnement global**
 
+![](../../../media/Cours-Supervision-Centreon-NRPE-image1.png)
+
 🖥️ Serveur de supervision → 💬 envoie une requête NRPE → 🎯 l'agent NRPE de l'hôte exécute un plugin local → 📊 renvoie la métrique
 
 📍 Fonctionne sur port 5666 (TCP, configurable)
@@ -58,6 +60,5 @@ Le serveur doit posséder le plugin NRPE (souvent check_nrpe) pour interroger l�
 
 📌 Ce plugin est *exécuté par le moteur de supervision* (Nagios/Centreon) lors de chaque vérification de service.
 
-![](../../../media/Cours-Supervision-Centreon-NRPE-image1.png)
 
 
