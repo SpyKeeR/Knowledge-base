@@ -36,12 +36,20 @@ Un algorithme repose sur ces briques fondamentales :
 
 
 ## **✍️ Exemple simple de pseudo-algorithme**
-
-Début ➤ Initialiser log et nbdefaut ➤ Si un argument est passé, l’utiliser comme valeur ➤ Sinon, utiliser nbdefaut ➤ Vérifier si la valeur est nulle ou non entière ➤ Afficher les derniers échecs ➤ Journaliser l’exécution ➤ Fin
+```text
+➤ Début 
+➤ Initialiser log et nbdefaut
+➤ Si un argument est passé, l’utiliser comme valeur 
+➤ Sinon, utiliser nbdefaut 
+➤ Vérifier si la valeur est nulle ou non entière 
+➤ Afficher les derniers échecs 
+➤ Journaliser l’exécution
+➤ Fin
+```
 
 Ce type de description rapide **permet de tester sa logique avant d’écrire une seule ligne de Bash**.
 
-**🖼️ Représentation graphique : les logigrammes**
+## **🖼️ Représentation graphique : les logigrammes**
 
 Les **organigrammes** permettent de représenter visuellement un algorithme :
 
@@ -52,4 +60,5 @@ Les **organigrammes** permettent de représenter visuellement un algorithme :
 - ➡️ Flèches : enchaînement logique
 
 🔍 Utile pour valider visuellement qu’**aucune condition n’est oubliée**, et que **toutes les branches sont gérées**.
+
 
