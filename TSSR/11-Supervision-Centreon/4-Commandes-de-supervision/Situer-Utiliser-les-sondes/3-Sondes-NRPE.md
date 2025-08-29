@@ -11,9 +11,8 @@
 **Settings → NRPE → Server → onglet Basic**
 
 - ✅ Allow arguments = true
-- ✅ Allow nasty characters = true  
-  (pour autoriser les paramètres et caractères spéciaux comme >)  
-  Sauvegarde et recharge NSClient++.
+- ✅ Allow nasty characters = true (pour autoriser les paramètres et caractères spéciaux comme >)  
+- Sauvegarde et recharge NSClient++.
 
 
 
@@ -43,4 +42,5 @@ check_centreon_nrpe3 -H 10.0.0.100 -c check_cpu -a "warn=load > 50" "crit=load >
 - Les sondes NRPE permettent d’exécuter à distance **les commandes déclarées dans NSClient++**
 - Très utile pour superviser précisément un Windows sans passer par SNMP
 - ⚠️ Les seuils doivent être envoyés dans le bon format ET les paramètres activés côté NSClient++
+
 
