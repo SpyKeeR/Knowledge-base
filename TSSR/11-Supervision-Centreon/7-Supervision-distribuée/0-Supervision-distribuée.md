@@ -1,9 +1,8 @@
 # **🌐 Objectif du Module : Supervision Distribuée**
 
-Ce module t'apprend à **découper ta supervision** pour la rendre **scalable, performante et résiliente**. On ne met plus tout sur un seul serveur 
+Ce module t'apprend à **découper ta supervision** pour la rendre **scalable, performante et résiliente**. On ne met plus tout sur un seul serveur 🧠
 
-🧠➡️ on répartit les rôles ! C’est ce qu’on appelle la **supervision distribuée**.
-
+➡️ on répartit les rôles ! C’est ce qu’on appelle la **supervision distribuée**.
 
 
 ## **⚠️ Pourquoi distribuer la supervision ?**
@@ -25,4 +24,5 @@ L'intérêt est double :
 4.  **Mise en réseau sécurisée** entre les composants 🔐
 5.  **Remontée des données + centralisation des alertes** 📡
 6.  **Test de bout en bout** pour valider la chaîne de supervision 🔄
+
 
