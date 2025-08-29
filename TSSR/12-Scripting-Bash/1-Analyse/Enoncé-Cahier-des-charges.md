@@ -1,4 +1,4 @@
-# Enoncé/Cahier des charges**🧩 L'énoncé du besoin**
+## **🧩 L'énoncé du besoin**
 
 C’est le **point de départ**, exprimé simplement par le demandeur.
 
@@ -8,7 +8,7 @@ Il ne faut **aucune complexité technique** ici, juste ce que le script doit acc
 
 🎯 Objectif : définir **ce que le script doit faire**, sans dire **comment** il va le faire.
 
-**📘 Le cahier des charges (contraintes)**
+## **📘 Le cahier des charges (contraintes)**
 
 Ici, on transforme l’énoncé en un **cadre technique précis**.
 
@@ -26,7 +26,7 @@ On identifie toutes les **contraintes** imposées par le contexte ou les choix d
 
 
 
-**🧠 Réflexion : comment atteindre le résultat attendu**
+## **🧠 Réflexion : comment atteindre le résultat attendu**
 
 Maintenant qu’on sait **quoi faire** et **dans quelles conditions**, on attaque la **vraie réflexion technique**.
 
@@ -44,7 +44,7 @@ Maintenant qu’on sait **quoi faire** et **dans quelles conditions**, on attaqu
 
 
 
-**💬 Communication continue**
+## **💬 Communication continue**
 
 Pendant tout le processus, le **dialogue avec le porteur du besoin est crucial**.
 
@@ -54,3 +54,4 @@ Pendant tout le processus, le **dialogue avec le porteur du besoin est crucial**
 - Affiner l’algorithme en fonction des retours
 
 🗣️ C’est ce lien qui permet de **faire évoluer le projet intelligemment**, sans deviner ni supposer.
+
