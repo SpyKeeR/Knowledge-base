@@ -62,7 +62,8 @@ Champs principaux à renseigner :
 
 - **Nom** : unique, explicite (ex : check_http_api)
 - **Type** : **Check command**
-- **Command line** : ligne complète validée dans le shell (avec les variables si besoin : $ARG1$, etc.)
+- **Command line** : ligne complète validée dans le shell (avec les variables si besoin : `$ARG1$`, etc.)
+
 
 
 
