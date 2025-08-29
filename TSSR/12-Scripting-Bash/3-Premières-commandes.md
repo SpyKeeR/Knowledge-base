@@ -1,9 +1,11 @@
-# 3 - Premières commandes**🧠 Intro – Nature des commandes internes**
+# 3 - Premières commandes
+
+## **🧠 Intro – Nature des commandes internes**
 - 🛠️ Les commandes comme echo, clear, exit, help sont **internes à Bash**
 - ❌ Aucun fichier binaire (type /bin/ls) n’est associé
 - 📌 Elles sont **intégrées dans le shell**, donc toujours dispo sans dépendance externe
 
-**📣 echo – Afficher du texte dans le terminal**
+## **📣 echo – Afficher du texte dans le terminal**
 
 - 🔹 **Syntaxe** : echo [options] "expression"
 - 🪄 Options utiles (avec -e activé) :
@@ -16,7 +18,7 @@
 
 
 
-**🧼 clear – Nettoyer l'écran**
+## **🧼 clear – Nettoyer l'écran**
 
 - 🧯 Commande **simple et sans argument**
 - 💡 Vide l'écran pour avoir un affichage propre
@@ -24,7 +26,7 @@
 
 
 
-**🚪 exit – Quitter le script**
+## **🚪 exit – Quitter le script**
 
 - 🔹 **Syntaxe** : exit [n]
   - n = **code retour** envoyé au Shell père (souvent 0 pour succès)
@@ -33,7 +35,7 @@
 
 
 
-**📚 help – Obtenir de l’aide sur les commandes internes**
+## **📚 help – Obtenir de l’aide sur les commandes internes**
 
 - 🔹 help → liste **toutes les commandes internes de Bash**
 - 🔹 help nom_commande → affiche l’aide sur une commande spécifique
@@ -41,4 +43,5 @@
 - 📌 Très utile pour réviser rapidement sans quitter le terminal
 
 ![](../media/Cours-Scripting-Bash-3-Premières-commandes-image1.png)
+
 
