@@ -45,7 +45,7 @@ Les modèles permettent de **centraliser la configuration** et d’**éviter la 
 | **Type** | **Utilité principale** | **Check command ?** |
 |----|----|----|
 | **Modèle de configuration** (ex: STC_DEFAULT) | Contient tous les **paramètres communs** (périodes, intervals, etc.) | ❌ Non |
-| **Modèle fonctionnel** (ex: STF SNMP CPU Windows) | Contient la **vraie commande de check**, macros, etc. | ✅ Oui |
+| **Modèle fonctionnel** (ex: STF_SNMP_CPU_Windows) | Contient la **vraie commande de check**, macros, etc. | ✅ Oui |
 
 Les modèles fonctionnels héritent souvent des modèles de configuration.
 
@@ -60,4 +60,5 @@ Les modèles fonctionnels héritent souvent des modèles de configuration.
 - **Normal Check Interval** : Ex : 5 = test toutes les 5 min quand tout va bien.
 - **Retry Check Interval** : Ex : 1 = retest chaque minute en cas d’échec.
 - **Max Check Attempts** : Ex : 3 = après 3 retests, on confirme l’état comme HARD.
+
 
