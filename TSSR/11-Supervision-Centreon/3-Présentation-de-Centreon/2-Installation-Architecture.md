@@ -52,10 +52,11 @@ Centreon **ne supervise rien par lui-même**. Il délègue tout à des **plugins
 
 ### **Solutions alternatives :**
 
-IBM Tivoli Software / ICINGA / HP Openview / SHINKEN / BMC Software / NAEMON / Zabbix / Nagios
+IBM Tivoli Software / ICINGA / SHINKEN / NAEMON / Zabbix / Nagios / OpenNMS / CACTI
 
 
 
 ![](../../media/Cours-Supervision-Centreon-Installation-Architecture-image1.png)
+
 
 
