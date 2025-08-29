@@ -66,7 +66,8 @@ Exemple complet : `access readonlyGroup "" any noauth exact complete none none`
 ### **🧪 Tester et valider la config**
 
 1.  🔁 Redémarrer le service ➤ `systemctl restart snmpd`
-2.  🔍 Tester avec une requête simple :   `snmpwalk -v2c -c public 127.0.0.1 1.3.6.1.2.1.1.1.0` → Doit renvoyer le sysDescr
-3.  💡 Pour plus d’infos système :  `snmpwalk -v2c -c public 127.0.0.1 1.3.6.1.2.1.25.1.1`
+2.  🔍 Tester avec une requête simple : `snmpwalk -v2c -c public 127.0.0.1 1.3.6.1.2.1.1.1.0` → Doit renvoyer le sysDescr
+3.  💡 Pour plus d’infos système : `snmpwalk -v2c -c public 127.0.0.1 1.3.6.1.2.1.25.1.1`
+
 
 
