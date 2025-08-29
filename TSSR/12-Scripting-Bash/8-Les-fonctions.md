@@ -1,4 +1,4 @@
-# 8 - Les fonctions**🧠 Pourquoi utiliser des fonctions ?**
+# **🧠 Pourquoi utiliser des fonctions ?**
 
 Les fonctions servent à **regrouper des commandes réutilisables** dans un script.
 
@@ -8,11 +8,14 @@ Les fonctions servent à **regrouper des commandes réutilisables** dans un scri
 
 
 
-**🛠️ Déclaration et appel**
+## **🛠️ Déclaration et appel**
 
 Déclaration :
-
-nom_fonction() { commandes }
+```bash
+nom_fonction() {
+commandes
+}
+```
 
 ⚠️ La fonction doit être **déclarée avant d’être appelée**.
 
@@ -20,7 +23,7 @@ Appel : Simplement en écrivant le nom de la fonction comme une commande dans le
 
 
 
-**💬 Variables et fonctions**
+## **💬 Variables et fonctions**
 
 ✔️ Les **variables sont globales par défaut**, elles restent accessibles à l'intérieur des fonctions.
 
@@ -28,32 +31,32 @@ Appel : Simplement en écrivant le nom de la fonction comme une commande dans le
 
 Exemple logique :
 
-- nbr=50 (hors fonction)
-- func_majnbr() modifie nbr=100  
+- `nbr=50` (hors fonction)
+- `func_majnbr()` modifie `nbr=100`
   ➡️ Après l’appel : nbr vaut **100**
 
 
 
-**📦 Passage de paramètres**
+## **📦 Passage de paramètres**
 
 Les fonctions acceptent des **paramètres positionnels** comme les scripts :
 
-- $1, $2, etc. → accèdent aux arguments passés à la fonction
-- $@ ou $* → tous les arguments
+- `$1`, `$2`, etc. → accèdent aux arguments passés à la fonction
+- `$@` ou `$*` → tous les arguments
 
 Exemple :
 
-Appel avec : func_accueil "Marc" "Dubois"
+Appel avec : `func_accueil "Marc" "Dubois"`
 
-Utilisation : echo "Bonjour $1 $2"
+Contenu fonction : `echo "Bonjour $1 $2"`
 
 
 
-**🧩 Fichier de fonctions externe**
+## **🧩 Fichier de fonctions externe**
 
 Tu peux **séparer les fonctions** dans un autre fichier (mesfonctions)
 
-👨‍🔧 Il suffit de les importer dans le script principal avec : source ~/mesfonctions **ou** . ~/mesfonctions
+👨‍🔧 Il suffit de les importer dans le script principal avec : `source ~/mesfonctions` **ou** `. ~/mesfonctions`
 
 🎁 Avantages :
 
@@ -64,3 +67,4 @@ Tu peux **séparer les fonctions** dans un autre fichier (mesfonctions)
 ➕ plus simple à déboguer
 
 ⚠️ Le fichier **n’a pas besoin d’être exécutable**, il suffit d’avoir les droits de lecture.
+
