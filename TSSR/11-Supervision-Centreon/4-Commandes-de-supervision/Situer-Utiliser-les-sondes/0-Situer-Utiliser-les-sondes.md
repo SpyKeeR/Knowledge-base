@@ -50,7 +50,8 @@ Elle est **exécutée régulièrement** par le moteur de supervision (Centreon E
 
 ➡️ Permettent d’exécuter des sondes **localement sur l’hôte à superviser**, même sans SNMP
 
-➡️ Le superviseur envoie une requête via **check_centreon_nrpe3**
+➡️ Le superviseur envoie une requête via `check_centreon_nrpe3`
 
 ➡️ Le plugin NRPE exécute la commande distante et retourne les résultats
+
 
