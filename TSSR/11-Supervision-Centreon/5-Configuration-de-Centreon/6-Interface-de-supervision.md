@@ -23,28 +23,3 @@ Centreon permet d’agir directement sur un hôte/service :
 - **Mass actions** possibles (sélection multiple de services/hôtes)
 
 → Idéal après une correction (ex : patch appliqué sur un serveur) pour **vérifier instantanément** si le service remonte en OK.
-
-
-
-## 📁 **Groupes : Organisation logique**
-
-On peut regrouper des objets pour une lecture plus claire de l’infra :
-
-- **Par technologie** (Win, Linux, switchs...)
-- **Par fonction** (intranet, base de données...)
-- **Par site** (Paris, Lyon…)
-
-Ces groupes servent à la **navigation**, aux **stats globales**, mais **ne peuvent être utilisés dans les modèles**. On les applique manuellement à chaque objet.
-
-
-
-## 🔐 **Catégories : Accès & héritage**
-
-Contrairement aux groupes, les **catégories** :
-
-- Permettent de **filtrer les droits d’accès** (visibilité par rôle)
-- Peuvent être appliquées dans les **modèles** (héritage actif)
-- Sont utilisées par certains **modules payants** pour des vues avancées ou rapports détaillés
-
-Elles renforcent la **gestion fine** de l’interface (accès restreints, délégation).
-
