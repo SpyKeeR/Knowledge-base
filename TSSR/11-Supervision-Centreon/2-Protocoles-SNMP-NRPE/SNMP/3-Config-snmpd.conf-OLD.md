@@ -18,7 +18,9 @@ Fait le lien entre une **communauté SNMP** (genre "public") et un **nom de séc
 
 🔐 On donne un nom (notSecure) à la communauté public accessible uniquement en local 
 
-🌐 On peut limiter à localhost, ou élargir à 192.168.1.0/24 selon les besoins 🧱 C’est la **porte d’entrée** du système SNMP v1/v2c
+🌐 On peut limiter à localhost, ou élargir à 192.168.1.0/24 selon les besoins 
+
+🧱 C’est la **porte d’entrée** du système SNMP v1/v2c
 
 
 
@@ -39,6 +41,7 @@ Un groupe regroupe plusieurs users ayant les **mêmes droits**
 view = Filtre qui définit **quelles parties de la MIB** sont visibles pour un groupe > Exemple : view complete included .1 ➤ accès à **toute la MIB**
 
 - On peut restreindre : `view systemOnly included .1.3.6.1.2.1.1` (info système uniquement)
+
 ☂️ Une view sert à cloisonner les infos selon les besoins : sécurité, confidentialité, granularité
 
 
@@ -65,4 +68,5 @@ Exemple complet : `access readonlyGroup "" any noauth exact complete none none`
 1.  🔁 Redémarrer le service ➤ `systemctl restart snmpd`
 2.  🔍 Tester avec une requête simple :   `snmpwalk -v2c -c public 127.0.0.1 1.3.6.1.2.1.1.1.0` → Doit renvoyer le sysDescr
 3.  💡 Pour plus d’infos système :  `snmpwalk -v2c -c public 127.0.0.1 1.3.6.1.2.1.25.1.1`
+
 
