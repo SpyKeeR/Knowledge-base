@@ -1,4 +1,6 @@
-# 5 - Caractères spéciaux**➖ Enchaînement inconditionnel (;)**
+# 5 - Caractères spéciaux
+
+## **➖ Enchaînement inconditionnel (;)**
 
 Utilisé pour exécuter plusieurs commandes, **quoi qu’il arrive** (succès ou échec).
 
@@ -7,8 +9,13 @@ Utilisé pour exécuter plusieurs commandes, **quoi qu’il arrive** (succès ou
 👉 Peu importe si mkdir échoue, touch et cat seront quand même lancées. Utilisé en ligne de commande ou dans les scripts pour chaîner des actions.
 
 
+### **🧠 Retour de commande : le $?**
 
-**✅ Enchaînement conditionnel && (logique "ET")**
+Chaque commande retourne un **code de sortie** : 0 = succès ✅ ≠0 = échec ❌. Ce code est stocké dans la variable spéciale $?, utilisée implicitement par && et ||.
+
+
+
+## **✅ Enchaînement conditionnel && (logique "ET")**
 
 N'exécute la commande suivante **que si la précédente réussit** (code retour 0).
 
@@ -18,7 +25,7 @@ N'exécute la commande suivante **que si la précédente réussit** (code retour
 
 
 
-**❌ Enchaînement conditionnel || (logique "OU")**
+## **❌ Enchaînement conditionnel || (logique "OU")**
 
 N'exécute la commande suivante **que si la précédente échoue** (code retour ≠ 0).
 
@@ -26,13 +33,7 @@ N'exécute la commande suivante **que si la précédente échoue** (code retour 
 
 
 
-**🧠 Retour de commande : le $?**
-
-Chaque commande retourne un **code de sortie** : 0 = succès ✅ ≠0 = échec ❌. Ce code est stocké dans la variable spéciale $?, utilisée implicitement par && et ||.
-
-
-
-**🌀 Regroupement de commandes avec sous-shell ()**
+## **🌀 Regroupement de commandes avec sous-shell ()**
 
 ( cmd1 ; cmd2 ; ...) → Exécuté dans un **environnement enfant**, donc les changements ne persistent pas dans le shell principal (ex : changement de dossier, variables).
 
@@ -42,7 +43,7 @@ Chaque commande retourne un **code de sortie** : 0 = succès ✅ ≠0 = échec �
 
 
 
-**🔒 Regroupement de commandes sans sous-shell {}**
+## **🔒 Regroupement de commandes sans sous-shell {}**
 
 { cmd1 ; cmd2 ; ... ; } → Exécuté **dans le shell courant**, donc les effets persistent (cd, export, etc.)
 
@@ -52,7 +53,7 @@ Chaque commande retourne un **code de sortie** : 0 = succès ✅ ≠0 = échec �
 
 
 
-**🎨 Utiliser les couleurs dans le shell**
+## **🎨 Utiliser les couleurs dans le shell**
 
 - Texte : 30 à 37 (noir à gris clair)
 - Fond : 40 à 47
@@ -67,6 +68,7 @@ Chaque commande retourne un **code de sortie** : 0 = succès ✅ ≠0 = échec �
 ➡️ On réinitialise à la fin : \033[0m
 
 ![](../media/Cours-Scripting-Bash-5-Caractères-spéciaux-image1.png)![](../media/Cours-Scripting-Bash-5-Caractères-spéciaux-image2.png)![](../media/Cours-Scripting-Bash-5-Caractères-spéciaux-image3.png)
+
 
 
 
