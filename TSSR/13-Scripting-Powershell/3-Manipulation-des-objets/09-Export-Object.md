@@ -16,8 +16,6 @@ PowerShell permet nativement d’exporter en CSV après récupération des objet
 
 🔸 `-NoTypeInformation` : supprime la ligne de type Microsoft.* en tête de fichier
 
-🔸 `-Append` : ajoute les données à un fichier existant (au lieu d’écraser)
-
 ✔ Permet d’obtenir un fichier prêt à être ouvert dans Excel ou LibreOffice.
 
 
@@ -47,3 +45,4 @@ PowerShell sait exporter vers :
 ### 💡 **Modules supplémentaires**
 
 Modules comme **ImportExcel** permettent d’exporter vers .xlsx sans passer par CSV (mais nécessitent installation).
+
