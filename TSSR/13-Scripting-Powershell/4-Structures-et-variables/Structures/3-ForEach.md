@@ -30,9 +30,10 @@ foreach ($pc in $liste) {
 
 ## 📡 **🗂 Traitement d’objets complexes**
 
-Exemple : récupération d’utilisateurs avec `Get-ADUser - $users = Get-ADUser -Filter *`
+Exemple : récupération d’utilisateurs avec Get-ADUser.
 
 ```powershell
+$users = Get-ADUser -Filter *
 foreach ($user in $users) {
     Write-Host $user.Name
     } 
@@ -67,5 +68,6 @@ foreach ($user in $users) {
 - $i, $pc, $user sont des **pointeurs temporaires** utilisés dans la boucle.
 - Chaque itération = **traitement isolé d’un élément**, possibilité de conditionner l’action.
 - Peut être combiné avec des tests if, ou commandes break, continue.
+
 
 
