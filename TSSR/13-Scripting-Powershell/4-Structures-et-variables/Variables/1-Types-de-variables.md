@@ -1,4 +1,4 @@
-## 🧱 Type Objet (Object)**
+## **🧱 Type Objet (Object)**
 
 - PowerShell manipule majoritairement des objets (résultats de commandes, services, utilisateurs AD…)
 - Un objet peut contenir des **propriétés** (`$service.ServiceName`) et des **méthodes** `($services[3].Stop()`)
@@ -52,4 +52,5 @@
 - Variables typées dynamiquement, mais le **mélange de types** provoque des erreurs
 - Une méthode ou opération **ne fonctionne que sur le type adapté**
 - Toujours vérifier les types avant d’effectuer des opérations (`.GetType()`)
+
 
