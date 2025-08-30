@@ -29,7 +29,7 @@ Exécute un bloc tant qu'une condition est vraie. Potentiellement infinie si auc
 
 **Syntaxe** : `while (condition) { bloc }`
 
-Sortie manuelle possible via break ou ajustement de la condition dans la boucle.
+Sortie manuelle possible via `break` ou ajustement de la condition dans la boucle.
 
 Utilisé pour : surveiller une saisie, vérifier l’état d’un service, attendre un événement, limiter un nombre de tentatives.
 
@@ -67,4 +67,5 @@ Utilisé pour : créer des menus, dispatcher des traitements, automatiser des r�
 - while + switch : boucle de menu interactif
 - foreach + if : traitement conditionnel d'une collection
 - switch + if : cas multiples avec traitements conditionnés
+
 
