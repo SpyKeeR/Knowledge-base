@@ -29,6 +29,9 @@ La boucle continue tant que $x < 100.
 
 ## ⚠️ **Attention à la ponctuation et la portée**
 
-Chaque structure doit être bien délimitée par ses accolades { }. Si elles manquent, le script génère des erreurs détectées par un IDE (ex : VS Code).
+Chaque structure doit être bien délimitée par ses accolades { }. 
+
+Si elles manquent, le script génère des erreurs détectées par un IDE (ex : VS Code).
 
 Respecter ça, c’est la base pour gérer l’imbrication sans bug.
+
