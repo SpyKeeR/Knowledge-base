@@ -1,6 +1,6 @@
 # **🧭 À quoi sert Get-Help ?**
 
-Get-Help est **le manuel intégré** de PowerShell. Il permet de :
+`Get-Help` est **le manuel intégré** de PowerShell. Il permet de :
 
 - 📄 comprendre la structure et l’usage d’une cmdlet
 - 🔍 voir ses paramètres, exemples, syntaxe complète
@@ -47,4 +47,5 @@ L’aide est **structurée** en sections :
 ➡️ Utilise -Full si tu veux tout.
 
 ➡️ Utilise -Examples si tu veux juste un modèle rapide à copier.
+
 
