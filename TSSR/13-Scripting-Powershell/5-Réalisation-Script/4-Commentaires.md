@@ -17,7 +17,7 @@ Le symbole \# placé en début de ligne rend toute la ligne non exécutable.
 
 Exemple : ligne désactivée ou note explicative avant une commande.
 
-- # Cette commande est désactivée → Ligne ignorée
+- \# Cette commande est désactivée → Ligne ignorée
 - Get-Process # Affiche les processus en cours → Seule la commande est exécutée, la suite est un commentaire
 
 
@@ -50,5 +50,6 @@ Permet de désactiver rapidement une structure entière (ex : if, boucle, etc.).
 - #< … ># pour un commentaire bloc (plusieurs lignes)
 - Ne jamais négliger les commentaires dans les scripts en production
 - Plus un script évolue, plus les commentaires deviennent essentiels à sa compréhension et sa maintenance
+
 
 
