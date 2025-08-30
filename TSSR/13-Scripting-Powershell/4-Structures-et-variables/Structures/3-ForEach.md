@@ -18,7 +18,7 @@ Forme : `foreach ($élément in $collection) { ... }`
 
 
 
-## 🧑‍💻 **💻 Exemple simple sur tableau texte**
+## 🧑‍💻 **Exemple simple sur tableau texte**
 
 ```powershell
 $liste = "PC1", "PC2", "PC3"
@@ -67,4 +67,5 @@ foreach ($user in $users) {
 - $i, $pc, $user sont des **pointeurs temporaires** utilisés dans la boucle.
 - Chaque itération = **traitement isolé d’un élément**, possibilité de conditionner l’action.
 - Peut être combiné avec des tests if, ou commandes break, continue.
+
 
