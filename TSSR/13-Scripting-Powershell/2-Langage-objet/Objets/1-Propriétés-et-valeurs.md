@@ -30,7 +30,7 @@ Pour **voir les propriétés** d’un objet (et leurs types), on utilise :
 
 → Retourne : nom des propriétés (DisplayName, Status...), méthodes dispo (`Start()`, `Stop()`, etc.) et **type de l’objet** (ex : `System.ServiceProcess.ServiceController`)
 
-➡️ C’est l’un des **3 outils clés** avec Get-Command et Get-Help.
+➡️ C’est l’un des **3 outils clés** avec `Get-Command` et `Get-Help`.
 
 
 
@@ -52,4 +52,5 @@ Ex : `Set-Service -Name WSearch -DisplayName "Service de recherche Windows"`
 ⚠️ Les valeurs avec espace doivent être **entre guillemets**.
 
 Tu peux vérifier ensuite avec : `Get-Service -Name WSearch` → et lire la nouvelle valeur de DisplayName.
+
 
