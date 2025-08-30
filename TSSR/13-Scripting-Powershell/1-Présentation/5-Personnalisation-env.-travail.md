@@ -40,7 +40,7 @@ Après création, tu peux l’éditer (avec *notepad $Profile* ou ton éditeur p
 Ce que tu écris dedans sera **exécuté à chaque démarrage** de ta console PowerShell.
 
 Exemples :
-```psh
+```powershell
 Import-Module ActiveDirectory
 Set-Location C:\Scripts
 Write-Host "Bienvenue Maxime 👋"
@@ -55,4 +55,5 @@ Set-Alias ll Get-ChildItem
 ➡️ **Personnalisation fonctionnelle** : via **fichier de profil**
 
 ➡️ Le profil PowerShell est comme un *fichier .bashrc* sous Linux : simple, mais ultra puissant quand bien utilisé.
+
 
