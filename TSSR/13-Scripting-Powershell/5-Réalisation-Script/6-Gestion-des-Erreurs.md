@@ -8,7 +8,7 @@ La gestion des erreurs permet de **prévoir**, **contrôler**, et **documenter**
 
 ## **🗃️ La variable $Error**
 
-- Toutes les erreurs sont stockées dans **un tableau automatique** : $Error
+- Toutes les erreurs sont stockées dans **un tableau automatique** : `$Error`
 - Chaque nouvelle erreur est ajoutée en **première position** : `$Error[0]` contient **la dernière erreur**
 - Il est possible d’accéder à l’historique d’erreurs en parcourant les indices du tableau
 
@@ -85,4 +85,5 @@ Souvent utilisé pour **afficher un message final**, **libérer des ressources**
 - Employer `-ErrorAction` pour affiner le comportement **commande par commande**.
 - Utiliser `try` / `catch` / `finally` pour **contrôler les blocages** et **ajouter de la logique conditionnelle** à l'exécution du script.
 - Si besoin d'un suivi précis, stocker les erreurs dans une **variable personnalisée**.
+
 
