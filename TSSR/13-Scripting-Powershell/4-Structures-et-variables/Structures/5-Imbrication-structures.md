@@ -32,15 +32,3 @@ La boucle continue tant que $x < 100.
 Chaque structure doit être bien délimitée par ses accolades { }. Si elles manquent, le script génère des erreurs détectées par un IDE (ex : VS Code).
 
 Respecter ça, c’est la base pour gérer l’imbrication sans bug.
-
-
-
-## 🚀 **Exemple amélioré avec interaction**
-
-- On récupère $x via Read-Host
-- do-while tourne tant que $x > 0
-- if teste si $x > 10
-- switch gère plusieurs cas (20, 30, default)
-- else affiche un message d’erreur si $x ≤ 10
-- À chaque tour, $x est demandé à nouveau, pour garder le contrôle
-
