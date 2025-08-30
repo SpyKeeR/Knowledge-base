@@ -47,5 +47,6 @@ Certaines cmdlets fonctionnent **sans paramètre**, d'autres **en exigent** un o
 
 ➡️ Si un paramètre obligatoire est absent, la commande **échoue** ou demande une valeur.
 
-🧪 Ex : Get-Process fonctionne seul, mais Set-Item nécessite un chemin et une valeur.
+🧪 Ex : `Get-Process` fonctionne seul, mais Set-Item nécessite un chemin et une valeur.
+
 
