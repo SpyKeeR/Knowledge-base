@@ -1,4 +1,4 @@
-# **🎯 Objectifs | 📌 Ce que tu vas apprendre**
+# **🎯 Objectifs**
 
 ### 🧱 **Comprendre PowerShell comme un langage objet**  
 - Interagir avec des objets plutôt que du simple texte.
@@ -12,4 +12,5 @@
 
 ### 🔍 **Explorer les propriétés et méthodes des objets PowerShell**  
 - Apprendre à les manipuler pour tirer pleinement parti du potentiel de PowerShell.
+
 
