@@ -30,12 +30,12 @@ Permet de définir le comportement **d’une commande** en cas d’erreur.
 
 Valeurs possibles :
 
-- Continue : affiche l’erreur et continue *(valeur par défaut)*
-- SilentlyContinue : ignore l’affichage, mais stocke l’erreur dans `$Error`
-- Ignore : ne fait rien, **n’enregistre pas** l’erreur
-- Stop : stoppe immédiatement l’exécution
-- Inquire : demande à l’utilisateur quoi faire
-- Suspend : suspend un workflow en cours
+- `Continue` : affiche l’erreur et continue *(valeur par défaut)*
+- `SilentlyContinue` : ignore l’affichage, mais stocke l’erreur dans `$Error`
+- `Ignore` : ne fait rien, **n’enregistre pas** l’erreur
+- `Stop` : stoppe immédiatement l’exécution
+- `Inquire` : demande à l’utilisateur quoi faire
+- `Suspend` : suspend un workflow en cours
 
 ### **🔸 -ErrorVariable**
 
@@ -85,6 +85,7 @@ Souvent utilisé pour **afficher un message final**, **libérer des ressources**
 - Employer `-ErrorAction` pour affiner le comportement **commande par commande**.
 - Utiliser `try` / `catch` / `finally` pour **contrôler les blocages** et **ajouter de la logique conditionnelle** à l'exécution du script.
 - Si besoin d'un suivi précis, stocker les erreurs dans une **variable personnalisée**.
+
 
 
 
