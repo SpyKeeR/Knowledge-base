@@ -13,7 +13,7 @@ Un script bien commenté est un script maintenable et évolutif.
 
 ## ✏️ **Commentaire sur une seule ligne**
 
-Le symbole # placé en début de ligne rend toute la ligne non exécutable.
+Le symbole \# placé en début de ligne rend toute la ligne non exécutable.
 
 Exemple : ligne désactivée ou note explicative avant une commande.
 
@@ -46,8 +46,9 @@ Permet de désactiver rapidement une structure entière (ex : if, boucle, etc.).
 
 ## 📌 **À retenir**
 
-- # pour un commentaire simple (ligne ou fin de ligne)
+- \# pour un commentaire simple (ligne ou fin de ligne)
 - #< … ># pour un commentaire bloc (plusieurs lignes)
 - Ne jamais négliger les commentaires dans les scripts en production
 - Plus un script évolue, plus les commentaires deviennent essentiels à sa compréhension et sa maintenance
+
 
