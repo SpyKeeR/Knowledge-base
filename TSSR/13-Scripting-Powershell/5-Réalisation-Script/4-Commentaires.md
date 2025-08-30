@@ -17,8 +17,8 @@ Le symbole \# placé en début de ligne rend toute la ligne non exécutable.
 
 Exemple : ligne désactivée ou note explicative avant une commande.
 
-- \# Cette commande est désactivée → Ligne ignorée
-- Get-Process # Affiche les processus en cours → Seule la commande est exécutée, la suite est un commentaire
+- `# Cette commande est désactivée` → Ligne ignorée
+- `Get-Process # Affiche les processus en cours` → Seule la commande est exécutée, la suite est un commentaire
 
 
 
@@ -26,8 +26,8 @@ Exemple : ligne désactivée ou note explicative avant une commande.
 
 Pour commenter un bloc complet sans ajouter # à chaque ligne :
 
-- Début du bloc : #<
-- Fin du bloc : >#
+- Début du bloc : `#<`
+- Fin du bloc : `>#`
 
 Tout le contenu entre les deux balises est ignoré à l’exécution.
 
@@ -46,10 +46,11 @@ Permet de désactiver rapidement une structure entière (ex : if, boucle, etc.).
 
 ## 📌 **À retenir**
 
-- \# pour un commentaire simple (ligne ou fin de ligne)
-- #< … ># pour un commentaire bloc (plusieurs lignes)
+- `#` pour un commentaire simple (ligne ou fin de ligne)
+- `#< … >#` pour un commentaire bloc (plusieurs lignes)
 - Ne jamais négliger les commentaires dans les scripts en production
 - Plus un script évolue, plus les commentaires deviennent essentiels à sa compréhension et sa maintenance
+
 
 
 
