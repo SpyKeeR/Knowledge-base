@@ -3,7 +3,7 @@
 - Une **fonction** est un bloc de code réutilisable.
 - Elle sert à **organiser**, **simplifier**, et **éviter la répétition** dans un script PowerShell.
 - Créer une fonction, c’est comme créer **une nouvelle commande personnalisée**.
-- PowerShell **n’est pas sensible à la casse** (fonction, Fonction, FUNCTION = même chose).
+- PowerShell **n’est pas sensible à la casse** (function, Function, FUNCTION = même chose).
 
 
 
@@ -65,3 +65,4 @@ function find {
 - Déclarer les fonctions **en début de script**.
 - Utiliser des **noms explicites** pour la clarté (ex : Get-InfosPC, Check-Connexion).
 - Éviter les abréviations trop obscures.
+
