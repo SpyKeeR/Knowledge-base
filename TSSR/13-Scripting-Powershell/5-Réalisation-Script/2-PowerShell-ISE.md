@@ -1,6 +1,8 @@
 # PowerShell ISE
 
-ISE (Integrated Scripting Environment) est un éditeur graphique intégré à Windows pour créer, tester et exécuter des scripts PowerShell. Il est disponible à partir de PowerShell v3 sur Windows 8 / Server 2012 et versions supérieures.
+ISE (Integrated Scripting Environment) est un éditeur graphique intégré à Windows pour créer, tester et exécuter des scripts PowerShell. 
+
+Il est disponible à partir de PowerShell v3 sur Windows 8 / Server 2012 et versions supérieures.
 
 - Nom : PowerShell ISE
 - Versions : disponible depuis PowerShell v3
@@ -49,4 +51,5 @@ ISE (Integrated Scripting Environment) est un éditeur graphique intégré à Wi
 - Non compatible avec PowerShell 7 (Core et supérieur)
 - Moins de fonctionnalités avancées (extensions, git, terminal intégré…)
 - Peu adapté à l'automatisation multiplateforme
+
 
