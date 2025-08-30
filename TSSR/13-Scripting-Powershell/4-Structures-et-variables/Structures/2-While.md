@@ -71,7 +71,7 @@ Si la condition reste toujours vraie (ou jamais atteinte dans until) :
 
 
 
-##📌 **🧮 Exemple de compteur avec While**
+## 📌 **🧮 Exemple de compteur avec While**
 
 Utilisé pour répéter un bloc un certain nombre de fois :
 ```powershell
@@ -82,3 +82,4 @@ while ($x -lt 10) {
 ```
 
 Incrémente $x jusqu’à atteindre 10 > Contrôle précis sur **le nombre d’itérations**
+
