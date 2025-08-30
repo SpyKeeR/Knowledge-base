@@ -7,7 +7,7 @@ Sélectionner des **propriétés précises** issues d’objets PowerShell via le
 ## **🧰 Fonctionnement de base**
 
 - `Select-Object` s'utilise **après une commande** (souvent avec Get-*)
-- Paramètre -Property → choisit les propriétés à afficher → ex. Name, Status, etc.
+- Paramètre `-Property` → choisit les propriétés à afficher → ex. Name, Status, etc.
 - 📌 Écriture courte : `Select` tout court fonctionne aussi
 
 ## **📦 Sélection multiple et ordre**
@@ -43,4 +43,5 @@ Sélectionner des **propriétés précises** issues d’objets PowerShell via le
 
 - `Get-Process | Select Id, ProcessName | Measure` → pour compter les processus
 - `Get-ADUser -Properties * | Select Name, Department, City` → pour sortir des données *non visibles* par défaut
+
 
