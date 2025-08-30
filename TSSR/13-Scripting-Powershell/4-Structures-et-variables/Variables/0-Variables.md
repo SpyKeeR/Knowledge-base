@@ -26,7 +26,7 @@ Pas besoin de le déclarer manuellement.
 - **String** : texte ("Salut")
 - **Integer** : chiffre (42)
 - **Bool** : vrai/faux ($true, $false)
-- **Objet** : résultat d'une commande ($user = Get-ADUser -Filter *)
+- **Objet** : résultat d'une commande (`$user = Get-ADUser -Filter *`)
 
 ℹ️ Tu veux connaître le type d'une variable ? → `$a.GetType()`
 
@@ -73,3 +73,4 @@ Donne des noms **clairs et explicites** à tes variables pour faciliter la lectu
 
 - ✅ $logFile, $username, $eventList
 - ❌ $a, $x, $data1
+
