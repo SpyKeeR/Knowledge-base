@@ -14,7 +14,7 @@ Une fois **VMware Workstation 17** installé, l’utilisateur dispose d’une **
 
 
 
-##**📋 Liste des machines virtuelles**
+## **📋 Liste des machines virtuelles**
 
 - Affichage de toutes les **VM disponibles** dans une **library (bibliothèque)**.
 - Ajout ou création de **nouvelles machines virtuelles**.
@@ -45,4 +45,5 @@ Une fois **VMware Workstation 17** installé, l’utilisateur dispose d’une **
 - ⚙️ **Gestion de l’état** : démarrage, arrêt, pause, redémarrage.
 - 🧩 **Modification du matériel** de chaque VM.
 - 🖼️ **Affichage visuel** du système virtualisé à l'exécution.
+
 
