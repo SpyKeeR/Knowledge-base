@@ -12,7 +12,6 @@ Il existe **deux grandes catégories** d’hyperviseurs :
 - **Type 2** : hébergé ou "hosted"
 
 
-
 ## **⚙️ Hyperviseur de type 1 (Bare-metal)**
 
 - Fonctionne **directement sur le matériel** sans système d’exploitation intermédiaire.
@@ -32,7 +31,8 @@ Il existe **deux grandes catégories** d’hyperviseurs :
 
 
 
-### 🔁 **Architecture simplifiée :** Matériel → Hyperviseur → Machines virtuelles (1 seul niveau intermédiaire)
+### 🔁 **Architecture simplifiée :**
+Matériel → Hyperviseur → Machines virtuelles (1 seul niveau intermédiaire)
 
 ## **🖥️ Hyperviseur de type 2 (Hosted)**
 
@@ -49,5 +49,7 @@ Il existe **deux grandes catégories** d’hyperviseurs :
 - **Windows Virtual PC**
 - **VMware Workstation / Player**
 
-### 🔁 **Architecture simplifiée :** Matériel → OS hôte → Hyperviseur → Machines virtuelles (2 niveaux intermédiaires)
+### 🔁 **Architecture simplifiée :**
+Matériel → OS hôte → Hyperviseur → Machines virtuelles (2 niveaux intermédiaires)
+
 
