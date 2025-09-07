@@ -20,7 +20,7 @@
 - 📎 Fonctions essentielles accessibles rapidement
 - 🖱️ Bouton pour envoyer **Ctrl + Alt + Suppr** à la VM
 - 🔁 **Allumage** et **extinction** de la machine
-- ⚠️ **Fermeture de la console ≠ arrêt de la VM  **
+- ⚠️ **Fermeture de la console ≠ arrêt de la VM**
   → La VM continue de fonctionner en arrière-plan sur l’hôte Hyper-V
 
 
@@ -39,6 +39,7 @@
 - Fichiers principaux :
   - **.vhdx** : disque dur virtuel
   - **.vmcx, .vmrs, .vmgs, .vmgf** : fichiers de config et état
+
 
 
 
