@@ -1,6 +1,6 @@
-# Fonctionnalités**
+# Fonctionnalités
 
-## 🧱 Pré-requis pour les fonctionnalités avancées**
+## **🧱 Pré-requis pour les fonctionnalités avancées**
 
 - Minimum **3 hyperviseurs ESXi** de **même version** et aux **capacités identiques**.
 - Un environnement homogène permet un **fonctionnement optimal** des fonctions avancées.
@@ -40,4 +40,5 @@
 | 🌙 **DPM** (Distributed Power Management) | Met en **veille** ou réactive des hyperviseurs en fonction de la charge globale. |
 | 💥 **HA** (High Availability) | Redémarrage automatique des VM sur un autre hôte en cas de **panne**. |
 | 🛡️ **FT** (Fault Tolerance) | Protection sans **aucune interruption** pour certaines VM en cas de défaillance hôte. |
+
 
