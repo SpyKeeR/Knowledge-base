@@ -12,7 +12,7 @@ Les coûts sont désormais liés à :
 
 
 
-### **🧪 VMware ESXi Free — de retour depuis avril 2025 !**
+## **🧪 VMware ESXi Free — de retour depuis avril 2025 !**
 
 💥 **Gros revirement de Broadcom** : après avoir supprimé la version gratuite de l’hyperviseur **ESXi** en 2024, la société a **discrètement réintroduit une version gratuite** avec la sortie de **vSphere 8.0 Update 3e**.
 
@@ -20,7 +20,7 @@ Les coûts sont désormais liés à :
 
 
 
-## **✅ Fonctionnalités et limites :**
+### **✅ Fonctionnalités et limites :**
 
 | **Caractéristique** | **Détail** |
 |----|----|
@@ -34,11 +34,11 @@ Les coûts sont désormais liés à :
 
 ⚠️ Si tu attribues **plus de 8 vCPUs à une VM**, l’interface te le permet, **mais la VM ne pourra pas démarrer**.
 
-### **📦 Nouvelles offres vSphere (post-Broadcom)**
+## **📦 Nouvelles offres vSphere (post-Broadcom)**
 
 Broadcom propose désormais des **bundles** regroupant ESXi + vCenter + autres services.
 
-## **🔐 vSphere Foundation (VSF)**
+### **🔐 vSphere Foundation (VSF)**
 
 💼 Version d’entrée de gamme, obligatoirement sous abonnement.
 
@@ -55,7 +55,7 @@ Inclut :
 
 💳 Licence annuelle obligatoire.
 
-## **🏢 vSphere+ (vSphere Plus)**
+### **🏢 vSphere+ (vSphere Plus)**
 
 🌐 Accès cloud et fonctionnalités avancées.
 
@@ -71,4 +71,5 @@ Inclut :
 💡 Disponible uniquement **via abonnement annuel**.
 
 ⚠️ Peut inclure des frais suppl. en fonction du niveau de support choisi.
+
 
