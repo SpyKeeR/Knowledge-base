@@ -60,7 +60,7 @@
   - ➖ Réduire
   - ❌ Fermer
   - 🗔 Restaurer/Maximiser
-- Fermeture de la **fenêtre ≠ arrêt de la VM  **
+- Fermeture de la **fenêtre ≠ arrêt de la VM**
   → Les VMs peuvent continuer à tourner **en arrière-plan**
 
 
@@ -75,4 +75,5 @@
   - Lecteurs CD/DVD
 - 🟢 Point vert = activité
 - ⚪ Icône grisée = inactif / non connecté
+
 
