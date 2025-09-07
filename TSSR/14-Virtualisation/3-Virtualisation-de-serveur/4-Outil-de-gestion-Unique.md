@@ -28,11 +28,12 @@
 - Outil : **vSphere**
 - Interface web accessible depuis un client navigateur.
 - Permet une gestion graphique, en ligne de commande ou via console.
-- 
+
 
 ### **🪟 Microsoft Hyper-V**
 
 - Outil : **Gestionnaire Hyper-V (MMC)**
 - Console graphique Windows.
 - Permet la gestion complète de l’hyperviseur, du réseau, des disques, des périphériques et des partages entre machines.
+
 
