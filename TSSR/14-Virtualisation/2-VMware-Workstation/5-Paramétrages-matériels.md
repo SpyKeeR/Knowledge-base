@@ -2,9 +2,9 @@
 
 ## **🔧 Accès aux paramètres matériels**
 
-- Après création d’une VM, les réglages sont accessibles via **Virtual Machine Settings  **
-  → Menu **Edit > Virtual Machine Settings  **
-  → Ou clic droit sur l’onglet de la VM
+- Après création d’une VM, les réglages sont accessibles via **Virtual Machine Settings**
+  - → Menu **Edit > Virtual Machine Settings**
+  - → Ou clic droit sur l’onglet de la VM
 
 - Permet :
   - L’**ajout ou suppression de matériel**
@@ -56,4 +56,5 @@
   - Simuler des topologies complexes
   - Cloisonner les flux entre différentes VM
 - La configuration se fait via le bouton **LAN Segments** dans les paramètres réseau
+
 
