@@ -2,7 +2,7 @@
 
 ## **🖥️ Choix de la machine hôte**
 
-- Le **serveur physique** (ou "machine haute") doit être **dimensionné** selon :
+- Le **serveur physique** (ou "machine hôte") doit être **dimensionné** selon :
   - Le **nombre de machines virtuelles** à héberger
   - Les **performances attendues** (CPU, RAM, stockage)
 
@@ -73,4 +73,5 @@ Il est recommandé d’opter pour un **serveur modulable ou haut de gamme** si l
     - **Failover / Haute disponibilité**
     - **Surveillance des performances**
     - **Automatisation des déploiements**
+
 
