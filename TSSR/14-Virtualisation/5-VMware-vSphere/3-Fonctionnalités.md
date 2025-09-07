@@ -31,7 +31,7 @@
 - Rend le **stockage indépendant** de l’hôte, assurant une **tolérance aux pannes** matérielles.
 - La VM continue de fonctionner même si l’hyperviseur tombe.
 
-## **🤖 Fonctionnalités avancées supplémentaires (non détaillées ici)**
+## **🤖 Fonctionnalités avancées supplémentaires**
 
 | **Fonction** | **Description** |
 |----|----|
@@ -40,5 +40,6 @@
 | 🌙 **DPM** (Distributed Power Management) | Met en **veille** ou réactive des hyperviseurs en fonction de la charge globale. |
 | 💥 **HA** (High Availability) | Redémarrage automatique des VM sur un autre hôte en cas de **panne**. |
 | 🛡️ **FT** (Fault Tolerance) | Protection sans **aucune interruption** pour certaines VM en cas de défaillance hôte. |
+
 
 
