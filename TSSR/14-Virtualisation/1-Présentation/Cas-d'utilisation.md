@@ -1,4 +1,6 @@
-# Cas d'utilisation**🖥️ Principaux usages de la virtualisation**
+# Cas d'utilisation
+
+## **🖥️ Principaux usages de la virtualisation**
 
 - **Serveurs d’infrastructure** :  
   Utilisation de machines virtuelles pour héberger des serveurs locaux ou distants (notamment dans des environnements **Cloud**).
@@ -11,7 +13,7 @@
 
 
 
-**💡 Avantages de la virtualisation**
+## **💡 Avantages de la virtualisation**
 
 - **Optimisation du taux d’utilisation du matériel** :  
   Les ressources physiques sont **mieux exploitées**, en hébergeant plusieurs machines virtuelles sur un seul hôte.
@@ -27,7 +29,7 @@
 
 
 
-**⚠️ Limites et contraintes**
+## **⚠️ Limites et contraintes**
 
 - **Dépendance accrue à une solution** :  
   Toute l’infrastructure repose souvent sur un **même hyperviseur ou fournisseur**.
