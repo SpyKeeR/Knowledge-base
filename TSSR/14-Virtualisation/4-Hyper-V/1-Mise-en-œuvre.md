@@ -39,7 +39,8 @@
 ## **🔁 Importation & exportation**
 
 - 🔄 Possible entre solutions Hyper-V, **à partir de la version 2**
-- ⚠️ L’export **d’une version 1 vers version 2** n’est **pas supporté (**⚠️ Le **choix de la génération (1 ou 2)** est irréversible.)
+- ⚠️ L’export **d’une version 1 vers version 2** n’est **pas supporté
+  - **⚠️ Le **choix de la génération (1 ou 2)** est irréversible.
 - 📁 Utilisé pour **transférer ou sauvegarder des VMs**
 
 
@@ -49,4 +50,5 @@
 - 🧭 Outil **orienté administrateur**, à usage **serveur**
 - 🔒 Moins convivial que les solutions desktop (type VirtualBox)
 - 📂 Fichiers de configuration peu maniables :
+
 
