@@ -2,9 +2,10 @@
 
 
 
-## **🛠️ Ressources et besoins des VM**
+### **🛠️ Ressources et besoins des VM**
 
 
 
-## **🧩 Rôle des services réseau**
+### **🧩 Rôle des services réseau**
+
 
