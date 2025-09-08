@@ -57,8 +57,7 @@ Création via **Microsoft Entra ID**
 
 ## **🔑 Activation d’Intune**
 
-Depuis **Microsoft Entra ID** 
+Depuis **Microsoft Entra ID**  ➡️ Menu **Paramètres** → **Mobilité** → Activer **Microsoft Intune**
 
-➡️ Menu **Paramètres** → **Mobilité** → Activer **Microsoft Intune**
 
 
