@@ -6,6 +6,7 @@ Le Cloud Computing consiste à mettre à disposition des **ressources ou applica
 - **PaaS** : *Platform as a Service*
 - **IaaS** : *Infrastructure as a Service*
 
+![](../../media/Cours-Messagerie-Cloud-SPI-(SaaS-PaaS-IaaS)-image1.png)
 
 
 ## 📦 **SaaS – Software as a Service**
@@ -69,6 +70,5 @@ Le Cloud Computing consiste à mettre à disposition des **ressources ou applica
 
 💡 **Exemples** : Amazon EC2, Microsoft Azure, OVHcloud Public Cloud…
 
-![](../../media/Cours-Messagerie-Cloud-SPI-(SaaS-PaaS-IaaS)-image1.png)
 
 
