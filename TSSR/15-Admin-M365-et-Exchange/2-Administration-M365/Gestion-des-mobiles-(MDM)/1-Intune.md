@@ -1,5 +1,7 @@
 # Intune
 
+![](../../../media/Cours-Messagerie-Cloud-Intune-image1.png)
+
 ## **⚙️ Fonctionnalités principales**
 
 - 🧑‍💼 Gestion des **identités**
@@ -55,8 +57,8 @@ Création via **Microsoft Entra ID**
 
 ## **🔑 Activation d’Intune**
 
-Depuis **Microsoft Entra ID** ➡️ Menu **Paramètres** → **Mobilité** → Activer **Microsoft Intune**
+Depuis **Microsoft Entra ID** 
 
-![](../../../media/Cours-Messagerie-Cloud-Intune-image1.png)
+➡️ Menu **Paramètres** → **Mobilité** → Activer **Microsoft Intune**
 
 
