@@ -1,10 +1,12 @@
-# Licences M365Tous les services (Exchange Online, OneDrive, Office 365 Pro Plus, Teams, SharePoint…) reposent sur un socle commun : **Azure Active Directory**.
+# Licences M365
+
+Tous les services (Exchange Online, OneDrive, Office 365 Pro Plus, Teams, SharePoint…) reposent sur un socle commun : **Azure Active Directory**.
 
 ➡️ Sans Azure AD, aucun service Microsoft 365 ne peut fonctionner.
 
 
 
-🏠 **Licences pour particuliers**
+## 🏠 **Licences pour particuliers**
 
 • **Famille**
 
@@ -16,7 +18,7 @@
 
 
 
-🏢 **Licences pour PME**
+## 🏢 **Licences pour PME**
 
 • **Business Basique** :
 
@@ -38,7 +40,7 @@
 
 
 
-🏗️ **Licences pour grandes entreprises**
+## 🏗️ **Licences pour grandes entreprises**
 
 • **E3** :
 
@@ -58,17 +60,7 @@
 
 ➡️ Utiles pour combiner des fonctionnalités spécifiques (attention aux incompatibilités ! ⚠️)
 
-
-
-🧩 **Conclusion – Points clés à retenir**
-
-• Le **choix de la licence** doit dépendre des **besoins concrets** de l’utilisateur ou de la structure 🧭
-
-• Il est essentiel de **maîtriser l’écosystème Microsoft 365** pour fournir un support efficace 👨‍💻
-
-• La **bonne licence** = équilibre entre **fonctionnalités, sécurité, coût** et **simplicité d’usage**. 💡
-
-🎓 **Licences pour l’éducation**
+## 🎓 **Licences pour l’éducation**
 
 • **A1** – Services de base (gratuits dans certains cas) 📘
 
@@ -80,7 +72,7 @@
 
 
 
-🏛️ **Licences pour les associations et organismes publics**
+## 🏛️ **Licences pour les associations et organismes publics**
 
 • Système similaire aux PME avec gammes **E1, E3, E5** :
 
@@ -90,5 +82,16 @@
 
   ◦ **E5** : Sécurité avancée + fonctionnalités de conformité 🔒
 
+
+## 🧩 **Conclusion – Points clés à retenir**
+
+• Le **choix de la licence** doit dépendre des **besoins concrets** de l’utilisateur ou de la structure 🧭
+
+• Il est essentiel de **maîtriser l’écosystème Microsoft 365** pour fournir un support efficace 👨‍💻
+
+• La **bonne licence** = équilibre entre **fonctionnalités, sécurité, coût** et **simplicité d’usage**. 💡
+
+
 ![](../../media/Cours-Messagerie-Cloud-Licences-M365-image1.png)
+
 
