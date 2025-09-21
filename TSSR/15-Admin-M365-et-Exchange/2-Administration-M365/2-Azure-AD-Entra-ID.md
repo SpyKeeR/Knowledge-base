@@ -1,4 +1,6 @@
-# Azure AD/Entra ID- Connexion aux **applications cloud** (Microsoft 365, SaaS tiers, etc.)
+# Azure AD/Entra ID
+
+Connexion aux **applications cloud** (Microsoft 365, SaaS tiers, etc.)
 - **Authentification centralisée** (SSO)
 - **Contrôle d’accès conditionnel**
 - **Sécurité renforcée** (MFA, détection de risque)
@@ -7,13 +9,13 @@
 
 
 
-**🔄 Entra Connect (anciennement Azure AD Connect)**
+## **🔄 Entra Connect (anciennement Azure AD Connect)**
 
 Permet de **synchroniser un AD local (AD DS)** vers Microsoft Entra ID. 💡 Utilisé dans les environnements **hybrides**.
 
 
 
-**📡 Flux de synchronisation**
+### **📡 Flux de synchronisation**
 
 - 🔽 **Du local vers le cloud** (sens principal)
 - 🔁 **Writeback** (retour vers le local) activable pour :
@@ -25,7 +27,7 @@ Permet de **synchroniser un AD local (AD DS)** vers Microsoft Entra ID. 💡 Uti
 
 
 
-**🛠️ Étapes de déploiement d’Entra Connect**
+### **🛠️ Étapes de déploiement d’Entra Connect**
 
 1.  ➕ Ajouter un **suffixe UPN personnalisé** dans l’AD local
 2.  🔁 Modifier le **UPN des utilisateurs** pour correspondre au domaine vérifié M365
@@ -34,22 +36,23 @@ Permet de **synchroniser un AD local (AD DS)** vers Microsoft Entra ID. 💡 Uti
 5.  🔐 Saisir les identifiants des tenants locaux et cloud
 6.  🌐 Vérifier la **routabilité DNS** du domaine personnalisé
 
-📌 **Bonnes pratiques** :
+#### 📌 **Bonnes pratiques** :
 
 - Utiliser une **OU temporaire** pour tester la synchro
 - Toujours valider dans **Synchronization Service Manager** avant production
 
 
 
-**🕒 Cycle de synchronisation**
+### **🕒 Cycle de synchronisation**
 
 - ⏱️ **Automatique toutes les 30 minutes**
 - 🔁 Manuelle via PowerShell :
+```powershell
+Start-ADSyncSyncCycle -PolicyType Initial # Full sync 
+Start-ADSyncSyncCycle -PolicyType Delta` # Sync des changements
+```
 
-Start-ADSyncSyncCycle -PolicyType Initial # Full sync  
-Start-ADSyncSyncCycle -PolicyType Delta # Sync des changements
-
-**🧰 Outils de gestion d’Entra Connect**
+### **🧰 Outils de gestion d’Entra Connect**
 
 - 🔄 **Synchronization Service Manager** : monitoring et diagnostic
 - ⚙️ **Synchronization Rules Editor** : création/modification de règles (⚠️ attention aux conflits)
@@ -57,7 +60,7 @@ Start-ADSyncSyncCycle -PolicyType Delta # Sync des changements
 
 
 
-**Options de reconfiguration via l'assistant :**
+### **Options de reconfiguration via l'assistant :**
 
 - **Privacy settings :** Gérer les identifiants de connexions
 - **View current configuration :** Votre configuration actuelle
@@ -70,7 +73,7 @@ Start-ADSyncSyncCycle -PolicyType Delta # Sync des changements
 
 
 
-**⚠️ À savoir**
+### **⚠️ À savoir**
 
 - Les **utilisateurs synchronisés** n'ont **pas de licence M365** automatiquement
 - Entra ID **≠** AD local : ce sont **deux bases indépendantes** sauf si connectées

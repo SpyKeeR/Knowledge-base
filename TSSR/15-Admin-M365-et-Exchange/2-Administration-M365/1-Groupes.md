@@ -1,4 +1,6 @@
-# Groupes**📦 Groupe Microsoft 365**
+# Groupes
+
+## **📦 Groupe Microsoft 365**
 
 - **But** : favoriser la **collaboration**.
 - Inclus :
@@ -13,7 +15,7 @@
 
 
 
-**📬 Groupe de distribution**
+## **📬 Groupe de distribution**
 
 - **But** : envoyer un **email collectif** à plusieurs utilisateurs.
 - 🔁 Chaque membre reçoit une **copie individuelle**.
@@ -21,7 +23,7 @@
 - ⚠️ Gérer les droits d’adhésion pour **éviter les fuites** d’information.
 - 📥 Peut être combiné (hybride) avec un groupe de sécurité → déconseillé pour la clarté des usages.
 
-**🛡️ Groupe de sécurité**
+## **🛡️ Groupe de sécurité**
 
 - **But** : gérer des **droits d'accès** (SharePoint, Teams, etc.).
 - 🗝️ Contrôle l’accès à des ressources spécifiques.
@@ -29,7 +31,7 @@
 
 
 
-**📈 Liste de distribution dynamique**
+## **📈 Liste de distribution dynamique**
 
 - **But** : ajout/retrait **automatique** des membres selon des règles (ex : service, localisation…).
 - 👷‍♂️ Basée sur les **attributs utilisateurs** dans Active Directory.
@@ -37,7 +39,7 @@
 
 
 
-**⚙️ Paramètres à configurer :**
+## **⚙️ Paramètres à configurer :**
 
 - 🏷️ Nom, description, email du groupe
 - 👑 Propriétaire(s)
