@@ -1,12 +1,14 @@
-# M365 HardeningMême si Microsoft 365 est un environnement cloud puissant, avec beaucoup de protections natives, il faut toujours renforcer la sécurité, surtout autour des **mails** et des **données**. Les attaques sur la messagerie (phishing, usurpation, malwares) sont les plus courantes, donc il faut des mécanismes solides pour éviter les faux mails, protéger les identités, et garantir la disponibilité des données.
+# M365 Hardening
+
+Même si Microsoft 365 est un environnement cloud puissant, avec beaucoup de protections natives, il faut toujours renforcer la sécurité, surtout autour des **mails** et des **données**. Les attaques sur la messagerie (phishing, usurpation, malwares) sont les plus courantes, donc il faut des mécanismes solides pour éviter les faux mails, protéger les identités, et garantir la disponibilité des données.
 
 
 
-🌐 **La gestion des enregistrements DNS pour sécuriser les mails**
+## 🌐 **La gestion des enregistrements DNS pour sécuriser les mails**
 
 Les enregistrements DNS sont la base pour prouver que les mails envoyés par un domaine sont légitimes.
 
-**SPF (Sender Policy Framework)**
+### **SPF (Sender Policy Framework)**
 
 - Sert à **limiter les adresses IP autorisées à envoyer des mails pour votre domaine**.
 - C’est un enregistrement TXT dans votre DNS public.
@@ -15,14 +17,14 @@ Les enregistrements DNS sont la base pour prouver que les mails envoyés par un 
 - Important de bien inclure les serveurs Microsoft 365 ET tout autre serveur tiers (applications métier, serveurs internes…).
 - Cela réduit le risque que des spammeurs utilisent votre domaine pour envoyer des mails frauduleux.
 
-**DKIM (DomainKeys Identified Mail)**
+### **DKIM (DomainKeys Identified Mail)**
 
 - Plus avancé que SPF, DKIM ajoute une **signature cryptée dans l’en-tête du mail**.
 - Cela authentifie le mail, prouvant qu’il vient bien du serveur légitime et qu’il n’a pas été modifié.
 - Pour l’activer, il faut publier deux enregistrements CNAME dans DNS et configurer M365.
 - L’absence de DKIM fait baisser la réputation de vos mails et augmente leur probabilité d’atterrir en spam.
 
-**DMARC (Domain-based Message Authentication, Reporting & Conformance)**
+### **DMARC (Domain-based Message Authentication, Reporting & Conformance)**
 
 - Combine SPF et DKIM et vérifie que les adresses d’expédition sont alignées (MAIL FROM et FROM).
 - Permet de définir une politique en cas d’échec :
@@ -34,7 +36,7 @@ Les enregistrements DNS sont la base pour prouver que les mails envoyés par un 
 
 
 
-🧰 **Solutions tierces pour renforcer la sécurité**
+## 🧰 **Solutions tierces pour renforcer la sécurité**
 
 Même si Microsoft 365 propose des protections solides (EOP, ATP), certains domaines peuvent être renforcés par des solutions externes spécialisées :
 
@@ -50,7 +52,7 @@ Ces solutions tierces s’intègrent via API à M365, s’installent rapidement,
 
 
 
-🛡️ **Le rôle de l’anti-spam et des filtres dans Microsoft 365**
+## 🛡️ **Le rôle de l’anti-spam et des filtres dans Microsoft 365**
 
 - Microsoft 365 active par défaut des filtres anti-malwares et anti-spam.
 - Les filtres fonctionnent sur les en-têtes SMTP, les listes blanches (expéditeurs approuvés) et noires (expéditeurs bloqués), ainsi que sur la géolocalisation (bloquer mails de certains pays).

@@ -1,10 +1,12 @@
-# Centre de sécuritéLe **Centre de sécurité et de conformité Microsoft 365** permet de renforcer la **sécurité des données** et d'assurer la **conformité réglementaire** (comme le **RGPD**) au sein d'une organisation.
+# Centre de sécurité
+
+Le **Centre de sécurité et de conformité Microsoft 365** permet de renforcer la **sécurité des données** et d'assurer la **conformité réglementaire** (comme le **RGPD**) au sein d'une organisation.
 
 Il regroupe désormais des fonctionnalités jadis réparties dans d'autres consoles, pour une gestion plus centralisée.
 
 
 
-🧰 **Fonctionnalités principales**
+## 🧰 **Fonctionnalités principales**
 
 - **DKIM (DomainKeys Identified Mail)** : Signature d’emails pour authentification du domaine.
 - **Stratégies DLP (Data Loss Prevention)** :
@@ -17,7 +19,7 @@ Il regroupe désormais des fonctionnalités jadis réparties dans d'autres conso
 
 
 
-📦 **Archivage et gouvernance des données**
+## 📦 **Archivage et gouvernance des données**
 
 - **Archivage en ligne** (activable manuellement) :
   - Libère de l’espace dans les boîtes aux lettres.
@@ -30,7 +32,7 @@ Il regroupe désormais des fonctionnalités jadis réparties dans d'autres conso
 
 
 
-🚨 **Alertes et supervision**
+## 🚨 **Alertes et supervision**
 
 - Le système peut générer **des alertes en cas de fuite de données** ou de comportements suspects (ex. : redirection automatique d’emails).
 - ⚠️ La **gestion des alertes peut être chronophage**.
@@ -39,7 +41,7 @@ Il regroupe désormais des fonctionnalités jadis réparties dans d'autres conso
 
 
 
-🕵️ **Gestion des menaces**
+## 🕵️ **Gestion des menaces**
 
 - Mise en place de **stratégies de détection de menaces**.
 - Suivi de comportements anormaux comme :

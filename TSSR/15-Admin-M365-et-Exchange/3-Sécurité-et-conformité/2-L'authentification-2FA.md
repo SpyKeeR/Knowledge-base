@@ -1,15 +1,5 @@
-# L'authentification / 2FA- Méthodes de création efficaces :
-  - 🗣️ **Méthode phonétique** :  
-    *« J’ai acheté huit CD pour cent euros cet après-midi » → ght8CD%E7am*
+# L'authentification / 2FA
 
-  - 🔡 **Méthode des premières lettres** :  
-    *« Un tien vaut mieux que deux tu l’auras » → 1tvmQ2tl’A*
-
-L'authentification / 2FA
-
-mercredi 23 juillet 2025
-
-08:51
 
 La sécurité des comptes dépend largement de la gestion des mots de passe :
 
@@ -23,9 +13,23 @@ La sécurité des comptes dépend largement de la gestion des mots de passe :
   - se les envoyer par mail 📧
   - les sauvegarder dans un navigateur 🌐
 
+- Méthodes de création efficaces :
+  - 🗣️ **Méthode phonétique** :  
+    *« J’ai acheté huit CD pour cent euros cet après-midi » → ght8CD%E7am*
+
+  - 🔡 **Méthode des premières lettres** :  
+    *« Un tien vaut mieux que deux tu l’auras » → 1tvmQ2tl’A*
 
 
-🧰 **Outils de gestion de mots de passe**
+### 🧭 **Recommandations de l’ANSSI/Microsoft**
+
+- Longueur minimale : **8 caractères**
+- Éviter d'imposer des règles de composition trop contraignantes (*&@... inutiles).
+- Ne pas forcer une **réinitialisation périodique** sauf incident.
+- **Interdire les mots de passe communs** via liste noire.
+
+
+### 🧰 **Outils de gestion de mots de passe**
 
 - Privilégier un **gestionnaire de mots de passe** sécurisé (type Bitwarden, KeePass...).
 - Éviter la sauvegarde automatique par les navigateurs.
@@ -33,7 +37,7 @@ La sécurité des comptes dépend largement de la gestion des mots de passe :
 
 
 
-🔒 **Authentification Multifacteur (2FA)**
+## 🔒 **Authentification Multifacteur (2FA)**
 
 - Combine plusieurs preuves d'identité :
   - 🔑 Mot de passe
@@ -45,37 +49,42 @@ La sécurité des comptes dépend largement de la gestion des mots de passe :
 - Gérée via **Azure Active Directory**.
 - Renforcer l’inscription des utilisateurs à 2FA est crucial pour la sécurité globale.
 
+### 📱 **Application Microsoft Authenticator**
+
+- Permet l’authentification multifacteur via smartphone.
+- Service gratuit inclus avec Microsoft 365.
+- Fonctionne avec **Push**, **codes temporaires** (OTP), ou validation biométrique.
 
 
-💻 **Administration via PowerShell (Azure AD / M365 - Microsoft Graph)**
+## 💻 **Administration via PowerShell (Azure AD / M365 - Microsoft Graph)**
 
-**✅ Définir un mot de passe (et forcer le changement au prochain login) :**
+**✅ Définir un mot de passe (et forcer le changement au prochain login) :** 
+```powershell
+Import-Module Microsoft.Graph.Users
+Connect-MgGraph -Scopes "User.ReadWrite.All"
+$PasswordProfile = New-Object -TypeName Microsoft.Graph.PowerShell.Models.MicrosoftGraphPasswordProfile
+$PasswordProfile.Password = "MotDePasseComplexe123!"
+$PasswordProfile.ForceChangePasswordNextSignIn = $true  
+Update-MgUser -UserId "user@domaine.com" -PasswordProfile $PasswordProfile
+```
 
 **🚫 Désactiver l’expiration du mot de passe :**
 
 Ce paramètre ne s’applique **que pour les comptes cloud-only** et dans les **tenants sans politique de mot de passe par défaut (password policies)**.
-
+```powershell
 Update-MgUser -UserId "user@domaine.com" -PasswordPolicies "DisablePasswordExpiration"
-
-Pour **remettre l’expiration** : Update-MgUser -UserId "user@domaine.com" -PasswordPolicies "None"
-
+```
+Pour **remettre l’expiration** : 
+```powershell
+Update-MgUser -UserId "user@domaine.com" -PasswordPolicies "None"
+```
 
 
 **📆 Définir la durée de validité globale des mots de passe (tenant-wide) :**
 
 ⚠️ Cette fonctionnalité a été dépréciée dans Microsoft Graph. Microsoft recommande d'utiliser des **politiques de sécurité conditionnelle** ou des **stratégies d’authentification** (via Entra ID → Password Protection et Authentication Policies).
 
-🧭 **Recommandations de l’ANSSI/Microsoft**
-
-- Longueur minimale : **8 caractères**
-- Éviter d'imposer des règles de composition trop contraignantes (*&@... inutiles).
-- Ne pas forcer une **réinitialisation périodique** sauf incident.
-- **Interdire les mots de passe communs** via liste noire.
-
-
-
-📱 **Application Microsoft Authenticator**
-
-- Permet l’authentification multifacteur via smartphone.
-- Service gratuit inclus avec Microsoft 365.
-- Fonctionne avec **Push**, **codes temporaires** (OTP), ou validation biométrique.
+(Obsolète depuis juin 2023)
+```powershell
+Set-MgOrganization -PasswordValidityPeriod "90.00:00:00"
+```

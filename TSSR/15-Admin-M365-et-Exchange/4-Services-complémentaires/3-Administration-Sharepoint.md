@@ -1,11 +1,15 @@
-# Administration Sharepoint- Chaque utilisateur Microsoft 365 dispose de :
+# Administration Sharepoint
+
+## **🔍 Compréhension des espaces de stockage**
+SharePoint est un environnement collaboratif tandis que OneDrive est destiné au stockage personnel.
+- Chaque utilisateur Microsoft 365 dispose de :
   - **OneDrive** : entre **1 To et 5 To** selon la licence.
   - **SharePoint** : **1 To de base** pour l’organisation, **+10 Go** par licence.
 - SharePoint Online permet une **gestion multiplateforme**, la **coédition** de documents, et **évite la gestion de serveurs physiques**.
 
 
 
-📦 **Capacités de stockage et limites**
+## 📦 **Capacités de stockage et limites**
 
 | **Élément** | **Valeur** |
 |----|----|
@@ -18,7 +22,7 @@
 
 
 
-🏗️ **Création et gestion des sites**
+## 🏗️ **Création et gestion des sites**
 
 - Un **site SharePoint** sert de **conteneur** à :
   - 📁 Bibliothèques de documents
@@ -30,7 +34,7 @@
 
 
 
-🔐 **Sécurisation des accès**
+## 🔐 **Sécurisation des accès**
 
 - Mise en place de **permissions d’accès** pour les documents partagés.
 - Recommandation : **segmenter** les accès et **simplifier** les droits pour éviter les erreurs de configuration.
@@ -38,14 +42,11 @@
 
 
 
-🧠 **Vigilance technique et bonnes pratiques**
+## 🧠 **Vigilance technique et bonnes pratiques**
 
 - ⚠️ La **synchronisation hors ligne** d’une bibliothèque entière peut provoquer :
   - Des **dysfonctionnements**
   - Des **pertes de données**
 - La **gestion des permissions** peut devenir complexe → privilégier des règles simples et claires.
 - Attention à l’hébergement de **fichiers lourds** (ex : Photoshop, CAO...) dans SharePoint Online : risque de **dégradation des performances**.
-
-mercredi 23 juillet 2025
-
-11:19
+- 📊 Utiliser les **rapports d’activité** pour surveiller l’utilisation et la sécurité des données.

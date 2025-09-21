@@ -1,4 +1,6 @@
-# Administration Teams🚀 **Croissance et adoption de Teams**
+# Administration Teams
+
+## 🚀 **Croissance et adoption de Teams**
 
 - Teams est devenu un **outil central du travail collaboratif**.
 - En 2020, Microsoft a atteint **115 millions d’utilisateurs actifs quotidiens**.
@@ -7,7 +9,7 @@
 
 
 
-🛠️ **Fonctionnalités clés**
+## 🛠️ **Fonctionnalités clés**
 
 - Création d’équipes 👥
 - Réunions et visioconférences 📅💻
@@ -22,7 +24,7 @@
 
 
 
-🔧 **Panneau d’administration Teams**
+## 🔧 **Panneau d’administration Teams**
 
 🎛️ Objectif : Conserver **la maîtrise** de l’environnement M365
 
@@ -33,7 +35,7 @@
 
 
 
-🔐 **Limiter la création d’équipes**
+## 🔐 **Limiter la création d’équipes**
 
 👨‍💼 Trop d’équipes = chaos. Solution en 3 étapes :
 
@@ -43,13 +45,13 @@
 
 ➡️ But : éviter les débordements en limitant les créateurs
 
-📂 **Gestion des équipes et canaux**
+## 📂 **Gestion des équipes et canaux**
 
 - Ajout de **canaux standards et privés** selon les besoins
 - **Segmentation des membres** par canaux
 - **Paramétrage fin** des usages disponibles pour chaque équipe
 
-🎥 **6. Paramétrage des réunions**
+## 🎥 **Paramétrage des réunions**
 
 - Définir des **stratégies de réunion personnalisées**
 - Affecter ces stratégies à des **groupes d’utilisateurs**
@@ -60,7 +62,7 @@
 
 
 
-🏢 **Paramètres à l’échelle de l’organisation**
+## 🏢 **Paramètres à l’échelle de l’organisation**
 
 - Définir les **fonctionnalités activées** pour :
   - 📞 Appels
