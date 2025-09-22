@@ -1,4 +1,6 @@
-# Certificat AC publique**🧾 Certificats racines de confiance intégrés**
+# Certificat AC publique
+
+## **🧾 Certificats racines de confiance intégrés**
 
 - 🖥️ Les OS (Windows, Linux…) et certains navigateurs comme **Firefox** embarquent une **liste de certificats racines** de confiance.
 - 🏢 Ces certificats proviennent d’**autorités de certification publiques (CA)**.
@@ -9,7 +11,7 @@
 
 
 
-**🛠️ Rôle AD CS sur Windows Server (PKI interne)**
+## **🛠️ Rôle AD CS sur Windows Server (PKI interne)**
 
 - 🏗️ Microsoft propose le rôle **AD CS (Active Directory Certificate Services)** sur ses OS serveurs, aussi appelé **PKI**.
 - 🔐 Ce rôle permet de **générer des certificats** pour une utilisation **interne** (ex : sites web, Exchange, services applicatifs…).
@@ -20,7 +22,7 @@
 
 
 
-🛡️ **PKI (Infrastructure à Clé Publique) avec Windows Server – AD CS**
+## 🛡️ **PKI (Infrastructure à Clé Publique) avec Windows Server – AD CS**
 
 L’Infrastructure à Clé Publique (PKI) de **Windows Server** est mise en œuvre via le service **Active Directory Certificate Services (AD CS)**.
 
@@ -30,23 +32,23 @@ Elle permet de **créer, gérer et distribuer** des certificats numériques pour
 
 
 
-🏛️ **Autorité de Certification (CA)**
+## 🏛️ **Autorité de Certification (CA)**
 
 Une **hiérarchie de confiance** est mise en place avec des autorités racine et subordonnées :
 
-🔹 **AC racine (Root CA)**
+### 🔹 **AC racine (Root CA)**
 
 - Plus haut niveau de la hiérarchie
 - Sert d’**ancre de confiance**
 - Intégrée au système d’exploitation, navigateur, etc.
 - Très sécurisée et souvent **hors ligne**
 
-🔹 **AC subordonnée (Subordinate CA)**
+### 🔹 **AC subordonnée (Subordinate CA)**
 
 - Entre la Root CA et les certificats finaux
 - Peut être segmentée par usage (SSL, S/MIME…), localisation ou type de clé (RSA, ECC)
 
-🔹 **Certificats d’entité finale (End-Entity)**
+### 🔹 **Certificats d’entité finale (End-Entity)**
 
 - Installés sur **serveurs, postes, équipements**
 - Utilisation : SSL/TLS, signature de code, chiffrement mail, authentification…
@@ -55,17 +57,12 @@ Une **hiérarchie de confiance** est mise en place avec des autorités racine et
 
 🌍 **Exemples d’AC Publiques**
 
-🔹 DigiCert
-
-🔹 GlobalSign
-
-🔹 Sectigo (anciennement Comodo CA)
-
-🔹 Amazon Certificate Manager (ACM)
-
-🔹 **Let’s Encrypt** :
-
-- Gratuit, automatisé, ouvert
-- Pour tout possesseur de nom de domaine
-- Facilite l’activation de **HTTPS**
-- Vise un Web **plus sécurisé** et **respectueux de la vie privée**
+- 🔹 DigiCert
+- 🔹 GlobalSign
+- 🔹 Sectigo (anciennement Comodo CA)
+- 🔹 Amazon Certificate Manager (ACM)
+- 🔹 **Let’s Encrypt** :
+  - Gratuit, automatisé, ouvert
+  - Pour tout possesseur de nom de domaine
+  - Facilite l’activation de **HTTPS**
+  - Vise un Web **plus sécurisé** et **respectueux de la vie privée**

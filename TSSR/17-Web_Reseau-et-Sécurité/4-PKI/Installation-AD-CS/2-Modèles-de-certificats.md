@@ -1,4 +1,6 @@
-# Modèles de certificats**🛠️ Accès à la gestion des modèles**
+# Modèles de certificats
+
+## **🛠️ Accès à la gestion des modèles**
 
 - 📁 Ouvrir les **Outils d’administration Windows**.
 - 🏛️ Aller dans **Autorité de certification**.
@@ -7,7 +9,7 @@
 
 
 
-**🧬 Création du modèle personnalisé**
+## **🧬 Création du modèle personnalisé**
 
 - 📑 Localiser le modèle **"Serveur Web"**.
 - 🧩 Faire un **clic droit** dessus > **Dupliquer le modèle**.
@@ -15,7 +17,7 @@
 
 
 
-**🚀 Publication du modèle**
+## **🚀 Publication du modèle**
 
 - ⬅️ Revenir à la console **"Autorité de certification"**.
 - 🆕 Clic droit sur **"Modèles de certificats"** > **Nouveau > Modèle de certificat à délivrer**.

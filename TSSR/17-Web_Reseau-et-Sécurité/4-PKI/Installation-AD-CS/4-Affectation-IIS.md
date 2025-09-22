@@ -1,8 +1,10 @@
-# Affectation IIS🧱 **Création d’un modèle de certificat dans certsrv**
+# Affectation IIS
+
+## 🧱 **Création d’un modèle de certificat dans certsrv**
 
 🔁 Étapes :
 
-1.  Ouvrir **certsrv.msc** sur le serveur ADCS
+1.  Ouvrir `certsrv.msc` sur le serveur ADCS
 2.  Naviguer vers **Modèles de certificats** > clic droit > **Gérer**
 3.  Rechercher un modèle existant proche du besoin (ex. : "Web Server")
 4.  Clic droit > **Dupliquer le modèle**
@@ -20,15 +22,16 @@
 
 
 
-🗂️ **Publication du modèle personnalisé dans AD CS**
+## 🗂️ **Publication du modèle personnalisé dans AD CS**
 
-🔧 Dans **certsrv** > clic droit sur **Modèles de certificats** > **Nouveau** > **Modèle à délivrer**
+🔧 Dans `certsrv` > clic droit sur **Modèles de certificats** > **Nouveau** > **Modèle à délivrer**
 
 📌 Sélectionner le modèle récemment créé (webssl_rouliere)
 
-🖥️ **Demande d’un certificat depuis le serveur IIS (via certlm.msc)**
 
-1.  Ouvrir **certlm.msc** (certificats locaux de l’ordinateur)
+## 🖥️ **Demande d’un certificat depuis le serveur IIS (via `certlm.msc`)**
+
+1.  Ouvrir `certlm.msc` (certificats locaux de l’ordinateur)
 2.  Aller dans **Personnel** > clic droit > **Toutes les tâches** > **Demander un nouveau certificat**
 
 🪪 Assistant de demande :
@@ -41,13 +44,13 @@
 
 
 
-🌐 **Liaison du certificat dans IIS**
+## 🌐 **Liaison du certificat dans IIS**
 
 📍 Ouvrir le **Gestionnaire IIS** > **Sites** > clic droit sur le site ([www.rouliere.eni](http://www.rouliere.eni)) > **Modifier les liaisons…**
 
 ➕ Ajouter ou modifier la liaison HTTPS :
 
-- Type : https
-- Port : 443
+- Type : `https`
+- Port : `443`
 - Certificat SSL : sélectionner le certificat issu de la PKI (webssl_rouliere)
 - Valider et redémarrer le site si nécessaire

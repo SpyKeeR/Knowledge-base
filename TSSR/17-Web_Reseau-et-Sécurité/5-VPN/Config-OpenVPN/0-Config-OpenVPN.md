@@ -1,4 +1,6 @@
-# Config OpenVPN🔧 **Assistant de configuration OpenVPN**
+# Config OpenVPN 
+
+## 🔧 **Assistant de configuration OpenVPN**
 
 - **Menu** : VPN > OpenVPN > Assistants
 - **Assistant utilisé** : *OpenVPN Remote Access Server Setup*
@@ -9,7 +11,7 @@
 
 
 
-📡 **Configuration de l’annuaire LDAP**
+## 📡 **Configuration de l’annuaire LDAP**
 
 - **Sélection du serveur LDAP** depuis la liste
 - **Chemin** : *Assistant > LDAP Server Selection*
@@ -17,7 +19,7 @@
 
 
 
-🔐 **Configuration de la Certification**
+## 🔐 **Configuration de la Certification**
 
 - **Choix de l’AC (Autorité de Certification)**
   - *Assistant > Certificate Authority Selection*
@@ -28,7 +30,7 @@
 
 
 
-⚙️ **Paramètres généraux du serveur OpenVPN**
+## ⚙️ **Paramètres généraux du serveur OpenVPN**
 
 - **Interface** 🎧 : Choisir l’interface réseau qui écoutera les connexions VPN
 - **Protocole** 📶 : Choisir entre UDP ou TCP
@@ -38,7 +40,7 @@
 
 
 
-🌐 **Paramètres du tunnel VPN**
+## 🌐 **Paramètres du tunnel VPN**
 
 - **Réseau tunnel** 🛤️ : Spécifier le réseau IP attribué aux clients VPN
 - **Passerelle de redirection** 🚦 : Cocher cette option pour faire transiter **tout le trafic** des clients par le tunnel
@@ -47,7 +49,7 @@
 
 
 
-📲 **Paramètres client**
+## 📲 **Paramètres client**
 
 - **IP dynamique** 🔄 :
   - Cocher pour que les clients restent connectés même si leur IP change
@@ -60,7 +62,7 @@
 
 
 
-🚦 **Règles de pare-feu associées**
+## 🚦 **Règles de pare-feu associées**
 
 - **Traffic from clients to server** 🛡️ :
   - Créer une règle permettant aux clients de se connecter au serveur VPN
@@ -69,7 +71,7 @@
 
 
 
-**📶 Activation de l’interface VPN**
+## **📶 Activation de l’interface VPN**
 
 - 📋 Aller dans Interfaces > Interface Assignments
 - ➕ Ajouter l’interface OpenVPN pour permettre la gestion fine (routage, QoS, monitoring)

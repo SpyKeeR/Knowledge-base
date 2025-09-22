@@ -1,12 +1,12 @@
-# Export Agent/CLients📦 Pour le déploiement sur les postes clients, il est nécessaire d’installer le **package openvpn-client-export** :
+# Export Agent/CLients
 
-System > Package Manager > Installed Packages.
+📦 Pour le déploiement sur les postes clients, il est nécessaire d’**installer le package** `openvpn-client-export` : **System** > **Package Manager** > **Installed Packages**.
 
 
 
 **🧰 Génération des fichiers client**
 
-Depuis **pfSense**, après avoir configuré OpenVPN et installé le package openvpn-client-export, il est possible d’exporter les fichiers nécessaires à l’installation sur les postes clients :
+Depuis **pfSense**, après avoir configuré OpenVPN et installé le package `openvpn-client-export`, il est possible d’exporter les fichiers nécessaires à l’installation sur les postes clients :
 
 - 🔐 **Use Microsoft Certificate Storage** :  
   Permet de stocker le certificat dans le **magasin de certificats Windows**, évitant de laisser des fichiers sensibles sur le disque.

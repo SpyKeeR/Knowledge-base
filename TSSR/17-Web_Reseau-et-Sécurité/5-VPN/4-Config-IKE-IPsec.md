@@ -1,15 +1,17 @@
-# Config IKE/IPsec**⚙️ Création du tunnel — Phase 1 (P1)**
+# Config IKE/IPsec
+
+## **⚙️ Création du tunnel — Phase 1 (P1)**
 
 🔽 Accès : **VPN > IPsec > Tunnels > Add**
 
-**🔐 Paramètres de la phase 1 :**
+### **🔐 Paramètres de la phase 1 :**
 
 - **Version IKE** : IKEv2
 - **Protocole Internet** : généralement IPv4
 - **Interface locale** : interface WAN de pfSense
 - **Passerelle distante** : IP publique de l’autre routeur
 
-**🔑 Authentification :**
+### **🔑 Authentification :**
 
 - **Méthode** : Pre-Shared Key (PSK)
 - Générer une **clé secrète partagée** identique sur les deux routeurs
@@ -18,11 +20,11 @@
 
 
 
-**🔄 Création de la phase 2 (P2)**
+## **🔄 Création de la phase 2 (P2)**
 
 🔽 Depuis l’interface du tunnel P1 : **+ Add P2**
 
-**🧭 Paramètres de la phase 2 :**
+### **🧭 Paramètres de la phase 2 :**
 
 - **Mode** : Tunnel
 - **Réseau local** : réseau interne à partager côté pfSense (ex : 192.168.1.0/24)
@@ -32,11 +34,11 @@
 
 
 
-**🔥 Configuration du pare-feu**
+## **🔥 Configuration du pare-feu**
 
 🔽 Accès : **Firewall > Rules > IPsec**
 
-**📜 Ajout de règles :**
+### **📜 Ajout de règles :**
 
 - Autoriser le **trafic en provenance des réseaux distants**
 - Destination : les **réseaux locaux** définis en Phase 2
@@ -47,7 +49,7 @@
 
 
 
-**✅ Résultat attendu**
+## **✅ Résultat attendu**
 
 - Le tunnel s’établit automatiquement lorsque du trafic circule.
 - Les hôtes des deux réseaux peuvent communiquer **en toute sécurité** via le tunnel IPSec.
