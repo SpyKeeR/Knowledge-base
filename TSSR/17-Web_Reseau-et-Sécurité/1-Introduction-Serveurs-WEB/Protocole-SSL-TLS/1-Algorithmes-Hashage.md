@@ -1,4 +1,6 @@
-# Algorithmes / HashageLes protocoles **SSL/TLS** garantissent la confidentialité, l'intégrité et l'authenticité des communications. Ils s’appuient sur un ensemble d’algorithmes cryptographiques :
+# Algorithmes de Hashage en SSL/TLS
+
+Les protocoles **SSL/TLS** garantissent la confidentialité, l'intégrité et l'authenticité des communications. Ils s’appuient sur un ensemble d’algorithmes cryptographiques :
 
 • 🔑 **Chiffrement asymétrique** (échange de clés, signature) • 🧮 **Algorithmes de hachage** (vérification d'intégrité, signature numérique)
 
@@ -8,7 +10,7 @@ Les versions récentes comme **TLS 1.3** privilégient des algorithmes modernes 
 
 
 
-🛡️ **Algorithmes de chiffrement asymétrique**
+## 🛡️ **Algorithmes de chiffrement asymétrique**
 
 | **🔢 Algorithme** | **📝 Description** | **🛠️ Utilisation** | **🔐 Taille de clé typique** |
 |----|----|----|----|
@@ -24,7 +26,7 @@ Les versions récentes comme **TLS 1.3** privilégient des algorithmes modernes 
 
 
 
-🧬 **Algorithmes de hachage cryptographique**
+## 🧬 **Algorithmes de hachage cryptographique**
 
 | **🧪 Algorithme** | **📚 Description** | **🛠️ Utilisation** | **🔒 Taille du hash** |
 |----|----|----|----|
@@ -35,27 +37,27 @@ Les versions récentes comme **TLS 1.3** privilégient des algorithmes modernes 
 
 📌 **À retenir sur le hachage**
 
-• Le **hachage** est un **processus unidirectionnel** : impossible de retrouver les données d’origine à partir du hash.
+- Le **hachage** est un **processus unidirectionnel** : impossible de retrouver les données d’origine à partir du hash.
 
-• Deux fichiers différents ne doivent **jamais produire le même hash** (principe de non-collision).
+- Deux fichiers différents ne doivent **jamais produire le même hash** (principe de non-collision).
 
-• Les algorithmes comme **SHA-256** ou **SHA-3** sont recommandés aujourd’hui.
+- Les algorithmes comme **SHA-256** ou **SHA-3** sont recommandés aujourd’hui.
 
-• Le terme "hachage" est préféré au terme "hashage", anglicisme peu usité en français technique.
+- Le terme "hachage" est préféré au terme "hashage", anglicisme peu usité en français technique.
 
 
 
-📚 **Applications concrètes**
+## 📚 **Applications concrètes**
 
-• 🔐 **Certificats SSL/TLS** : ECDSA + SHA-256
+- 🔐 **Certificats SSL/TLS** : ECDSA + SHA-256
 
-• 🔑 **Authentification SSH** : ED25519
+- 🔑 **Authentification SSH** : ED25519
 
-• 📁 **Vérification de fichiers** : SHA-256 / SHA-3
+- 📁 **Vérification de fichiers** : SHA-256 / SHA-3
 
-• 🧾 **Signatures numériques** : RSA / ECDSA / ED25519 + SHA-2 ou SHA-3
+- 🧾 **Signatures numériques** : RSA / ECDSA / ED25519 + SHA-2 ou SHA-3
 
-📊 **Comparatif rapide sécurité / performance**
+### 📊 **Comparatif rapide sécurité / performance**
 
 | **Algorithme** | **Sécurité actuelle** |     **Performances**      |
 |:--------------:|:---------------------:|:-------------------------:|

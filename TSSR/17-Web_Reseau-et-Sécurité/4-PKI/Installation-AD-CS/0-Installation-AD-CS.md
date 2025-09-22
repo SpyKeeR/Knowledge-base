@@ -1,19 +1,21 @@
-# Installation AD CS**⚙️ Étape 1 : Installation du rôle AD CS**
+# Installation AD CS
+
+## **⚙️ Étape 1 : Installation du rôle AD CS**
 
 - 📦 Lancer l’installation du **rôle "Service de certificats Active Directory"** via le gestionnaire de serveur.
 - ➕ Ajouter les **fonctionnalités nécessaires** (la sélection par défaut est généralement suffisante).
 - 🧩 Choisir les **services à installer** :
   - ✅ **Autorité de certification**.
 
-**🧰 Étape 2 : Configuration post-déploiement**
+
+## **🧰 Étape 2 : Configuration post-déploiement**
 
 - 🛠️ Lancer la **configuration des services de certificats AD CS**.
 - 👤 Vérifier que le **compte administrateur** utilisé dispose des droits nécessaires.
 - 🎯 Sélectionner les **rôles de service** à configurer.
 
 
-
-**🏛️ Étape 3 : Configuration du rôle AD CS**
+## **🏛️ Étape 3 : Configuration du rôle AD CS**
 
 - 🔧 Spécifier le **type d’installation** :
   - 🏢 **Autorité d’entreprise** (nécessite ADDS).
@@ -26,8 +28,7 @@
   - ♻️ Réutilisation d’une clé existante.
 
 
-
-**🔒 Étape 4 : Paramètres de sécurité**
+## **🔒 Étape 4 : Paramètres de sécurité**
 
 - 🛡️ Choisir les paramètres de **chiffrement** :
   - 🔑 **Taille de clé**.
@@ -38,7 +39,8 @@
 - 📆 Définir la **période de validité** du certificat racine :
   - ⏳ Période en jours, semaines, mois ou années.
 
-**✅ Étape 5 : Finalisation**
+
+## **✅ Étape 5 : Finalisation**
 
 - 📋 Vérifier le **résumé de la configuration** avant de valider.
 - 🏁 Lancer l’**installation** de l’autorité de certification.

@@ -1,6 +1,6 @@
-# 2 - Apache🎯 **🗂️ Objectifs**
+# 🎯 **🗂️ Objectifs**
 
-🧾 **Comprendre ce qu’est Apache**
+## 🧾 **Comprendre ce qu’est Apache**
 
 - Présentation du serveur web **Apache HTTP Server**
 - Utilisation principale dans l’hébergement de **sites web dynamiques et statiques**
@@ -8,7 +8,7 @@
 
 
 
-🧰 **Installer Apache sous Linux**
+## 🧰 **Installer Apache sous Linux**
 
 - Utilisation des **gestionnaires de paquets** (ex : apt, yum, dnf)
 - Activation et démarrage du service (systemctl)
@@ -16,7 +16,7 @@
 
 
 
-⚙️ **Configurer correctement Apache**
+## ⚙️ **Configurer correctement Apache**
 
 - Modification des **fichiers de configuration** (apache2.conf, sites-available, ports.conf, etc.)
 - Gestion des **Virtual Hosts**
@@ -24,7 +24,7 @@
 
 
 
-🔐 **Gérer les certificats autosignés**
+## 🔐 **Gérer les certificats autosignés**
 
 - Génération de certificats via openssl
 - Intégration du certificat dans la configuration Apache (HTTPS)

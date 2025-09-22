@@ -1,10 +1,15 @@
-# Présentation**IIS** est l’acronyme de **Internet Information Services**.
+## Présentation
+
+**IIS** est l’acronyme de **Internet Information Services**.
 
 C’est le serveur web développé par **Microsoft**, intégré aux systèmes d’exploitation **Windows Server** et certaines versions de **Windows Desktop**.
 
+## **Historique et versions**
+
+![](../../media/Cours-Web-Reseau-Sécurité-Présentation-image1.png)
 
 
-**⚙️ Installation d’IIS**
+## **⚙️ Installation d’IIS**
 
 🧩 IIS s’installe à partir du **Gestionnaire de serveur** dans Windows Server.
 
@@ -12,7 +17,7 @@ C’est le serveur web développé par **Microsoft**, intégré aux systèmes d�
 
 
 
-**🧪 Vérification de l’installation**
+## **🧪 Vérification de l’installation**
 
 🔍 L’installation peut être vérifiée en ouvrant un **navigateur web** sur la machine où IIS est installé :
 
@@ -23,24 +28,19 @@ C’est le serveur web développé par **Microsoft**, intégré aux systèmes d�
 
 
 
-**📁 Répertoires d’installation**
+## **📁 Répertoires d’installation**
 
-📂 Répertoire principal : C:\inetpub\
+📂 Répertoire principal : `C:\inetpub\`
 
-📂 Répertoire du **site web par défaut** : C:\inetpub\wwwroot\
+📂 Répertoire du **site web par défaut** : `C:\inetpub\wwwroot\`
 
 
 
-**💻 Accès via PowerShell**
+## **💻 Accès via PowerShell**
 
-IIS peut être administré en ligne de commande avec
-
-PowerShell, pour :
+IIS peut être administré en ligne de commande avec PowerShell, pour :
 
 - Installer des rôles
 - Ajouter des sites
 - Gérer les liaisons
 - Automatiser des tâches d’administration web
-
-![](../../media/Cours-Web-Reseau-Sécurité-Présentation-image1.png)
-

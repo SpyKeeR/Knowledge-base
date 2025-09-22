@@ -1,4 +1,6 @@
-# Fonctionnement serveur WEB🖥️ **🔎 Qu’est-ce qu’un serveur Web ?**
+# Fonctionnement serveur WEB
+
+## 🖥️ **🔎 Qu’est-ce qu’un serveur Web ?**
 
 Un **serveur Web** est une machine connectée à un réseau (intranet ou Internet), capable de :
 
@@ -14,7 +16,7 @@ Un **serveur Web** est une machine connectée à un réseau (intranet ou Interne
 
 
 
-📥 **🧰 Accès à un site web – Étapes du fonctionnement**
+## 📥 **🧰 Accès à un site web – Étapes du fonctionnement**
 
 1.  👤 **L’utilisateur** ouvre un navigateur
 2.  🌍 Il entre une URL (ex : <http://mon-site.local>)
@@ -28,7 +30,7 @@ Un **serveur Web** est une machine connectée à un réseau (intranet ou Interne
 
 
 
-🧭 **📊 Accès par différentes méthodes**
+## 🧭 **📊 Accès par différentes méthodes**
 
 Un site peut être atteint de plusieurs façons :
 
@@ -39,7 +41,7 @@ Un site peut être atteint de plusieurs façons :
 ![](../../media/Cours-Web-Reseau-Sécurité-Fonctionnement-serveur-WEB-image1.png)
 
 
-## 🔹 3️⃣ **Codes HTTP des tests de connexion**
+## 🔹 **Codes HTTP des tests de connexion**
 
 ✅ **1xx** → Information
 

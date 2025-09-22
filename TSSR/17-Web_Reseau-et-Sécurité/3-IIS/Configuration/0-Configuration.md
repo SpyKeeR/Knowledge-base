@@ -1,11 +1,13 @@
-# Configuration**🌍 Sites hébergés**
+# Configuration
+
+## **🌍 Sites hébergés**
 
 - 🗂️ **Liste des sites** : tous les sites configurés dans IIS.
 - 💻 **Default Web Site** : site créé par défaut à l’installation, hébergé dans C:\inetpub\wwwroot.
 
 
 
-**💾 Stockage des sites**
+## **💾 Stockage des sites**
 
 - 🔄 Possibilité de stocker les sites ailleurs que sur le disque système :
   - 📁 Créer un répertoire global (D:\Sites_web)
@@ -14,7 +16,7 @@
 
 
 
-**📝 Déclaration d’un site web**
+## **📝 Déclaration d’un site web**
 
 Dans le **Gestionnaire des services Internet** :
 
@@ -29,7 +31,7 @@ Dans le **Gestionnaire des services Internet** :
 
 
 
-**🚫 Autorisations et restrictions**
+## **🚫 Autorisations et restrictions**
 
 - 🧑‍💼 **Règles d’autorisation** :
   - Autoriser ou bloquer des utilisateurs ou groupes
@@ -44,7 +46,7 @@ Dans le **Gestionnaire des services Internet** :
 
 
 
-**🔐 Authentification**
+## **🔐 Authentification**
 
 - 👤 **Authentification** : permet de contrôler l'accès aux ressources.
 - 🔄 **Types d’authentification** :
@@ -55,7 +57,7 @@ Dans le **Gestionnaire des services Internet** :
 
 
 
-**🔑 Certificats**
+## **🔑 Certificats**
 
 - 📜 **Certificats de serveur** : utilisés pour sécuriser les connexions via HTTPS.
 - 🛠️ **Gestion des certificats** :

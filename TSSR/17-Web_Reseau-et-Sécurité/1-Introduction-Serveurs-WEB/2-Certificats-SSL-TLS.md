@@ -1,4 +1,6 @@
-# Certificats SSL/TLSUn **certificat** est une sorte de **carte d’identité numérique sécurisée**, qui sert à **authentifier un serveur** et à **garantir la sécurité des connexions HTTPS**.
+# Certificats SSL/TLS
+
+Un **certificat** est une sorte de **carte d’identité numérique sécurisée**, qui sert à **authentifier un serveur** et à **garantir la sécurité des connexions HTTPS**.
 
 📌 Il contient :
 
@@ -12,7 +14,7 @@
 
 
 
-🛡️ **🌍 Utilité d’un certificat SSL/TLS**
+## 🛡️ **🌍 Utilité d’un certificat SSL/TLS**
 
 - 📬 Permet de **chiffrer** les échanges entre le navigateur et le serveur (HTTPS)
 - 🔐 **Identifie avec certitude** le serveur contacté
@@ -23,7 +25,7 @@
 
 
 
-🔗 **🏛️ La chaîne de certification (PKI)**
+## 🔗 **🏛️ La chaîne de certification (PKI)**
 
 Un certificat repose sur une **chaîne de confiance** impliquant 3 acteurs :
 
@@ -41,12 +43,23 @@ Un certificat repose sur une **chaîne de confiance** impliquant 3 acteurs :
 
 
 
-📜 **🔧 Obtenir un certificat : 3 méthodes possibles**
+## 📜 **🔧 Obtenir un certificat : 3 méthodes possibles**
 
-1.  🧪 **Certificat auto-signé** ✔️ Gratuit – ❌ Pas reconnu par défaut (alerte navigateur)
-2.  🏢 **Certificat d’une CA interne** ✔️ Utilisé en entreprise – ❌ Nécessite une infra interne
-3.  🌐 **Certificat d’une CA publique** ✔️ Reconnue par tous les navigateurs – 💰 Payant (ou gratuit via Let’s Encrypt)
+1.  🧪 **Certificat auto-signé** 
+    - ✔️ Gratuit 
+    - ❌ Pas reconnu par défaut (alerte navigateur)
+2.  🏢 **Certificat d’une CA interne** 
+    - ✔️ Utilisé en entreprise 
+    - ❌ Nécessite une infra interne
+3.  🌐 **Certificat d’une CA publique** 
+    - ✔️ Reconnue par tous les navigateurs 
+    - 💰 Payant (ou gratuit via Let’s Encrypt)
 
 💡 Le choix dépend du **contexte** (test, intranet, production publique…) et du **niveau de confiance souhaité**.
 
-Le processus implique la **génération d'une clé privée**, la **création d'une demande de signature** (CSR), puis l'**obtention du certificat final**, que ce soit par **auto-signature** ou via une **autorité externe**.
+Le processus implique :
+- la **génération d'une clé privée**, 
+- la **création d'une demande de signature** (CSR),
+- puis l'**obtention du certificat final**
+    - que ce soit par **auto-signature** 
+    - ou via une **autorité externe**.

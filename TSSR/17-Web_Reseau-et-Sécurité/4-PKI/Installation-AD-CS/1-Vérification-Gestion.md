@@ -1,4 +1,6 @@
-# Vérification/Gestion**🛠️ Accès aux outils d’administration**
+# Vérification/Gestion
+
+## **🛠️ Accès aux outils d’administration**
 
 - 📁 Ouvrir les **outils d'administration Windows**.
 - 🏛️ Accéder à **"Autorité de certification"**.
@@ -8,22 +10,22 @@
 
 
 
-**📄 Vérification du certificat racine**
+## **📄 Vérification du certificat racine**
 
-- 🧭 Ouvrir la console MMC via certmgr.msc.
+- 🧭 Ouvrir la console MMC via `certmgr.msc`.
 - 📂 Aller dans **"Autorités de certification racines de confiance"**.
 - 🔐 Vérifier la présence du **certificat de l'autorité racine** nouvellement installée.
 
 
 
-**👤 Vérification des certificats utilisateur**
+## **👤 Vérification des certificats utilisateur**
 
-- 📂 Toujours dans certmgr.msc, naviguer vers **"Personnel" > "Certificats"**.
+- 📂 Toujours dans `certmgr.msc`, naviguer vers **"Personnel" > "Certificats"**.
 - 👁️ Contrôler que les **certificats utilisateurs** ont bien été générés et installés.
 
 
 
-🖥️ **Gestionnaire AD CS (Certsrv)**
+## 🖥️ **Gestionnaire AD CS (Certsrv)**
 
 📋 Contenu :
 
@@ -45,7 +47,7 @@
 
 
 
-🌐 **Accès web : certsrv**
+### 🌐 **Accès web : certsrv**
 
 📍 URL : <http://@IPduADCS/certsrv>
 
