@@ -1,10 +1,10 @@
-# Fichiers de réponses🧠 **Rôle général**
+## 🧠 **Rôle général**
 
 - 🔧 Les fichiers de réponses permettent de **personnaliser et automatiser** le déploiement des OS dans MDT
 - ⚙️ Ils servent à spécifier des **paramètres avancés** qui ne sont pas visibles dans l’interface graphique de MDT
 - 📁 Ces fichiers complètent la **séquence de tâches** en ajoutant des instructions supplémentaires
 
-📜 **Fichier principal : Unattend.xml**
+## 📜 **Fichier principal : Unattend.xml**
 
 - 🧩 C’est le **fichier de réponse principal** utilisé dans MDT
 - 🔍 Il peut être édité depuis l’onglet **OS Info** dans les propriétés de la séquence de tâches
@@ -16,7 +16,7 @@
 
 
 
-⚙️ **Utilité dans les séquences de tâches**
+## ⚙️ **Utilité dans les séquences de tâches**
 
 - 🔁 Permet de **configurer les actions** qui seront exécutées pendant le déploiement
 - 🔄 Offre la **flexibilité nécessaire** pour adapter les séquences aux besoins métier
@@ -24,7 +24,7 @@
 
 
 
-📏 **Contenu variable**
+## 📏 **Contenu variable**
 
 - ✂️ **Minimaliste** : quelques lignes pour un déploiement basique et rapide
 - 📚 **Complet** : plusieurs centaines de lignes pour des déploiements complexes
@@ -32,7 +32,7 @@
 
 
 
-📌 **À retenir**
+## 📌 **À retenir**
 
 - Les fichiers de réponse sont **indispensables** pour un déploiement automatisé avancé
 - Unattend.xml est le cœur de cette automatisation

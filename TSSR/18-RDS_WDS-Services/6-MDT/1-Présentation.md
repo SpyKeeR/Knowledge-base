@@ -1,4 +1,4 @@
-# Présentation🧰 **Définition et rôle de MDT**
+## 🧰 **Définition et rôle de MDT**
 
 - MDT est un **ensemble d’outils gratuits** permettant d’**automatiser le déploiement** des postes de travail.
 - Il ne remplace pas WDS, mais le **complète** en apportant des **fonctionnalités avancées**.
@@ -6,7 +6,7 @@
 
 
 
-🗂️ **Fonctionnalités avancées de MDT**
+## 🗂️ **Fonctionnalités avancées de MDT**
 
 - Création de **partages de déploiement** contenant :  
    📦 Images d’installation  
@@ -18,16 +18,16 @@
 
 
 
-🔗 **Interconnexion entre MDT et WDS**
+## 🔗 **Interconnexion entre MDT et WDS**
 
 - MDT **ne gère pas le démarrage réseau** (PXE). Il s’appuie sur **WDS pour la diffusion** des images de démarrage.
 - Le processus se déroule ainsi :  
-   1️⃣ WDS envoie l’image de démarrage (LiteTouchPE) générée par MDT  
-   2️⃣ Le poste la charge en RAM  
-   3️⃣ L’environnement LiteTouchPE se connecte au **partage MDT  **
-   4️⃣ Le poste télécharge l’**image d’installation** via MDT
+  - 1️⃣ WDS envoie l’image de démarrage (LiteTouchPE) générée par MDT  
+  - 2️⃣ Le poste la charge en RAM  
+  - 3️⃣ L’environnement LiteTouchPE se connecte au **partage MDT**
+  - 4️⃣ Le poste télécharge l’**image d’installation** via MDT
 
-📋 **Étapes du déploiement avec MDT**
+## 📋 **Étapes du déploiement avec MDT**
 
 - **Étape 1** :  
    📡 Le poste démarre via PXE  
@@ -38,7 +38,7 @@
 
 
 
-🔄 **Les séquences de tâches**
+## 🔄 **Les séquences de tâches**
 
 - 🔁 Listes d’**actions automatisées à exécuter** dans l’ordre (format chronologique)
 - ⚙️ Permettent une **personnalisation poussée** et un **contrôle complet** sur le processus

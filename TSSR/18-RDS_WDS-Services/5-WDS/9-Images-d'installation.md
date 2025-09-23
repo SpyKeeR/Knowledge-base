@@ -30,7 +30,7 @@ Importer une image install.wim pour permettre le **déploiement automatisé de s
 ## 📑 **Sélection des éditions à importer**
 
 - 📚 Le fichier install.wim contient **plusieurs éditions** de Windows (Home, Pro, N, etc.)
-- ✅ Sélectionner uniquement les **versions utiles  **
+- ✅ Sélectionner uniquement les **versions utiles**
   - 💼 En entreprise, privilégier les éditions **Pro ou Entreprise**
 
 

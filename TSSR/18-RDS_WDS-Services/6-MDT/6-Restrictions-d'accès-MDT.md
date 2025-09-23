@@ -1,4 +1,6 @@
-# Restrictions d'accès MDT🧭 **Vue d’ensemble**
+# Restrictions d'accès MDT
+
+🧭 **Vue d’ensemble**
 
 - 🎯 Restreindre l’accès au partage MDT permet de **sécuriser les ressources critiques**
 - 🔒 Contrôle des utilisateurs ou groupes ayant accès aux déploiements
@@ -6,7 +8,7 @@
 
 
 
-👤 **Types de comptes utilisés**
+## 👤 **Types de comptes utilisés**
 
 - 👨‍💻 **Compte utilisateur standard** : suffisant pour un usage simple
 - 🛠️ **Compte de service** (recommandé) : utilisé pour les déploiements automatisés
@@ -16,7 +18,7 @@
 
 
 
-🛠️ **Contrôle d’accès : deux niveaux complémentaires**
+## 🛠️ **Contrôle d’accès : deux niveaux complémentaires**
 
 1.  📁 **Partage réseau**
 
@@ -28,7 +30,7 @@
     - Permet de **filtrer plus finement** les droits sur les fichiers et dossiers
     - ⚠️ Indispensable pour garantir la **cohérence de la sécurité** sur le volume local
 
-🧠 **À retenir**
+## 🧠 **À retenir**
 
 - Restreindre l’accès au partage MDT = **mesure de sécurité incontournable**
 - L’utilisation de comptes de service et de domaine permet une **gestion centralisée efficace**

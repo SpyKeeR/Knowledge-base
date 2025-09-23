@@ -1,4 +1,4 @@
-# WinPE🔧 **Rôle de Windows PE**
+## 🔧 **Rôle de Windows PE**
 
 Windows PE (Preinstallation Environment) est un mini système d’exploitation utilisé pour :
 
@@ -10,7 +10,7 @@ Il est généré à partir du **partage de déploiement** MDT et constitue un é
 
 
 
-📂 **Formats d’image de boot disponibles**
+## 📂 **Formats d’image de boot disponibles**
 
 - 🗂️ **WIM** : utilisé pour un **boot réseau (PXE)**
 - 💿 **ISO** : utilisé pour un **boot local via média physique** (DVD, clé USB)  
@@ -20,23 +20,23 @@ Les deux formats sont générés pour les architectures **x86 (32 bits)** et **x
 
 
 
-📁 **Stockage et structure**
+## 📁 **Stockage et structure**
 
 - Les fichiers d’amorçage (WIM et ISO) sont situés dans le dossier **Boot** de l’arborescence du **partage de déploiement MDT**.
 
 
 
-⚙️ **Paramétrage via la console MDT**
+## ⚙️ **Paramétrage via la console MDT**
 
 Accès aux options dans les **propriétés du partage de déploiement**, onglet :
 
-- 🪟 **Windows PE**
+- 🌌 **Windows PE**
   - 🎚️ Ajout de **fonctions complémentaires**
   - 🌐 Intégration des **pilotes réseau**, contrôleurs de disque, etc.
 
 
 
-🔁 **Mise à jour indispensable après modification**
+## 🔁 **Mise à jour indispensable après modification**
 
 Après tout changement lié à Windows PE (paramètres, pilotes, etc.) :
 
