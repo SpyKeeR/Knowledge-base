@@ -1,4 +1,4 @@
-# Aller plus loin🧱 **Cadre d’un déploiement minimaliste**
+## 🧱 **Cadre d’un déploiement minimaliste**
 
 WDS permet :
 
@@ -9,7 +9,7 @@ WDS permet :
 
 
 
-⚠️ **Limites de WDS en entreprise**
+## ⚠️ **Limites de WDS en entreprise**
 
 - 🔒 Absence de gestion avancée
 - 🧩 Nécessité d’intégrer un outil complémentaire : **Microsoft Deployment Toolkit (MDT)**
@@ -17,21 +17,21 @@ WDS permet :
 
 
 
-🧰 **Éléments complémentaires de l’infrastructure WDS**
+## 🧰 **Éléments complémentaires de l’infrastructure WDS**
 
-🔧 **Images de capture**
+### 🔧 **Images de capture**
 
 - 🖼️ Permettent de créer des **images personnalisées** depuis un poste de référence
 - ⚙️ Nécessitent une **image de capture spécifique** dans WDS
 - 🛠️ Utilisation d’outils comme Sysprep et l’assistant d’image de capture
 
-📄 **Fichiers de réponse (Unattend.xml)**
+### 📄 **Fichiers de réponse (Unattend.xml)**
 
 - 🤖 Automatisent les installations
 - 🎯 Contiennent des **réglages préconfigurés** (nom du PC, clé produit, compte admin, etc.)
 - 📥 S’intègrent à l’environnement WDS ou MDT pour un déploiement sans intervention
 
-🧬 **Gestion des pilotes**
+### 🧬 **Gestion des pilotes**
 
 - 💾 Indispensable pour garantir la compatibilité matérielle post-déploiement
 - 🗂️ Ajout manuel des pilotes dans WDS ou automatisation via MDT
@@ -39,7 +39,7 @@ WDS permet :
 
 
 
-🤝 **Vers une infrastructure MDT**
+## 🤝 **Vers une infrastructure MDT**
 
 - 🧩 Les notions vues ici (images de capture, fichiers de réponse, pilotes) sont **fondamentales**
 - 🛠️ Elles seront approfondies via **Microsoft Deployment Toolkit (MDT)**

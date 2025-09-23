@@ -1,4 +1,4 @@
-# Config globale📋 **Accès aux paramètres avancés**
+## 📋 **Accès aux paramètres avancés**
 
 - 🖱️ Clic droit sur le **serveur WDS** > **Propriétés**
 - ⚙️ Plusieurs **onglets** disponibles pour affiner le fonctionnement du service
@@ -6,7 +6,7 @@
 
 
 
-📡 **Paramétrage DHCP**
+## 📡 **Paramétrage DHCP**
 
 - 🎯 Si le serveur **DHCP est installé sur le même serveur que WDS** :
   - ❌ WDS **ne doit pas écouter sur les ports DHCP**
@@ -17,7 +17,7 @@
 
 
 
-🤖 **Automatisation du démarrage PXE**
+## 🤖 **Automatisation du démarrage PXE**
 
 - 🖥️ Par défaut, WDS demande une **intervention utilisateur (appui sur une touche)** pour initier le boot PXE
 - ⚡ Dans l’onglet de **démarrage (Boot)**, activer l’option pour :
@@ -26,7 +26,7 @@
 
 
 
-📌 **Résumé**
+## 📌 **Résumé**
 
 La **configuration globale** permet de :
 

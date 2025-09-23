@@ -1,16 +1,18 @@
-# Installation WDS📥 **Méthodes d'installation**
+# 📦 **Installation du rôle WDS (Windows Deployment Services)**
 
-🔹 **Interface graphique – Gestionnaire de serveur**
+## 📥 **Méthodes d'installation**
+
+### 🔹 **Interface graphique – Gestionnaire de serveur**
 
 - Méthode intuitive pour les utilisateurs préférant une interface GUI
 - Accessible depuis le **Gestionnaire de serveur > Ajouter des rôles et fonctionnalités**
 
-🔹 **Ligne de commande – PowerShell**
+### 🔹 **Ligne de commande – PowerShell**
 
 - Méthode rapide pour les administrateurs systèmes
-- 💻 Commande utilisée : Install-WindowsFeature -Name WDS -IncludeManagementTools
+- 💻 Commande utilisée : `Install-WindowsFeature -Name WDS -IncludeManagementTools`
 
-🧩 **Services de rôle à sélectionner**
+## 🧩 **Services de rôle à sélectionner**
 
 Lors de l'installation du rôle WDS, deux **services de rôle** sont proposés :
 
@@ -23,8 +25,8 @@ Lors de l'installation du rôle WDS, deux **services de rôle** sont proposés :
 
 
 
-⚠️ **Cas particulier – Serveur de transport seul**
+### ⚠️ **Cas particulier – Serveur de transport seul**
 
 🔄 Ce rôle peut être installé **indépendamment**, mais uniquement dans **des cas spécifiques** (ex : transfert de fichiers via **multicast**).
 
-❌ Ces scénarios **ne sont pas abordés** dans le cadre d’une installation classique de WDS.
+❌ Cependant, il **ne permet pas** de gérer les images de démarrage ou d’installation, ni de répondre aux requêtes PXE des clients.

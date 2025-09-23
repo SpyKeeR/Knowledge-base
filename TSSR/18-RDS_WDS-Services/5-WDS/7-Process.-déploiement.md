@@ -1,4 +1,6 @@
-# Process. déploiement📁 **Structure des images dans WDS**
+# Process. déploiement
+
+## 📁 **Structure des images dans WDS**
 
 - 🗂️ Le partage WDS contient :
   - 🔧 **Images de démarrage** (Boot Images)
@@ -7,7 +9,7 @@
 
 
 
-📦 **Étape 1 : Image de démarrage (WinPE)**
+## 📦 **Étape 1 : Image de démarrage (WinPE)**
 
 - 🖥️ Lors du **boot réseau PXE**, le client récupère une **image WinPE**
 - 🧠 Cette image est **chargée en RAM** et fournit un **OS minimaliste**
@@ -16,7 +18,7 @@
 
 
 
-💽 **Étape 2 : Image d’installation**
+## 💽 **Étape 2 : Image d’installation**
 
 - ✅ Une fois l'image WinPE chargée, le client récupère l'**image d’installation de l'OS**
 - 📥 Cette image contient **le système d’exploitation complet** à déployer
@@ -24,10 +26,9 @@
 
 
 
-📌 **Résumé**
+## 📌 **Résumé**
 
-1️⃣ **WinPE (boot image)** : OS léger pour préparer le déploiement
-
-2️⃣ **Install.wim (install image)** : OS complet installé sur le poste cible
+- 1️⃣ **WinPE (boot image)** : OS léger pour préparer le déploiement
+- 2️⃣ **Install.wim (install image)** : OS complet installé sur le poste cible
 
 🧩 Ces deux éléments sont **indispensables** au bon fonctionnement de WDS

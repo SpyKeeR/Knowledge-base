@@ -1,4 +1,6 @@
-# Image de captureLes **images de capture** permettent de :
+# Image de capture
+
+Les **images de capture** permettent de :
 
 - 🧲 Capturer le contenu du disque/partition d’un poste fonctionnel
 - 🗃️ Enregistrer cette image dans WDS pour la déployer sur d’autres machines
@@ -6,7 +8,7 @@
 
 
 
-🔗 **Association avec une image de boot**
+## 🔗 **Association avec une image de boot**
 
 - 🔧 Une image de capture doit être liée à une **image de démarrage (boot)**
 - 📥 Créer une image de boot dédiée à la capture dans WDS
@@ -16,17 +18,18 @@
 
 
 
-🧹 **Préparation du poste à capturer**
+## 🧹 **Préparation du poste à capturer**
 
 - 💡 Utiliser la commande sysprep sur le poste modèle  
-    • 🔒 Supprime les identifiants uniques du système  
-    • 🔄 Réinitialise la machine comme si elle venait d’être déballée
+  - 🔒 Supprime les identifiants uniques du système  
+  - 🔄 Réinitialise la machine comme si elle venait d’être déballée
+  - 📂 Chemin : `C:\Windows\System32\Sysprep\sysprep.exe`
 
 - 📴 Éteindre le poste après le sysprep
 
 
 
-🌐 **Démarrage en PXE et lancement de la capture**
+## 🌐 **Démarrage en PXE et lancement de la capture**
 
 - 🔌 Démarrer le poste en **boot PXE réseau**
 - 📦 Sélectionner l’**image de capture** configurée dans WDS
@@ -34,17 +37,17 @@
 
 
 
-🎯 **Ciblage et stockage de la capture**
+## 🎯 **Ciblage et stockage de la capture**
 
 - 💽 Choisir le **volume contenant le système** à capturer (ex : C:)
 - 🏷️ Nommer l’image de capture
 - 📂 Renseigner :  
-    • Le **répertoire local** temporaire de stockage  
-    • Le **groupe d’images** WDS pour l’intégration finale
+  - Le **répertoire local** temporaire de stockage  
+  - Le **groupe d’images** WDS pour l’intégration finale
+- 📤 Fournir les **informations d’authentification** pour le serveur WDS
 
 
-
-✅ **Finalisation**
+## ✅ **Finalisation**
 
 - 📤 L’image capturée est **envoyée au serveur WDS**
 - ♻️ Elle est ensuite disponible pour le **déploiement automatisé** sur d'autres machines

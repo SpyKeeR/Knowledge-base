@@ -1,4 +1,6 @@
-# WDS / DHCPLorsqu’un poste client démarre en **mode PXE**, il envoie une requête réseau pour :
+# WDS / DHCP
+
+Lorsqu’un poste client démarre en **mode PXE**, il envoie une requête réseau pour :
 
 - Obtenir une **adresse IP** et les paramètres réseau
 - Savoir **où trouver** le fichier d’amorçage (boot) pour se lancer
@@ -10,9 +12,9 @@
 
 
 
-**🧭 Deux modes de fonctionnement**
+## **🧭 Deux modes de fonctionnement**
 
-**🧩 A. DHCP et WDS sur le même serveur (intégré)**
+### **🧩 A. DHCP et WDS sur le même serveur (intégré)**
 
 - Le **même DHCPOFFER** contient à la fois :
   - Les infos d’adressage IP
@@ -24,7 +26,7 @@
 
 
 
-**🧩 B. DHCP et WDS sur des serveurs distincts (mode Proxy DHCP activé sur WDS)**
+### **🧩 B. DHCP et WDS sur des serveurs distincts (mode Proxy DHCP activé sur WDS)**
 
 - Le **serveur DHCP** répond avec :
   - Le bail IP
@@ -36,9 +38,19 @@
 
 🛑 Le client **ne mixe jamais deux offres DHCP**. Il choisit **un seul serveur DHCP** pour son bail IP.
 
+## **🚀 Processus PXE résumé**
+
+- 1️⃣ Le client envoie un **DHCPDISCOVER**
+- 2️⃣ Le serveur DHCP répond avec un **DHCPOFFER** (IP + options)
+- 3️⃣ Si WDS est séparé, il répond aussi en **Proxy DHCP** (options PXE uniquement)
+- 4️⃣ Le client envoie un **DHCPREQUEST** vers le serveur DHCP choisi
+- 5️⃣ Le serveur DHCP confirme avec un **DHCPACK**
+- 6️⃣ Le client contacte le **serveur TFTP** via l’option 66
+- 7️⃣ Il télécharge le **fichier de boot** spécifié en option 67
+- 8️⃣ L’installation démarre depuis l’image boot (boot.wim)
 
 
-**📝 Résumé final**
+## **📝 Résumé final**
 
 ✅ Pour que WDS fonctionne avec PXE :
 
@@ -50,21 +62,3 @@
 
 - **DHCP + WDS sur le même serveur** → tout est intégré dans une seule réponse DHCP
 - **DHCP et WDS séparés** → WDS complète la réponse via un message ProxyDHCP
-
-**🚀 Processus PXE résumé**
-
-1️⃣ Le client envoie un **DHCPDISCOVER**
-
-2️⃣ Le serveur DHCP répond avec un **DHCPOFFER** (IP + options)
-
-3️⃣ Si WDS est séparé, il répond aussi en **Proxy DHCP** (options PXE uniquement)
-
-4️⃣ Le client envoie un **DHCPREQUEST** vers le serveur DHCP choisi
-
-5️⃣ Le serveur DHCP confirme avec un **DHCPACK**
-
-6️⃣ Le client contacte le **serveur TFTP** via l’option 66
-
-7️⃣ Il télécharge le **fichier de boot** spécifié en option 67
-
-8️⃣ L’installation démarre depuis l’image boot (boot.wim)
