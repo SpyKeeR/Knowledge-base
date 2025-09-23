@@ -1,4 +1,6 @@
-# Services apportés🖥️ **Environnement de bureau complet**
+# 🖥️ **Services de bureaux distants (RDS)**
+
+## 🖥️ **Environnement de bureau complet**
 
 - Interface utilisateur Windows complète (bouton Démarrer, barre des tâches, bureau)
 - Hébergé côté serveur
@@ -7,7 +9,7 @@
 
 
 
-🪟 **Applications déportées (RemoteApp)**
+## 🪟 **Applications déportées (RemoteApp)**
 
 - Affichage uniquement de la **fenêtre de l'application**, pas du bureau complet
 - Exécution isolée pour une expérience plus ciblée
@@ -16,7 +18,7 @@
 
 
 
-💻 **Machines virtuelles – VDI (Virtual Desktop Infrastructure)**
+## 💻 **Machines virtuelles – VDI (Virtual Desktop Infrastructure)**
 
 - Accès à des **VM individuelles** hébergées sur un hyperviseur
 - Chaque utilisateur dispose de sa propre VM distante
@@ -25,26 +27,22 @@
 
 
 
-🔁 **Caractéristiques générales du service RDS**
+# 🔁 **Caractéristiques générales du service RDS**
 
-👥 **Multi-utilisateurs** : plusieurs connexions simultanées
+### 👥 **Multi-utilisateurs** : plusieurs connexions simultanées
 
-🪪 **Multi-sessions** : chaque utilisateur a sa propre session isolée
+### 🏢 **Multi-sessions** : chaque utilisateur a sa propre session isolée
 
-🏷️ **Environnements dédiés** :
+### 🏷️ **Environnements dédiés** :
 
 - Ex. : service comptabilité avec accès restreint à ses outils
 - Environnement RH avec applications spécifiques
 - Adaptation des accès selon les besoins métier
 
 
+### 🧩 **Protocole RDP – Remote Desktop Protocol**
 
-🧩 **Protocole RDP – Remote Desktop Protocol**
-
-🔌 Protocole réseau utilisé pour communiquer entre le client et le serveur
-
-📡 Fonctionne via le port **TCP 3389**
-
-📦 Transfère les entrées clavier/souris et l'affichage graphique
-
-🧱 À ne pas confondre avec RDS (le rôle), RDP est **le protocole** utilisé
+- 🔌 Protocole réseau utilisé pour communiquer entre le client et le serveur
+- 📡 Fonctionne via le port **TCP 3389**
+- 📦 Transfère les entrées clavier/souris et l'affichage graphique
+- 🧱 À ne pas confondre avec RDS (le rôle), RDP est **le protocole** utilisé
