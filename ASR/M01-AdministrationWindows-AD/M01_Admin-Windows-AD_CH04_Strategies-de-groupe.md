@@ -1,4 +1,5 @@
 # M01 - Administration Windows & Active Directory
+
 ## Chapitre 4 - Les stratégies de groupe (GPO)
 
 ---
@@ -8,11 +9,13 @@
 ### Objectifs et enjeux
 
 Les stratégies de groupe visent à :
+
 - Réduire le **TCO** (coût total de possession) et améliorer le **ROI**
 - Réduire les tâches d'administration en contexte de domaine (configurer N postes depuis un seul endroit)
 - Simplifier le déploiement d'applications
 
 ⚠️ Contraintes à garder en tête :
+
 - Les paramètres pris en charge **dépendent de la version** du système client
 - Le nombre de paramètres disponibles est **très élevé** (des milliers)
 - La configuration peut vite devenir complexe
@@ -24,7 +27,7 @@ Sous Windows, la majorité des points de configuration sont stockés dans le **r
 Les 5 ruches principales :
 
 | Ruche | Contenu |
-|---|---|
+| --- | --- |
 | `HKEY_CLASSES_ROOT` | Infos sur les applications (OLE, extensions de fichiers) |
 | `HKEY_CURRENT_USER` | Configuration de l'utilisateur connecté |
 | `HKEY_LOCAL_MACHINE` | Configuration spécifique à l'ordinateur |
@@ -36,7 +39,7 @@ La GPO permet de modifier le registre de manière centralisée et structurée, s
 ### Stratégie de groupe vs stratégie locale
 
 | | Stratégie de groupe | Stratégie locale |
-|---|---|---|
+| --- | --- | --- |
 | **Contexte** | Nécessite un domaine AD | Utilisable partout (domaine ou workgroup) |
 | **Portée** | S'applique sur un ensemble d'objets | Se configure poste par poste |
 | **Priorité** | ✅ L'emporte en cas de conflit | Écrasée par la GPO de domaine |
@@ -50,7 +53,7 @@ La GPO permet de modifier le registre de manière centralisée et structurée, s
 ### Intervalles d'actualisation
 
 | Cible | Fréquence de rafraîchissement |
-|---|---|
+| --- | --- |
 | Postes clients / serveurs membres | Toutes les **90 minutes** (± 30 min de jitter) |
 | Contrôleurs de domaine | Toutes les **5 minutes** |
 
@@ -77,6 +80,7 @@ gpupdate /force   # Forcer la réapplication complète
 ### Liaison des GPO
 
 Une GPO peut être liée à 3 types de conteneurs :
+
 - 🌐 **Domaine** (s'applique à tous les objets du domaine)
 - 📁 **Unités d'Organisation** (ciblage fin)
 - 🏢 **Sites Active Directory** (ciblage géographique)
@@ -90,6 +94,7 @@ La **GPMC** (Group Policy Management Console / `gpmc.msc`) est l'outil central p
 ### Cumul et conflits
 
 Quand un objet est soumis à **plusieurs GPO** :
+
 - Les paramètres **distincts** se **cumulent**
 - Les paramètres **identiques avec des valeurs différentes** créent un **conflit**
 
@@ -99,7 +104,7 @@ En cas de conflit, c'est la **dernière GPO appliquée** qui l'emporte ("la plus
 
 L'ordre d'application des GPO suit la règle **LSDOU** :
 
-```
+```text
 L → S → D → OU
 
 Local    Site    Domaine    Unité d'Organisation
@@ -118,24 +123,29 @@ Local    Site    Domaine    Unité d'Organisation
 
 L'héritage se propage du parent vers l'enfant. Plusieurs mécanismes permettent de contrôler l'application :
 
-**Blocage d'héritage**
+#### Blocage d'héritage
+
 - S'active sur une OU
 - Annule la prise en compte de **toutes** les GPO héritées des conteneurs parents
 - ⚠️ Impact global : bloque tout, pas sélectif
 
-**Filtres de sécurité**
+#### Filtres de sécurité
+
 - Via des ACE (ACL) : autoriser ou refuser la lecture/application d'une GPO pour des groupes spécifiques
 - Permet un ciblage plus fin que la simple liaison
 
-**Filtres WMI**
+#### Filtres WMI
+
 - Limitent l'application selon des critères obtenus via des requêtes WMI
 - Ex : appliquer uniquement aux postes Windows 11, ou aux portables, etc.
 
-**Appliqué / Renforcé (Enforced)**
+#### Appliqué / Renforcé (Enforced)
+
 - Rend la GPO **prioritaire** et outrepasse le blocage d'héritage
 - À utiliser avec parcimonie
 
-**État de la GPO**
+#### État de la GPO
+
 - Activée, désactivée, ou désactivation partielle (paramètres utilisateur OU ordinateur seulement)
 - 💡 Désactiver la partie non utilisée d'une GPO accélère le traitement côté client
 
@@ -144,7 +154,7 @@ L'héritage se propage du parent vers l'enfant. Plusieurs mécanismes permettent
 Quand un paramètre ne s'applique pas comme prévu :
 
 | GPO appliquée mais paramètre inopérant | GPO non appliquée |
-|---|---|
+| --- | --- |
 | Paramètre non pris en charge par l'OS client | Problème de liaison |
 | Conflit avec une autre GPO (priorité) | Filtrage de sécurité qui bloque |
 | | Filtre WMI qui exclut le poste |
@@ -168,6 +178,7 @@ Depuis la GPMC : assistant **Résultats de stratégie de groupe** (RSoP) pour si
 ### Périmètre des GPO
 
 Les GPO couvrent 4 grands domaines :
+
 - 📦 **Déploiement** (logiciels, imprimantes)
 - 📜 **Scripts** (logon, logoff, startup, shutdown)
 - 🔒 **Sécurité** (pare-feu, audit, stratégies de compte)
@@ -181,13 +192,14 @@ Les modèles d'administration regroupent par catégories les paramètres configu
 - D'autres peuvent être ajoutés : Microsoft Office, Mozilla Firefox, Google Chrome, etc.
 
 Chaque modèle est composé de **2 fichiers** :
+
 - `.admx` : contient les paramètres (format XML)
 - `.adml` : fichier de langue associé (descriptions localisées)
 
 ### Stockage : local vs magasin central
 
 | Mode | Emplacement | Portée |
-|---|---|---|
+| --- | --- | --- |
 | **Local** | `C:\Windows\PolicyDefinitions` | Uniquement le poste d'édition |
 | **Magasin central** | `SYSVOL\<domaine>\Policies\PolicyDefinitions` | Tous les postes qui éditent des GPO |
 
@@ -204,6 +216,7 @@ Chaque modèle est composé de **2 fichiers** :
 Les stratégies de compte sont **uniques à l'échelle du domaine** et définies par défaut dans la **Default Domain Policy**.
 
 Elles contiennent notamment la **stratégie de mot de passe** du domaine :
+
 - Longueur minimale
 - Complexité requise
 - Historique (nombre d'anciens mots de passe mémorisés)
@@ -215,6 +228,7 @@ Elles contiennent notamment la **stratégie de mot de passe** du domaine :
 Pour appliquer des règles de mot de passe **différentes selon les groupes** (ex : règles plus strictes pour les admins), on utilise les **PSO** (Password Settings Objects).
 
 ⚠️ Les PSO ne se configurent **pas via GPO** mais via :
+
 - Le **Centre d'administration Active Directory** (ADAC)
 - Ou directement dans l'annuaire : `System > Password Settings Container`
 
@@ -227,7 +241,7 @@ Chaque PSO définit des paramètres de mot de passe et le **groupe de sécurité
 ### GPO pour tous les utilisateurs
 
 | Paramètre | Objectif |
-|---|---|
+| --- | --- |
 | Ne pas afficher le dernier identifiant à l'ouverture de session | Sécurité : empêcher de connaître les noms d'utilisateur |
 | Forcer l'activation du pare-feu (connexions entrantes) | Sécurité réseau |
 | Ajouter une règle entrante pour autoriser le ping (ICMP) | Permettre le diagnostic réseau malgré le pare-feu |
@@ -235,7 +249,7 @@ Chaque PSO définit des paramètres de mot de passe et le **groupe de sécurité
 ### GPO pour la Direction uniquement
 
 | Paramètre | Objectif |
-|---|---|
+| --- | --- |
 | Masquer les propriétés du Poste de travail (clic droit) | Restriction d'interface |
 | Bloquer la console Certificats dans MMC | Empêcher l'ajout de ce composant |
 | Bloquer les outils d'édition du registre | Empêcher `regedit` / `regedt32` |
@@ -244,7 +258,7 @@ Chaque PSO définit des paramètres de mot de passe et le **groupe de sécurité
 ### GPO pour G-Intérimaires
 
 | Paramètre | Objectif |
-|---|---|
+| --- | --- |
 | Masquer la corbeille sur le bureau | Restriction d'interface |
 | Ne pas placer les fichiers supprimés dans la corbeille | Suppression directe |
 | Bloquer l'exécution des scripts PowerShell | Sécurité : empêcher l'exécution de scripts |
@@ -254,6 +268,7 @@ Chaque PSO définit des paramètres de mot de passe et le **groupe de sécurité
 ### Stratégie de mots de passe renforcée
 
 Modification de la Default Domain Policy :
+
 - Longueur minimale : **10 caractères**
 - Historique : **20 derniers** mots de passe mémorisés
 - Durée de vie maximale : **120 jours**
@@ -261,6 +276,7 @@ Modification de la Default Domain Policy :
 ### Stratégie de mot de passe affinée (Bonus)
 
 Pour G-Informatique, via un PSO :
+
 - Verrouillage au bout de **2 tentatives** échouées
 - Longueur minimale : **15 caractères**
 - Seul un administrateur peut déverrouiller un compte
@@ -276,13 +292,13 @@ Configurer le magasin central pour que les modèles d'administration soient disp
 ### Fonctionnalités avancées par GPO
 
 | Besoin | Méthode |
-|---|---|
+| --- | --- |
 | G-Support technique : droits de modification réseau sur toutes les stations | GPO → Groupes restreints ou Préférences GPO (groupes locaux) |
 | Redirection du dossier "Mes Documents" vers `\\SRV1\...\C:\Base` (sauf intérimaires) | GPO → Redirection de dossiers (User Configuration > Policies > Windows Settings > Folder Redirection) |
 | Déploiement de 7zip "à la demande" | GPO → Déploiement de logiciels (package MSI, mode "publié" pour laisser le choix) |
 | Activation Bureau à distance + NLA sur tout nouveau serveur membre | GPO ordinateur → Paramètres de Bureau à distance (niveau difficile) |
 
-💡 Pour la redirection de dossiers de façon sécurisée, Microsoft documente les bonnes pratiques : https://learn.microsoft.com/en-us/troubleshoot/windows-server/user-profiles-and-logon/create-security-enhanced-redirected-folder
+💡 Pour la redirection de dossiers de façon sécurisée, Microsoft documente les bonnes pratiques : <https://learn.microsoft.com/en-us/troubleshoot/windows-server/user-profiles-and-logon/create-security-enhanced-redirected-folder>
 
 ---
 
@@ -293,7 +309,7 @@ Configurer le magasin central pour que les modèles d'administration soient disp
 Ajouter un 3ème contrôleur de domaine **CD3** en mode **Server Core**, entièrement en PowerShell :
 
 | Paramètre | Valeur |
-|---|---|
+| --- | --- |
 | OS | Windows Server 2022 (Core) |
 | Nom | CD3 |
 | Site AD | Agence |
@@ -319,10 +335,10 @@ Promotion en DC supplémentaire du domaine existant.
 Outils tiers recommandés pour l'audit et le reporting GPO/AD :
 
 | Outil | Usage | Lien |
-|---|---|---|
-| **GPOZaurr** | Reporting et nettoyage de GPO (PowerShell) | https://github.com/EvotecIT/GPOZaurr |
-| **PingCastle** | Audit de sécurité des GPO et de l'AD | https://www.pingcastle.com/ |
-| **ORADAD** | Audit de sécurité AD (outil ANSSI) | https://github.com/ANSSI-FR/ORADAD |
+| --- | --- | --- |
+| **GPOZaurr** | Reporting et nettoyage de GPO (PowerShell) | <https://github.com/EvotecIT/GPOZaurr> |
+| **PingCastle** | Audit de sécurité des GPO et de l'AD | <https://www.pingcastle.com/> |
+| **ORADAD** | Audit de sécurité AD (outil ANSSI) | <https://github.com/ANSSI-FR/ORADAD> |
 
 ---
 

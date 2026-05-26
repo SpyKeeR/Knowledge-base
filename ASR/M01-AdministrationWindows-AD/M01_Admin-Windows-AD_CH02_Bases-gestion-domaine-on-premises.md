@@ -1,4 +1,5 @@
 # M01 - Administration Windows & Active Directory
+
 ## Chapitre 2 - Bases de gestion d'un domaine on-premises
 
 ---
@@ -7,12 +8,14 @@
 
 ### Workgroup vs Domaine AD
 
-**Groupe de travail (Workgroup)**
+#### Groupe de travail (Workgroup)
+
 - Chaque poste gère sa propre base de comptes locale (SAM)
 - La zone de confiance est limitée au poste lui-même
 - Pas de gestion centralisée, chaque poste est autonome
 
-**Domaine Active Directory**
+#### Domaine Active Directory
+
 - Les systèmes membres du domaine **approuvent** le domaine pour l'authentification
 - ✅ Authentification centralisée des utilisateurs
 - ✅ Administration centralisée de tous les membres du domaine
@@ -21,11 +24,13 @@
 ### Le domaine AD
 
 Les **contrôleurs de domaine** (DC) assurent :
+
 - La gestion du domaine
 - L'hébergement de la base AD
 - L'authentification des utilisateurs et machines
 
 Les systèmes clients peuvent être :
+
 - **Membres du domaine** : approuvent les utilisateurs du domaine, régis par des règles communes (GPO, etc.)
 - **Autonomes** : n'authentifient que les utilisateurs de la base locale (SAM)
 
@@ -40,6 +45,7 @@ Les systèmes clients peuvent être :
 ### Les sites AD
 
 Les sites sont des **objets logiques** qui représentent la topologie physique du réseau :
+
 - Composés d'un ou plusieurs **sous-réseaux TCP/IP**
 - Servent à gérer la **réplication** des données entre contrôleurs distants
 - Permettent la **localisation des ressources** (un client s'authentifie de préférence sur un DC de son site)
@@ -51,7 +57,7 @@ Les sites sont des **objets logiques** qui représentent la topologie physique d
 Les données AD sont stockées à deux endroits :
 
 | Stockage | Chemin par défaut | Contenu |
-|---|---|---|
+| --- | --- | --- |
 | **Base de données AD** (NTDS.dit) | `C:\Windows\NTDS` | Objets, attributs, structure |
 | **Partage SYSVOL** | `C:\Windows\SYSVOL` | Scripts de logon, fichiers de GPO |
 
@@ -70,6 +76,7 @@ Des **partitions applicatives** peuvent s'y ajouter (ex : zones DNS intégrées 
 ### Contrôleur de domaine en lecture seule (RODC)
 
 Le RODC (Read-Only Domain Controller) a des particularités :
+
 - Réplication **unidirectionnelle** : les données vont vers le RODC uniquement, jamais en sens inverse
 - **Stratégie de réplication des mots de passe** : on définit quels mots de passe peuvent être mis en cache sur le RODC (et quels sont interdits)
 - Possède un **compte administrateur local** (pas de droits sur le domaine)
@@ -87,14 +94,14 @@ FSMO = **Flexible Single Master Operation**
 ### Rôles à l'échelle de la forêt (2)
 
 | Rôle | Utilité |
-|---|---|
+| --- | --- |
 | **Maître d'attribution des noms de domaine** | Contacté lors de l'ajout/suppression d'un domaine, de partitions applicatives, ou d'un renommage de domaine |
 | **Maître de schéma** | Seul DC autorisé à **écrire** sur le schéma AD. Les modifications sont ensuite répliquées sur toute la forêt |
 
 ### Rôles à l'échelle du domaine (3)
 
 | Rôle | Utilité |
-|---|---|
+| --- | --- |
 | **Émulateur PDC** (CPD) | Reçoit en priorité les mises à jour de mots de passe. Gère les modifications GPO. Source de temps pour tous les DC du domaine |
 | **Maître RID** | Alloue des plages d'identifiants relatifs (RID) à chaque DC. Le RID compose en partie le SID des objets |
 | **Maître d'infrastructure** | Maintient à jour les références d'objets inter-domaines (contexte multi-domaines) |
@@ -117,6 +124,7 @@ Get-ADDomain | Select-Object pdc*, *master
 ```
 
 Deux opérations possibles :
+
 - **Transfert** : le DC d'origine est encore joignable, on déplace proprement le rôle
 - **Récupération (seize)** : le DC d'origine n'est plus joignable. ⚠️ L'ancien détenteur ne devra **plus jamais être remis en ligne**
 
@@ -129,11 +137,13 @@ Deux opérations possibles :
 Un DC qui héberge des **informations de tous les domaines de la forêt** est appelé **serveur de catalogue global** (GC).
 
 Ce qu'il faut retenir :
+
 - Contient l'**intégralité des objets** de la forêt, mais seulement un **sous-ensemble d'attributs** pour chaque objet
 - Ces informations sont stockées dans des **partitions logiques supplémentaires** en lecture seule
 - 📌 Microsoft recommande de rendre **tous les DC serveurs de catalogue global**
 
 Configuration :
+
 - Lors de la promotion : option "Catalogue global" cochée par défaut
 - En PowerShell : activé par défaut, désactivable avec `-NoGlobalCatalog`
 - Modifiable après promotion dans la console **Sites et services AD** (propriétés NTDS Settings du DC)
@@ -147,7 +157,7 @@ Configuration :
 Avant de promouvoir un serveur, il faut connaître l'existant et le rôle souhaité :
 
 | Scénario | Cmdlet PowerShell | Objectif |
-|---|---|---|
+| --- | --- | --- |
 | Nouveau domaine dans une **nouvelle forêt** | `Install-ADDSForest` | Créer une forêt et son domaine racine |
 | Nouveau domaine dans une **forêt existante** | `Install-ADDSDomain` | Nouvelle entité administrative avec ses propres objets |
 | DC supplémentaire d'un **domaine existant** | `Install-ADDSDomainController` | Accroître la disponibilité des services de domaine |
@@ -161,6 +171,7 @@ Niveaux disponibles : 2012, 2012 R2, 2016, 2019, 2022, 2025.
 ### Prérequis de promotion
 
 Avant de promouvoir :
+
 1. ✅ Nommage du poste correct (hostname définitif)
 2. ✅ Adressage IP **statique** configuré
 3. ✅ Installation du rôle AD DS
@@ -172,6 +183,7 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ### Promotion en pratique
 
 Paramètres à définir selon le scénario :
+
 - Devenir serveur DNS (oui/non)
 - Niveau fonctionnel de forêt/domaine
 - Catalogue global (activé par défaut)
@@ -192,11 +204,12 @@ Uninstall-ADDSDomainController
 ```
 
 ⚠️ Avant de dépromouvoir, vérifier :
+
 - Le DC ne détient **aucun rôle FSMO** (les transférer d'abord)
 - D'autres **serveurs de catalogue global** existent
 - D'autres **serveurs DNS** sont disponibles
 
-💡 Pour un guide complet de décommission/remplacement de DC : https://chader.fr/en/migrate-domain-controller-2022-2025/
+💡 Pour un guide complet de décommission/remplacement de DC : <https://chader.fr/en/migrate-domain-controller-2022-2025/>
 
 ---
 
@@ -205,6 +218,7 @@ Uninstall-ADDSDomainController
 ### Outils de gestion
 
 Trois outils principaux :
+
 - **MMC Utilisateurs et ordinateurs Active Directory** (ADUC) : l'outil historique
 - **Centre d'administration Active Directory** (ADAC) : interface plus moderne, basée sur PowerShell
 - **Cmdlets PowerShell AD** : pour l'automatisation et les opérations en masse
@@ -212,6 +226,7 @@ Trois outils principaux :
 ### Objets utilisateurs
 
 Chaque utilisateur est un objet unique dans l'annuaire, avec des attributs répartis sur plusieurs onglets :
+
 - Infos générales (nom, prénom, poste, coordonnées)
 - Options de compte (désactivation, expiration mot de passe, etc.)
 - Paramètres Bureau à distance
@@ -252,6 +267,7 @@ Get-ADUser -Filter {SamAccountName -eq "dgrenier" -or SamAccountName -eq "iveder
 ### Import en masse depuis un fichier CSV
 
 Méthodologie recommandée :
+
 1. Créer un **compte de référence** manuellement
 2. Exporter ses caractéristiques en CSV avec `Get-ADUser | Export-Csv`
 3. S'en inspirer pour créer le fichier CSV d'import
@@ -282,6 +298,7 @@ Les systèmes joints au domaine **s'authentifient aussi** (canal sécurisé entr
 Attributs d'un objet ordinateur : nom, description, version OS, groupes d'appartenance, localisation.
 
 Points importants :
+
 - **Pré-création** possible : prédéfinir l'emplacement dans l'annuaire et cibler qui peut joindre la machine
 - **Réinitialisation** : si remplacement du poste ou problème de canal sécurisé
 - ⚠️ En cas de **clonage/duplication** de VM : toujours exécuter `sysprep` au préalable pour régénérer le SID
@@ -293,14 +310,14 @@ Les groupes servent à appliquer des règles communes à leurs membres. Ils sont
 #### Types de groupe
 
 | Type | Usage |
-|---|---|
+| --- | --- |
 | **Sécurité** | Octroyer/retirer des privilèges, positionner dans des ACL. Peut aussi servir de groupe de distribution |
 | **Distribution** | Publipostage/messagerie uniquement (pas d'usage sécurité) |
 
 #### Étendues de groupe
 
 | Étendue | Membres acceptés | Utilisable sur | Convention de nommage | Cas d'usage |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **Global** | Objets du **même domaine** uniquement | Toute ressource du domaine ou de la forêt | `G-Commerciaux` | Regrouper par caractéristique commune (service, fonction) |
 | **Universel** | Objets de **tout domaine** de la forêt | Toute ressource du domaine ou de la forêt | `U-Commerciaux` | Regrouper des groupes globaux inter-domaines |
 | **Domaine Local** | Objets de **tout domaine** de la forêt | Uniquement dans le **domaine de création** | `DL CT sur Marketing` | Affecter des permissions sur une ressource précise |
@@ -342,7 +359,7 @@ Get-ADGroup -Filter {GroupScope -eq "Global"} `
 #### Conteneurs systèmes (par défaut)
 
 | Conteneur | Contenu |
-|---|---|
+| --- | --- |
 | **Builtin** | Groupes de domaine local créés par défaut (Administrators, Users, etc.) |
 | **Computers** | Objets ordinateurs joints au domaine (emplacement par défaut) |
 | **System** | Objets nécessaires au fonctionnement de l'AD |
@@ -353,6 +370,7 @@ Get-ADGroup -Filter {GroupScope -eq "Global"} `
 #### Unités d'Organisation (OU)
 
 Créées par l'administrateur pour :
+
 - 🎯 L'application de **stratégies de groupe** (GPO)
 - 🎯 La mise en oeuvre de **délégation administrative**
 - 🎯 L'**organisation** des objets dans l'arborescence
@@ -363,16 +381,16 @@ Créées par l'administrateur pour :
 
 L'arborescence recommandée pour les ateliers suit 3 niveaux :
 
-```
+```text
 domCM.ad
 └── domCM                          # Niveau 1 : racine unique
-    ├── Utilisateurs               # Niveau 2 : par catégorie d'objet
-    │   ├── Direction              # Niveau 3 : par service
-    │   ├── Informatique
-    │   └── Comptabilité
-    ├── Groupes
-    ├── Stations de travail
-    └── Serveurs
+  ├── Utilisateurs               # Niveau 2 : par catégorie d'objet
+  │   ├── Direction              # Niveau 3 : par service
+  │   ├── Informatique
+  │   └── Comptabilité
+  ├── Groupes
+  ├── Stations de travail
+  └── Serveurs
 ```
 
 ---
@@ -382,6 +400,7 @@ domCM.ad
 ### Éléments de gestion des sites
 
 La configuration des sites se fait via la console **Sites et services Active Directory** et implique :
+
 - **Sites** : représentation logique d'un emplacement physique
 - **Liens de sites** : connexion logique entre sites (par défaut : `DefaultIPSiteLink`)
 - **Réseaux (subnets)** : sous-réseaux IP associés à un site
@@ -390,7 +409,7 @@ La configuration des sites se fait via la console **Sites et services Active Dir
 ### Réplication intrasite vs intersite
 
 | | Intrasite | Intersite |
-|---|---|---|
+| --- | --- | --- |
 | **Fréquence** | Permanente et quasi-instantanée (< 1 min) | Planifiable, selon le lien de site |
 | **Objets connexion** | Créés par paires (symétrique) | Gérés selon la topologie de liens |
 | **Mise à jour** | Automatique à l'ajout/suppression d'un DC | Selon configuration |
@@ -432,7 +451,7 @@ Install-ADDSForest -DomainName "domCM.ad"
 Pour assurer la **tolérance de panne** (recommandation Microsoft : minimum 2 DC) :
 
 | Paramètre | Valeur |
-|---|---|
+| --- | --- |
 | OS | Windows Server 2022 |
 | CPU / RAM / Disque | 1 CPU / 4 Go / 40 Go |
 | Réseau | Host-only |
@@ -457,6 +476,7 @@ Les **RSAT** (Remote Server Administration Tools) permettent d'administrer les s
 ### Répartition des rôles FSMO
 
 Par défaut, CD1 détient les 5 rôles. Pour limiter le risque de perte totale :
+
 - Transférer le rôle **Maître RID** et **Émulateur PDC** vers CD2
 - Vérifier la répartition avec `Get-ADForest | Select-Object *master` et `Get-ADDomain | Select-Object pdc*, *master`
 
@@ -469,7 +489,7 @@ Par défaut, CD1 détient les 5 rôles. Pour limiter le risque de perte totale :
 Convention de nommage : 1ère lettre du prénom + nom (ex: `dgrenier` pour David Grenier).
 
 | Prénom | Nom | Service | Poste | Particularité |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | David | Grenier | Direction | Directeur Comptabilité Finances | Tél: 504 |
 | Isabelle | Védère | Informatique | Administratrice SR | Tél: 666 |
 | Ivan | Tard | Informatique | Support technique | |
@@ -481,9 +501,9 @@ Tous les comptes sont créés **désactivés** et **sans mot de passe**.
 ### Création des groupes globaux de sécurité
 
 | Groupe | Membres |
-|---|---|
+| --- | --- |
 | G-Comptabilité | Christelle, Christophe |
-| G-Direction | David (+ adresse mail direction@domNN.fr) |
+| G-Direction | David (+ adresse mail <direction@domNN.fr>) |
 | G-Informatique | G-Support technique, Isabelle |
 | G-Support technique | Ivan |
 | G-Intérimaires | Christophe (créé en PowerShell) |
@@ -497,6 +517,7 @@ Dans la console ADUC, conteneur "Requêtes enregistrées" : créer une requête 
 ### Projet d'évolution : sites AD
 
 Préparation d'un site secondaire suite au rachat d'un concurrent :
+
 - Créer le site AD **"Agence"**, renommer le site par défaut en **"Siege"**
 - Associer le sous-réseau `172.16.0.0/16` au site Agence
 - Vérifier les enregistrements DNS relatifs aux sites

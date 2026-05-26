@@ -45,7 +45,7 @@ Pour déployer un grand nombre de machines :
 Le minimum recommandé lors de l'installation :
 
 | Point de montage | Rôle |
-|---|---|
+| --- | --- |
 | `/` | Racine du système |
 | `swap` | Espace de pagination (pas un fichier d'échange comme sous Windows, c'est un espace de stockage dédié) |
 
@@ -54,7 +54,7 @@ Le minimum recommandé lors de l'installation :
 ##### 📐 Quantité de SWAP recommandée
 
 | RAM disponible | SWAP recommandé |
-|---|---|
+| --- | --- |
 | < 1 Go | RAM × 1.5 |
 | ≤ 2 Go | RAM × 1 |
 | > 2 Go | 2 Go minimum (ajustable selon le besoin) |

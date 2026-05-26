@@ -13,7 +13,7 @@ Le chargeur d'amorçage est le **tout premier programme** exécuté par le BIOS 
 Sous RHEL, le boot loader est **GRUB2**. Il se divise en plusieurs stages :
 
 | Stage | Emplacement |
-|---|---|
+| --- | --- |
 | Stage 1 | Master Boot Record (MBR), tout premiers secteurs du disque |
 | Stage 1.5 | Début du disque, avant les données de la première partition |
 | Stage 2 | Répertoire `/boot/grub2/` |
@@ -24,7 +24,7 @@ Sous RHEL, le boot loader est **GRUB2**. Il se divise en plusieurs stages :
 
 Le fichier principal de GRUB est :
 
-```
+```bash
 /boot/grub2/grub.cfg
 ```
 
@@ -92,11 +92,12 @@ Le noyau (kernel) fait le lien entre le matériel (via le BIOS) et le système d
 Deux fichiers sont indispensables au démarrage :
 
 | Fichier | Rôle |
-|---|---|
+| --- | --- |
 | `vmlinuz-<version>` | Image principale du noyau |
 | `initramfs-<version>.img` | Image secondaire, regénérée à chaque mise à jour. Contient la config spécifique au matériel et les options importantes (RAID, chiffrement, pilotes FS, etc.) |
 
 Le noyau a la charge de :
+
 - Gérer les systèmes de fichiers
 - Gérer le chiffrement logiciel
 - Charger les pilotes de périphériques
@@ -104,7 +105,7 @@ Le noyau a la charge de :
 
 #### 🔗 Constitution de la ligne de lancement du noyau
 
-```
+```bash
 linux ($root)/vmlinuz-4.18.0-xxx root=/dev/mapper/ol-root ro crashkernel=auto
   resume=/dev/mapper/ol-swap rd.lvm.lv=ol/root rd.lvm.lv=ol/swap rhgb quiet
 ```
@@ -112,7 +113,7 @@ linux ($root)/vmlinuz-4.18.0-xxx root=/dev/mapper/ol-root ro crashkernel=auto
 Détail des paramètres :
 
 | Paramètre | Rôle |
-|---|---|
+| --- | --- |
 | `($root)/vmlinuz-xxx` | Image noyau à charger |
 | `root=/dev/mapper/ol-root` | Système de fichiers contenant `/` |
 | `ro` | Montage en lecture seule (nécessaire pour la vérification d'intégrité du FS) |
@@ -129,6 +130,7 @@ Détail des paramètres :
 `systemd` remplace les scripts System V depuis RHEL 7. C'est le **premier programme lancé par le noyau** (PID 1).
 
 Ses responsabilités :
+
 - Lancer tous les programmes/services dans un ordre spécifique (démarrage **parallèle** avec gestion des dépendances)
 - Mettre à disposition les systèmes de fichiers via les points de montage
 
@@ -141,7 +143,7 @@ Ses responsabilités :
 Les cibles définissent quels services doivent être exécutés ou arrêtés selon le mode de fonctionnement souhaité.
 
 | Cible | Rôle |
-|---|---|
+| --- | --- |
 | `poweroff.target` | 🔴 Arrêt du système |
 | `rescue.target` | 🛠️ Mode maintenance |
 | `multi-user.target` | 🖥️ Mode console (pas d'interface graphique) |
@@ -200,7 +202,7 @@ Les cibles définissent quels services doivent être exécutés ou arrêtés sel
 ### 4.5 - Fichiers et configurations personnalisés
 
 | Emplacement | Rôle |
-|---|---|
+| --- | --- |
 | `/usr/lib/systemd/system/` | Fichiers de service d'origine (ne pas modifier ici) |
 | `/etc/systemd/system/` | Fichiers personnalisés (prioritaires sur ceux de `/usr/lib/`) |
 | `/etc/systemd/system/default.target` | Lien symbolique vers la cible par défaut |
@@ -214,6 +216,7 @@ Les cibles définissent quels services doivent être exécutés ou arrêtés sel
 ### 4.6 - Éteindre / redémarrer le système
 
 Même si `systemctl isolate` peut éteindre/redémarrer, la commande `shutdown` est recommandée en production car elle permet de :
+
 - Planifier l'heure de l'opération
 - Envoyer un message aux utilisateurs connectés
 
@@ -222,7 +225,7 @@ shutdown [option] <heure> <message>
 ```
 
 | Option | Effet |
-|---|---|
+| --- | --- |
 | `-h` | Arrêter le système |
 | `-r` | Redémarrer |
 | `-c` | Annuler un shutdown programmé |

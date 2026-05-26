@@ -1,4 +1,5 @@
 # M01 - Administration Windows & Active Directory
+
 ## Chapitre 3 - L'accès aux ressources
 
 ---
@@ -12,6 +13,7 @@ Ce chapitre couvre deux types de ressources principales : les **services de fich
 Les autorisations NTFS définissent des **privilèges d'accès aux dossiers et fichiers** sur les volumes formatés en NTFS ou ReFS. Elles s'appliquent à toute entité disposant d'un SID (utilisateurs, groupes de sécurité).
 
 Principes fondamentaux :
+
 - Les autorisations sont basées sur des **règles explicites** : Autoriser ou Refuser
 - Toujours cibler des **groupes de sécurité** plutôt que des utilisateurs individuels
 - Un utilisateur soumis à plusieurs règles bénéficie du **cumul des autorisations**
@@ -24,7 +26,7 @@ Configuration via l'onglet **Sécurité** des propriétés du dossier/fichier.
 **Autorisations de base** (les plus courantes) :
 
 | Autorisation | Description |
-|---|---|
+| --- | --- |
 | Lecture | Voir le contenu des fichiers et dossiers |
 | Lecture + exécution | Lecture + lancer des programmes |
 | Liste du contenu | Voir le contenu d'un dossier (dossiers uniquement) |
@@ -39,13 +41,14 @@ Configuration via l'onglet **Sécurité** des propriétés du dossier/fichier.
 ### Héritage des autorisations
 
 Les autorisations **s'héritent** du dossier parent vers les objets enfants. Le comportement est contrôlable :
+
 - ✂️ **Désactivation** de l'héritage possible en un point de l'arborescence
 - 🛡️ Depuis un dossier parent, on peut empêcher l'application aux objets enfants
 
 📌 Impact du déplacement/copie sur les autorisations NTFS :
 
 | Action | Même partition | Entre partitions/disques |
-|---|---|---|
+| --- | --- | --- |
 | **Déplacement** | Conservation des autorisations | Héritage (nouvelles autorisations du parent) |
 | **Copie** | Héritage | Héritage |
 
@@ -55,7 +58,7 @@ Les autorisations **s'héritent** du dossier parent vers les objets enfants. Le 
 
 ## 3.2 Le partage de fichiers
 
-### Principe
+### Principe de délégation
 
 Le partage rend des fichiers **accessibles via le réseau**. Les partages fournissent un espace commun à plusieurs utilisateurs.
 
@@ -66,7 +69,7 @@ Les autorisations de partage sont **distinctes** des autorisations NTFS. Elles s
 3 niveaux de privilèges seulement :
 
 | Autorisation | Description |
-|---|---|
+| --- | --- |
 | Lecture | Voir les fichiers et dossiers |
 | Modification | Lecture + créer/modifier/supprimer |
 | Contrôle Total | Modification + gérer les autorisations |
@@ -87,6 +90,7 @@ Quand un utilisateur accède à une ressource partagée depuis le réseau, **deu
 ### Outils de gestion des partages
 
 **En graphique :**
+
 - Composant intégré au **Gestionnaire de serveur** (Services de fichiers et de stockage)
 - Console MMC **Dossiers partagés** (`fsmgmt.msc`)
 - Directement depuis les propriétés du dossier cible (onglet Partage)
@@ -108,7 +112,7 @@ Remove-SmbShare       # Supprimer un partage
 
 Microsoft préconise l'imbrication **AGDLP** pour gérer efficacement l'accès aux ressources :
 
-```
+```text
 A → G → DL → P
 
 Account        Groupe       Groupe de         Permission
@@ -116,7 +120,7 @@ Account        Groupe       Groupe de         Permission
 ```
 
 | Étape | Élément | Rôle |
-|---|---|---|
+| --- | --- | --- |
 | **A** | Compte utilisateur | L'utilisateur qui a besoin de l'accès |
 | **G** | Groupe Global | Regroupe les utilisateurs par caractéristique commune (service, fonction) |
 | **DL** | Groupe de Domaine Local | Représente un niveau de privilège sur une ressource précise |
@@ -126,12 +130,13 @@ Account        Groupe       Groupe de         Permission
 
 Pour donner à Pénélope (rédactrice) le droit de modifier le dossier partagé "Articles" :
 
-```
+```text
 Pénélope  →  G-Rédaction  →  DL Modification sur Articles  →  Permission Modification
    (A)           (G)                  (DL)                          (P)
 ```
 
 Sur la ressource "Articles", l'ACL contient :
+
 - `DL Modification sur Articles` → Modification
 - `Utilisateurs authentifiés` → Contrôle Total (partage uniquement, sécurité fine en NTFS)
 
@@ -144,6 +149,7 @@ Sur la ressource "Articles", l'ACL contient :
 ### Service d'impression centralisé
 
 L'ajout du service de rôle **Serveur d'impression** permet de :
+
 - Partager des imprimantes sur le réseau
 - Centraliser la gestion de l'impression depuis un serveur unique
 
@@ -152,11 +158,12 @@ L'ajout du service de rôle **Serveur d'impression** permet de :
 ⚠️ Terminologie spécifique à retenir :
 
 | Terme Microsoft | Ce que c'est concrètement |
-|---|---|
+| --- | --- |
 | **Périphérique d'impression** | Le matériel physique (ce qu'on appelle "imprimante" dans la vie courante) |
 | **Imprimante** | L'objet logique configuré dans Windows pour gérer l'impression |
 
 Relations possibles :
+
 - Généralement 1 imprimante logique ↔ 1 périphérique physique
 - Plusieurs imprimantes logiques → 1 même périphérique (ex : files d'impression différentes avec des priorités différentes)
 - 1 imprimante logique → plusieurs périphériques (pool d'impression)
@@ -164,6 +171,7 @@ Relations possibles :
 ### Console de gestion
 
 La console MMC **Gestion de l'impression** (`printmanagement.msc`) centralise :
+
 - Gestion des **pilotes** installés
 - Gestion des **ports** locaux ou TCP/IP
 - Gestion des **paramètres** des imprimantes
@@ -172,7 +180,7 @@ La console MMC **Gestion de l'impression** (`printmanagement.msc`) centralise :
 ### Autorisations d'impression
 
 | Autorisation de base | Autorisation avancée |
-|---|---|
+| --- | --- |
 | Imprimer | Imprimer |
 | Gérer les documents | Gérer les documents |
 | Gérer l'imprimante | Autorisation de lecture |
@@ -181,6 +189,7 @@ La console MMC **Gestion de l'impression** (`printmanagement.msc`) centralise :
 ### Déploiement des imprimantes
 
 Trois méthodes :
+
 - 🖐️ **Manuel** : ajout direct sur le poste client
 - 📜 **Script** : automatisation via script de logon
 - 🎯 **GPO** : déploiement via stratégies de groupe (méthode recommandée)
@@ -196,6 +205,7 @@ Le déploiement par GPO se configure depuis la console **Gestion de l'impression
 La délégation administrative permet de **confier des tâches d'administration ciblées** à du personnel approprié, sur des **conteneurs ciblés** (OU) du domaine.
 
 Exemples classiques :
+
 - Un responsable de service peut **réinitialiser les mots de passe** de son équipe
 - Le support technique peut **créer et modifier des comptes** utilisateurs (sauf pour le service Informatique)
 
@@ -204,6 +214,7 @@ Exemples classiques :
 Chaque objet de l'annuaire AD dispose d'une **ACL**. La délégation s'appuie sur l'ajout de privilèges ciblés à un groupe de sécurité sur une OU.
 
 🔧 Procédure :
+
 1. Clic droit sur une OU dans la console ADUC → **Délégation de contrôle**
 2. Sélectionner le **groupe de sécurité** désigné
 3. Choisir les **tâches à déléguer** (réinitialiser les MDP, créer/supprimer des comptes, etc.)
@@ -235,7 +246,7 @@ Ajout de **3 disques SCSI de 40 Go** sur SRV1, gérés via les **Pools de stocka
 - Deux volumes créés :
 
 | Volume | Taille | Format | Montage |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | DATA | 50 Go | NTFS | `E:\` |
 | USERS | Le reste | NTFS | `C:\Base` |
 
@@ -248,7 +259,7 @@ Trois partages à configurer, chacun illustrant le modèle AGDLP :
 **📁 Documentation** (`E:\DATA\Documentation`)
 
 | Entité | Privilège |
-|---|---|
+| --- | --- |
 | G-Intérimaires | Aucun accès |
 | Tous les utilisateurs | Lecture |
 | G-Informatique | Contrôle Total |
@@ -258,7 +269,7 @@ Le partage doit être **listé dans l'annuaire Active Directory** (option "Publi
 **📁 Comptabilité** (`E:\DATA\Services\Comptabilité` → partage `Compta`)
 
 | Entité | Privilège |
-|---|---|
+| --- | --- |
 | Autres services | Aucun accès |
 | G-Comptabilité | Modification |
 | G-Informatique | Contrôle Total |
@@ -266,7 +277,7 @@ Le partage doit être **listé dans l'annuaire Active Directory** (option "Publi
 **📁 Informatique** (`E:\DATA\Informatique` → partage `Info`)
 
 | Entité | Privilège |
-|---|---|
+| --- | --- |
 | Tous les utilisateurs | Aucun accès |
 | G-Informatique | Contrôle Total |
 
@@ -281,7 +292,7 @@ Les tests se font depuis le **poste client** avec différents comptes utilisateu
 ### Délégation administrative
 
 | Qui | Quoi | Où |
-|---|---|---|
+| --- | --- | --- |
 | David (G-Direction) | Réinitialiser les MDP, gérer les comptes (créer/modifier/supprimer) | OU Comptabilité |
 | Ivan (G-Support technique) | Gérer les comptes utilisateurs | Tous les services **sauf** Informatique |
 | Isabelle | Membre d'un groupe nativement privilégié sur tout l'annuaire | Tout l'annuaire |
@@ -297,6 +308,7 @@ Partage d'une imprimante réseau Dell 5210CN (`192.168.21.30/16`) via SRV1 comme
 - Test de déploiement manuel sur le poste client
 
 Autorisations configurées :
+
 - Tous les utilisateurs → Imprimer
 - G-Comptabilité → Imprimer **uniquement entre 20h00 et 6h00** (restriction horaire)
 - David (responsable Comptabilité) → Gérer la file d'attente

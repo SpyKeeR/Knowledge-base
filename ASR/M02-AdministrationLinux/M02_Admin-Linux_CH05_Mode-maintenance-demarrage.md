@@ -12,18 +12,18 @@ Trois méthodes existent pour passer un système en mode maintenance via GRUB, c
 
 ⚠️ **Ne fonctionne PAS** sur un système en mode sudo pur (sans mot de passe root activé).
 
-#### Procédure
+#### Procédure (méthode single)
 
 1. Au menu GRUB, sélectionner un noyau avec `↑↓`
 2. Appuyer sur `e` pour éditer la ligne de lancement
 3. Sur la ligne commençant par `linux`, supprimer `rhgb quiet` et ajouter `single` :
 
-```
+```bash
 linux ($root)/vmlinuz-xxx root=/dev/mapper/ol-root ro crashkernel=auto
   resume=/dev/mapper/ol-swap rd.lvm.lv=ol/root rd.lvm.lv=ol/swap single
 ```
 
-4. Démarrer avec `Ctrl+x`
+1. Démarrer avec `Ctrl+x`
 
 ⚠️ Le clavier est en **QWERTY** dans l'éditeur GRUB.
 
@@ -37,17 +37,17 @@ linux ($root)/vmlinuz-xxx root=/dev/mapper/ol-root ro crashkernel=auto
 
 ⚠️ Cette méthode est plus **brutale** : elle nécessite une extinction électrique forcée pour redémarrer (pas de `reboot` possible car systemd n'est pas lancé).
 
-#### Procédure
+#### Procédure (init=/bin/bash)
 
 1. Au menu GRUB, appuyer sur `e` pour éditer
 2. Sur la ligne `linux`, supprimer `quiet` et ajouter `init=/bin/bash` :
 
-```
+```bash
 linux ($root)/vmlinuz-xxx root=/dev/mapper/ol-root ro crashkernel=auto
   resume=/dev/mapper/ol-swap rd.lvm.lv=ol/root rd.lvm.lv=ol/swap init=/bin/bash
 ```
 
-3. Démarrer avec `Ctrl+x`, puis appuyer sur `Entrée`
+1. Démarrer avec `Ctrl+x`, puis appuyer sur `Entrée`
 
 ⚠️ Le clavier est en **QWERTY**.
 
@@ -83,7 +83,7 @@ sync
 
 🛠️ **Cas d'usage** : impossible d'intervenir via GRUB, ou disque corrompu.
 
-#### Procédure
+#### Procédure (média d'installation)
 
 1. Démarrer sur le média d'installation (ISO / USB)
 2. Dans le menu, aller dans **Troubleshooting**

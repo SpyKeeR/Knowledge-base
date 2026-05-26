@@ -6,7 +6,7 @@
 
 La syntaxe des commandes suit la notation classique :
 
-```
+```text
 Commande [options] <Argument>
 ```
 
@@ -15,10 +15,10 @@ Commande [options] <Argument>
 
 Les deux prompts à reconnaître :
 
-| Prompt | Signification |
-|--------|---------------|
-| `$` | Utilisateur standard |
-| `#` | Compte root (administrateur) |
+| Prompt | Signification        |
+|--------|----------------------|
+| `$`    | Utilisateur standard |
+| `#`    | Compte root (admin.) |
 
 ---
 
@@ -39,6 +39,7 @@ Red Hat propose une distribution commerciale orientée entreprise, déclinée en
 - `RHEL Workstation` (Red Hat Enterprise Linux Workstation)
 
 📌 Points clés du modèle :
+
 - Support de **10 ans** par version
 - Possibilité de support **24/7** (pas uniquement du break/fix, aussi du conseil en amont sur l'architecture du SI)
 - Options et tarifs variables selon la souscription choisie
@@ -48,10 +49,12 @@ Red Hat propose une distribution commerciale orientée entreprise, déclinée en
 **1995-2000** : Red Hat Linux, distribution unique pour particuliers et professionnels (jusqu'à la version 6).
 
 **2000-2003** : scission en deux branches :
+
 - La version entreprise devient **RHEL** (Red Hat Enterprise Linux) avec support **LTS** (Long-Term Support)
 - La version particuliers continue sous le nom Red Hat Linux
 
 **2003** : Red Hat abandonne la branche particuliers pour se concentrer sur l'entreprise.
+
 - Naissance de **Fedora**, distribution communautaire gratuite composée de ~25% de l'équipe Red Hat
 - Fedora sert de plateforme de développement **upstream** pour RHEL (logiciels en dernières versions)
 - En parallèle, **CentOS** apparaît comme un fork communautaire de RHEL, sans souscription, publié quelques semaines/mois après chaque release RHEL
@@ -66,7 +69,7 @@ Red Hat propose une distribution commerciale orientée entreprise, déclinée en
 
 ### La chaîne de développement actuelle
 
-```
+```text
 Fedora (upstream, particuliers)
     └──> CentOS Stream (plateforme en continu)
               └──> RHEL (version stabilisée, entreprise)
